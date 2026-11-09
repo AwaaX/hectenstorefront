@@ -1,0 +1,1248 @@
+{
+  "NavBar": {
+    "Top": {
+      "alert": "Free delivery on orders over $120. Do not miss discount."
+    },
+    "Middle": {
+      "Instagram": "Instagram",
+      "Tiktok": "Tiktok",
+      "alert": "New Christmas Pyjamas {year} collection here"
+    },
+    "Main": {
+      "NavMenu": {
+        "all pyjamas": "all pyjamas",
+        "Matching pyjamas": "Matching pyjamas",
+        "Family pyjamas": "Family pyjamas",
+        "Customer service": "Customer service",
+        "baby": "baby size available",
+        "kid": "kid size available",
+        "men": "men size available",
+        "women": "women size available"
+      },
+      "IconMenu": {
+        "Account": "Account",
+        "Search": "Search",
+        "Wishlist": "Wishlist",
+        "Cart": "Cart"
+      },
+      "MobileMenu": {
+        "menu": "Menu"
+      }
+    },
+    "LanguageSelect": {
+      "label": "Language:",
+      "default": "Default"
+    }
+  },
+  "HomePage": {
+    "Hero": {
+      "title": "HECTEN IS READY FOR {year}",
+      "heading": "Pyjamas & more",
+      "shortdescription": "Get into the project and buy awesome pyjamas and original wear for Christmas and this winter season from Hecten",
+      "button": "shop now",
+      "imageAlt": "Green and red knit Christmas mittens and beanie with gift box and candy canes"
+    },
+    "Timer": {
+      "heading": "xmas clock",
+      "days": "days",
+      "hours": "hours",
+      "minutes": "minutes",
+      "seconds": "seconds",
+      "bannerAlt": "Christmas countdown banner with red background and green paper-cut winter pine trees on both sides"
+    },
+    "NewsLetter": {
+      "text1": "Subscribe to be on our side",
+      "text2": "Receive the most important news about the biggest international\r\n              Christmas project"
+    },
+    "Reviews": {
+      "text1": "They share love with beautiful pyjamas",
+      "text2": "Reviews from our dear community",
+      "fromShop": "from {shop}",
+      "customerReviews": "Customer reviews",
+      "fromAddress": "From {address}"
+    },
+    "Services": {
+      "card1": {
+        "heading": "Free delivery for orders over $120",
+        "brief": " \"Get complimentary ground shipping on every order. Don&apos;t love it? Send it back to us.\""
+      },
+      "card2": {
+        "heading": "100% Christmas exclusivity",
+        "brief": "Part of the profits will go directly to a humanitarian project. The adventure can be followed on Instagram or via our newsletter!"
+      },
+      "card3": {
+        "heading": "Real community of Christmas lovers",
+        "brief": "Our customers are Christmas enthusiasts and we share the same passion for our Christmas"
+      },
+      "description": "An entire team is standing by to receive your orders this year and\r\n              meet all your needs. In addition to the seriousness with which we\r\n              make our pyjamas, we offer a quality service that is important to\r\n              us in order to guarantee you a pleasant shopping experience with\r\n              us",
+      "query": "How your order will finance a humanitarian project?",
+      "link": "Click here to find out more."
+    },
+    "QuickLook": {
+      "heading": "Quick look of our products",
+      "description": "We strive to maintain quality in everything we do, here are some\r\n              of our freshly available products for this Christmas"
+    },
+    "Discovery": {
+      "heading": "Discover our pyjamas",
+      "description": "Hecten has worked hard this year again to bring you\r\n              amazing Christmas pyjamas. Order some for you and your loved ones\r\n              and support a humanitarian project with your order",
+      "Item1": {
+        "heading": "Discover all our Christmas pyjamas without looking any further",
+        "brief": "The ultimate collection of our latest pyjamas and Christmas clothes for everyone. Unclassified.",
+        "title": "Christmas pyjamas",
+        "imageAlt": "christmas pyjamas original"
+      },
+      "Item2": {
+        "heading": "Perfect for families, large or small",
+        "brief": "Find an available pyjama model for your whole family directly. Here every model is available in all ages and sizes. Great for Christmas!",
+        "title": "Christmas pyjamas for the whole family",
+        "imageAlt": "family christmas pyjamas original"
+      },
+      "Item3": {
+        "heading": "Our matching designs for you and your partner to wear together",
+        "brief": "Find our models of matching pyjamas available for men and women. Available in all sizes. For you and your loved one.",
+        "title": "Matching and couples Christmas pyjamas",
+        "imageAlt": "couples original"
+      }
+    },
+    "ProductRail": {
+      "viewAll": "View all"
+    }
+  },
+  "Footer": {
+    "Top": {
+      "SwitchText": "Change country or currency",
+      "Link1": "Contact customer service & FAQs",
+      "Link2": "Your purchase will fund this humanitarian project"
+    },
+    "Bottom": {
+      "text1": "HECTEN — WORLDWIDE CHRISTMAS LOVERS",
+      "text2": "COMMUNITY"
+    },
+    "Middle": {
+      "text1": "24/7 reactive customer service",
+      "text2": "24 hours tracked fast shipping",
+      "text3": "24 hours easy and fast return",
+      "text4": "4 times payment with Paypal"
+    },
+    "Main": {
+      "Col1": {
+        "text1": "help",
+        "text2": "Need Help?",
+        "text3": "Customer Service",
+        "text4": "Our teams stay connected to respond to your needs within 24 hours"
+      },
+      "Col2": {
+        "text1": "useful links",
+        "text2": "Information",
+        "link1": "Open my wishlist",
+        "link2": "Go to my cart",
+        "link3": "Go to checkout and pay",
+        "link4": "Login or Register",
+        "link5": "My account"
+      },
+      "Col3": {
+        "text1": "Information",
+        "link1": "Track my order",
+        "link2": "Terms of delivery",
+        "link3": "Return and refund",
+        "link4": "General terms of sale",
+        "link5": "Legal notice",
+        "link6": "Privacy policy"
+      },
+      "Col4": {
+        "text1": "Newsletter — Your surprise awaits",
+        "text2": "Receive the most important news of the biggest Christmas community, be aware of promotions and advancement of the humanitarian project. Claim your free gift for your welcome."
+      }
+    },
+    "NewsLetter": {
+      "txt1": "I accept the",
+      "txt2": "terms & conditions",
+      "txt3": "the data protection",
+      "and": "and",
+      "txt4": "Thanks for signing up for the newsletter! We",
+      "txt5": "ll be in touch soon.",
+      "successMessage": "Thanks for signing up for the newsletter! We'll be in touch soon.",
+      "Placeholder": "Your Email"
+    }
+  },
+  "Metadata": {
+    "NotFound": {
+      "title": "404",
+      "description": "Page not found"
+    },
+    "Home": {
+      "title": "Home - Hecten",
+      "description": "Get into the project and buy awesome pyjamas and original wear for Christmas and this winter season from Hecten"
+    },
+    "Checkout": {
+      "title": "Checkout - Hecten",
+      "description": "Review your cart, shipping, and payment details to complete your order."
+    },
+    "SearchResults": {
+      "title": "Search results for {query} - Hecten",
+      "description": "Explore products matching {query}."
+    },
+    "Cart": {
+      "title": "Cart - Hecten",
+      "description": "Review the products currently in your cart."
+    },
+    "Wishlist": {
+      "Shared": {
+        "title": "Shared wishlist - Hecten",
+        "description": "Browse a wishlist that has been shared with you."
+      }
+    },
+    "Account": {
+      "Login": {
+        "title": "Sign in - Hecten",
+        "description": "Sign in to your Hecten account."
+      },
+      "Wishlist": {
+        "title": "Wishlist - Hecten",
+        "description": "Products saved to your wishlist."
+      },
+      "Orders": {
+        "title": "Orders - Hecten",
+        "description": "Overview of your previous orders."
+      },
+      "Profile": {
+        "title": "Profile - Hecten",
+        "description": "View and edit your profile details."
+      },
+      "Addresses": {
+        "title": "Addresses - Hecten",
+        "description": "View and update your saved addresses."
+      },
+      "Overview": {
+        "title": "Account - Hecten",
+        "description": "Overview of your account activity."
+      },
+      "LoginWishlist": {
+        "title": "Sign in to view wishlist - Hecten",
+        "description": "Sign in to access your wishlist."
+      }
+    },
+    "OrderConfirmed": {
+      "title": "Order confirmed - Hecten",
+      "description": "Your purchase was successful."
+    },
+    "AllPyjamas": {
+      "title": "Christmas Pyjamas - Hecten",
+      "description": "Get into the project and buy awesome pyjamas and original wear for Christmas and this winter season from Hecten"
+    },
+    "CustomerService": {
+      "title": "Customer Service - Hecten",
+      "description": "Get help with your orders, track shipments, or contact our support team for any questions about Hecten."
+    },
+    "PrivacyPolicy": {
+      "title": "Privacy Policy - Hecten",
+      "description": "Learn how we protect your personal information and privacy when shopping with Hecten."
+    },
+    "LegalNotice": {
+      "title": "Legal Notice - Hecten",
+      "description": "Legal information and notices regarding Hecten website and services."
+    },
+    "GeneralTermsOfSale": {
+      "title": "General Terms of Sale - Hecten",
+      "description": "Read our general terms and conditions for purchasing products from Hecten."
+    },
+    "TermsOfDelivery": {
+      "title": "Terms of Delivery - Hecten",
+      "description": "Information about delivery options, shipping times, and delivery policies for Hecten."
+    },
+    "ReturnAndRefund": {
+      "title": "Return and Refund Policy - Hecten",
+      "description": "Learn about our returns, exchanges, and refund process at Hecten."
+    },
+    "MeasurementGuide": {
+      "title": "Measurement Guide - Hecten",
+      "description": "Find the perfect fit with our comprehensive measurement guide for all clothing sizes at Hecten."
+    },
+    "HumanitarianProject": {
+      "title": "Humanitarian Project - Hecten",
+      "description": "Learn about Hecten's humanitarian initiatives and social responsibility efforts."
+    }
+  },
+  "Common": {
+    "ReadMore": {
+      "readMore": "Read more",
+      "readLess": "Read less"
+    },
+    "NotFound": {
+      "heading": "Page not found",
+      "description": "The page you tried to access does not exist.",
+      "cta": "Go to frontpage"
+    },
+    "Price": {
+      "from": "From",
+      "original": "Original:"
+    },
+    "Breadcrumbs": {
+      "home": "Home",
+      "shop": "Shop"
+    },
+    "thumbnailAlt": "Thumbnail",
+    "GeoSuggestion": {
+      "title": "You might be in the wrong place",
+      "description": "It looks like you're in {country}. Would you like to view the {country} version of this page?",
+      "confirm": "Yes, switch",
+      "dismiss": "No, stay here"
+    }
+  },
+  "Account": {
+    "Login": {
+      "heading": "Sign In",
+      "email": "Email",
+      "emailTitle": "Enter a valid email address.",
+      "password": "Password",
+      "submit": "Sign in",
+      "registerPrompt": "Not a member?",
+      "registerCta": "Register"
+    },
+    "Register": {
+      "heading": "Register here",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "password": "Password",
+      "consentPrefix": "I agree to the store's",
+      "privacyPolicy": "Privacy Policy",
+      "and": "and",
+      "termsOfUse": "Terms of Use",
+      "submit": "Join",
+      "signInPrompt": "Already a member?",
+      "signInCta": "Sign in",
+      "successTitle": "Registration Successful",
+      "successMessage": "Your account has been created successfully. Please sign in to continue.",
+      "goToLogin": "Sign In"
+    },
+    "Nav": {
+      "hello": "Hello {name}",
+      "account": "Account",
+      "overview": "Overview",
+      "profile": "Profile",
+      "addresses": "Addresses",
+      "wishlist": "Wishlist",
+      "orders": "Orders",
+      "logout": "Log out"
+    },
+    "Overview": {
+      "hello": "Hello {name}",
+      "signedInAs": "Signed in as:",
+      "profile": "Profile",
+      "completed": "Completed",
+      "addresses": "Addresses",
+      "saved": "Saved",
+      "recentOrders": "Recent orders",
+      "datePlaced": "Date placed",
+      "orderNumber": "Order number",
+      "totalAmount": "Total amount",
+      "goToOrder": "Go to order #{id}",
+      "noRecentOrders": "No recent orders",
+      "subtitle": "Here's a quick look at your account activity.",
+      "viewAll": "View all",
+      "orders": "Orders",
+      "placed": "Placed",
+      "status": "Status",
+      "completeProfile": "Complete your profile"
+    },
+    "OrderOverview": {
+      "emptyTitle": "Nothing to see here",
+      "emptyDescription": "You don't have any orders yet, let us change that :)",
+      "continueShopping": "Continue shopping"
+    },
+    "Pages": {
+      "Wishlist": {
+        "heading": "Wishlist",
+        "description": "Review saved products, remove items, or share your wishlist.",
+        "emptyMessage": "You have not added any products to your wishlist yet.",
+        "guestDescription": "Save products while you browse and come back to them any time."
+      },
+      "Orders": {
+        "heading": "Orders",
+        "description": "View your previous orders and their status. You can also create returns or exchanges for your orders if needed."
+      },
+      "Profile": {
+        "heading": "Profile",
+        "description": "View and update your profile information, including your name, email, and phone number. You can also update your billing address, or change your password."
+      },
+      "Addresses": {
+        "heading": "Shipping Addresses",
+        "description": "View and update your shipping addresses, you can add as many as you like. Saving your addresses will make them available during checkout."
+      }
+    },
+    "ProfilePassword": {
+      "notImplemented": "Password update is not implemented",
+      "password": "Password",
+      "hidden": "The password is not shown for security reasons",
+      "oldPassword": "Old password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password"
+    },
+    "AddressForm": {
+      "newAddress": "New address",
+      "addAddress": "Add address",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "company": "Company",
+      "address": "Address",
+      "apartment": "Apartment, suite, etc.",
+      "postalCode": "Postal code",
+      "city": "City",
+      "provinceState": "Province / State",
+      "country": "Country",
+      "phone": "Phone",
+      "cancel": "Cancel",
+      "save": "Save",
+      "edit": "Edit",
+      "remove": "Remove",
+      "editAddress": "Edit address",
+      "defaultShipping": "Default shipping",
+      "defaultBilling": "Default billing"
+    },
+    "BillingAddress": {
+      "billingAddress": "Billing address",
+      "noBillingAddress": "No billing address",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "company": "Company",
+      "phone": "Phone",
+      "address": "Address",
+      "apartment": "Apartment, suite, etc.",
+      "postalCode": "Postal code",
+      "city": "City",
+      "province": "Province"
+    },
+    "ProfileName": {
+      "name": "Name",
+      "firstName": "First name",
+      "lastName": "Last name"
+    },
+    "ProfileEmail": {
+      "email": "Email"
+    },
+    "ProfilePhone": {
+      "phone": "Phone"
+    },
+    "TransferRequest": {
+      "heading": "Order transfers",
+      "promptLine1": "Can't find the order you are looking for?",
+      "promptLine2": "Connect an order to your account.",
+      "orderIdPlaceholder": "Order Number",
+      "requestTransfer": "Request transfer",
+      "successRequested": "Transfer for order {id} requested",
+      "successEmailSent": "Transfer request email sent to {email}"
+    },
+    "AccountInfo": {
+      "defaultError": "An error occurred, please try again",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "updatedSuccessfully": "{label} updated successfully",
+      "saveChanges": "Save changes",
+      "notProvided": "Not provided"
+    },
+    "OrderCard": {
+      "itemCount": "{count, plural, one {# item} other {# items}}",
+      "more": "more",
+      "seeDetails": "See details"
+    }
+  },
+  "Cart": {
+    "Items": {
+      "heading": "Cart",
+      "item": "Item",
+      "quantity": "Quantity",
+      "price": "Price",
+      "total": "Total"
+    },
+    "Summary": {
+      "heading": "Summary",
+      "checkout": "Go to checkout"
+    },
+    "Empty": {
+      "heading": "Your basket is currently empty",
+      "description": "You may check out all the available products and buy some in the shop.",
+      "cta": "Return to Shop"
+    },
+    "Dropdown": {
+      "heading": "Cart",
+      "quantity": "Quantity",
+      "remove": "Remove",
+      "subtotal": "Subtotal",
+      "excludingTaxes": "(excl. taxes)",
+      "goToCart": "Go to cart",
+      "empty": "Your shopping bag is empty.",
+      "goToProductsSrOnly": "Go to all products page",
+      "explore": "Explore products",
+      "shoppingBasket": "Shopping Basket",
+      "note": "Note",
+      "coupon": "Coupon",
+      "subtotalExclTax": "Subtotal (excl. tax)",
+      "taxes": "Taxes",
+      "totalInclTax": "Total (Incl. tax)",
+      "checkout": "Checkout",
+      "viewBasket": "View Basket",
+      "notePlaceholder": "Add special instructions for your order...",
+      "save": "Save",
+      "cancel": "Cancel",
+      "addCouponCode": "Add A Coupon Code",
+      "enterCode": "Enter Code",
+      "discountCode": "Discount code",
+      "apply": "Apply",
+      "increaseQuantity": "Increase quantity",
+      "decreaseQuantity": "Decrease quantity",
+      "couponCodeRequired": "Please enter a coupon code",
+      "couponError": "This coupon code is invalid or has expired",
+      "couponApplied": "Coupon applied successfully!",
+      "enterValidCode": "Enter your promo code and press Enter or click Apply",
+      "close": "Close",
+      "emptyHeading": "Your basket is currently empty",
+      "emptyDescription": "You may check out all the available products and buy some in the shop.",
+      "returnToShop": "Return to Shop",
+      "shipping": "Shipping",
+      "free": "Free",
+      "total": "Total",
+      "discount": "Discount",
+      "includesVat": "includes {vat} VAT",
+      "estimatedFor": "estimated for",
+      "couponAlreadyApplied": "A coupon is already applied. Remove it first to apply a new one.",
+      "includes": "includes",
+      "vat": "VAT"
+    },
+    "Totals": {
+      "subtotalExcluding": "Subtotal (excl. shipping and taxes)",
+      "shipping": "Shipping",
+      "calculatedAtCheckout": "Calculated at checkout",
+      "discount": "Discount",
+      "taxes": "Taxes",
+      "total": "Total",
+      "subtotal": "Subtotal",
+      "free": "Free",
+      "includes": "includes",
+      "vat": "VAT",
+      "estimatedFor": "estimated for"
+    },
+    "NotFound": {
+      "heading": "Page not found",
+      "description": "The cart you tried to access does not exist. Clear your cookies and try again.",
+      "cta": "Go to frontpage"
+    },
+    "SignInPrompt": {
+      "heading": "Already have an account?",
+      "description": "Sign in for a better experience.",
+      "cta": "Sign in"
+    },
+    "MismatchBanner": {
+      "message": "Something went wrong when we tried to transfer your cart",
+      "runAgain": "Run transfer again",
+      "transferring": "Transferring.."
+    }
+  },
+  "Search": {
+    "Results": {
+      "heading": "Search Results for:",
+      "clear": "Clear",
+      "noResults": "No results."
+    },
+    "Box": {
+      "placeholder": "Search products..."
+    },
+    "ShowAll": {
+      "noResults": "No results found.",
+      "showingFirst": "Showing the first {count} results.",
+      "viewAll": "View all"
+    }
+  },
+  "Wishlist": {
+    "SharedPage": {
+      "heading": "Shared wishlist",
+      "description": "Browse the products saved in this shared wishlist.",
+      "emptyMessage": "This wishlist does not have any saved products."
+    },
+    "ShareButton": {
+      "successTitle": "Share link copied",
+      "successDescription": "Anyone with this link can view your wishlist.",
+      "errorTitle": "Error",
+      "errorDescription": "Unable to generate a share link right now.",
+      "button": "Share wishlist",
+      "label": "Share link",
+      "copy": "Copy link",
+      "copied": "Copied"
+    },
+    "ItemsGrid": {
+      "variant": "Variant",
+      "count": "{count, plural, one {# item} other {# items}}",
+      "remove": "Remove",
+      "removeItem": "Remove {title} from wishlist",
+      "unavailable": "This product is no longer available.",
+      "emptyTitle": "Nothing saved yet",
+      "startShopping": "Start shopping"
+    },
+    "Button": {
+      "add": "Add to wishlist",
+      "remove": "Remove from wishlist",
+      "unavailable": "Select a variant to save"
+    },
+    "Toggle": {
+      "add": "Add To Wishlist",
+      "remove": "Remove From Wishlist",
+      "signIn": "Sign In To Save"
+    },
+    "Toast": {
+      "savedTitle": "Saved",
+      "savedDescription": "Item added to your wishlist.",
+      "removedTitle": "Removed",
+      "removedDescription": "Item removed from your wishlist.",
+      "errorTitle": "Error",
+      "errorDescription": "An error occurred while updating your wishlist.",
+      "guestSavedTitle": "Saved to your browser",
+      "guestSavedDescription": "This item is saved on this device. Create an account to keep it permanently and share your wishlist.",
+      "guestRemovedTitle": "Removed",
+      "guestRemovedDescription": "Item removed from your browser wishlist."
+    },
+    "GuestNotice": {
+      "heading": "You're not signed in",
+      "description": "This wishlist is saved in your browser only. Create an account to save it permanently and share it with others.",
+      "cta": "Sign in to save"
+    },
+    "GuestSignIn": {
+      "heading": "Sign in to keep your wishlist",
+      "description": "See the items saved to your account. Anything you've saved on this device is added to it when you sign in.",
+      "benefitDevices": "Access your wishlist on any device",
+      "benefitShare": "Share your list with friends and family",
+      "benefitKeep": "Keep saved items even after clearing your browser"
+    }
+  },
+  "Shipping": {
+    "FreeShippingNudge": {
+      "unlock": "Unlock Free Shipping",
+      "unlocked": "Free Shipping unlocked!",
+      "remaining": "Only {amount} away",
+      "viewCart": "View cart",
+      "viewProducts": "View products"
+    }
+  },
+  "Order": {
+    "Summary": {
+      "heading": "Order Summary",
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "giftCard": "Gift card",
+      "shipping": "Shipping",
+      "taxes": "Taxes",
+      "total": "Total"
+    },
+    "Help": {
+      "heading": "Need help?",
+      "contact": "Contact",
+      "returns": "Returns & Exchanges"
+    },
+    "Completed": {
+      "heading": "Thank you!",
+      "description": "Your order was placed successfully.",
+      "summary": "Summary"
+    },
+    "Details": {
+      "heading": "Order details",
+      "back": "Back to overview",
+      "confirmationDetails": "We have sent the order confirmation details to <email>{email}</email>.",
+      "orderDate": "Order date:",
+      "orderNumber": "Order number:",
+      "orderStatus": "Order status:",
+      "paymentStatus": "Payment status:",
+      "statuses": {
+        "not_fulfilled": "Not fulfilled",
+        "partially_fulfilled": "Partially fulfilled",
+        "fulfilled": "Fulfilled",
+        "partially_shipped": "Partially shipped",
+        "shipped": "Shipped",
+        "partially_delivered": "Partially delivered",
+        "delivered": "Delivered",
+        "canceled": "Canceled",
+        "not_paid": "Not paid",
+        "awaiting": "Awaiting",
+        "authorized": "Authorized",
+        "partially_authorized": "Partially authorized",
+        "captured": "Captured",
+        "partially_captured": "Partially captured",
+        "partially_refunded": "Partially refunded",
+        "refunded": "Refunded",
+        "requires_action": "Requires action"
+      }
+    },
+    "Shipping": {
+      "heading": "Delivery",
+      "address": "Shipping Address",
+      "contact": "Contact",
+      "method": "Method"
+    },
+    "Payment": {
+      "title": "Payment",
+      "method": "Payment method",
+      "details": "Payment details",
+      "paidAt": "{amount} paid at {date}"
+    },
+    "TransferPage": {
+      "heading": "Transfer request for order {id}",
+      "intro": "You've received a request to transfer ownership of your order ({id}). If you agree to this request, you can approve the transfer by clicking the button below.",
+      "permissions": "If you accept, the new owner will take over all responsibilities and permissions associated with this order.",
+      "noAction": "If you do not recognize this request or wish to retain ownership, no further action is required."
+    },
+    "TransferAccept": {
+      "successHeading": "Order transfered!",
+      "successText": "Order {id} has been successfully transfered to the new owner.",
+      "errorText": "There was an error accepting the transfer. Please try again.",
+      "errorMessage": "Error message: {error}"
+    },
+    "TransferActions": {
+      "acceptSuccess": "Order transferred successfully!",
+      "declineSuccess": "Order transfer declined successfully!",
+      "accept": "Accept transfer",
+      "decline": "Decline transfer"
+    }
+  },
+  "Store": {
+    "Sort": {
+      "title": "Sort by",
+      "created_at": "Latest Arrivals",
+      "price_asc": "Price: Low to High",
+      "price_desc": "Price: High to Low"
+    },
+    "showingResults": "Showing {from}–{to} of {total} results",
+    "filters": "Filters"
+  },
+  "Product": {
+    "Actions": {
+      "signInToSave": "Sign In To Save",
+      "selectVariantToSave": "Select Variant To Save",
+      "removeFromWishlist": "Remove From Wishlist",
+      "addToWishlist": "Add To Wishlist",
+      "quantity": "Quantity:",
+      "selectVariant": "Select variant",
+      "outOfStock": "Out of stock",
+      "addToCart": "Add to basket",
+      "selectVariantError": "* Please select a variant to proceed",
+      "inventoryAlert": "Currently only {quantity} item(s) available!",
+      "estimatedDeliveryLabel": "Estimated Delivery:",
+      "estimatedDeliveryText": "Your package will arrive in 3-5 business days at your pick up location or in the comfort of your home.",
+      "selectOptions": "Select Options",
+      "optionGender": "Gender",
+      "optionSize": "Size",
+      "optionColor": "Color",
+      "optionValueBaby": "Baby",
+      "optionValueKid": "Kid",
+      "optionValueWomen": "Women",
+      "optionValueMen": "Men"
+    },
+    "Tabs": {
+      "sizeGuide": "Size guide",
+      "deliveryInformation": "Delivery information",
+      "material": "Material",
+      "countryOfOrigin": "Country of origin",
+      "type": "Type",
+      "weight": "Weight",
+      "dimensions": "Dimensions",
+      "shippingBullet1": "Shipment of your order in less than 24 hours from Monday to Saturday (excluding public holidays)",
+      "shippingBullet2": "Free 12-day tracked delivery from $120 purchase (at home)",
+      "shippingBullet3": "Standard tracked delivery 10 days at $8.90 (at home)",
+      "shippingBullet4": "Track your package easily by e-mail and on the website",
+      "sizeGuideDescription": "Our pyjamas have an elastic waistband and will fit you well whatever your waist size. Any doubts? Contact us.",
+      "sizesSuffix": "'s sizes:",
+      "hide": "Hide",
+      "show": "Show",
+      "measurementGuideTitle": "How to take your measurements?",
+      "measurementGuideDescription": "Click here to follow Hecten guide and take your measurements easily at home without making mistakes"
+    },
+    "Reviews": {
+      "NoReviewText": "This product has not received any reviews yet. Be the first to leave your review!",
+      "errorTitle": "Error",
+      "requiredFields": "Please fill in required fields.",
+      "successTitle": "Success",
+      "successDescription": "Your review has been submitted and is awaiting approval.",
+      "submitError": "An error occurred while submitting your review. Please try again later.",
+      "addReview": "Add a review",
+      "title": "Title",
+      "content": "Content",
+      "rating": "Rating",
+      "submit": "Submit",
+      "heading": "Product Reviews",
+      "description": "See what our customers are saying about this product.",
+      "count": "{count} reviews",
+      "loadMore": "Load more reviews"
+    },
+    "Related": {
+      "heading": "Related products",
+      "description": "You might also want to check out these products."
+    },
+    "Onboarding": {
+      "success": "Your demo product was successfully created! 🎉",
+      "description": "You can now continue setting up your store in the admin.",
+      "continue": "Continue setup in admin"
+    },
+    "Preview": {
+      "selectOption": "Select Option",
+      "inStock": "In Stock",
+      "sliderDescription": "Here are the Merry Grinchmas pajamas, a fun Christmas pajama idea to celebrate your Grinchmas alone or with others. Suitable for families, couples, children, and...",
+      "outOfStock": "Out of stock"
+    }
+  },
+  "Tracking": {
+    "Page": {
+      "heading": "Track my order",
+      "trackingNumber": "Tracking Number",
+      "lastUpdate": "Last update:",
+      "descriptionLabel": "Description:",
+      "location": "Location:",
+      "route": "Route:",
+      "history": "History",
+      "orderFoundNoTracking": "Order found, but no tracking details are available yet.",
+      "orderPrompt": "To track your order, enter your order number and email address:",
+      "trackingPrompt": "To track your order, please enter the tracking number you received in the shipping confirmation email",
+      "orderId": "Order Number",
+      "orderNumberPlaceholder": "Order Number",
+      "orderEmail": "Order Email",
+      "emailPlaceholder": "Email Address",
+      "trackingNumberLabel": "Tracking Number",
+      "trackingNumberPlaceholder": "Order Tracking Number",
+      "trackOrder": "Track Order",
+      "tracking": "Tracking...",
+      "orderLabel": "Order:",
+      "tabs": {
+        "orderDetails": "Order Details",
+        "trackingNumbers": "Tracking Numbers"
+      },
+      "milestones": {
+        "infoReceived": "Info Received",
+        "pickedUp": "Picked Up",
+        "departure": "Departure",
+        "arrival": "Arrival",
+        "availableForPickup": "Available for Pickup",
+        "outForDelivery": "Out for Delivery",
+        "delivered": "Delivered"
+      },
+      "statuses": {
+        "Delivered": "Delivered",
+        "InTransit": "In Transit",
+        "PickedUp": "Picked Up",
+        "Exception": "Exception",
+        "Returning": "Returning",
+        "Returned": "Returned",
+        "Unknown": "Unknown"
+      }
+    }
+  },
+  "Checkout": {
+    "Payment": {
+      "selectMethod": "Select a payment method",
+      "title": "Payment",
+      "edit": "Edit",
+      "method": "Payment method",
+      "giftCard": "Gift card",
+      "enterCardDetails": "Enter card details",
+      "continueToReview": "Continue to review",
+      "details": "Payment details",
+      "anotherStep": "Another step will appear",
+      "placeOrder": "Place order",
+      "enterPaymentDetails": "Enter payment details",
+      "paymentFailed": "Your payment could not be completed. Please try again or choose another payment method.",
+      "paymentFormError": "The payment form could not be loaded. Please refresh the page and try again.",
+      "paypalLoading": "Loading PayPal…",
+      "paypalFinalising": "Finalising your order…",
+      "paypalUnavailable": "PayPal couldn't be loaded. Please choose another payment method.",
+      "formUnavailable": {
+        "title": "Payment form needs a refresh",
+        "body": "Your secure payment session timed out, so the form couldn't load. Nothing has been charged and your cart is saved. Reload the form to continue.",
+        "reload": "Reload payment form"
+      },
+      "sessionRenewed": "Your payment session was renewed, so please enter your payment details again. You haven't been charged."
+    },
+    "Layout": {
+      "backToCart": "Back to shopping cart",
+      "back": "Back",
+      "store": "Hecten",
+      "secureCheckout": "Secure checkout",
+      "progress": "Checkout progress",
+      "showSummary": "Show order summary",
+      "hideSummary": "Hide order summary"
+    },
+    "ShippingAddress": {
+      "savedAddressesPrompt": "Hi {name}, do you want to use one of your saved addresses?",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "address": "Address",
+      "company": "Company",
+      "postalCode": "Postal code",
+      "city": "City",
+      "stateProvince": "State / Province",
+      "billingSameAsShipping": "Billing address same as shipping address",
+      "email": "Email",
+      "emailTitle": "Enter a valid email address.",
+      "phone": "Phone",
+      "chooseAddress": "Choose an address"
+    },
+    "Addresses": {
+      "shippingAddress": "Shipping Address",
+      "billingAddress": "Billing Address",
+      "contact": "Contact",
+      "edit": "Edit",
+      "continueToDelivery": "Continue to delivery",
+      "billingSameAsDelivery": "Billing and delivery address are the same."
+    },
+    "Shipping": {
+      "delivery": "Delivery",
+      "edit": "Edit",
+      "shippingMethod": "Shipping method",
+      "deliveryPrompt": "How would you like your order delivered?",
+      "pickupOrder": "Pick up your order",
+      "store": "Store",
+      "storePrompt": "Choose a store near you",
+      "continueToPayment": "Continue to payment",
+      "method": "Method"
+    },
+    "Review": {
+      "heading": "Review",
+      "confirmation": "By clicking the Place Order button, you confirm that you have read, understand and accept our Terms of Use, Terms of Sale and Returns Policy and acknowledge that you have read Hecten's Privacy Policy.",
+      "confirmationPaypal": "By paying with one of the PayPal buttons below, you confirm that you have read, understand and accept our Terms of Use, Terms of Sale and Returns Policy and acknowledge that you have read Hecten's Privacy Policy."
+    },
+    "DiscountCode": {
+      "addPromotionCodes": "Add Promotion Code(s)",
+      "apply": "Apply",
+      "promotionsApplied": "Applied Coupons",
+      "removeDiscount": "Remove coupon",
+      "couponRemoved": "Coupon removed successfully",
+      "couponApplied": "Coupon applied successfully!",
+      "enterCode": "Enter coupon code",
+      "couponAlreadyApplied": "A coupon is already applied. Remove it first to apply a new one."
+    },
+    "Summary": {
+      "heading": "In your Cart"
+    },
+    "PaymentTest": {
+      "attention": "Attention:",
+      "testingOnly": "For testing purposes only."
+    },
+    "PaymentMethods": {
+      "creditCard": "Credit card",
+      "ideal": "iDeal",
+      "bancontact": "Bancontact",
+      "paypal": "PayPal",
+      "manualPayment": "Manual Payment",
+      "stripe": "Credit/Debit Card & more",
+      "paypalHint": "Pay securely with PayPal. Depending on your country, PayPal may also offer Pay Later and paying by card without a PayPal account."
+    },
+    "PaymentReturn": {
+      "checkingTitle": "Confirming your payment…",
+      "checkingBody": "We're checking the result with your bank. This only takes a moment.",
+      "secureNote": "Secure payment. Please keep this page open.",
+      "slowNote": "This is taking longer than usual. Please keep this page open.",
+      "receivedTitle": "Payment received",
+      "receivedBody": "Thank you! We're finalising your order and will email your confirmation shortly. If it doesn't arrive within a few minutes, please contact customer service.",
+      "pendingTitle": "Waiting for your payment",
+      "pendingBody": "Your payment is on its way. We place and ship your order as soon as the funds are confirmed, and we'll email you when that happens.",
+      "statusChecking": "Checking",
+      "statusPaid": "Paid",
+      "statusPending": "Awaiting payment",
+      "statusFailed": "Not completed",
+      "amountLabel": "Amount",
+      "statusLabel": "Status",
+      "nextTitle": "What happens next",
+      "step1Title": "Your bank processes the payment",
+      "step1Body": "This can take up to 5 business days.",
+      "step2Title": "We confirm it and place your order",
+      "step2Body": "This happens automatically. There is nothing else you need to do.",
+      "step3Title": "You receive a confirmation email",
+      "step3Body": "We ship your order as soon as the payment is confirmed.",
+      "viewInstructions": "View payment instructions",
+      "backToPayment": "Back to payment",
+      "continueShopping": "Continue shopping",
+      "notCharged": "You haven't been charged.",
+      "needHelp": "Need help?",
+      "contactUs": "Contact customer service"
+    },
+    "PaymentError": {
+      "declined": {
+        "title": "Your payment was declined",
+        "body": "Your bank or card issuer didn't approve this payment. Please try another card or payment method."
+      },
+      "insufficient_funds": {
+        "title": "Insufficient funds",
+        "body": "This card doesn't have enough available funds for this purchase. Please try another card or payment method."
+      },
+      "expired_card": {
+        "title": "Your card has expired",
+        "body": "Please check the expiry date, or use a different card."
+      },
+      "incorrect_cvc": {
+        "title": "Security code is incorrect",
+        "body": "Please check the 3 or 4 digit security code on your card and try again."
+      },
+      "incorrect_number": {
+        "title": "Card number is incorrect",
+        "body": "Please check your card number and try again."
+      },
+      "authentication": {
+        "title": "Authentication failed",
+        "body": "We couldn't verify this payment with your bank. Please try again or use a different payment method."
+      },
+      "invalid_details": {
+        "title": "Check your payment details",
+        "body": "Some payment details are missing or invalid. Please review them and try again."
+      },
+      "processing": {
+        "title": "We couldn't process your payment",
+        "body": "Something went wrong while processing your payment. Please try again in a moment."
+      },
+      "network": {
+        "title": "Connection problem",
+        "body": "We couldn't reach the payment service. Please check your connection and try again."
+      },
+      "session_expired": {
+        "title": "Your payment session expired",
+        "body": "For your security, payment sessions expire after a while. Nothing has been charged and your cart is saved. Reload the payment form and place your order again."
+      },
+      "order": {
+        "title": "We couldn't finalise your order",
+        "body": "Your payment went through, but we hit a problem while finalising your order. Please don't pay again. Try once more, or contact customer service and we'll sort it out."
+      },
+      "generic": {
+        "title": "Payment failed",
+        "body": "Something went wrong with your payment. Please try again or use a different payment method."
+      },
+      "notCharged": "You haven't been charged.",
+      "detailsLabel": "Details",
+      "actions": {
+        "tryAgain": "Try again",
+        "editDetails": "Edit payment details",
+        "changeMethod": "Use a different payment method",
+        "close": "Close",
+        "contactSupport": "Contact customer service",
+        "reloadForm": "Reload payment form"
+      }
+    }
+  },
+  "StaticPages": {
+    "PrivacyPolicy": {
+      "title": "Privacy Policy",
+      "breadcrumbHome": "Home",
+      "body": "<p>SECTION 1 - PERSONAL INFORMATION COLLECTED</p><p>When you make a purchase from our store, as part of our buying and selling process, we collect the personal information you provide, such as your name, address and e-mail address.</p><p>When you browse our store, we also automatically receive the Internet Protocol (IP) address of your computer, which allows us to obtain more details about the browser and operating system you use.</p><p>E-mail Marketing (if applicable): With your permission, we may send you emails about our store, new products and other updates.</p><p>SECTION 2 - CONSENT</p><p>How do you obtain my consent?</p><p>When you provide us with your personal information to complete a transaction, verify your credit card, place an order, schedule a delivery or return a purchase, we assume that you consent to our collection and use of your information for that purpose only.</p><p>If we ask you to provide your personal information for any other reason, such as marketing purposes, we will ask you directly for your express consent, or we will give you the opportunity to decline.</p><p>How do I withdraw my consent? You can edit your consent at any time by <a href=\"#\">clicking here and editing your consent</a>.</p><p>If, after you have given us your consent, you change your mind and no longer consent to our contacting you, collecting your information or disclosing it, you may notify us by contacting us at {companyEmail} or by mail at {companyOperatingEntity}, the company that operates thechristmasfabric.com:<br>{companyOperatingEntity}<br>{companyAddress}<br>{companyCity}<br>{companyZip}<br>{companyCountry}</p><p>SECTION 3 - DISCLOSURE</p><p>We may disclose your personal information if we are required to do so by law or if you violate our Terms and Conditions.</p><p>SECTION 4 - HOST</p><p>Our store is hosted by Kinsta Inc. They provide us with the online platform that allows us to sell you our services and products.</p><p>Your data is stored in the data storage system and databases of Kinsta Inc. Your data is kept on a secure server protected by a firewall.</p><p>Payment:</p><p>When making an online purchase at noel-shop.com, no credit card information is stored. Your credit card information is used securely by third party services to process your payment. For security purposes, the data is encrypted in accordance with the Payment Card Industry Data Security Standard (PCI-DSS). Your purchase transaction information is retained as long as necessary to complete your order by third party services such as PayPal, Stripe or Mollie.</p><p>All direct payment gateways comply with the PCI-DSS standard, managed by the PCI Security Standards Council, which is a joint effort of companies such as Visa, MasterCard, American Express and Discover.</p><p>The requirements of the PCI-DSS standard ensure the secure processing of credit card data by our store and its service providers.</p><p>SECTION 5 - SERVICES PROVIDED BY THIRD PARTIES</p><p>Generally, the third party providers we use will only collect, use and disclose your information to the extent necessary to perform the services they provide to us.</p><p>However, some third party service providers, such as payment gateways and other payment transaction processors, have their own privacy policies regarding the information we are required to provide to them for your purchase transactions.</p><p>With respect to these providers, we recommend that you read their privacy policies carefully so that you can understand how they will handle your personal information.</p><p>Keep in mind that some suppliers may be located or have facilities located in a different jurisdiction than you or us. If you proceed with a transaction that requires the services of a third party supplier, your information may be governed by the laws of the jurisdiction in which that supplier is located or the jurisdiction in which its facilities are located.</p><p>For example, if you are located in Canada and your transaction is processed through a payment gateway located in the United States, your information used to complete the transaction may be disclosed under United States law, including the Patriot Act.</p><p>Once you leave our store site or are redirected to a third party website or application, you are no longer governed by this Privacy Policy or the Terms and Conditions of Sale and Use of our website.</p><p>Links</p><p>You may leave our website by clicking on certain links on our website. We assume no responsibility for the privacy practices of these other sites and recommend that you read their privacy policies carefully.</p><p>SECTION 6 - SECURITY</p><p>To protect your personal information, we take reasonable precautions and follow industry best practices to ensure that it is not lost, misappropriated, accessed, disclosed, altered or destroyed in an inappropriate manner.</p><p>SECTION 7 - AGE OF CONSENT</p><p>By using this site, you represent that you are at least the age of majority in your state or province of residence, and that you have given us your consent to allow any minor in your care to use this website.</p><p>SECTION 8 - CHANGES TO THIS PRIVACY POLICY</p><p>We reserve the right to change this Privacy Policy at any time, so please review it frequently. Changes and clarifications will take effect immediately upon posting on the website. If we make changes to the content of this policy, we will notify you here that it has been updated, so that you know what information we collect, how we use it, and under what circumstances, if any, we disclose it.</p><p>If our store is acquired by or merged with another company, your information may be transferred to the new owners so that we can continue to sell products to you.</p><p>QUESTIONS AND CONTACT INFORMATION</p><p>If you would like to access, correct, amend or delete any personal information we have about you, file a complaint, or simply request more information, contact our Privacy Officer at {companyEmail} or by mail at the headquarters of {companyOperatingEntity}, which operates thechristmasfabric.com:<br>{companyOperatingEntity}<br>{companyAddress}<br>{companyCity}<br>{companyZip}<br>{companyCountry}</p>"
+    },
+    "MeasurementGuide": {
+      "intro": {
+        "eyebrow": "A simple guide to avoid mistakes",
+        "title": "Take your measurements",
+        "paragraph1": "Hecten clothing is made to an international average because we want it to be wearable by everyone. That is why knowing your measurements will help you choose the right size. For example, if you are used to wearing L, some models may fit you better in size M.",
+        "paragraph2": "Once you have taken your measurements, you can compare them directly with the size guide available on the product page of your choice. Our products may have similar or different size guides."
+      },
+      "withoutTape": {
+        "eyebrow": "Use a string",
+        "title": "Measuring without a tape measure",
+        "description": "No problem. If you do not have a tape measure, you can use a string or the edge of a long towel to measure your bust, waist, hips, and more. Then transfer the length of the string or towel to a ruler to match the length in cm or inches."
+      },
+      "guideTitle": "View the guide for",
+      "options": {
+        "men": "Men",
+        "women": "Women",
+        "child": "Child",
+        "baby": "Baby"
+      },
+      "imageAlt": "Measurement guide illustration",
+      "measurements": [
+        {
+          "primaryLabel": "A - Bust, bust circumference:",
+          "primaryText": "Measure around the bust. All Hecten size guides show the bust measurement. This is used very often in our size guides.",
+          "secondaryLabel": "Top length:",
+          "secondaryText": "Measure from the hollow at the base of the neck down to the pelvis. This is used very often in our size guides."
+        },
+        {
+          "primaryLabel": "B - Waist, waist circumference:",
+          "primaryText": "Measure around the waist. This is often used in our size guides.",
+          "secondaryLabel": "Bottom length:",
+          "secondaryText": "Measure from the pelvis down to the ankle. This is used very often in our size guides."
+        },
+        {
+          "primaryLabel": "C - Hips, hip circumference:",
+          "primaryText": "Measure around the hips. This is sometimes used in our size guides."
+        },
+        {
+          "primaryLabel": "D - Inseam length:",
+          "primaryText": "Measure from the crotch down to the ankle without bending the leg. This is used less often in our size guides."
+        },
+        {
+          "primaryLabel": "E - Size:",
+          "primaryText": "Measure from the top of the head to the feet. Rarely used in our size guides."
+        }
+      ]
+    },
+    "ReturnAndRefund": {
+      "title": "Return and refund",
+      "breadcrumbHome": "Home",
+      "body": "<p>Our policy lasts 14 days from the day of delivery. If 14 days have passed from the day of your delivery, unfortunately we cannot offer you a refund or exchange.</p><p>To qualify for a free return, your item must be returned for exchange, unused and in the same condition as you received it. It must also be in its original packaging.</p><p>To avoid abuse, a return fee of 10 USD$ applies only when the customer requests a refund and the order matches the customer's expectations for the items that motivated the purchase on www.thechristmasfabric.com.</p><p>The customer must verify when returning the product that the accessories, if any, are complete and that the packaging is the original packaging. If the customer fails to do so, a charge may be applied to the refund to cover the loss incurred:<br>- Damaged or missing original packaging: 10 USD$.<br>- Missing accessories: 20% of the total refund amount, or the price of the accessory if displayed on the site.</p><p>If the item is not returned in its original condition, is damaged, stained, non-functional or degraded, and this prevents it from being sold again, no refund can be given.</p><p>Many types of products cannot be returned. Perishable goods such as food, flowers or magazines cannot be returned. We also do not accept intimate or sanitary products, dangerous products, or flammable gases or liquids.</p><p>Other items that cannot be returned:</p><p>Gift cards<br>Downloadable software<br>Certain health and personal care products<br>To make a return, you must present us with a receipt or proof of purchase.</p><p>Please do not return your purchase to the manufacturer.</p><p>There are certain situations where only a partial refund is granted, if applicable:</p><p>Books with obvious signs of use.<br>CD, DVD, VHS tape, software, video game, cassette, or vinyl record that has been opened.<br>Any item that is not in its original condition, is damaged, or has missing parts for reasons that are not due to an error on our part.<br>Any item returned more than 30 days after delivery.</p><p>Refunds, if applicable<br>Once we have received and inspected the returned item, we will send you an email to confirm that we have received it. We will also inform you of our decision to approve or reject your refund request.<br>If your request is approved, your refund will be processed and a credit will automatically be applied to your credit card or original payment method within a maximum of 2 to 3 days, excluding weekends and holidays.</p><p>Late or missing refunds, if applicable<br>If you have not yet received your refund, please check the following steps before contacting the site by email:<br>- Verify that the refund is not in progress on your bank account or scheduled to arrive on a posted date.<br>- Contact your bank to learn about the delays applied to transfers between bank accounts that do not belong to the same bank.<br><br>If after completing all these steps you still have not received your refund, or you do not know your bank's time frame or the refund receipt date, please contact us at {companyEmail}.</p><p>Sale items, if applicable<br>Only regular priced items can be refunded. Unfortunately, sale items are not refundable.</p><p>Return for malfunction</p><p>An item returned because of a malfunction is covered by our free return offer, and the customer does not pay any fees. If our team does not detect any malfunction after several tests and verifications by after-sales service, the return delivery to the customer will be at the customer's expense. This helps us avoid abusive returns and asks customers to verify that the product has a real malfunction and that a return to after-sales service is necessary before any exchange.</p><p>Exchanges</p><p>We will only replace an item if it is defective or damaged upon receipt by the customer. The customer has 3 days from the day of delivery to declare a problem. After this period, we consider that the item has been used and is no longer exchangeable. For any exchange, send us an email at {companyEmail}.</p><p>The item must be new, unused, unwashed, in its original packaging, and with all tags attached.</p><p>Your item should be sent to the address of the company operating www.thechristmasfabric.com:<br>{companyOperatingEntity}<br>{companyAddress}<br>{companyCity}<br>{companyZip}<br>{companyCountry}</p><p>Gifts<br>If the returned item was identified as a gift at the time of purchase and was sent directly to you, you will receive gift credit equal to the value of your return. Once we receive the returned item, a gift certificate will be mailed to you. Return shipping costs for gifts are not covered.</p><p>Shipping<br>To return a product, you must send it to the headquarters of {companyOperatingEntity}, the company operating www.thechristmasfabric.com: {companyOperatingEntity}, {companyAddress}, {companyCity}, {companyZip}, {companyCountry}.</p><p>Processing times<br>Depending on where you live, the time it takes to receive your exchanged product may vary.</p><p>Upon receipt of your product at headquarters, we take 3 to 5 working days to verify it and make a decision, which will be communicated to you by email at the address you provided when ordering.</p><p>If the return costs for redelivery to the customer are borne by {companyOperatingEntity}, the company operating www.thechristmasfabric.com, the delivery time may vary between 3 and 5 days.</p><p>If the return shipping cost to the customer is at the customer's expense, the delivery time will vary depending on the customer's preferred method.</p><p>If you are shipping an item valued at more than 100 USD$ and you are responsible for the return shipping costs, you should consider using a shipping service that allows you to track the shipment or purchasing shipping insurance. We do not guarantee that we will receive the item you are returning if a problem occurs.</p>"
+    },
+    "TermsOfDelivery": {
+      "title": "Terms of delivery",
+      "breadcrumbHome": "Home",
+      "body": "<p>The PRODUCTS are shipped to the delivery address or addresses indicated by the CLIENT during the ordering process.</p><p>Shipping time</p><p>The deadlines for preparing an order and issuing the invoice before shipping PRODUCTS in stock are mentioned on the SITE. These deadlines do not include weekends or public holidays.</p><p>An email will automatically be sent to the CUSTOMER when the PRODUCTS are shipped, provided that the email address in the registration form is correct.</p><p>Delivery time &amp; costs</p><p>During the ordering process, the SELLER indicates to the CUSTOMER the possible delivery times and shipping options for the PRODUCTS purchased.</p><p>Shipping costs are calculated according to the delivery method. The amount of these costs will be due by the CLIENT in addition to the price of the PRODUCTS purchased.</p><p>Details of delivery times and costs are provided on the SITE.</p><p>Terms of delivery</p><p>The parcel will be given to the CUSTOMER against signature and upon presentation of an identity document.</p><p>In case of absence, a delivery notice will be left for the CUSTOMER so that they can collect the parcel from their post office.</p><p>The CUSTOMER is responsible for picking up the package at the post office within 10 days. The SELLER cannot be held responsible for a package destroyed or not returned by postal services, and this reason does not constitute grounds for any refund.</p><p>Delivery problems</p><p>The CUSTOMER is informed of the delivery date when choosing the carrier, at the end of the online ordering process, before confirming the order.</p><p>It is specified that deliveries will be made within a maximum of thirty (30) days. Failing this, the CUSTOMER must give the SELLER formal notice to deliver within a reasonable period of time. In the event of non-delivery within this period, the contract may be terminated.</p><p>The SELLER shall refund the CUSTOMER, without undue delay after receiving the termination letter, the total amount paid for the PRODUCTS, including taxes and delivery charges, using the same payment method used by the CUSTOMER to purchase the PRODUCTS.</p><p>The SELLER is responsible until delivery of the PRODUCT to the CLIENT. The CLIENT is reminded that they have three (3) days to notify the carrier of any damage or partial loss observed at the time of delivery.</p>"
+    },
+    "LegalNotice": {
+      "title": "Legal Notice",
+      "breadcrumbHome": "Home",
+      "body": "<p>Definitions</p><p>Customer: any professional, legally capable natural person within the meaning of Articles 1123 et seq. of the Civil Code, or any legal entity, visiting the Site covered by these general conditions.</p><p>Services: https://www.thechristmasfabric.com provides Customers with access to the services and information presented on the Site.</p><p>Content: all elements making up the information available on the Site, including text, images and videos.</p><p>Customer information: hereinafter referred to as Information, meaning all personal data that may be held by https://www.thechristmasfabric.com for account management, customer relationship management, analysis and statistics.</p><p>User: any internet user connecting to and using the above-mentioned Site.</p><p>Personal information: information that allows, in any form whatsoever, directly or indirectly, the identification of the individuals to whom it applies. The terms personal data, data subject, processor and sensitive data have the meaning defined by the General Data Protection Regulation (GDPR: No. 2016-679).</p><p>Presentation of the website</p><p>In accordance with Article 6 of Law No. 2004-575 of June 21, 2004 for confidence in the digital economy, users of https://www.thechristmasfabric.com are informed of the identity of the parties involved in its implementation and monitoring: Owner: SASU OVOORO, share capital 1000 EUR, VAT number FR54890918436, {companyAddress}, {companyZip} {companyCity}. Publication manager: Hecten, {companyEmail}. Webmaster: Hecten, {companyEmail}. Host: Kinsta Inc, 8605 Santa Monica Blvd #92581, 90069 West Hollywood, CA. Data Protection Officer: Hecten, {companyEmail}.</p><p>General conditions of use</p><p>The Site is an intellectual work protected by the Intellectual Property Code and applicable international regulations. The Customer may not reuse, transfer or exploit all or part of the elements or works of the Site for their own account. Use of https://www.thechristmasfabric.com implies full acceptance of these general conditions of use. They may be modified or supplemented at any time, and users are invited to consult them regularly.</p><p>The Site is normally accessible at all times. Technical maintenance may cause interruptions, and https://www.thechristmasfabric.com will try to inform users in advance of the dates and times of intervention. The Site and these legal notices may be updated at any time.</p><p>Description of services</p><p>https://www.thechristmasfabric.com aims to provide information about the company's activities and strives to provide information that is as accurate as possible. It cannot be held responsible for omissions, inaccuracies or update deficiencies, whether caused by itself or by third-party partners. Information on the Site is provided for guidance, may change, and is not exhaustive.</p><p>Technical limitations</p><p>The Site uses JavaScript technology. The Site cannot be held responsible for material damage related to its use. The user agrees to access the Site with recent equipment, free of viruses, and with an up-to-date browser. The Site is hosted by a provider in accordance with GDPR requirements. The host ensures service continuity but may interrupt hosting for maintenance, infrastructure improvement, failure, or abnormal traffic.</p><p>https://www.thechristmasfabric.com and the host cannot be held responsible for malfunction of the internet network, telephone lines, or computer and telephone equipment, including network congestion preventing access to the server.</p><p>Intellectual property</p><p>https://www.thechristmasfabric.com owns the intellectual property rights or holds usage rights for all elements accessible on the Site, including text, images, graphics, logos, videos, icons and sounds. Any reproduction, representation, modification, publication or adaptation of all or part of the Site elements is prohibited without prior written authorization from https://www.thechristmasfabric.com. Unauthorized use will be considered infringement and pursued under Articles L.335-2 et seq. of the Intellectual Property Code.</p><p>Liability</p><p>https://www.thechristmasfabric.com acts as publisher of the Site and is responsible for the quality and accuracy of the Content it publishes. It cannot be held responsible for direct or indirect damage caused to the user's equipment when accessing the Site, resulting from unsuitable equipment, bugs or incompatibility.</p><p>https://www.thechristmasfabric.com cannot be held responsible for indirect damages such as loss of market or opportunity resulting from use of the Site. Interactive areas may be made available to users. The Site reserves the right to remove, without prior notice, any content that violates French law, especially data protection rules, and may hold the user civilly or criminally liable where appropriate.</p><p>Personal data management</p><p>The Customer is informed of the rules relating to marketing communication, the law of June 21, 2014 for confidence in the digital economy, the Data Protection Act of August 6, 2004, and the GDPR. For personal data collected when creating a user account and browsing the Site, the controller is https://www.thechristmasfabric.com, represented by BOER, its legal representative.</p><p>https://www.thechristmasfabric.com undertakes to comply with applicable legal provisions, define the purposes of processing, provide complete information on personal data processing, and maintain a processing register. Whenever personal data is processed, reasonable measures are taken to ensure its accuracy and relevance.</p><p>Purpose of collected data</p><p>https://www.thechristmasfabric.com may process data to enable Site navigation, manage and track ordered services, manage billing and order history, prevent and fight computer fraud such as spam or hacking, improve Site navigation, conduct optional satisfaction surveys, and carry out communication campaigns by SMS or email. Personal data is not sold and is used only when necessary or for statistical and analytical purposes.</p><p>User rights</p><p>In accordance with applicable European regulations, users have rights of access, rectification, update, completion, deletion, withdrawal of consent, restriction, objection, portability, and instructions concerning the fate of their data after death. To exercise these rights, the user may write to: DPO, OVOORO, {companyAddress}, {companyZip} {companyCity}, identifying themselves precisely and attaching a copy of an identity document.</p><p>Requests for deletion of personal data are subject to legal obligations, especially document retention or archiving. Users may also file a complaint with the supervisory authority, in particular the CNIL: https://www.cnil.fr/fr/plaintes.</p><p>Non-disclosure of personal data</p><p>https://www.thechristmasfabric.com does not process, host or transfer customer information to a country outside the European Union or recognized as not adequate by the European Commission without informing the customer beforehand. It remains free to choose subcontractors that provide sufficient guarantees under GDPR.</p><p>https://www.thechristmasfabric.com takes necessary precautions to preserve information security and prevent disclosure to unauthorized persons. If an incident affects the integrity or confidentiality of customer information, the customer will be informed as soon as possible and corrective measures will be communicated. The Site does not collect sensitive data.</p><p>Personal data may be processed by subsidiaries and subcontractors exclusively for the purposes of this policy. The main persons likely to access user data are customer service agents.</p><p>Data collected</p><p>For users of https://www.thechristmasfabric.com, the data essential to service operation may include surname, first name, telephone number, email, address, postal code, city and country. This data may be kept for a maximum of 120 months after the end of the contractual relationship.</p><p>Incident notification and security</p><p>No method of internet transmission or electronic storage is completely secure. If a security breach is identified, affected users will be notified so they can take appropriate action. Incident notification procedures take national and European legal obligations into account.</p><p>No personal information of a Site user is published, exchanged, transferred, assigned or sold to third parties without the user's knowledge. Only a purchase of https://www.thechristmasfabric.com and its rights could allow transmission of this information to a purchaser subject to the same data obligations.</p><p>To ensure the security and confidentiality of personal data, https://www.thechristmasfabric.com uses protected networks and standard measures such as firewalls, pseudonymization, encryption and passwords. Reasonable measures are taken to protect personal data from loss, misuse, unauthorized access, disclosure, alteration or destruction.</p><p>Hypertext links, cookies and internet tags</p><p>The Site may contain links to other websites. https://www.thechristmasfabric.com cannot verify the content of these sites and assumes no responsibility for them. Unless cookies are disabled, the user accepts that the Site may use them. Cookies can be disabled at any time, although this may reduce or prevent access to all or part of the services.</p><p>A cookie is a small information file sent to the user's browser and stored on the user's device. It may include domain name, internet provider, operating system, and access date and time. Cookies do not damage the user's device.</p><p>Cookies may be used to process information about visits to the Site, such as pages viewed and searches carried out, to improve Site content and navigation. Users can configure their browser to accept or reject cookies. If cookies are refused or deleted, navigation and experience on the Site may be limited.</p><p>https://www.thechristmasfabric.com may use external service providers to help collect and process cookie-related information. Social network services may also deposit cookies if the user has accepted them while continuing navigation. Consent can be withdrawn at any time.</p><p>Internet tags</p><p>https://www.thechristmasfabric.com may use internet tags, also known as action tags, single-pixel GIFs, clear GIFs or invisible GIFs, through a web analytics partner that may be located abroad. These tags may be placed in online advertisements and on Site pages to evaluate visitor responses, Site activity and use of the Site.</p><p>Applicable law and jurisdiction</p><p>Any dispute relating to use of https://www.thechristmasfabric.com is subject to French law. Except where the law does not allow it, the competent courts of {companyCity} have exclusive jurisdiction.</p>"
+    },
+    "HumanitarianProject": {
+      "title": "Humanitarian project",
+      "hero": {
+        "eyebrow": "With your orders",
+        "heading": "5% donated",
+        "description": "5% of profits will be donated to the AHPA association, with the aim of building at least 1 educational garden in Kpomasse, Benin. Thanks to your order, you will be able to follow the progress of this initiative, which is also supported by our French website.",
+        "link": "Noel Shop"
+      },
+      "association": {
+        "eyebrow": "The association",
+        "heading": "AHPA",
+        "description": "Association Humanitaire pour l'Afrique (AHPA) is an international solidarity association that supports development projects in Benin in the fields of education, sustainable agriculture, environmental protection and fair tourism. Working with local associative partners, AHPA supports income-generating micro-projects for young people in environmental education.",
+        "logoAlt": "AHPA association logo"
+      },
+      "gallery": {
+        "image1Alt": "Educational garden project in Benin",
+        "image2Alt": "Local community project supported by AHPA",
+        "image3Alt": "Agriculture and education initiative in Benin",
+        "image4Alt": "Humanitarian project field activity"
+      }
+    },
+    "CustomerService": {
+      "banner": {
+        "heading": "Customer Service",
+        "subHeading": "What can we do for you today?"
+      },
+      "faqSections": [
+        {
+          "eyebrow": "Learn more about the tracking and delivery of your order",
+          "heading": "Delivery and tracking",
+          "items": [
+            {
+              "question": "Track my order",
+              "answer": "To track your order go to the [track my order](/track-my-order) page and insert the tracking number you received in your order shipping email."
+            },
+            {
+              "question": "Change my delivery address",
+              "answer": "You have 24 hours after placing your order to notify us of a change of address by e-mail to [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com) after this time no return or refund can be granted."
+            },
+            {
+              "question": "Delivery time",
+              "answer": "24 to 72 hours are necessary to process and ship your order. The delivery time varies from 5 to 12 days depending on your delivery method and your country of delivery."
+            },
+            {
+              "question": "Create an account",
+              "answer": "To create an account and benefit from offers and coupons on your future purchases as well as a history of your orders and direct access to your invoices go to [my account](/account) page."
+            },
+            {
+              "question": "Country of delivery",
+              "answer": "We deliver to all European countries and internationally. Choose your usual country in the menu at the top of the site and choose your preferred delivery method when placing your order.\nOnly for the French customers, you can order on our french shop at [www.noel-shop.fr](https://www.noel-shop.fr)"
+            },
+            {
+              "question": "Separate packages",
+              "answer": "Our products are sent in a single package. More rarely, for logistical reasons, we may have to make a delivery in two separate packages. If this is the case, we assume 100% of the additional cost of this second package and you do not have to pay anything."
+            },
+            {
+              "question": "Customs fees",
+              "answer": "Depending on your country of delivery, customs fees on the merchandise may apply. We invite you to check with the customs website of your country to find out if you will have to pay customs fees upon delivery of your package or not."
+            },
+            {
+              "question": "Value Added Tax",
+              "answer": "For your convenience, all our prices are displayed including VAT, which means that the Value Added Tax (VAT) is included in our prices at the time of payment of your order. If you are a company you can have the VAT deducted by asking us for an invoice by e-mail at [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)"
+            },
+            {
+              "question": "Personal information",
+              "answer": "Hecten does not store any payment or credit card information. Our site uses verified, authorized and secure external payment processors such as Paypal or Stripe so that you can safely pay for your orders online."
+            }
+          ]
+        },
+        {
+          "eyebrow": "Return an item, make an exchange or a refund",
+          "heading": "Return and exchange",
+          "items": [
+            {
+              "question": "Return conditions",
+              "answer": "The deadline for returns and exchanges is 14 days.\nYou can find our complete return policy in detail on our [return and refund policy here](/return-and-refund)."
+            },
+            {
+              "question": "Error in my order",
+              "answer": "If you have received your order and you are missing a product or you have received the wrong product we invite you to contact our customer service at [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)"
+            },
+            {
+              "question": "My order arrived damaged",
+              "answer": "If you have received your order and your products are damaged, you need to gather all the evidence that shows that the products have been damaged during delivery.\nSend us as soon as possible after receiving your package photos of the damaged packaging and the damage to the items you ordered by email to [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)"
+            },
+            {
+              "question": "Address for returns and exchanges",
+              "answer": "Returns and exchanges of orders are made at the headquarters of the company at the following address:\nSASU OVOORO\n19 ALLÉE DE BRIENNE\n31000\nTOULOUSE\nFRANCE\nContact us by email before your return or exchange at [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)"
+            },
+            {
+              "question": "Get an exchange",
+              "answer": "If you wish to obtain an exchange you must contact our customer service at [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)\nDepending on the reason for your exchange, the cost of shipping and the number of items you wish to exchange, the shipping costs can be offered, shared with you or totally at your expense (on average 10$ USD)."
+            },
+            {
+              "question": "Error in the address",
+              "answer": "If the delivery address is incorrect and the 24-hour reporting period is exceeded, we can no longer guarantee the delivery of your package and its reimbursement if we are unable to recover it.\nHowever, you should know that we do everything possible for this kind of problem to report a change of address directly with our logistics partner so that it can change the delivery address of your package during transport; these processes are quite long so you must contact us as soon as possible at [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)"
+            },
+            {
+              "question": "Modify and/or cancel my order",
+              "answer": "You can cancel or modify an order directly within a maximum of 24 hours after placing the order.\nContact us as soon as possible at [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)\nIf this 24 hour period has passed and your order has already been shipped, a cancellation or modification of the order will not be possible and you will have to wait until the end of the delivery process to proceed with a return or make a new order if you wish to receive more items."
+            },
+            {
+              "question": "Pre-order an out-of-stock item",
+              "answer": "To pre-order an out-of-stock item you can contact us at [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com) to place a priority order on our next stock."
+            }
+          ]
+        }
+      ],
+      "form": {
+        "description": "Use this form to contact customer service by email at customer@thechristmasfabric.com",
+        "heading": "Contact customer service",
+        "firstNameLabel": "Your first name",
+        "firstNamePlaceholder": "First Name",
+        "orderNumberLabel": "Your order number",
+        "orderNumberPlaceholder": "35445",
+        "reasonLabel": "The reason for your request",
+        "reasonOptions": [
+          "I want to exchange a product",
+          "I have a problem with tracking",
+          "I want to return my parcel or obtain a refund",
+          "I want to modify my order",
+          "I am contacting you for another reason"
+        ],
+        "submit": "Submit",
+        "submitting": "Submitting...",
+        "success": "Thank you! Your message has been sent successfully.",
+        "step": "Step",
+        "of": "of",
+        "next": "Next",
+        "back": "Back",
+        "emailLabel": "Your email",
+        "emailPlaceholder": "your@email.com",
+        "emailError": "Email is required",
+        "messageLabel": "Your message",
+        "messagePlaceholder": "Tell us more about your request...",
+        "messageError": "Message is required",
+        "orderNumberError": "Order number is required"
+      }
+    },
+    "GeneralTermsOfSale": {
+      "title": "General Terms of Sale",
+      "breadcrumbHome": "Home",
+      "body": "<p>The website thechristmasfabric.com is a trademark operated by the company {companyOperatingEntity},<br>19 Allée de Brienne, {companyZip}, {companyCity}, {companyCountry}<br>with a share capital of 1000€.<br>registered with the Trade and Companies of {companyCity},<br>under the number SIREN 890918436<br>The site thechristmasfabric.com is represented and managed entirely by the company {companyOperatingEntity} as a legal person in the capacity of manager, duly authorized for the purposes hereof.<br>The website can be contacted by email directly to {companyEmail} or by clicking on the contact form accessible at the bottom of the site.</p><p>Hereinafter the \"Seller\" or the \"Company\". On the one hand, and the natural or legal person proceeding to the purchase of products or services of the company, hereinafter, \"the Buyer\", or \"the Customer\" On the other hand, It was exposed and agreed what follows:</p><p>PREAMBLE</p><p>The Vendor is a publisher of Products and Services for the online sale of goods and services to consumers, marketed through its Internet sites (). The list and description of goods and services offered by the Company can be consulted on the above-mentioned sites.</p><p>Article 1: Purpose</p><p>The present General Terms of Sale determine the rights and obligations of the parties in the context of the online sale of Products or Services offered by the Seller.</p><p>Article 2 : General provisions</p><p>The present General Terms and Conditions of Sale (GTCS) govern the sale of Products or Services, made through the Company's websites, and are an integral part of the Contract between the Buyer and the Seller. They are fully enforceable against the Buyer who has accepted them before placing an order. The Seller reserves the right to modify the present terms and conditions at any time by publishing a new version on its website. The applicable GTC are those in force at the date of payment (or first payment in case of multiple payments) of the order. These GTC are available on the website of the site at the following address: https://www.thechristmasfabric.com/conditions-generales-de-vente/<br>The Customer declares that he has read all of these General Terms and Conditions of Sale, and, if applicable, the Special Terms and Conditions of Sale related to a product or service, and accepts them without restriction or reservation.<br>The Customer acknowledges that he/she has received the necessary advice and information in order to ensure that the offer meets his/her needs.<br>The Customer declares that he/she is legally able to contract under French law or that he/she can validly represent the individual or legal entity for which he/she is contracting.<br>Unless proven otherwise, the information recorded by the Company constitutes proof of all transactions.</p><p></p><p></p><p>Article 3 : Prices</p><p>The prices of the products sold through the websites are indicated in Euros excluding taxes and precisely determined on the pages of description of the Products. They are also indicated in Euros including all taxes (VAT + other possible taxes) on the order page of the products, and excluding specific shipping costs. For all products shipped outside the European Union and/or French overseas departments and territories, the price is automatically calculated exclusive of taxes on the invoice. Customs duties or other local taxes or import duties or state taxes may be payable in certain cases. These rights and sums are not under the responsibility of the Seller. They shall be borne by the Buyer and are the Buyer's responsibility (declarations, payment to the competent authorities, etc.). The Seller invites the buyer to inquire about these aspects with the corresponding local authorities. The Company reserves the right to modify its prices at any time in the future. The telecommunication costs necessary for access to the Company's websites shall be borne by the Customer. If necessary, the delivery costs are also charged.</p><p>Article 4: Conclusion of the online contract</p><p>In accordance with the provisions of Article 1127-1 of the Civil Code, the Customer must follow a series of steps to conclude the contract by electronic means in order to be able to carry out his order: - Information on the essential characteristics of the Product; - Choice of the Product, if necessary, of its options; - Indication of the essential contact details of the Customer (identification, email, address…); - Acceptance of the present General Terms of Sale; - Verification of the elements of the order (double click formality) and, if necessary, correction of the errors. Before proceeding to its confirmation, the Buyer has the possibility to check the details of his order, its price, and to correct any errors, or cancel his order. The confirmation of the order will entail the formation of this contract. - Then, the instructions for payment are followed, payment of the products, then delivery of the order. The Customer will receive confirmation by e-mail of the payment of the order, as well as an acknowledgement of receipt of the order confirming it. He will receive a .pdf copy of these general conditions of sale.<br>During the ordering process, the customer will have the possibility to identify and correct any errors made in the data entry. The language proposed for the conclusion of the contract is the French language.<br>The terms and conditions of the offer and the general terms of sale are sent back to the buyer by email at the time of the order and archived on the Seller's website. If applicable, the professional and commercial rules to which the author of the offer intends to submit can be consulted in the section \"annexed rules\" of the present GCS, which can be consulted on the Seller's website at the following address<br>The archiving of communications, order details, as well as invoices is made on a reliable and durable medium so as to constitute a faithful and durable copy in accordance with the provisions of Article 1360 of the Civil Code. This information can be produced as proof of the contract.<br>For the delivered products, the delivery will be made to the address indicated by the Customer. For the purposes of proper order fulfillment, the Customer agrees to provide truthful identification information. The Seller reserves the right to refuse the order, for example for any abnormal request, made in bad faith or for any legitimate reason.</p><p></p><p></p><p>Article 5 : Products and services</p><p>The essential characteristics of the goods, services and their respective prices are made available to the buyer on the company's websites, as well as, where appropriate, the method of use of the product. In accordance with Article L112-1 of the Consumer Code, the consumer is informed, by marking, labeling, displaying or any other appropriate process, of the prices and particular conditions of the sale and performance of the services before any conclusion of the sales contract. In all cases, the total amount due by the Buyer is indicated on the order confirmation page. The selling price of the product is the one in force indicated on the day of the order, this one not including the shipping costs invoiced in supplement. These possible expenses are indicated to the Buyer during the process of sale, and in any case at the time of the confirmation of the order. The Seller reserves the right to modify its prices at any time, while guaranteeing the application of the price indicated at the time of the order. When products or services are not executed immediately, clear information is given on the product presentation page as to the delivery dates of the products or services. The customer certifies that he has received a detail of the delivery costs as well as the terms of payment, delivery and execution of the contract, as well as detailed information regarding the identity of the seller, his postal, telephone and electronic contact details, and his activities in the context of the present sale. The Seller undertakes to honour the Customer's order within the limits of the available stocks of Products only. In the event of failure to do so, the Seller shall inform the Customer; if the order has been placed, and if no agreement has been reached with the Customer on a new delivery date, the Seller shall refund the Customer. The contractual information is presented in detail and in the French language. The parties agree that the illustrations or photos of the products offered for sale have no contractual value. The duration of validity of the offer of the Products as well as their prices is specified on the Company's websites, as well as the minimum duration of the proposed contracts when they concern a continuous or periodic supply of products or services. Except under special conditions, the rights granted hereunder are granted only to the natural person signing the order (or the person holding the email address communicated).</p><p>Article 6 : Conformity</p><p>In accordance with Article L.411-1 of the Consumer Code, the products and services offered for sale through these GTCs meet the requirements in force relating to the safety and health of persons, the fairness of commercial transactions and consumer protection. Independently of any commercial guarantee, the Seller remains responsible for the defects of conformity and the hidden defects of the product.<br>In accordance with article L.217-4, the seller delivers a good in conformity with the contract and is responsible for the defects of conformity existing at the time of delivery. He is also responsible for defects in conformity resulting from the packaging, the assembly instructions or the installation when the latter has been put at his charge by the contract or has been carried out under his responsibility.<br>In accordance with the legal provisions concerning conformity and hidden defects (art. 1641 of the Civil Code), the Seller shall refund or exchange defective products or products that do not correspond to the order. The refund can be requested in the following way: filing a complaint to the address {companyEmail}</p><p>Article 7: Clause of property reserve</p><p>The products remain the property of the Company until the complete payment of the price.</p><p></p><p></p><p>Article 8 : Delivery terms</p><p>The products are delivered to the delivery address that was indicated at the time of the order and within the indicated time. These deadlines do not take into account the preparation time of the order. When the Customer orders several products at the same time, they may have different delivery times, delivered according to the following modalities: delivery via one or several packages. In case of delay in shipping, a complaint will be filed at {companyEmail}. In case of late delivery, the Customer has the possibility of resolving the contract under the conditions and procedures defined in Article L 138-2 of the Consumer Code. The Vendor shall then proceed to reimburse the product and the \"outward\" costs under the conditions of Article L 138-3 of the Consumer Code. The Seller provides a telephone contact point (cost of a local call from a landline) indicated in the order confirmation email in order to follow up the order. The Seller reminds that when the Customer takes physical possession of the products, the risks of loss or damage of the products are transferred to him. It is the Customer's responsibility to notify the carrier of any reservations about the product delivered.</p><p>Article 9 : Availability and presentation</p><p>In case of unavailability of an article for a period exceeding 30 working days, you will be immediately warned of the foreseeable delays of delivery and the order of this article could be cancelled on simple request. The Customer will then be able to ask for a credit note for the amount of the article or its complete refund and the cancellation of the order.</p><p>Article 10 : Payment</p><p>Payment is due immediately upon ordering, including for pre-ordered products. The Customer can make the payment by credit card or bank check. The cards issued by banks domiciled outside {companyCountry} must be international bank cards (Mastercard or Visa). The secure online payment by bank card is made by our payment provider. The information transmitted is encrypted according to the rules of the art and cannot be read during transport on the network. Once the payment is initiated by the Customer, the transaction is immediately debited after verification of the information. In accordance with the provisions of the Monetary and Financial Code, the commitment to pay by card is irrevocable. By communicating his banking information at the time of the sale, the Customer authorizes the Seller to debit his card for the amount relating to the price indicated. The Customer confirms that he is the legal holder of the card to be debited and that he is legally entitled to use it. In the event of an error, or the impossibility of debiting the card, the Sale is immediately cancelled by right and the order cancelled.</p><p>Article 11 : Retraction period</p><p>In accordance with the provisions of Article L 221-5 of the Consumer Code, the Buyer has the right to withdraw without giving any reason, within fourteen (14) days from the date of receipt of his order. The right of withdrawal can be exercised by contacting the Company in the following way: filing a complaint at {companyEmail}. We inform Customers that in accordance with the provisions of Articles L. 221-18 to L. 221-28 of the Consumer Code, this right of withdrawal cannot be exercised for any item for which a manufacturing or delivery process is underway. In case of exercising the right of withdrawal within the above-mentioned period, the price of the product(s) purchased and the shipping costs will be reimbursed, the return costs remaining the responsibility of the Customer. Products must be returned in their original condition and complete (packaging, accessories, instructions, etc.); if possible, they must be accompanied by a copy of the proof of purchase. In accordance with the legal provisions, you can ask for the standard form of retraction to be sent to us at the following address: {companyEmail}. Refund procedure: the refund procedure can be carried out after an investigation of the purchased product(s), more details on filing a complaint at {companyEmail}</p><p></p><p></p><p>Article 12 : Guarantees</p><p>In accordance with the law, the Seller assumes the following guarantees: of conformity and relative to the hidden defects of the products. The Seller shall reimburse the buyer or exchange the apparently defective products or those that do not correspond to the order placed. The request for refund must be made in the following way: filing a complaint at {companyEmail}<br>The Seller reminds that the consumer: - has a period of 2 years from the delivery of the goods to act with the Seller - can choose between the replacement or repair of the goods subject to the conditions provided by the above provisions. that he is exempted from proving the existence of the lack of conformity of the goods during the six months following the delivery of the goods. - that, except for second-hand goods, this period will be extended to 24 months from March 18, 2016 - that the consumer may also assert the warranty against hidden defects in the thing sold within the meaning of Article 1641 of the Civil Code and, in this case, he may choose between the resolution of the sale or a reduction in the sale price (provisions of Articles 1644 of the Civil Code). Additional guarantees : _ (describe your additional guarantees)</p><p>Article 13: Claims and mediation</p><p>If necessary, the Purchaser can present any complaint by contacting the company by means of the following coordinates filing a complaint at {companyEmail}. In accordance with the provisions of art. L. 611-1 to L. 616-3 of the Consumer Code, the consumer is informed that he/she may have recourse to a consumer mediator under the conditions provided for in Title I of Book VI of the Consumer Code. In case of failure of the request of complaint to the customer service of the Seller, or in the absence of answer within two months, the consumer can submit the dispute to a mediator who will try in all independence to bring closer the parties in order to obtain a friendly solution.</p><p>Article 14 : resolution of the contract</p><p>The order can be cancelled by the buyer by registered letter with acknowledgement of receipt in the following cases: - delivery of a product that does not conform to the characteristics of the order; - delivery beyond the deadline fixed at the time of the order or, in the absence of a date, within thirty days of payment; - an unjustified price increase or modification of the product. In these cases, the buyer can demand the refund of the deposit paid plus interest calculated at the legal rate from the date of collection of the deposit.</p><p>Article 15 : Intellectual property rights</p><p>The brands, domain names, products, software, images, videos, texts or more generally any information subject to intellectual property rights are and remain the exclusive property of the seller. No transfer of intellectual property rights is made through these GTC. Any total or partial reproduction, modification or use of these goods for any reason whatsoever is strictly prohibited.</p><p></p><p></p><p>Article 16 : Force majeure</p><p>The execution of the obligations of the seller under the present contract is suspended in the event of the occurrence of a fortuitous event or force majeure which would prevent the execution of the contract. The seller will notify the customer of the occurrence of such an event as soon as possible.</p><p>Article 17 : Invalidity and modification of the contract</p><p>If one of the stipulations of the present contract were to be cancelled, this nullity would not entail the nullity of the other stipulations which will remain in force between the parties. Any contractual modification is only valid after a written and signed agreement of the parties. Article 18: Protection of personal data In accordance with Regulation 2016/679 of 27 April 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data, the Seller implements a processing of personal data which has for its purpose the sale and delivery of products and services defined in this contract. The Buyer is informed of the following elements: - the identity and contact details of the data controller and, where applicable, of the data controller's representative: the Seller, as indicated at the top of these GTC; - the contact details of the data protection officer: ……. - the legal basis of the processing: contractual performance - the recipients or categories of recipients of the personal data, if any: the data controller, its departments in charge of marketing, the departments in charge of IT security, the department in charge of sales, delivery and ordering, the subcontractors involved in the delivery and sales operations as well as any authority legally authorized to access the personal data in question - no transfer outside the EU is foreseen - the duration of the data retention: the time of the commercial prescription - the data subject has the right to ask the controller for access to the personal data, the rectification or erasure thereof, or a limitation of the processing relating to the data subject, The data subject has the right to lodge a complaint with a supervisory authority - The information requested at the time of the order is necessary for the establishment of the invoice (legal obligation) and the delivery of the ordered goods, without which the order cannot be placed. No automated decision or profiling is implemented through the ordering process.</p><p>Article 18: Applicable law and clauses</p><p>All the clauses contained in the present general sales conditions, as well as all the purchase and sale operations referred to therein, shall be subject to French law. The nullity of a contractual clause does not entail the nullity of the present general conditions of sale.</p><p></p><p></p><p>Article 19: Consumer information</p><p>For the purposes of consumer information, the provisions of the Civil Code and the Consumer Code are reproduced below: Article 1641 of the Civil Code: The seller is bound by the warranty for hidden defects of the thing sold which render it unfit for the purpose for which it was intended, or which so diminish this use that the buyer would not have acquired it, or would have given only a lower price, if he had known about them. Article 1648 of the Civil Code: The action resulting from redhibitory defects must be brought by the buyer within two years of the discovery of the defect. In the case provided for in Article 1642-1, the action must be brought, under penalty of foreclosure, within one year of the date on which the seller may be relieved of the defects or apparent lack of conformity.<br>Article L. 217-4 of the French Consumer Code: The seller delivers goods that conform to the contract and is responsible for any defects in conformity that exist at the time of delivery. He is also responsible for defects of conformity resulting from the packaging, the assembly instructions or the installation when the latter was put at his charge by the contract or was carried out under his responsibility.<br>Article L. 217-5 of the French Consumer Code: The good is in conformity with the contract: 1° If it is fit for the use usually expected of a similar good and, if applicable : - if it corresponds to the description given by the seller and has the qualities that the latter has presented to the buyer in the form of a sample or model; - if it has the qualities that a buyer can legitimately expect in view of the public statements made by the seller, by the producer or by his representative, in particular in advertising or labelling; 2° Or if it has the characteristics defined by mutual agreement between the parties or is fit for any special purpose sought by the buyer, brought to the seller's attention and accepted by the latter<br>Article L. 217-12 of the French Consumer Code: The action resulting from the lack of conformity is prescribed by two years from the delivery of the goods.<br>Article L. 217-16 of the French Consumer Code: When the buyer asks the seller, during the course of the commercial warranty granted to him at the time of the acquisition or repair of a movable good, for a repair covered by the warranty, any period of immobilization of at least seven days is added to the duration of the warranty that remained to run. This period shall run from the date of the buyer's request for intervention or from the time the item in question is made available for repair, if this is after the request for intervention.</p><p>&nbsp;</p>"
+    }
+  },
+  "Maintenance": {
+    "metaTitle": "Scheduled maintenance",
+    "banner": "Scheduled maintenance in progress",
+    "title": "We'll be back soon",
+    "message": "Our shop is temporarily closed for scheduled maintenance. We're working to make your shopping experience even better and will be back shortly. Thank you for your patience.",
+    "expectedBack": "Expected back:",
+    "refreshNote": "This page refreshes automatically.",
+    "refreshButton": "Refresh",
+    "contactTitle": "Need help in the meantime?",
+    "contactText": "Our customer service team is happy to help. Write to us at",
+    "followUs": "Follow us"
+  }
+}

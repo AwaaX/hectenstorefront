@@ -1,0 +1,1250 @@
+{
+  "NavBar": {
+    "Top": {
+      "alert": "Fri frakt på beställningar över 800kr. Missa inte rabatten."
+    },
+    "Middle": {
+      "Instagram": "Instagram",
+      "Tiktok": "Tiktok",
+      "alert": "Ny julpyjamas {year}-kollektion här"
+    },
+    "Main": {
+      "NavMenu": {
+        "all pyjamas": "alla pyjamas",
+        "Matching pyjamas": "Matchande pyjamas",
+        "Family pyjamas": "Familjepyjamas",
+        "Customer service": "Kundtjänst",
+        "baby": "babystorlekar tillgängliga",
+        "kid": "barnstorlekar tillgängliga",
+        "men": "herrstorlekar tillgängliga",
+        "women": "dammstorlekar tillgängliga"
+      },
+      "IconMenu": {
+        "Account": "Konto",
+        "Search": "Sök",
+        "Wishlist": "Önskelista",
+        "Cart": "Varukorg"
+      },
+      "MobileMenu": {
+        "menu": "Meny"
+      }
+    },
+    "LanguageSelect": {
+      "label": "Språk:",
+      "default": "Standard"
+    }
+  },
+  "HomePage": {
+    "Hero": {
+      "title": "JULSTOFFEN ÄR REDO FÖR {year}",
+      "heading": "Pyjamas & mer",
+      "shortdescription": "Gå med i projektet och köp fantastiska pyjamas och originalkläder för julen och den här vintersäsongen från Hecten",
+      "button": "handla nu",
+      "imageAlt": "Grön- och rödstickade julvantar och mössa med presentask och polkagrisar"
+    },
+    "Timer": {
+      "heading": "julklok",
+      "days": "dagar",
+      "hours": "timmar",
+      "minutes": "minuter",
+      "seconds": "sekunder",
+      "bannerAlt": "Julnedräkningsbanner med röd bakgrund och gröna utklippta vintergranträd på båda sidor"
+    },
+    "NewsLetter": {
+      "text1": "Prenumerera för att stå på vår sida",
+      "increaseQuantity": "Öka antal",
+      "decreaseQuantity": "Minska antal",
+      "text2": "Ta emot de viktigaste nyheterna om det största internationella julprojektet"
+    },
+    "Reviews": {
+      "text1": "De delar kärlek med vackra pyjamas",
+      "text2": "Recensioner från vår kära community",
+      "fromShop": "från {shop}",
+      "customerReviews": "Kundrecensioner",
+      "fromAddress": "Från {address}"
+    },
+    "Services": {
+      "card1": {
+        "heading": "Fri frakt på beställningar över 800kr",
+        "brief": "\"Få gratis markfrakt på varje beställning. Gillar du inte det? Skicka tillbaka det till oss.\""
+      },
+      "card2": {
+        "heading": "100% julexklusivitet",
+        "brief": "En del av vinsten går direkt till ett humanitärt projekt. Äventyret kan följas på Instagram eller via vårt nyhetsbrev!"
+      },
+      "card3": {
+        "heading": "En riktig gemenskap av julälskare",
+        "brief": "Våra kunder är julentusiaster och vi delar samma passion för vår jul"
+      },
+      "description": "Ett helt team står redo att ta emot dina beställningar i år och möta alla dina behov. Förutom noggrannheten med vilken vi tillverkar våra pyjamas, erbjuder vi en kvalitetstjänst som är viktig för oss för att säkerställa en trevlig shoppingupplevelse",
+      "query": "Hur finansierar din beställning ett humanitärt projekt?",
+      "link": "Klicka här för att ta reda på mer."
+    },
+    "QuickLook": {
+      "heading": "En snabb titt på våra produkter",
+      "description": "Vi strävar efter att upprätthålla kvalitet i allt vi gör, här är några av våra nyare produkter för denna jul"
+    },
+    "Discovery": {
+      "heading": "Upptäck våra pyjamas",
+      "description": "Hecten har återigen arbetat hårt i år för att ge dig fantastiska julpyjamas. Beställ några för dig och dina nära och kära och stöd ett humanitärt projekt med din beställning",
+      "Item1": {
+        "heading": "Upptäck alla våra julpyjamas utan att leta längre",
+        "brief": "Den ultimata samlingen av våra senaste pyjamas och julkläder för alla. Oklassificerad.",
+        "title": "Julpyjamas",
+        "imageAlt": "julpyjamas original"
+      },
+      "Item2": {
+        "heading": "Perfekt för familjer, stora eller små",
+        "brief": "Hitta en tillgänglig pyjamamodell för hela familjen direkt. Här finns varje modell tillgänglig i alla åldrar och storlekar. Perfekt för julen!",
+        "title": "Julpyjamas för hela familjen",
+        "imageAlt": "familj julpyjamas original"
+      },
+      "Item3": {
+        "heading": "Våra matchande modeller för dig och din partner att bära tillsammans",
+        "brief": "Hitta våra modeller av matchande pyjamas för män och kvinnor. Finns i alla storlekar. För dig och din älskling.",
+        "title": "Matchande och par julpyjamas",
+        "imageAlt": "par original"
+      }
+    },
+    "ProductRail": {
+      "viewAll": "Visa alla"
+    }
+  },
+  "Footer": {
+    "Top": {
+      "SwitchText": "Byt land eller valuta",
+      "Link1": "Kontakta kundtjänst & Vanliga frågor",
+      "Link2": "Ditt köp finansierar detta humanitära projekt"
+    },
+    "Bottom": {
+      "text1": "HECTEN — VÄRLDSOMSPANNANDE JULÄLSKARE",
+      "text2": "GEMENSKAP"
+    },
+    "Middle": {
+      "text1": "24/7 reaktiv kundtjänst",
+      "text2": "Spårbar snabb leverans inom 24 timmar",
+      "text3": "Enkel och snabb retur inom 24 timmar",
+      "text4": "Betalning i 4 delar med PayPal"
+    },
+    "Main": {
+      "Col1": {
+        "text1": "hjälp",
+        "text2": "Behöver du hjälp?",
+        "text3": "Kundtjänst",
+        "text4": "Våra team är redo att svara på dina behov inom 24 timmar"
+      },
+      "Col2": {
+        "text1": "nyttiga länkar",
+        "text2": "Information",
+        "link1": "Öppna min önskelista",
+        "link2": "Gå till min kundvagn",
+        "link3": "Gå till kassan och betala",
+        "link4": "Logga in eller registrera dig",
+        "link5": "Mitt konto"
+      },
+      "Col3": {
+        "text1": "Information",
+        "link1": "Spåra min beställning",
+        "link2": "Leveransvillkor",
+        "link3": "Retur och återbetalning",
+        "link4": "Allmänna försäljningsvillkor",
+        "link5": "Juridiskt meddelande",
+        "link6": "Integritetspolicy"
+      },
+      "Col4": {
+        "text1": "Nyhetsbrev — Din överraskning väntar",
+        "text2": "Ta emot de viktigaste nyheterna från den största julgemenskapen, håll dig uppdaterad om kampanjer och framsteg för det humanitära projektet. Hämta din välkomstpresent."
+      }
+    },
+    "NewsLetter": {
+      "txt1": "Jag accepterar",
+      "txt2": "villkoren",
+      "txt3": "dataskyddet",
+      "and": "och",
+      "txt4": " Tack för att du anmält dig till nyhetsbrevet! Vi",
+      "txt5": "hör av oss snart.",
+      "successMessage": "Tack för att du anmält dig till nyhetsbrevet! Vi hör av oss snart.",
+      "Placeholder": "Din e-post"
+    }
+  },
+  "Metadata": {
+    "NotFound": {
+      "title": "404",
+      "description": "Sidan hittades inte"
+    },
+    "Home": {
+      "title": "Hem - Hecten",
+      "description": "Kliv in i projektet och köp fantastiska pyjamasar och originalkläder för julen och denna vintersäsong från Hecten"
+    },
+    "Checkout": {
+      "title": "Kassa - Hecten",
+      "description": "Granska din varukorg, frakt och betalningsuppgifter för att slutföra din beställning."
+    },
+    "SearchResults": {
+      "title": "Sökresultat för {query} - Hecten",
+      "description": "Utforska produkter som matchar {query}."
+    },
+    "Cart": {
+      "title": "Varukorg - Hecten",
+      "description": "Granska produkterna som för närvarande finns i din varukorg."
+    },
+    "Wishlist": {
+      "Shared": {
+        "title": "Delad önskelista - Hecten",
+        "description": "Bläddra i en önskelista som har delats med dig."
+      }
+    },
+    "Account": {
+      "Login": {
+        "title": "Logga in - Hecten",
+        "description": "Logga in på ditt konto hos Hecten."
+      },
+      "Wishlist": {
+        "title": "Önskelista - Hecten",
+        "description": "Produkter som sparats i din önskelista."
+      },
+      "Orders": {
+        "title": "Beställningar - Hecten",
+        "description": "Översikt över dina tidigare beställningar."
+      },
+      "Profile": {
+        "title": "Profil - Hecten",
+        "description": "Visa och redigera dina profiluppgifter."
+      },
+      "Addresses": {
+        "title": "Adresser - Hecten",
+        "description": "Visa och uppdatera dina sparade adresser."
+      },
+      "Overview": {
+        "title": "Konto - Hecten",
+        "description": "Översikt över din kontoaktivitet."
+      },
+      "LoginWishlist": {
+        "title": "Logga in för att se önskelistan - Hecten",
+        "description": "Logga in för att få tillgång till din önskelista."
+      }
+    },
+    "OrderConfirmed": {
+      "title": "Beställning bekräftad - Hecten",
+      "description": "Ditt köp genomfördes."
+    },
+    "AllPyjamas": {
+      "title": "Julpyjamas - Hecten",
+      "description": "Var med i projektet och köp grymma pyjamasar och originella kläder för julen och vintersäsongen från Hecten"
+    },
+    "CustomerService": {
+      "title": "Kundtjänst - Hecten",
+      "description": "Få hjälp med dina beställningar, spåra försändelser eller kontakta vårt supportteam för frågor om Hecten."
+    },
+    "PrivacyPolicy": {
+      "title": "Integritetspolicy - Hecten",
+      "description": "Lär dig hur vi skyddar din personliga information och integritet när du handlar hos Hecten."
+    },
+    "LegalNotice": {
+      "title": "Juridisk anmärkning - Hecten",
+      "description": "Juridisk information och anmärkningar angående Hecten webbplats och tjänster."
+    },
+    "GeneralTermsOfSale": {
+      "title": "Allmänna försäljningsvillkor - Hecten",
+      "description": "Läs våra allmänna villkor för köp av produkter från Hecten."
+    },
+    "TermsOfDelivery": {
+      "title": "Leveransvillkor - Hecten",
+      "description": "Information om leveransalternativ, leveranstider och leveranspolicyer för Hecten."
+    },
+    "ReturnAndRefund": {
+      "title": "Retur- och återbetalningspolicy - Hecten",
+      "description": "Läs mer om vår process för returer, utbyten och återbetalningar hos Hecten."
+    },
+    "MeasurementGuide": {
+      "title": "Storleksgard - Hecten",
+      "description": "Hitta den perfekta passformen med vår omfattande måttguide för alla plaggstorlekar hos Hecten."
+    },
+    "HumanitarianProject": {
+      "title": "Humanitärt projekt - Hecten",
+      "description": "Läs mer om Hectens humanitära initiativ och satsningar på samhällsansvar."
+    }
+  },
+  "Common": {
+    "ReadMore": {
+      "readMore": "Läs mer",
+      "readLess": "Visa mindre"
+    },
+    "NotFound": {
+      "heading": "Sidan hittades inte",
+      "description": "Sidan du försökte komma åt finns inte.",
+      "cta": "Gå till startsidan"
+    },
+    "Price": {
+      "from": "Från",
+      "original": "Ordinarie:"
+    },
+    "Breadcrumbs": {
+      "home": "Hem",
+      "shop": "Butik"
+    },
+    "thumbnailAlt": "Miniatyr",
+    "GeoSuggestion": {
+      "title": "Du kan vara på fel plats",
+      "description": "Det ser ut som att du är i {country}. Vill du se {country}-versionen av den här sidan?",
+      "confirm": "Ja, byt",
+      "dismiss": "Nej, stanna här"
+    }
+  },
+  "Account": {
+    "Login": {
+      "heading": "Logga in",
+      "email": "E-post",
+      "emailTitle": "Ange en giltig e-postadress.",
+      "password": "Lösenord",
+      "submit": "Logga in",
+      "registerPrompt": "Inte medlem?",
+      "registerCta": "Registrera dig"
+    },
+    "Register": {
+      "heading": "Registrera dig här",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "email": "E-post",
+      "password": "Lösenord",
+      "consentPrefix": "Jag godkänner butikens",
+      "privacyPolicy": "integritetspolicy",
+      "and": "och",
+      "termsOfUse": "användarvillkor",
+      "submit": "Gå med",
+      "signInPrompt": "Redan medlem?",
+      "signInCta": "Logga in",
+      "successTitle": "Registrering lyckades",
+      "successMessage": "Ditt konto har skapats. Vänligen logga in för att fortsätta.",
+      "goToLogin": "Logga in"
+    },
+    "Nav": {
+      "hello": "Hej {name}",
+      "account": "Konto",
+      "overview": "Översikt",
+      "profile": "Profil",
+      "addresses": "Adresser",
+      "wishlist": "Önskelista",
+      "orders": "Beställningar",
+      "logout": "Logga ut"
+    },
+    "Overview": {
+      "hello": "Hej {name}",
+      "signedInAs": "Inloggad som:",
+      "profile": "Profil",
+      "completed": "Klar",
+      "addresses": "Adresser",
+      "saved": "Sparade",
+      "recentOrders": "Senaste beställningar",
+      "datePlaced": "Beställningsdatum",
+      "orderNumber": "Beställningsnummer",
+      "totalAmount": "Totalt belopp",
+      "goToOrder": "Gå till beställning #{id}",
+      "noRecentOrders": "Inga senaste beställningar",
+      "subtitle": "Här är en snabb översikt över din kontoaktivitet.",
+      "viewAll": "Visa alla",
+      "orders": "Beställningar",
+      "placed": "Lagda",
+      "status": "Status",
+      "completeProfile": "Slutför din profil"
+    },
+    "OrderOverview": {
+      "emptyTitle": "Här finns inget att se",
+      "emptyDescription": "Du har inga beställningar ännu, låt oss ändra på det :)",
+      "continueShopping": "Fortsätt handla"
+    },
+    "Pages": {
+      "Wishlist": {
+        "heading": "Önskelista",
+        "description": "Granska sparade produkter, ta bort artiklar eller dela din önskelista.",
+        "emptyMessage": "Du har inte lagt till några produkter i din önskelista ännu.",
+        "guestDescription": "Spara produkter medan du handlar och återvänd till dem när du vill."
+      },
+      "Orders": {
+        "heading": "Beställningar",
+        "description": "Visa dina tidigare beställningar och deras status. Du kan även skapa returer eller byten om det behövs."
+      },
+      "Profile": {
+        "heading": "Profil",
+        "description": "Visa och uppdatera din profilinformation, inklusive namn, e-post och telefonnummer. Du kan också uppdatera din faktureringsadress eller ändra ditt lösenord."
+      },
+      "Addresses": {
+        "heading": "Leveransadresser",
+        "description": "Visa och uppdatera dina leveransadresser. Du kan lägga till hur många du vill. Sparade adresser blir tillgängliga i kassan."
+      }
+    },
+    "ProfilePassword": {
+      "notImplemented": "Lösenordsuppdatering är inte implementerad",
+      "password": "Lösenord",
+      "hidden": "Lösenordet visas inte av säkerhetsskäl",
+      "oldPassword": "Gammalt lösenord",
+      "newPassword": "Nytt lösenord",
+      "confirmPassword": "Bekräfta lösenord"
+    },
+    "AddressForm": {
+      "newAddress": "Ny adress",
+      "addAddress": "Lägg till adress",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "company": "Företag",
+      "address": "Adress",
+      "apartment": "Lägenhet, svit osv.",
+      "postalCode": "Postnummer",
+      "city": "Stad",
+      "provinceState": "Provins / delstat",
+      "country": "Land",
+      "phone": "Telefon",
+      "cancel": "Avbryt",
+      "save": "Spara",
+      "edit": "Redigera",
+      "remove": "Ta bort",
+      "editAddress": "Redigera adress",
+      "defaultShipping": "Standard leveransadress",
+      "defaultBilling": "Standard faktureringsadress"
+    },
+    "BillingAddress": {
+      "billingAddress": "Faktureringsadress",
+      "noBillingAddress": "Ingen faktureringsadress",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "company": "Företag",
+      "phone": "Telefon",
+      "address": "Adress",
+      "apartment": "Lägenhet, svit osv.",
+      "postalCode": "Postnummer",
+      "city": "Stad",
+      "province": "Region"
+    },
+    "ProfileName": {
+      "name": "Namn",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn"
+    },
+    "ProfileEmail": {
+      "email": "E-post"
+    },
+    "ProfilePhone": {
+      "phone": "Telefon"
+    },
+    "TransferRequest": {
+      "heading": "Orderöverföringar",
+      "promptLine1": "Hittar du inte ordern du letar efter?",
+      "promptLine2": "Koppla en order till ditt konto.",
+      "orderIdPlaceholder": "Order-ID",
+      "requestTransfer": "Begär överföring",
+      "successRequested": "Överföring begärd för order {id}",
+      "successEmailSent": "E-post med överföringsbegäran skickad till {email}"
+    },
+    "AccountInfo": {
+      "defaultError": "Ett fel uppstod, försök igen",
+      "cancel": "Avbryt",
+      "edit": "Redigera",
+      "updatedSuccessfully": "{label} har uppdaterats",
+      "saveChanges": "Spara ändringar",
+      "notProvided": "Ej angivet"
+    },
+    "OrderCard": {
+      "itemCount": "{count, plural, one {# artikel} other {# artiklar}}",
+      "more": "fler",
+      "seeDetails": "Se detaljer"
+    }
+  },
+  "Cart": {
+    "Items": {
+      "heading": "Varukorg",
+      "item": "Artikel",
+      "quantity": "Antal",
+      "price": "Pris",
+      "total": "Totalt"
+    },
+    "Summary": {
+      "heading": "Sammanfattning",
+      "checkout": "Gå till kassan"
+    },
+    "Empty": {
+      "heading": "Din varukorg är för närvarande tom",
+      "description": "Du kan titta på alla tillgängliga produkter och köpa något i butiken.",
+      "cta": "Tillbaka till butiken"
+    },
+    "Dropdown": {
+      "heading": "Varukorg",
+      "quantity": "Antal",
+      "remove": "Ta bort",
+      "subtotal": "Delsumma",
+      "excludingTaxes": "(exkl. moms)",
+      "goToCart": "Gå till varukorg",
+      "empty": "Din shoppingpåse är tom.",
+      "goToProductsSrOnly": "Gå till produktsidan",
+      "explore": "Utforska produkter",
+      "shoppingBasket": "Varukorg",
+      "note": "Anteckning",
+      "coupon": "Kupong",
+      "subtotalExclTax": "Delsumma (exkl. moms)",
+      "taxes": "Moms",
+      "totalInclTax": "Totalt (inkl. moms)",
+      "checkout": "Till kassan",
+      "viewBasket": "Visa varukorg",
+      "notePlaceholder": "Lägg till särskilda instruktioner för din beställning...",
+      "save": "Spara",
+      "cancel": "Avbryt",
+      "addCouponCode": "Lägg till en kupongkod",
+      "enterCode": "Ange kod",
+      "discountCode": "Rabattkod",
+      "apply": "Använd",
+      "increaseQuantity": "Öka antal",
+      "decreaseQuantity": "Minska antal",
+      "couponCodeRequired": "Ange en kupongkod",
+      "couponError": "Den här kupongkoden är ogiltig eller har förfallit",
+      "couponApplied": "Kupong använd framgångsrikt!",
+      "enterValidCode": "Ange din kampanjkod och tryck på Retur eller klicka på Använd",
+      "close": "Stäng",
+      "emptyHeading": "Din varukorg är för närvarande tom",
+      "emptyDescription": "Du kan titta på alla tillgängliga produkter och köpa några i butiken.",
+      "returnToShop": "Tillbaka till butiken",
+      "shipping": "Frakt",
+      "free": "Gratis",
+      "total": "Totalt",
+      "discount": "Rabatt",
+      "includesVat": "inkl. {vat} moms",
+      "estimatedFor": "uppskattat för",
+      "couponAlreadyApplied": "En kupong är redan tillämpad. Ta bort den först för att använda en ny.",
+      "includes": "inkl.",
+      "vat": "moms"
+    },
+    "Totals": {
+      "subtotalExcluding": "Delsumma (exkl. frakt och skatter)",
+      "shipping": "Frakt",
+      "calculatedAtCheckout": "Beräknas i kassan",
+      "discount": "Rabatt",
+      "taxes": "Skatter",
+      "total": "Totalt",
+      "subtotal": "Delsumma",
+      "free": "Gratis",
+      "includes": "inkl.",
+      "vat": "moms",
+      "estimatedFor": "uppskattat för"
+    },
+    "NotFound": {
+      "heading": "Sidan hittades inte",
+      "description": "Varukorgen du försökte komma åt finns inte. Rensa dina cookies och försök igen.",
+      "cta": "Gå till startsidan"
+    },
+    "SignInPrompt": {
+      "heading": "Har du redan ett konto?",
+      "description": "Logga in för en bättre upplevelse.",
+      "cta": "Logga in"
+    },
+    "MismatchBanner": {
+      "message": "Något gick fel när vi försökte överföra din varukorg",
+      "runAgain": "Kör överföringen igen",
+      "transferring": "Överför.."
+    }
+  },
+  "Search": {
+    "Results": {
+      "heading": "Sökresultat för:",
+      "clear": "Rensa",
+      "noResults": "Inga resultat."
+    },
+    "Box": {
+      "placeholder": "Sök produkter..."
+    },
+    "ShowAll": {
+      "noResults": "Inga resultat hittades.",
+      "showingFirst": "Visar de första {count} resultaten.",
+      "viewAll": "Visa alla"
+    }
+  },
+  "Wishlist": {
+    "SharedPage": {
+      "heading": "Delad önskelista",
+      "description": "Bläddra bland produkterna som sparats i denna delade önskelista.",
+      "emptyMessage": "Den här önskelistan har inga sparade produkter."
+    },
+    "ShareButton": {
+      "successTitle": "Länk kopierad",
+      "successDescription": "Alla med den här länken kan se din önskelista.",
+      "errorTitle": "Fel",
+      "errorDescription": "Det går inte att skapa en delningslänk just nu.",
+      "button": "Dela önskelista",
+      "label": "Delningslänk",
+      "copy": "Kopiera länk",
+      "copied": "Kopierad"
+    },
+    "ItemsGrid": {
+      "variant": "Variant",
+      "count": "{count, plural, one {# artikel} other {# artiklar}}",
+      "remove": "Ta bort",
+      "removeItem": "Ta bort {title} från önskelistan",
+      "unavailable": "Den här produkten är inte längre tillgänglig.",
+      "emptyTitle": "Inget sparat ännu",
+      "startShopping": "Börja handla"
+    },
+    "Button": {
+      "add": "Lägg till i önskelistan",
+      "remove": "Ta bort från önskelistan",
+      "unavailable": "Välj en variant att spara"
+    },
+    "Toggle": {
+      "add": "Lägg till i önskelistan",
+      "remove": "Ta bort från önskelistan",
+      "signIn": "Logga in för att spara"
+    },
+    "Toast": {
+      "savedTitle": "Sparad",
+      "savedDescription": "Artikel tillagd i din önskelista.",
+      "removedTitle": "Borttagen",
+      "removedDescription": "Artikel borttagen från din önskelista.",
+      "errorTitle": "Fel",
+      "errorDescription": "Ett fel uppstod när din önskelista uppdaterades.",
+      "guestSavedTitle": "Sparad i din webbläsare",
+      "guestSavedDescription": "Den här varan sparas på den här enheten. Skapa ett konto för att spara den permanent och dela din önskelista.",
+      "guestRemovedTitle": "Borttagen",
+      "guestRemovedDescription": "Varan borttagen från din webbläsarsparade önskelista."
+    },
+    "GuestNotice": {
+      "heading": "Du är inte inloggad",
+      "description": "Den här önskelistan sparas endast i din webbläsare. Skapa ett konto för att spara den permanent och dela den med andra.",
+      "cta": "Logga in för att spara"
+    },
+    "GuestSignIn": {
+      "heading": "Logga in för att behålla din önskelista",
+      "description": "Se artiklarna som sparats på ditt konto. Allt du har sparat på den här enheten läggs till när du loggar in.",
+      "benefitDevices": "Kom åt din önskelista på alla enheter",
+      "benefitShare": "Dela din lista med familj och vänner",
+      "benefitKeep": "Behåll sparade artiklar även om du rensar webbläsaren"
+    }
+  },
+  "Shipping": {
+    "FreeShippingNudge": {
+      "unlock": "Lås upp fri frakt",
+      "unlocked": "Fri frakt upplåst!",
+      "remaining": "Endast {amount} kvar",
+      "viewCart": "Visa kundvagn",
+      "viewProducts": "Visa produkter"
+    }
+  },
+  "Order": {
+    "Summary": {
+      "heading": "Ordersammanfattning",
+      "subtotal": "Delsumma",
+      "discount": "Rabatt",
+      "giftCard": "Presentkort",
+      "shipping": "Frakt",
+      "taxes": "Skatter",
+      "total": "Totalt"
+    },
+    "Help": {
+      "heading": "Behöver du hjälp?",
+      "contact": "Kontakt",
+      "returns": "Returer och byten"
+    },
+    "Completed": {
+      "heading": "Tack!",
+      "description": "Din beställning har lagts framgångsrikt.",
+      "summary": "Sammanfattning"
+    },
+    "Details": {
+      "heading": "Beställningsdetaljer",
+      "back": "Tillbaka till översikten",
+      "confirmationDetails": "Vi har skickat orderbekräftelsen till <email>{email}</email>.",
+      "orderDate": "Orderdatum:",
+      "orderNumber": "Ordernummer:",
+      "orderStatus": "Orderstatus:",
+      "paymentStatus": "Betalningsstatus:",
+      "statuses": {
+        "not_fulfilled": "Inte uppfylld",
+        "partially_fulfilled": "Delvis uppfylld",
+        "fulfilled": "Uppfylld",
+        "partially_shipped": "Delvis skickad",
+        "shipped": "Skickad",
+        "partially_delivered": "Delvis levererad",
+        "delivered": "Levererad",
+        "canceled": "Avbruten",
+        "not_paid": "Inte betald",
+        "awaiting": "Väntar",
+        "authorized": "Auktoriserad",
+        "partially_authorized": "Delvis auktoriserad",
+        "captured": "Fångad",
+        "partially_captured": "Delvis fångad",
+        "partially_refunded": "Delvis återbetald",
+        "refunded": "Återbetald",
+        "requires_action": "Åtgärd krävs"
+      }
+    },
+    "Shipping": {
+      "heading": "Leverans",
+      "address": "Leveransadress",
+      "contact": "Kontakt",
+      "method": "Metod"
+    },
+    "Payment": {
+      "title": "Betalning",
+      "method": "Betalningsmetod",
+      "details": "Betalningsdetaljer",
+      "paidAt": "{amount} betald den {date}"
+    },
+    "TransferPage": {
+      "heading": "Överföringsbegäran för order {id}",
+      "intro": "Du har fått en begäran om att överföra ägarskapet för din order ({id}). Om du godkänner denna begäran kan du godkänna överföringen genom att klicka på knappen nedan.",
+      "permissions": "Om du accepterar tar den nya ägaren över allt ansvar och alla behörigheter som är kopplade till denna order.",
+      "noAction": "Om du inte känner igen denna begäran eller vill behålla ägarskapet krävs ingen ytterligare åtgärd."
+    },
+    "TransferAccept": {
+      "successHeading": "Order överförd!",
+      "successText": "Order {id} har överförts till den nya ägaren.",
+      "errorText": "Ett fel uppstod när överföringen skulle accepteras. Försök igen.",
+      "errorMessage": "Felmeddelande: {error}"
+    },
+    "TransferActions": {
+      "acceptSuccess": "Order överförd!",
+      "declineSuccess": "Orderöverföring nekad!",
+      "accept": "Acceptera överföring",
+      "decline": "Neka överföring"
+    }
+  },
+  "Store": {
+    "Sort": {
+      "title": "Sortera efter",
+      "created_at": "Senaste nyheter",
+      "price_asc": "Pris: lågt till högt",
+      "price_desc": "Pris: högt till lågt"
+    },
+    "showingResults": "Visar {from}–{to} av {total} resultat",
+    "filters": "Filter"
+  },
+  "Product": {
+    "Actions": {
+      "signInToSave": "Logga in för att spara",
+      "selectVariantToSave": "Välj en variant att spara",
+      "removeFromWishlist": "Ta bort från önskelistan",
+      "addToWishlist": "Lägg till i önskelistan",
+      "quantity": "Antal:",
+      "selectVariant": "Välj variant",
+      "outOfStock": "Slut i lager",
+      "addToCart": "Lägg i varukorg",
+      "selectVariantError": "* Välj en variant för att fortsätta",
+      "inventoryAlert": "Just nu finns endast {quantity} artikel/artiklar tillgängliga!",
+      "estimatedDeliveryLabel": "Beräknad leverans:",
+      "estimatedDeliveryText": "Ditt paket kommer fram inom 3-5 arbetsdagar till ditt utlämningsställe eller hem till dig.",
+      "selectOptions": "Välj alternativ",
+      "optionGender": "Kön",
+      "optionSize": "Storlek",
+      "optionColor": "Färg",
+      "optionValueBaby": "Baby",
+      "optionValueKid": "Barn",
+      "optionValueWomen": "Dam",
+      "optionValueMen": "Herr"
+    },
+    "Tabs": {
+      "sizeGuide": "Storleksguide",
+      "deliveryInformation": "Leveransinformation",
+      "material": "Material",
+      "countryOfOrigin": "Ursprungsland",
+      "type": "Typ",
+      "weight": "Vikt",
+      "dimensions": "Mått",
+      "shippingBullet1": "Leverans av din beställning på mindre än 24 timmar från måndag till lördag (exklusive helgdagar)",
+      "shippingBullet2": "Gratis 12-dagars spårad leverans vid köp från 800kr (hemma)",
+      "shippingBullet3": "Spårad standardleverans 10 dagar för 64,90kr (hemma)",
+      "shippingBullet4": "Spåra ditt paket enkelt via e-post och på webbplatsen",
+      "sizeGuideDescription": "Våra pyjamasar har elastisk midja och passar bra oavsett din midjestorlek. Tveksam? Kontakta oss.",
+      "sizesSuffix": " storlekar:",
+      "hide": "Dölj",
+      "show": "Visa",
+      "measurementGuideTitle": "Hur tar du dina mått?",
+      "measurementGuideDescription": "Klicka här för att följa Hectens guide och ta dina mått enkelt hemma utan misstag"
+    },
+    "Reviews": {
+      "NoReviewText": "Den här produkten har ännu inte fått några recensioner. Bli den första att lämna din recension!",
+      "errorTitle": "Fel",
+      "requiredFields": "Fyll i obligatoriska fält.",
+      "successTitle": "Klart",
+      "successDescription": "Din recension har skickats och väntar på godkännande.",
+      "submitError": "Ett fel uppstod när din recension skickades. Försök igen senare.",
+      "addReview": "Lägg till en recension",
+      "title": "Titel",
+      "content": "Innehåll",
+      "rating": "Betyg",
+      "submit": "Skicka",
+      "heading": "Produktrecensioner",
+      "description": "Se vad våra kunder säger om den här produkten.",
+      "count": "{count} recensioner",
+      "loadMore": "Ladda fler recensioner"
+    },
+    "Related": {
+      "heading": "Relaterade produkter",
+      "description": "Du kanske också vill kolla in dessa produkter."
+    },
+    "Onboarding": {
+      "success": "Din demoprodukt har skapats! 🎉",
+      "description": "Du kan nu fortsätta att konfigurera din butik i adminpanelen.",
+      "continue": "Fortsätt konfigurationen i admin"
+    },
+    "Preview": {
+      "selectOption": "Välj alternativ",
+      "inStock": "I lager",
+      "sliderDescription": "Här är Merry Grinchmas-pyjamasarna, en rolig julpyjamasidé för att fira din Grinchmas ensam eller tillsammans med andra. Passar familjer, par, barn och...",
+      "outOfStock": "Slut i lager"
+    }
+  },
+  "Tracking": {
+    "Page": {
+      "heading": "Spåra min beställning",
+      "trackingNumber": "Spårningsnummer",
+      "lastUpdate": "Senaste uppdatering:",
+      "descriptionLabel": "Beskrivning:",
+      "location": "Plats:",
+      "route": "Rutt:",
+      "history": "Historik",
+      "orderFoundNoTracking": "Beställningen hittades, men det finns ännu inga spårningsuppgifter tillgängliga.",
+      "orderPrompt": "Ange ditt ordernummer och din e-postadress för att spåra din beställning:",
+      "trackingPrompt": "Ange spårningsnumret du fick i fraktbekräftelsen för att spåra din beställning",
+      "orderId": "Order-ID",
+      "orderNumberPlaceholder": "Ordernummer",
+      "orderEmail": "Order-e-post",
+      "emailPlaceholder": "E-postadress",
+      "trackingNumberLabel": "Spårningsnummer",
+      "trackingNumberPlaceholder": "Beställningens spårningsnummer",
+      "trackOrder": "Spåra beställning",
+      "tracking": "Spårar...",
+      "orderLabel": "Beställning:",
+      "tabs": {
+        "orderDetails": "Orderdetaljer",
+        "trackingNumbers": "Spårningsnummer"
+      },
+      "milestones": {
+        "infoReceived": "Information mottagen",
+        "pickedUp": "Upphämtad",
+        "departure": "Avresa",
+        "arrival": "Ankomst",
+        "availableForPickup": "Tillgänglig för upphämtning",
+        "outForDelivery": "Ute för leverans",
+        "delivered": "Levererad"
+      },
+      "statuses": {
+        "Delivered": "Levererad",
+        "InTransit": "På väg",
+        "PickedUp": "Upphämtad",
+        "Exception": "Avvikelse",
+        "Returning": "Returneras",
+        "Returned": "Returnerad",
+        "Unknown": "Okänd"
+      }
+    }
+  },
+  "Checkout": {
+    "Payment": {
+      "selectMethod": "Välj en betalningsmetod",
+      "title": "Betalning",
+      "edit": "Redigera",
+      "method": "Betalningsmetod",
+      "giftCard": "Presentkort",
+      "enterCardDetails": "Ange kortuppgifter",
+      "continueToReview": "Fortsätt till granskning",
+      "details": "Betalningsuppgifter",
+      "anotherStep": "Ytterligare ett steg visas",
+      "placeOrder": "Lägg beställning",
+      "enterPaymentDetails": "Ange betalningsuppgifter",
+      "paymentFailed": "Din betalning kunde inte slutföras. Försök igen eller välj ett annat betalningssätt.",
+      "paymentFormError": "Betalningsformuläret kunde inte laddas. Uppdatera sidan och försök igen.",
+      "paypalLoading": "Laddar PayPal…",
+      "paypalFinalising": "Slutför din beställning…",
+      "paypalUnavailable": "PayPal kunde inte laddas. Välj ett annat betalningssätt.",
+      "formUnavailable": {
+        "title": "Betalningsformuläret behöver laddas om",
+        "body": "Din säkra betalningssession har gått ut, så formuläret kunde inte laddas. Inget har debiterats och din varukorg är sparad. Ladda om formuläret för att fortsätta.",
+        "reload": "Ladda om betalningsformuläret"
+      },
+      "sessionRenewed": "Din betalningssession har förnyats. Ange dina betalningsuppgifter igen. Inget har debiterats."
+    },
+    "Layout": {
+      "backToCart": "Tillbaka till kundvagnen",
+      "back": "Tillbaka",
+      "store": "Hecten",
+      "secureCheckout": "Säker kassa",
+      "progress": "Kassans framsteg",
+      "showSummary": "Visa ordersammanfattning",
+      "hideSummary": "Dölj ordersammanfattning"
+    },
+    "ShippingAddress": {
+      "savedAddressesPrompt": "Hej {name}, vill du använda en av dina sparade adresser?",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "address": "Adress",
+      "company": "Företag",
+      "postalCode": "Postnummer",
+      "city": "Stad",
+      "stateProvince": "Stat / Region",
+      "billingSameAsShipping": "Faktureringsadress samma som leveransadress",
+      "email": "E-post",
+      "emailTitle": "Ange en giltig e-postadress.",
+      "phone": "Telefon",
+      "chooseAddress": "Välj en adress"
+    },
+    "Addresses": {
+      "shippingAddress": "Leveransadress",
+      "billingAddress": "Faktureringsadress",
+      "contact": "Kontakt",
+      "edit": "Redigera",
+      "continueToDelivery": "Fortsätt till leverans",
+      "billingSameAsDelivery": "Fakturerings- och leveransadressen är densamma."
+    },
+    "Shipping": {
+      "delivery": "Leverans",
+      "edit": "Redigera",
+      "shippingMethod": "Leveransmetod",
+      "deliveryPrompt": "Hur vill du få din beställning levererad?",
+      "pickupOrder": "Hämta din beställning",
+      "store": "Butik",
+      "storePrompt": "Välj en butik nära dig",
+      "continueToPayment": "Fortsätt till betalning",
+      "method": "Metod"
+    },
+    "Review": {
+      "heading": "Granska",
+      "confirmation": "Genom att klicka på knappen Lägg beställning bekräftar du att du har läst, förstått och accepterat våra användarvillkor, försäljningsvillkor och returpolicy samt att du har läst Hectens integritetspolicy.",
+      "confirmationPaypal": "Genom att betala med en av PayPal-knapparna nedan bekräftar du att du har läst, förstått och accepterat våra användarvillkor, försäljningsvillkor och returpolicy samt att du har läst Hectens integritetspolicy."
+    },
+    "DiscountCode": {
+      "addPromotionCodes": "Lägg till kampanjkod(er)",
+      "apply": "Använd",
+      "promotionsApplied": "Tillämpad kuponger",
+      "removeDiscount": "Ta bort kupong",
+      "couponRemoved": "Kupong borttagen framgångsrikt",
+      "couponApplied": "Kupong tillämpad framgångsrikt!",
+      "enterCode": "Ange kupongkod",
+      "couponAlreadyApplied": "En kupong är redan tillämpad. Ta bort den först för att använda en ny."
+    },
+    "Summary": {
+      "heading": "I din varukorg"
+    },
+    "PaymentTest": {
+      "attention": "Observera:",
+      "testingOnly": "Endast i testsyfte."
+    },
+    "PaymentMethods": {
+      "creditCard": "Kreditkort",
+      "ideal": "iDeal",
+      "bancontact": "Bancontact",
+      "paypal": "PayPal",
+      "manualPayment": "Manuell betalning",
+      "stripe": "Kredit-/betalkort med mera",
+      "paypalHint": "Betala säkert med PayPal. Beroende på ditt land kan PayPal även erbjuda Betala senare och kortbetalning utan PayPal-konto."
+    },
+    "PaymentReturn": {
+      "checkingTitle": "Bekräftar din betalning…",
+      "checkingBody": "Vi kontrollerar resultatet med din bank. Det tar bara ett ögonblick.",
+      "secureNote": "Säker betalning. Låt den här sidan vara öppen.",
+      "slowNote": "Det tar längre tid än vanligt. Låt den här sidan vara öppen.",
+      "receivedTitle": "Betalning mottagen",
+      "receivedBody": "Tack! Vi slutför din beställning och skickar bekräftelsen via e-post inom kort. Får du den inte inom några minuter, kontakta kundtjänst.",
+      "pendingTitle": "Vi väntar på din betalning",
+      "pendingBody": "Din betalning är på väg. Vi lägger och skickar din beställning så snart pengarna är bekräftade, och vi mejlar dig när det har skett.",
+      "statusChecking": "Kontrollerar",
+      "statusPaid": "Betald",
+      "statusPending": "Väntar på betalning",
+      "statusFailed": "Slutfördes inte",
+      "amountLabel": "Belopp",
+      "statusLabel": "Status",
+      "nextTitle": "Vad händer nu",
+      "step1Title": "Din bank behandlar betalningen",
+      "step1Body": "Det kan ta upp till 5 bankdagar.",
+      "step2Title": "Vi bekräftar och lägger din beställning",
+      "step2Body": "Det sker automatiskt. Du behöver inte göra något mer.",
+      "step3Title": "Du får ett bekräftelsemejl",
+      "step3Body": "Vi skickar din beställning så snart betalningen är bekräftad.",
+      "viewInstructions": "Visa betalningsinstruktioner",
+      "backToPayment": "Tillbaka till betalning",
+      "continueShopping": "Fortsätt handla",
+      "notCharged": "Du har inte debiterats.",
+      "needHelp": "Behöver du hjälp?",
+      "contactUs": "Kontakta kundtjänst"
+    },
+    "PaymentError": {
+      "declined": {
+        "title": "Din betalning nekades",
+        "body": "Din bank eller kortutgivare godkände inte betalningen. Prova ett annat kort eller betalningssätt."
+      },
+      "insufficient_funds": {
+        "title": "Otillräckligt saldo",
+        "body": "Kortet har inte tillräckligt med pengar för det här köpet. Prova ett annat kort eller betalningssätt."
+      },
+      "expired_card": {
+        "title": "Ditt kort har gått ut",
+        "body": "Kontrollera utgångsdatumet eller använd ett annat kort."
+      },
+      "incorrect_cvc": {
+        "title": "Säkerhetskoden är felaktig",
+        "body": "Kontrollera den tre- eller fyrsiffriga säkerhetskoden på ditt kort och försök igen."
+      },
+      "incorrect_number": {
+        "title": "Kortnumret är felaktigt",
+        "body": "Kontrollera ditt kortnummer och försök igen."
+      },
+      "authentication": {
+        "title": "Verifieringen misslyckades",
+        "body": "Vi kunde inte verifiera betalningen med din bank. Försök igen eller välj ett annat betalningssätt."
+      },
+      "invalid_details": {
+        "title": "Kontrollera dina betalningsuppgifter",
+        "body": "Vissa betalningsuppgifter saknas eller är ogiltiga. Kontrollera dem och försök igen."
+      },
+      "processing": {
+        "title": "Vi kunde inte behandla din betalning",
+        "body": "Något gick fel när din betalning behandlades. Försök igen om en stund."
+      },
+      "network": {
+        "title": "Anslutningsproblem",
+        "body": "Vi kunde inte nå betalningstjänsten. Kontrollera din anslutning och försök igen."
+      },
+      "session_expired": {
+        "title": "Din betalningssession har gått ut",
+        "body": "Av säkerhetsskäl går betalningssessioner ut efter en stund. Inget har debiterats och din varukorg är sparad. Ladda om betalningsformuläret och lägg din beställning igen."
+      },
+      "order": {
+        "title": "Vi kunde inte slutföra din beställning",
+        "body": "Din betalning gick igenom, men vi stötte på ett problem när beställningen skulle slutföras. Betala inte igen. Försök en gång till eller kontakta kundtjänst så löser vi det."
+      },
+      "generic": {
+        "title": "Betalningen misslyckades",
+        "body": "Något gick fel med din betalning. Försök igen eller välj ett annat betalningssätt."
+      },
+      "notCharged": "Du har inte debiterats.",
+      "detailsLabel": "Detaljer",
+      "actions": {
+        "tryAgain": "Försök igen",
+        "editDetails": "Ändra betalningsuppgifter",
+        "changeMethod": "Använd ett annat betalningssätt",
+        "close": "Stäng",
+        "contactSupport": "Kontakta kundtjänst",
+        "reloadForm": "Ladda om betalningsformuläret"
+      }
+    }
+  },
+  "StaticPages": {
+    "PrivacyPolicy": {
+      "title": "Integritetspolicy",
+      "breadcrumbHome": "Hem",
+      "body": "<p>AVSNITT 1 - INSAMLADE PERSONUPPGIFTER</p><p>Nar du gor ett kop i var butik, som en del av var kop- och saljprocess, samlar vi in de personuppgifter du tillhandahaller, sasom ditt namn, din adress och din e-postadress.</p><p>Nar du surfar i var butik tar vi ocksa automatiskt emot din dators IP-adress, vilket gor att vi kan fa mer information om den webblasare och det operativsystem du anvander.</p><p>E-postmarknadsforing (om tillampligt): Med ditt tillstand kan vi skicka e-post till dig om var butik, nya produkter och andra uppdateringar.</p><p>AVSNITT 2 - SAMTYCKE</p><p>Hur far ni mitt samtycke?</p><p>Nar du ger oss dina personuppgifter for att slutföra en transaktion, verifiera ditt kreditkort, lagga en order, boka en leverans eller returnera ett kop, antar vi att du samtycker till att vi samlar in och anvander dina uppgifter endast for detta andamal.</p><p>Om vi ber dig lamna personuppgifter av nagot annat skal, till exempel for marknadsforingsandamal, kommer vi att be dig direkt om ditt uttryckliga samtycke eller ge dig mojlighet att avboja.</p><p>Hur aterkallar jag mitt samtycke? Du kan nar som helst andra ditt samtycke genom att <a href=\"#\">klicka har och redigera ditt samtycke</a>.</p><p>Om du, efter att ha gett oss ditt samtycke, andrar dig och inte langre samtycker till att vi kontaktar dig, samlar in dina uppgifter eller lamnar ut dem, kan du meddela oss genom att kontakta oss pa {companyEmail} eller via post till {companyOperatingEntity}, foretaget som driver thechristmasfabric.com:<br>{companyOperatingEntity}<br>{companyAddress}<br>{companyCity}<br>{companyZip}<br>Frankrike</p><p>AVSNITT 3 - UTLAMNING</p><p>Vi kan lamna ut dina personuppgifter om vi ar skyldiga att gora det enligt lag eller om du bryter mot vara Allmanna villkor.</p><p>AVSNITT 4 - VARD</p><p>Var butik ar vard hos Kinsta Inc. De tillhandahaller den onlineplattform som gor det mojligt for oss att salja vara tjanster och produkter till dig.</p><p>Dina uppgifter lagras i Kinsta Inc:s datalagringssystem och databaser. Dina uppgifter sparas pa en saker server som skyddas av en brandvagg.</p><p>Betalning:</p><p>Vid onlinekop pa noel-shop.com lagras ingen kreditkortsinformation. Din kreditkortsinformation anvands sakert av tredjepartstjanster for att behandla din betalning. Av sakerhetsskal krypteras uppgifterna i enlighet med Payment Card Industry Data Security Standard (PCI-DSS). Informationen om din koptransaktion sparas sa lange som behovs for att slutföra din order av tredjepartstjanster som PayPal, Stripe eller Mollie.</p><p>Alla direkta betalningsgateways uppfyller PCI-DSS-standarden, som hanteras av PCI Security Standards Council, ett gemensamt initiativ av foretag som Visa, MasterCard, American Express och Discover.</p><p>Kraven i PCI-DSS-standarden sakerstaller saker behandling av kreditkortsuppgifter av var butik och vara tjansteleverantorer.</p><p>AVSNITT 5 - TJANSTER SOM TILLHANDAHALLS AV TREDJE PART</p><p>I allmanhet kommer de tredjepartsleverantorer vi anvander endast att samla in, anvanda och lamna ut dina uppgifter i den utstrackning som behovs for att de ska kunna utfora de tjanster de tillhandahaller oss.</p><p>Vissa tredjepartsleverantorer, sasom betalningsgateways och andra betalningstransaktionsbehandlare, har dock egna integritetspolicyer for den information vi maste lamna till dem for dina koptransaktioner.</p><p>For dessa leverantorer rekommenderar vi att du laser deras integritetspolicyer noggrant sa att du forstar hur de kommer att hantera dina personuppgifter.</p><p>Kom ihag att vissa leverantorer kan vara belagna, eller ha anlaggningar, i en annan jurisdiktion an du eller vi. Om du gar vidare med en transaktion som kraver tjanster fran en tredjepartsleverantor kan dina uppgifter omfattas av lagarna i den jurisdiktion dar leverantoren finns eller dar dess anlaggningar finns.</p><p>Om du till exempel befinner dig i Kanada och din transaktion behandlas via en betalningsgateway i USA kan de uppgifter som anvandes for att slutföra transaktionen lamnas ut enligt amerikansk lag, inklusive Patriot Act.</p><p>Nar du lamnar var butikswebbplats eller omdirigeras till en webbplats eller applikation fran tredje part omfattas du inte langre av denna Integritetspolicy eller av Forsaljnings- och anvandningsvillkoren for var webbplats.</p><p>Lankar</p><p>Du kan lamna var webbplats genom att klicka pa vissa lankar pa var webbplats. Vi tar inget ansvar for dessa andra webbplatsers integritetspraxis och rekommenderar att du laser deras integritetspolicyer noggrant.</p><p>AVSNITT 6 - SAKERHET</p><p>For att skydda dina personuppgifter vidtar vi rimliga forsiktighetsatgarder och foljer branschens basta praxis for att sakerstalla att de inte forloras, missbrukas, koms at, lamnas ut, andras eller forstors pa ett olampligt satt.</p><p>AVSNITT 7 - ALDER FOR SAMTYCKE</p><p>Genom att anvanda denna webbplats intygar du att du ar minst myndig i din delstat eller provins dar du bor och att du har gett oss ditt samtycke till att lata minderariga under din omsorg anvanda denna webbplats.</p><p>AVSNITT 8 - ANDRINGAR AV DENNA INTEGRITETSPOLICY</p><p>Vi forbehaller oss ratten att andra denna Integritetspolicy nar som helst, sa granska den ofta. Andringar och fortydliganden trader i kraft omedelbart nar de publiceras pa webbplatsen. Om vi gor andringar i innehållet i denna policy kommer vi att meddela dig har att den har uppdaterats, sa att du vet vilka uppgifter vi samlar in, hur vi anvander dem och under vilka omstandigheter, om nagra, vi lamnar ut dem.</p><p>Om var butik forvarvas av eller slas samman med ett annat foretag kan dina uppgifter overforas till de nya agarna sa att vi kan fortsatta salja produkter till dig.</p><p>FRAGOR OCH KONTAKTINFORMATION</p><p>Om du vill fa tillgang till, korrigera, andra eller radera personuppgifter vi har om dig, lamna in ett klagomal eller helt enkelt fa mer information, kontakta vart integritetsombud pa {companyEmail} eller via post till huvudkontoret for {companyOperatingEntity}, som driver thechristmasfabric.com:<br>{companyOperatingEntity}<br>{companyAddress}<br>{companyCity}<br>{companyZip}<br>Frankrike</p>"
+    },
+    "MeasurementGuide": {
+      "intro": {
+        "eyebrow": "En enkel guide för att undvika misstag",
+        "title": "Ta dina mått",
+        "paragraph1": "Kläderna från Hecten tillverkas efter ett internationellt genomsnitt eftersom vi vill att de ska kunna bäras av alla. Därför hjälper dina mått dig att välja rätt storlek. Om du till exempel vanligtvis använder L kan vissa modeller passa dig bättre i storlek M.",
+        "paragraph2": "När du har tagit dina mått kan du jämföra dem direkt med storleksguiden på den produktsida du väljer. Våra produkter kan ha liknande eller olika storleksguider."
+      },
+      "withoutTape": {
+        "eyebrow": "Använd ett snöre",
+        "title": "Mäta utan måttband",
+        "description": "Inga problem. Om du inte har ett måttband kan du använda ett snöre eller kanten på en lång handduk för att mäta byst, midja, höfter och mer. För sedan över snörets eller handdukens längd till en linjal för att få längden i cm eller tum."
+      },
+      "guideTitle": "Visa guiden för",
+      "options": {
+        "men": "Herr",
+        "women": "Dam",
+        "child": "Barn",
+        "baby": "Baby"
+      },
+      "imageAlt": "Illustration av måttguiden",
+      "measurements": [
+        {
+          "primaryLabel": "A - Byst, bystomkrets:",
+          "primaryText": "Mät runt bysten. Alla storleksguider från Hecten visar bystmåttet. Det används mycket ofta i våra storleksguider.",
+          "secondaryLabel": "Överdelens längd:",
+          "secondaryText": "Mät från fördjupningen vid halsens bas ned till bäckenet. Det används mycket ofta i våra storleksguider."
+        },
+        {
+          "primaryLabel": "B - Midja, midjeomkrets:",
+          "primaryText": "Mät runt midjan. Det används ofta i våra storleksguider.",
+          "secondaryLabel": "Nederdelens längd:",
+          "secondaryText": "Mät från bäckenet ned till ankeln. Det används mycket ofta i våra storleksguider."
+        },
+        {
+          "primaryLabel": "C - Höfter, höftomkrets:",
+          "primaryText": "Mät runt höfterna. Det används ibland i våra storleksguider."
+        },
+        {
+          "primaryLabel": "D - Innerbenslängd:",
+          "primaryText": "Mät från grenen ned till ankeln utan att böja benet. Det används mer sällan i våra storleksguider."
+        },
+        {
+          "primaryLabel": "E - Längd:",
+          "primaryText": "Mät från huvudet ner till tårna. Det används sällan i våra storleksguider."
+        }
+      ]
+    },
+    "ReturnAndRefund": {
+      "title": "Retur och återbetalning",
+      "breadcrumbHome": "Hem",
+      "body": "<p>Vår policy gäller i 14 dagar från leveransdagen. Om 14 dagar har gått sedan leveransdagen kan vi tyvärr inte erbjuda dig återbetalning eller byte.</p><p>För att kvalificera dig för en kostnadsfri retur måste artikeln returneras för byte, vara oanvänd och i samma skick som du fick den. Den måste också vara i originalförpackningen.</p><p>För att undvika missbruk tillämpas en returavgift på 10 USD$ endast när kunden begär återbetalning och beställningen motsvarar kundens förväntningar på de artiklar som motiverade köpet på www.thechristmasfabric.com.</p><p>Kunden måste vid retur av produkten kontrollera att tillbehören, om sådana finns, är kompletta och att förpackningen är originalförpackningen. Om kunden inte gör detta kan en avgift dras från återbetalningen för att täcka den uppkomna förlusten:<br>- Skadad eller saknad originalförpackning: 10 USD$.<br>- Saknade tillbehör: 20 % av det totala återbetalningsbeloppet, eller priset på tillbehöret om det visas på webbplatsen.</p><p>Om artikeln inte returneras i originalskick, är skadad, fläckig, icke-fungerande eller försämrad, och detta hindrar att den säljs igen, kan ingen återbetalning ges.</p><p>Många typer av produkter kan inte returneras. Färskvaror som livsmedel, blommor eller tidskrifter kan inte returneras. Vi accepterar inte heller intima eller sanitära produkter, farliga produkter eller brandfarliga gaser eller vätskor.</p><p>Andra artiklar som inte kan returneras:</p><p>Presentkort<br>Nedladdningsbar programvara<br>Vissa hälso- och personvårdsprodukter<br>För att göra en retur måste du visa upp ett kvitto eller köpbevis.</p><p>Returnera inte ditt köp till tillverkaren.</p><p>Det finns vissa situationer där endast en partiell återbetalning beviljas, om tillämpligt:</p><p>Böcker med tydliga tecken på användning.<br>CD, DVD, VHS-band, programvara, videospel, kassett eller vinylskiva som har öppnats.<br>Varje artikel som inte är i originalskick, är skadad eller saknar delar av skäl som inte beror på ett fel från vår sida.<br>Varje artikel som returneras mer än 30 dagar efter leverans.</p><p>Återbetalningar, om tillämpligt<br>När vi har tagit emot och kontrollerat den returnerade artikeln skickar vi ett e-postmeddelande för att bekräfta att vi har tagit emot den. Vi informerar dig också om vårt beslut att godkänna eller avslå din begäran om återbetalning.<br>Om din begäran godkänns kommer återbetalningen att behandlas och en kreditering automatiskt att göras till ditt kreditkort eller ursprungliga betalningssätt inom högst 2 till 3 dagar, exklusive helger och helgdagar.</p><p>Försenade eller saknade återbetalningar, om tillämpligt<br>Om du ännu inte har fått din återbetalning, kontrollera följande steg innan du kontaktar webbplatsen via e-post:<br>- Kontrollera att återbetalningen inte pågår på ditt bankkonto eller är planerad att komma på ett angivet datum.<br>- Kontakta din bank för att få information om de tider som gäller för överföringar mellan bankkonton som inte tillhör samma bank.<br><br>Om du efter att ha slutfört alla dessa steg fortfarande inte har fått din återbetalning, eller inte känner till din banks tidsram eller datumet då återbetalningen tas emot, kontakta oss på {companyEmail}.</p><p>Reavaror, om tillämpligt<br>Endast artiklar till ordinarie pris kan återbetalas. Tyvärr är reavaror inte återbetalningsbara.</p><p>Retur på grund av funktionsfel</p><p>En artikel som returneras på grund av funktionsfel omfattas av vårt kostnadsfria returerbjudande, och kunden betalar inga avgifter. Om vårt team inte upptäcker något funktionsfel efter flera tester och kontroller av kundservice, sker returleveransen till kunden på kundens bekostnad. Detta hjälper oss att undvika missbruk av returer och uppmanar kunden att kontrollera att produkten verkligen har ett funktionsfel och att en retur till kundservice är nödvändig före byte.</p><p>Byten</p><p>Vi ersätter endast en artikel om den är defekt eller skadad när kunden tar emot den. Kunden har 3 dagar från leveransdagen på sig att anmäla ett problem. Efter denna tid anser vi att artikeln har använts och inte längre kan bytas. För byte, skicka ett e-postmeddelande till {companyEmail}.</p><p>Artikeln måste vara ny, oanvänd, otvättad, i originalförpackningen och med alla etiketter kvar.</p><p>Din artikel ska skickas till adressen för företaget som driver www.thechristmasfabric.com:<br>{companyOperatingEntity}<br>19 Allée de Brienne<br>{companyCity}<br>{companyZip}<br>Frankrike</p><p>Gåvor<br>Om den returnerade artikeln identifierades som en gåva vid köptillfället och skickades direkt till dig, får du ett presenttillgodohavande motsvarande värdet av din retur. När vi har tagit emot den returnerade artikeln skickas ett presentkort till dig per post. Returfraktkostnader för gåvor täcks inte.</p><p>Frakt<br>För att returnera en produkt måste du skicka den till huvudkontoret för {companyOperatingEntity}, företaget som driver www.thechristmasfabric.com: {companyOperatingEntity}, 19 Allée de Brienne, {companyCity}, {companyZip}, Frankrike.</p><p>Behandlingstider<br>Beroende på var du bor kan tiden det tar att få din utbytta produkt variera.</p><p>När din produkt har tagits emot på huvudkontoret tar vi 3 till 5 arbetsdagar för att kontrollera den och fatta ett beslut, som meddelas dig via e-post till den adress du angav när du beställde.</p><p>Om returkostnaderna för återleverans till kunden bärs av {companyOperatingEntity}, företaget som driver www.thechristmasfabric.com, kan leveranstiden variera mellan 3 och 5 dagar.</p><p>Om kostnaden för returfrakt till kunden betalas av kunden varierar leveranstiden beroende på den metod kunden föredrar.</p><p>Om du skickar en artikel värd mer än 100 USD$ och ansvarar för returfraktkostnaderna bör du överväga att använda en frakttjänst som gör det möjligt att spåra försändelsen eller köpa fraktförsäkring. Vi garanterar inte att vi får den artikel du returnerar om ett problem uppstår.</p>"
+    },
+    "TermsOfDelivery": {
+      "title": "Leveransvillkor",
+      "breadcrumbHome": "Hem",
+      "body": "<p>PRODUKTERNA skickas till den eller de leveransadresser som KUNDEN anger under beställningsprocessen.</p><p>Leveranstid för utskick</p><p>Tidsfristerna för att förbereda en beställning och därefter utfärda fakturan, innan PRODUKTER som finns i lager skickas, anges på WEBBPLATSEN. Dessa tidsfrister inkluderar inte helger eller helgdagar.</p><p>Ett e-postmeddelande skickas automatiskt till KUNDEN när PRODUKTERNA skickas, förutsatt att e-postadressen i registreringsformuläret är korrekt.</p><p>Leveranstid och kostnader</p><p>Under beställningsprocessen anger SÄLJAREN för KUNDEN möjliga leveranstider och fraktalternativ för de köpta PRODUKTERNA.</p><p>Fraktkostnader beräknas enligt leveransmetoden. Beloppet för dessa kostnader ska betalas av KUNDEN utöver priset för de köpta PRODUKTERNA.</p><p>Detaljer om leveranstider och kostnader anges på WEBBPLATSEN.</p><p>Leveransvillkor</p><p>Paketet lämnas till KUNDEN mot underskrift och vid uppvisande av identitetshandling.</p><p>Vid frånvaro lämnas en avi till KUNDEN så att paketet kan hämtas på postkontoret.</p><p>KUNDEN ansvarar för att hämta paketet på postkontoret inom 10 dagar. SÄLJAREN kan inte hållas ansvarig för ett paket som förstörs eller inte returneras av posttjänsterna, och detta skäl utgör inte grund för någon återbetalning.</p><p>Leveransproblem</p><p>KUNDEN informeras om leveransdatumet när transportören väljs, i slutet av onlinebeställningsprocessen, innan beställningen bekräftas.</p><p>Det anges att leveranser ska göras inom högst trettio (30) dagar. Om detta inte sker måste KUNDEN formellt uppmana SÄLJAREN att leverera inom en rimlig tidsperiod. Vid utebliven leverans inom denna period kan avtalet sägas upp.</p><p>SÄLJAREN ska återbetala KUNDEN, utan oskäligt dröjsmål efter mottagandet av uppsägningsbrevet, det totala belopp som betalats för PRODUKTERNA, inklusive skatter och leveransavgifter, med samma betalningsmetod som KUNDEN använde för att köpa PRODUKTERNA.</p><p>SÄLJAREN ansvarar fram till leveransen av PRODUKTEN till KUNDEN. KUNDEN påminns om att denne har tre (3) dagar på sig att meddela transportören om skada eller partiell förlust som konstaterats vid leveransen.</p>"
+    },
+    "LegalNotice": {
+      "title": "Juridiskt meddelande",
+      "breadcrumbHome": "Hem",
+      "body": "<p>Juridiskt meddelande</p><p>Kund: varje behörig fysisk person eller juridisk person som besöker webbplatsen. Användare: varje internetanvändare som använder webbplatsen. Innehåll: texter, bilder, videor, logotyper och andra delar av webbplatsen.</p><p>Uppgifter om webbplatsen</p><p>Webbplatsen publiceras av SASU OVOORO, 19 Allée de Brienne, {companyZip} {companyCity}. Ansvarig och DPO: Hecten, {companyEmail}. Hosting: Kinsta Inc, 8605 Santa Monica Blvd #92581, 90069 West Hollywood, CA.</p><p>Användningsvillkor</p><p>Användning av webbplatsen innebär godkännande av dessa villkor. Innehållet skyddas av immateriella rättigheter och får inte reproduceras, ändras eller utnyttjas utan skriftligt tillstånd.</p><p>Personuppgifter</p><p>Personuppgifter kan användas för konton, beställningar, fakturering, kundrelationer, säkerhet, analys och kommunikation. Personuppgifter säljs inte.</p><p>Användarrättigheter</p><p>Användare har rätt till tillgång, rättelse, radering, invändning, begränsning, återkallelse av samtycke och dataportabilitet. Begäran skickas till: DPO, OVOORO, 19 Allée de Brienne, {companyZip} {companyCity}, med identitetshandling.</p><p>Cookies, säkerhet och jurisdiktion</p><p>Webbplatsen kan använda cookies och internettaggar för att förbättra navigering och mäta aktivitet. Webbläsaren kan acceptera eller avvisa cookies. Tvister omfattas av fransk lag och behöriga domstolar i {companyCity}.</p>"
+    },
+    "HumanitarianProject": {
+      "title": "Humanitärt projekt",
+      "hero": {
+        "eyebrow": "Med dina beställningar",
+        "heading": "5% doneras",
+        "description": "5% av vinsten kommer att doneras till föreningen AHPA, med målet att bygga minst 1 pedagogisk trädgård i Kpomassè, Benin. Tack vare din beställning kan du följa utvecklingen av detta initiativ, som också stöds av vår franska webbplats.",
+        "link": "Noel Shop"
+      },
+      "association": {
+        "eyebrow": "Föreningen",
+        "heading": "AHPA",
+        "description": "Association Humanitaire pour l'Afrique (AHPA) är en internationell solidaritetsförening som stöder utvecklingsprojekt i Benin inom utbildning, hållbart jordbruk, miljöskydd och rättvis turism. Tillsammans med lokala föreningspartner stöder AHPA inkomstgenererande mikroprojekt för unga inom miljöutbildning.",
+        "logoAlt": "AHPA-föreningens logotyp"
+      },
+      "gallery": {
+        "image1Alt": "Pedagogiskt trädgårdsprojekt i Benin",
+        "image2Alt": "Lokalt samhällsprojekt stött av AHPA",
+        "image3Alt": "Jordbruks- och utbildningsinitiativ i Benin",
+        "image4Alt": "Fältaktivitet för det humanitära projektet"
+      }
+    },
+    "CustomerService": {
+      "banner": {
+        "heading": "Kundtjänst",
+        "subHeading": "Vad kan vi göra för dig idag?"
+      },
+      "faqSections": [
+        {
+          "eyebrow": "Läs mer om spårning och leverans av din beställning",
+          "heading": "Leverans och spårning",
+          "items": [
+            {
+              "question": "Spåra min beställning",
+              "answer": "För att spåra din beställning går du till sidan [Spåra min beställning](/track-my-order) och anger det spårningsnummer som du fick i e-postmeddelandet om leverans av din beställning."
+            },
+            {
+              "question": "Ändra min leveransadress",
+              "answer": "Du har 24 timmar på dig efter att du har gjort din beställning för att meddela oss om en adressändring via e-post till [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com). Efter denna tid kan ingen retur eller återbetalning beviljas."
+            },
+            {
+              "question": "Leveranstid",
+              "answer": "Det tar 24 till 72 timmar att behandla och skicka din beställning. Leveranstiden varierar mellan 5 och 12 dagar beroende på leveransmetod och leveransland."
+            },
+            {
+              "question": "Skapa ett konto",
+              "answer": "Om du vill skapa ett konto och dra nytta av erbjudanden och kuponger på dina framtida inköp samt en historik över dina beställningar och direkt tillgång till dina fakturor går du till sidan [Mitt konto](/account)."
+            },
+            {
+              "question": "Leveransland",
+              "answer": "Vi levererar till alla europeiska länder och internationellt. Välj ditt vanliga land i menyn högst upp på webbplatsen och välj önskat leveranssätt när du gör din beställning.\nEndast för franska kunder kan du beställa i vår franska butik på [www.noel-shop.fr](https://www.noel-shop.fr)."
+            },
+            {
+              "question": "Separata paket",
+              "answer": "Våra produkter skickas i ett enda paket. Mer sällan, av logistiska skäl, kan det hända att vi måste leverera i två separata paket. Om så är fallet tar vi på oss 100 % av tilläggskostnaden för detta andra paket och du behöver inte betala något."
+            },
+            {
+              "question": "Tullavgifter",
+              "answer": "Beroende på ditt leveransland kan det tillkomma tullavgifter för varan. Vi uppmanar dig att kontrollera på tullens webbplats i ditt land för att ta reda på om du måste betala tullavgifter vid leverans av ditt paket eller inte."
+            },
+            {
+              "question": "Mervärdesskatt",
+              "answer": "För din bekvämlighet visas alla våra priser inklusive moms, vilket innebär att mervärdesskatten ingår i våra priser när du betalar din beställning. Om du är ett företag kan du få momsen avdragen genom att be oss om en faktura via e-post på [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)."
+            },
+            {
+              "question": "Personlig information",
+              "answer": "Hecten lagrar inga betalnings- eller kreditkortsuppgifter. Vår webbplats använder verifierade, auktoriserade och säkra externa betalningsprocessorer som Paypal eller Stripe så att du kan betala dina beställningar online på ett säkert sätt."
+            }
+          ]
+        },
+        {
+          "eyebrow": "Återlämna en vara, göra ett byte eller en återbetalning",
+          "heading": "Returnering och utbyte",
+          "items": [
+            {
+              "question": "Villkor för återlämning",
+              "answer": "Tidsfristen för returer och byten är 14 dagar.\nDu kan hitta vår fullständiga returpolicy i detalj på vår[retur- och återbetalningspolicy här](/return-and-refund)."
+            },
+            {
+              "question": "Fel i min beställning",
+              "answer": "Om du har fått din beställning och saknar en produkt eller har fått fel produkt kan du kontakta vår kundtjänst på [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)."
+            },
+            {
+              "question": "Min beställning anlände skadad",
+              "answer": "Om du har fått din beställning och produkterna är skadade måste du samla in alla bevis som visar att produkterna har skadats under leveransen.\nSkicka oss så snart som möjligt efter mottagandet av paketet bilder på den skadade förpackningen och skadorna på de varor du beställt via e-post till [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)."
+            },
+            {
+              "question": "Adress för returer och byten",
+              "answer": "Returer och byten av beställningar görs på företagets huvudkontor på följande adress:\nSASU OVOORO\n19 ALLÉE DE BRIENNE\n31000\nTOULOUSE\nFRANKRIKE\nKontakta oss via e-post innan du returnerar eller byter till [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)"
+            },
+            {
+              "question": "Få ett utbyte",
+              "answer": "Om du vill få ett utbyte måste du kontakta vår kundtjänst på [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com).\nBeroende på orsaken till ditt byte, fraktkostnaden och antalet artiklar du vill byta kan fraktkostnaderna erbjudas, delas med dig eller helt och hållet betalas av dig (i genomsnitt 10$ USD)."
+            },
+            {
+              "question": "Fel i adressen",
+              "answer": "Om leveransadressen är felaktig och 24-timmarsperioden överskrids kan vi inte längre garantera att paketet levereras och att det ersätts om vi inte kan återfå det.\nDu bör dock veta att vi gör allt vi kan för denna typ av problem för att rapportera en adressändring direkt till vår logistikpartner så att denne kan ändra leveransadressen för ditt paket under transporten; dessa processer är ganska långa så du måste kontakta oss så snart som möjligt på [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)."
+            },
+            {
+              "question": "Ändra och/eller avbryta min beställning",
+              "answer": "Du kan avbryta eller ändra en beställning direkt inom högst 24 timmar efter beställningen.\nKontakta oss så snart som möjligt på [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)\nOm denna 24-timmarsperiod har gått ut och din beställning redan har skickats, är det inte möjligt att avbryta eller ändra beställningen och du måste vänta tills leveransprocessen är avslutad för att gå vidare med en retur eller göra en ny beställning om du vill få fler artiklar."
+            },
+            {
+              "question": "Förbeställa en artikel som inte finns i lager",
+              "answer": "Om du vill förbeställa en artikel som inte finns i lager kan du kontakta oss på [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com) för att göra en prioriterad beställning på vårt nästa lager."
+            }
+          ]
+        }
+      ],
+      "form": {
+        "description": "Använd formuläret för att kontakta kundtjänst via e-post på customer@thechristmasfabric.com",
+        "heading": "Kontakta kundtjänst",
+        "firstNameLabel": "Ditt förnamn",
+        "firstNamePlaceholder": "Förnamn",
+        "orderNumberLabel": "Ditt ordernummer",
+        "orderNumberPlaceholder": "35445",
+        "reasonLabel": "Anledning till din förfrågan",
+        "reasonOptions": [
+          "Jag vill byta en produkt",
+          "Jag har problem med spårning",
+          "Jag vill returnera mitt paket eller få återbetalning",
+          "Jag vill ändra min beställning",
+          "Jag kontaktar er av en annan anledning"
+        ],
+        "submit": "Skicka",
+        "submitting": "Skickar...",
+        "success": "Tack! Ditt meddelande har skickats framgångsrikt.",
+        "step": "Steg",
+        "of": "av",
+        "next": "Nästa",
+        "back": "Tillbaka",
+        "emailLabel": "Din e-post",
+        "emailPlaceholder": "din@email.com",
+        "emailError": "E-post är obligatorisk",
+        "messageLabel": "Ditt meddelande",
+        "messagePlaceholder": "Berätta mer om din förfrågan...",
+        "messageError": "Meddelandet är obligatoriskt",
+        "orderNumberError": "Ordernumret är obligatoriskt"
+      }
+    },
+    "GeneralTermsOfSale": {
+      "title": "Allmänna försäljningsvillkor",
+      "breadcrumbHome": "Hem",
+      "body": "<p>Webbplatsen thechristmasfabric.com är ett varumärke som drivs av företaget {companyOperatingEntity},<br>19 Allée de Brienne, {companyZip}, {companyCity}, Frankrike<br>med ett aktiekapital på 1000€.<br>registrerad hos Handels- och Bolagsverket i {companyCity},<br>under numret SIREN 890918436<br>Webbplatsen thechristmasfabric.com representeras och förvaltas helt av {companyOperatingEntity} som juridisk person i egenskap av chef, behörig för dessa ändamål.<br>Webbplatsen kan kontaktas via e-post direkt på {companyEmail} eller genom att klicka på kontaktformuläret som är tillgängligt längst ned på webbplatsen.</p><p>Nedan kallas den \"Säljaren\" eller \"Företaget\". Å ena sidan och den fysiska eller juridiska person som köper produkter eller tjänster från företaget, nedan kallad \"Köparen\" eller \"Kunden\". Å andra sidan är det avtalat följande:</p><p>PREAMBEL</p><p>Säljaren är en utgivare av Produkter och Tjänster för onlineförsäljning av varor och tjänster till konsumenter, marknadsförda genom dess webbplatser. Listan och beskrivningen av varor och tjänster som erbjuds av Företaget kan ses på nämnda webbplatser.</p><p>Artikel 1: Syfte</p><p>Dessa Allmänna försäljningsvillkor fastställer parternas rättigheter och skyldigheter i samband med onlineförsäljning av Produkter eller Tjänster som erbjuds av Säljaren.</p><p>Artikel 2: Allmänna bestämmelser</p><p>Dessa Allmänna försäljningsvillkor (AGFV) styr försäljningen av Produkter eller Tjänster genom Företagets webbplatser och utgör en integrerad del av Kontraktet mellan Köparen och Säljaren. De är fullt bindande för Köparen som har accepterat dem före orderlagring. Säljaren förbehåller sig rätten att ändra dessa villkor när som helst genom att publicera en ny version på sin webbplats. De tillämpliga villkoren är de som gäller vid tiden för betalning av ordern. Dessa villkor är tillgängliga på webbplatsen på följande adress: https://www.thechristmasfabric.com/conditions-generales-de-vente/<br>Kunden förklarar att han/hon har läst alla dessa Allmänna försäljningsvillkor och accepterar dem utan inskränkning eller reservation.<br>Kunden bekräftar att han/hon har mottagit nödvändig rådgivning och information för att säkerställa att erbjudandet motsvarar hans/hennes behov.<br>Kunden förklarar att han/hon är juridiskt behörig att ingå avtal eller kan på behörigt sätt representera den fysiska eller juridiska person för vilken han/hon ingår avtal.<br>Om inte annat kan bevisas utgör de uppgifter som Företaget har registrerat bevis för alla transaktioner.</p><p>Artikel 3: Priser</p><p>Priserna på produkter som säljs genom webbplatserna anges i Euro exklusive skatter och är exakt fastställda på produkternas beskrivningssidor. De anges också i Euro inklusive alla skatter (VAT + andra möjliga skatter) på produkternas ordersida och exklusive specifika leveranskostnader. För alla produkter som skickas utanför Europeiska unionen omräknas priset automatiskt utan skatter på fakturan. Tulldebitorer eller andra lokala skatter eller importdebitorer kan gälla i vissa fall. Dessa rättigheter och belopp faller inte under Säljarens ansvar. De ska bäras av Köparen. Säljaren uppmanar köparen att informera sig om dessa aspekter hos motsvarande lokala myndigheter. Företaget förbehåller sig rätten att ändra sina priser när som helst i framtiden. Telekommunikationskostnaderna som är nödvändiga för åtkomst till Företagets webbplatser ska bäras av Kunden. Om det är nödvändigt debiteras även leveranskostnader.</p><p>Artikel 4: Avslutande av onlinekontraktet</p><p>I enlighet med bestämmelserna i Civil Code artikel 1127-1 måste Kunden följa en serie steg för att ingå avtalet på elektronisk väg: - Information om produktens väsentliga egenskaper; - Val av Produkten, om nödvändigt dess alternativ; - Angivelse av Kundens väsentliga kontaktuppgifter; - Acceptans av dessa Allmänna försäljningsvillkor; - Verifiering av orderelementens element och eventuell korrigering av fel. Innan bekräftelsen kan Köparen kontrollera ordedetaljer, pris och rätta fel eller avbryta ordern. Bekräftelsen av ordern innebär avtalsformningen. - Därefter följer betalningsinstruktioner och leverans av ordern. Kunden mottar bekräftelse via e-post på betalningen och ett mottagningskvitto. Han/hon får en PDF-kopia av dessa allmänna villkor.<br>Under beställningsprocessen kan kunden identifiera och korrigera fel i datainmatningen. Språket för avtalsslutande är franska.<br>Erbjudande- och försäljningsvillkoren skickas tillbaka till köparen via e-post och arkiveras på Säljarens webbplats. Arkiveringen av kommunikation, orderdetaljer och fakturor görs på ett pålitligt och varaktigt medium i enlighet med Civil Code artikel 1360. Denna information kan presenteras som bevis för avtalet.<br>För levererade produkter görs leveransen till den adress som anges av Kunden. För korrekt orderuppfyllelse accepterar Kunden att tillhandahålla sann identifieringsinformation. Säljaren förbehåller sig rätten att vägra ordern för abnormala begäranden eller för legitima skäl.</p><p>Artikel 5: Produkter och tjänster</p><p>De väsentliga egenskaperna hos varor, tjänster och deras respektive priser görs tillgängliga för köparen på Företagets webbplatser. I enlighet med Konsumentlagstiftningen är konsumenten informerad om priser och särskilda sälj- och tjänsteutföringsvillkor före avtalsslutandet. Det totala belopp som Köparen är skyldig anges på orderbekräftelsesidan. Produktens försäljningspris är det pris som gäller på orderdagen, exklusive leveranskostnader. Säljaren förbehåller sig rätten att ändra sina priser när som helst, garanterande tillämpningen av det angivna priset vid ordertidpunkten. När produkter eller tjänster inte utförs omedelbart ges tydlig information om leveransdatum. Kunden intygar att han/hon har mottagit leveranskostnadsinformation och villkor för betalning, leverans och avtalsuppfyllelse. Säljaren förbinder sig att hedra Kundens order inom ramen för tillgängliga produktlager. Vid underlåtelse informerar Säljaren Kunden och återbetalar vid behov. Den avtalsenlig information presenteras i detalj. Parterna är överens om att illustrationer eller fotografier av produkter saknar avtalsräckvidd. Giltighetsperioden för produkterbjudanden anges på Företagets webbplatser.</p><p>Artikel 6: Överensstämmelse</p><p>I enlighet med Konsumentlagstiftningen uppfyller produkter och tjänster som erbjuds genom dessa villkor krav på säkerhet och personskydd, rättvis handel och konsumentskydd. Oberoende av någon kommersiell garanti ansvarar Säljaren för överensstämmelsebrist och dolda defekter.<br>Säljaren levererar varor i överensstämmelse med avtalet och ansvarar för överensstämmelsebrist vid leveranstidpunkten. Han ansvarar även för brister från förpackning, monteringsanvisningar eller installation när dessa påförts honom.<br>I enlighet med juridiska bestämmelser om överensstämmelse och dolda defekter återbetalar eller byter Säljaren defekta produkter eller sådana som inte motsvarar ordern. Återbetalningsbegäran görs genom att lämna in ett klagomål på {companyEmail}</p><p>Artikel 7: Fastighetsreserv</p><p>Produkterna förblir Företagets egendom tills det totala priset är betalt.</p><p>Artikel 8: Leveransvillkor</p><p>Produkter levereras till den leveransadress som angavs vid ordern inom angivna tidsfrister. Dessa tidsfriseter inkluderar inte orderförberedelsetiden. Vid beställning av flera produkter samtidigt kan de ha olika leveranstider och levereras enligt följande: leverans via ett eller flera paket. Vid leveransfördröjning läggs ett klagomål in på {companyEmail}. Vid sen leverans kan Kunden säga upp avtalet enligt Konsumentlagstiftningen. Säljaren återbetalar då produkten och leveranskostnader. Säljaren tillhandahåller en telefonkontaktpunkt angiven i orderbekräftelse-e-postmeddelandet. Säljaren påminner om att när Kunden får fysisk possession av produkterna överförs risken för förlust eller skada till honom. Det är Kundens ansvar att underrätta transportören om reservationer om levererad produkt.</p><p>Artikel 9: Tillgänglighet och presentation</p><p>Vid otillgänglighet av en artikel under mer än 30 arbetsdagar meddelas omedelbar varning om förväntade leveransförseningar och ordern kan avbrytas på enkelt begäran. Kunden kan då begära en kreditnota eller fullständig återbetalning och avbokning av ordern.</p><p>Artikel 10: Betalning</p><p>Betalning ska ske omedelbar vid orderplacering, även för förbeställda produkter. Kunden kan betala med kreditkort eller bankscheck. Kort utgivna av banker utanför Frankrike måste vara internationella bankkort (Mastercard eller Visa). Säker onlinebetalning görs av vår betalningsleverantör. Överförd information är krypterad enligt praxis och kan inte läsas under nätöverföring. Vid betalningsinitiering debiteras transaktionen omedelbar efter informationsverifiering. I enlighet med Monetär- och Finanslagstiftningen är kortbetalningsåtagandet oåterkalleligt. Genom att kommunicera bankinformation godkänner Kunden att Säljaren debiterar hans konto. Kunden bekräftar att han/hon är laglig kortinnehavare och behörig att använda det. Vid fel eller omöjlighet att debitera annulleras försäljningen omedelbar och ordern avbryts.</p><p>Artikel 11: Ångerperiod</p><p>I enlighet med Konsumentlagstiftningen har Köparen rätt att dra sig ur utan anledning inom fjorton (14) dagar från mottagningsdatum. Äganderätten kan utövas genom att kontakta Företaget genom att lämna in ett klagomål på {companyEmail}. Vi informerar Kunderna att denna rätt inte kan utövas för produkter under tillverkning eller leverans. Vid utövandet av äganderätten återbetales produktpriset och leveranskostnader, men returkostnader är Kundens ansvar. Produkter måste returneras i originalskick och kompletta. De ska åtföljas av ett köpbevis. Enligt juridiska bestämmelser kan du begära standardretraktionsformulär på {companyEmail}. Återbetalningsprocedur genomförs efter produktundersökning; för mer information lägg in ett klagomål på {companyEmail}</p><p>Artikel 12: Garantier</p><p>I enlighet med lag antar Säljaren följande garantier: överensstämmelse och relaterad till produkternas dolda defekter. Säljaren återbetalar eller byter uppenbart defekta produkter eller sådana som inte motsvarar inlagd order. Återbetalningsbegäran görs genom att lämna in ett klagomål på {companyEmail}<br>Säljaren påminner konsumenten om: - en tvåårsperiod från varuleverans för att agera hos Säljaren - kan välja mellan byte eller reparation av varor enligt villkoren ovan. - att han är fri från att bevisa överensstämmelsebrist under sex månader efter leverans. - att denna period utökas till 24 månader från 18 mars 2016 - att konsumenten kan påberopa garanti mot dolda defekter enligt Civil Code artikel 1641 och välja mellan försäljningsupplösning eller prissänkning. Ytterligare garantier: _ (beskriv dina ytterligare garantier)</p><p>Artikel 13: Klagomål och medling</p><p>Om nödvändigt kan Köparen presentera klagomål genom att kontakta Företaget genom att lämna in ett klagomål på {companyEmail}. I enlighet med Konsumentlagstiftningen är konsumenten informerad om att han/hon kan få tillgång till en konsumentmediator. Vid misslyckande av klagomål till Säljarens kundservice eller frånvaro av svar inom två månader kan konsumenten lämna tvisten till en mediator som i all oberoende försöker närma parterna för en vänlig lösning.</p><p>Artikel 14: Avtalsupplösning</p><p>Ordern kan avbrytas av köparen genom rekommenderad post med mottagningsbekräftelse i följande fall: - leverans av produkt som inte motsvarar orderns egenskaper; - leverans efter deadline vid order eller inom trettio dagar efter betalning; - obefogad prisökning eller produktändring. I dessa fall kan köparen kräva återbetalning av inbetald deposition plus laglig ränta från depositionssamlingsdatum.</p><p>Artikel 15: Immateriella rättigheter</p><p>Varumärkena, domännamnen, produkterna, programvaran, bilderna, videorna, texterna eller i allmänhet all information omfattad av immateriella rättigheter är och förblir Säljarens exklusiva egendom. Ingen överföring av immateriella rättigheter görs genom dessa villkor. All total eller partiell återgivning, ändring eller användning av dessa varor på vilket sätt som helst är strikt förbjuden.</p><p>Artikel 16: Force majeure</p><p>Säljarens avtalsförpliktelsers utförande avbryts vid inträffande av oförutsedd händelse eller force majeure som skulle förhindra avtalsuppfyllelse. Säljaren underrättar Kunden om sådan händelse så snart som möjligt.</p><p>Artikel 17: Ogiltighet och avtalsändring</p><p>Om någon avtalsbestämmelse skulle ogiltigförklaras är denna ogiltighet inte ogiltigheten på andra bestämmelser som förblir i kraft mellan parterna. All avtalsändring är endast giltig efter skriftligt och undertecknat avtal mellan parterna. Artikel 18: Dataskydd I enlighet med Förordning 2016/679 behandlar Säljaren personuppgifter för försäljning och leverans av i detta avtal definierade produkter och tjänster. Köparen informeras om: - registeransvarigs identitet och kontaktdetaljer: Säljaren enligt ovan; - dataskyddsofficerens kontaktuppgifter: …… - rättslig grund för behandling: avtalsuppfyllelse - mottagare av personuppgifter: registeransvarig, dess marknads-, IT-säkerhets- och försäljningsavdelningar, underleverantörer och behöriga myndigheter - ingen överföring utanför EU föreskrivs - datauppbevaringens varaktighet: enligt kommersiell preskription - registrerad har rätt att begära åtkomst, rättelse eller radering av personuppgifter och kan lägga fram klagomål till tillsynsmyndighet - information vid order är nödvändig för fakturering och leverans av beställda varor. Ingen automatiserad beslut eller profilering genomförs i beställningsprocessen.</p><p>Artikel 18: Tillämplig lag och klausuler</p><p>Alla klausuler i dessa försäljningsvillkor och alla köp- och försäljningsoperationer refererade häri ska omfattas av fransk lag. Ogiltigheten av en avtalsklausul innebär inte ogiltigheten på dessa försäljningsvillkor.</p><p>Artikel 19: Konsumentinformation</p><p>För konsumentinformationen återges bestämmelserna från Civil Code och Konsumentlagstiftningen nedan: Civil Code artikel 1641: Säljaren är skyldig att garantera gömda defekter i såld sak som gör den olämplig för sitt ändamål eller som så förringat denna användning att köparen inte skulle ha förvärvat den eller givit ett lägre pris om han/hon hade känt till dem. Civil Code artikel 1648: Åtgärd från felaktiga brister måste vidtas av köparen inom två år från defektupptäckten.<br>Konsumentlagstiftningen artikel L. 217-4: Säljaren levererar varor i överensstämmelse med avtalet och ansvarar för överensstämmelsebrist vid leveranstidpunkten. Han ansvarar även för överensstämmelsebrist från förpackning, monteringsanvisningar eller installation när dessa påförts honom eller genomförts under hans ansvar.<br>Konsumentlagstiftningen artikel L. 217-5: Varan är i överensstämmelse med avtalet: 1° Om den är lämplig för vanligt förväntat bruk av liknande vara och: - motsvarar Säljarens beskrivning och har de egenskaper han presenterat till köparen som prov eller modell; - har egenskaper köparen rimligen kan förvänta givet Säljarens eller tillverkarens offentliga uttalanden, särskilt i reklam eller märkning; 2° Eller har egenskaper definierade genom ömsesidigt avtal eller lämpar sig för särskilt ändamål som köparen sökt, förebringat till Säljarens kunskap och accepterat av honom<br>Konsumentlagstiftningen artikel L. 217-12: Åtgärd från överensstämmelsebrist föreskrivs två år från varuleverans.<br>Konsumentlagstiftningen artikel L. 217-16: När köparen under kommersiell garanti för köp eller reparation av lös egendom begär reparation täckt av garanti, läggs en immobiliseringsperiod om minst sju dagar till den återstående garantitiden. Denna period löper från köparens förfrågansdatum eller från dagen föremålet görs tillgängligt för reparation, beroende på vilket som är senare.</p><p>&nbsp;</p>"
+    }
+  },
+  "Maintenance": {
+    "metaTitle": "Planerat underhåll",
+    "banner": "Planerat underhåll pågår",
+    "title": "Vi är snart tillbaka",
+    "message": "Vår butik är tillfälligt stängd på grund av planerat underhåll. Vi arbetar för att göra din shoppingupplevelse ännu bättre och är snart tillbaka. Tack för ditt tålamod.",
+    "expectedBack": "Beräknas vara tillbaka:",
+    "refreshNote": "Den här sidan uppdateras automatiskt.",
+    "refreshButton": "Uppdatera",
+    "contactTitle": "Behöver du hjälp under tiden?",
+    "contactText": "Vår kundservice hjälper dig gärna. Skriv till oss på",
+    "followUs": "Följ oss"
+  }
+}

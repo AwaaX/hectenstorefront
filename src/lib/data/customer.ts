@@ -1,0 +1,322 @@
+"use server"
+
+import { sdk } from "@lib/config"
+import {
+  isMedusaEntityNotFoundError,
+  throwNormalizedMedusaError,
+} from "@lib/util/medusa-error"
+import { HttpTypes } from "@medusajs/types"
+import { revalidateTag } from "next/cache"
+import { redirect } from "next/navigation"
+import { getPathname } from "@i18n/routing"
+import {
+  getAuthHeaders,
+  getCacheOptions,
+  getCacheTag,
+  getCartId,
+  removeAuthToken,
+  removeCartId,
+  setAuthToken,
+} from "./cookies"
+import { getRegion } from "./regions"
+import { transferGuestWishlist } from "./wishlist"
+
+const getSafeRedirectPath = (formData: FormData) => {
+  const redirectTo = formData.get("redirect_to")
+
+  if (
+    typeof redirectTo === "string" &&
+    redirectTo.startsWith("/") &&
+    !redirectTo.startsWith("//")
+  ) {
+    return redirectTo
+  }
+
+  return "/"
+}
+
+export const retrieveCustomer =
+  async (): Promise<HttpTypes.StoreCustomer | null> => {
+    const authHeaders = await getAuthHeaders()
+
+    if (!authHeaders) return null
+
+    const headers = {
+      ...authHeaders,
+    }
+
+    const next = {
+      ...(await getCacheOptions("customers")),
+    }
+
+    return await sdk.client
+      .fetch<{ customer: HttpTypes.StoreCustomer }>(`/store/customers/me`, {
+        method: "GET",
+        query: {
+          fields: "*orders",
+        },
+        headers,
+        next: { ...next, revalidate: 5 },
+        cache: "force-cache",
+      })
+      .then(({ customer }) => customer)
+      .catch(() => null)
+  }
+
+// Account mutations expire the customer cache so the page re-rendered after the
+// Server Action already shows the change.
+const expireCustomerCache = async () => {
+  const customerCacheTag = await getCacheTag("customers")
+  revalidateTag(customerCacheTag)
+}
+
+export const updateCustomer = async (body: HttpTypes.StoreUpdateCustomer) => {
+  const headers = {
+    ...(await getAuthHeaders()),
+  }
+
+  const updateRes = await sdk.store.customer
+    .update(body, {}, headers)
+    .then(({ customer }) => customer)
+    .catch(throwNormalizedMedusaError)
+
+  await expireCustomerCache()
+
+  return updateRes
+}
+
+export async function signup(_currentState: unknown, formData: FormData) {
+  const password = formData.get("password") as string
+  const recaptchaToken = formData.get("recaptcha_token") as string
+  const customerForm = {
+    email: formData.get("email") as string,
+    first_name: formData.get("first_name") as string,
+    last_name: formData.get("last_name") as string,
+    phone: formData.get("phone") as string,
+  }
+
+  if (!recaptchaToken) {
+    return "Please verify reCAPTCHA"
+  }
+
+  try {
+    const { token } = await sdk.client.fetch<{ token: string }>(`/auth/customer/emailpass/register`, {
+      method: "POST",
+      body: {
+        email: customerForm.email,
+        password,
+      },
+      headers: {
+        "x-recaptcha-token": recaptchaToken,
+      },
+    })
+
+    await setAuthToken(token as string)
+
+    const headers = {
+      ...(await getAuthHeaders()),
+    }
+
+    await sdk.store.customer.create(customerForm, {}, headers)
+
+    await removeAuthToken()
+
+    return "SUCCESS"
+  } catch (error: any) {
+    return error.toString()
+  }
+}
+
+export async function login(_currentState: unknown, formData: FormData) {
+  const email = formData.get("email") as string
+  const password = formData.get("password") as string
+  const recaptchaToken = formData.get("recaptcha_token") as string
+  const redirectTo = getSafeRedirectPath(formData)
+
+  if (!recaptchaToken) {
+    return "Please verify reCAPTCHA"
+  }
+
+  try {
+    const { token } = await sdk.client.fetch<{ token: string }>(`/auth/customer/emailpass`, {
+      method: "POST",
+      body: { email, password },
+      headers: {
+        "x-recaptcha-token": recaptchaToken,
+      },
+    })
+
+    await setAuthToken(token as string)
+    const customerCacheTag = await getCacheTag("customers")
+    revalidateTag(customerCacheTag)
+  } catch (error: any) {
+    return error.toString()
+  }
+
+  try {
+    await transferCart()
+    await transferGuestWishlist().catch(() => null)
+  } catch (error: any) {
+    return error.toString()
+  }
+
+  redirect(redirectTo)
+}
+
+export async function signout(countryCode: string) {
+  await sdk.auth.logout()
+
+  await removeAuthToken()
+
+  const customerCacheTag = await getCacheTag("customers")
+  revalidateTag(customerCacheTag)
+
+  await removeCartId()
+
+  const cartCacheTag = await getCacheTag("carts")
+  revalidateTag(cartCacheTag)
+
+  // Construct full locale from country code and region metadata
+  const region = await getRegion(countryCode)
+  const metadataLocale = region?.metadata?.[`locale_${countryCode}`] as
+    | string
+    | undefined
+  const locale = metadataLocale
+    ? `${metadataLocale.toLowerCase()}-${countryCode.toLowerCase()}`
+    : `en-${countryCode.toLowerCase()}`
+
+  redirect(getPathname({ href: "/account", locale }))
+}
+
+export async function transferCart() {
+  const cartId = await getCartId()
+
+  if (!cartId) {
+    return
+  }
+
+  const headers = await getAuthHeaders()
+
+  try {
+    await sdk.store.cart.transferCart(cartId, {}, headers)
+  } catch (error) {
+    if (
+      isMedusaEntityNotFoundError(error, "cart") ||
+      isMedusaEntityNotFoundError(error, "customer")
+    ) {
+      await removeCartId()
+
+      const cartCacheTag = await getCacheTag("carts")
+      revalidateTag(cartCacheTag)
+
+      const fulfillmentCacheTag = await getCacheTag("fulfillment")
+      revalidateTag(fulfillmentCacheTag)
+
+      return
+    }
+
+    throwNormalizedMedusaError(error)
+  }
+
+  const cartCacheTag = await getCacheTag("carts")
+  revalidateTag(cartCacheTag)
+}
+
+export const addCustomerAddress = async (
+  currentState: Record<string, unknown>,
+  formData: FormData
+): Promise<any> => {
+  const isDefaultBilling = (currentState.isDefaultBilling as boolean) || false
+  const isDefaultShipping = (currentState.isDefaultShipping as boolean) || false
+
+  const address = {
+    first_name: formData.get("first_name") as string,
+    last_name: formData.get("last_name") as string,
+    company: formData.get("company") as string,
+    address_1: formData.get("address_1") as string,
+    address_2: formData.get("address_2") as string,
+    city: formData.get("city") as string,
+    postal_code: formData.get("postal_code") as string,
+    province: formData.get("province") as string,
+    country_code: formData.get("country_code") as string,
+    phone: formData.get("phone") as string,
+    is_default_billing: isDefaultBilling,
+    is_default_shipping: isDefaultShipping,
+  }
+
+  const headers = {
+    ...(await getAuthHeaders()),
+  }
+
+  return sdk.store.customer
+    .createAddress(address, {}, headers)
+    .then(async ({ customer }) => {
+      await expireCustomerCache()
+      return { success: true, error: null }
+    })
+    .catch((err) => {
+      return { success: false, error: err.toString() }
+    })
+}
+
+export const deleteCustomerAddress = async (
+  addressId: string
+): Promise<void> => {
+  const headers = {
+    ...(await getAuthHeaders()),
+  }
+
+  await sdk.store.customer
+    .deleteAddress(addressId, headers)
+    .then(async () => {
+      await expireCustomerCache()
+      return { success: true, error: null }
+    })
+    .catch((err) => {
+      return { success: false, error: err.toString() }
+    })
+}
+
+export const updateCustomerAddress = async (
+  currentState: Record<string, unknown>,
+  formData: FormData
+): Promise<any> => {
+  const addressId =
+    (currentState.addressId as string) || (formData.get("addressId") as string)
+
+  if (!addressId) {
+    return { success: false, error: "Address ID is required" }
+  }
+
+  const address = {
+    first_name: formData.get("first_name") as string,
+    last_name: formData.get("last_name") as string,
+    company: formData.get("company") as string,
+    address_1: formData.get("address_1") as string,
+    address_2: formData.get("address_2") as string,
+    city: formData.get("city") as string,
+    postal_code: formData.get("postal_code") as string,
+    province: formData.get("province") as string,
+    country_code: formData.get("country_code") as string,
+  } as HttpTypes.StoreUpdateCustomerAddress
+
+  const phone = formData.get("phone") as string
+
+  if (phone) {
+    address.phone = phone
+  }
+
+  const headers = {
+    ...(await getAuthHeaders()),
+  }
+
+  return sdk.store.customer
+    .updateAddress(addressId, address, {}, headers)
+    .then(async () => {
+      await expireCustomerCache()
+      return { success: true, error: null }
+    })
+    .catch((err) => {
+      return { success: false, error: err.toString() }
+    })
+}

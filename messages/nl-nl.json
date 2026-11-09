@@ -1,0 +1,1250 @@
+{
+  "NavBar": {
+    "Top": {
+      "alert": "Gratis levering op bestellingen boven de €70. Mis de korting niet."
+    },
+    "Middle": {
+      "Instagram": "Instagram",
+      "Tiktok": "Tiktok",
+      "alert": "Nieuwe kerstpyjama's {year} collectie hier"
+    },
+    "Main": {
+      "NavMenu": {
+        "all pyjamas": "alle pyjama's",
+        "Matching pyjamas": "Matchende pyjama's",
+        "Family pyjamas": "Familiepyjama's",
+        "Customer service": "Klantenservice",
+        "baby": "babymaten beschikbaar",
+        "kid": "kindermaat beschikbaar",
+        "men": "herenmaat beschikbaar",
+        "women": "damesmaat beschikbaar"
+      },
+      "IconMenu": {
+        "Account": "Account",
+        "Search": "Zoeken",
+        "Wishlist": "Verlanglijst",
+        "Cart": "Winkelwagen"
+      },
+      "MobileMenu": {
+        "menu": "Menu"
+      }
+    },
+    "LanguageSelect": {
+      "label": "Taal:",
+      "default": "Standaard"
+    }
+  },
+  "HomePage": {
+    "Hero": {
+      "title": "DE KERSTSTOF IS KLAAR VOOR {year}",
+      "heading": "Pyjama's & meer",
+      "shortdescription": "Doe mee aan het project en koop geweldige pyjama's en originele kleding voor Kerstmis en dit winterseizoen bij Hecten",
+      "button": "winkel nu",
+      "imageAlt": "Groen-rode gebreide kerstwanten en muts met cadeaudoos en zuurstokken"
+    },
+    "Timer": {
+      "heading": "kerstklok",
+      "days": "dagen",
+      "hours": "uren",
+      "minutes": "minuten",
+      "seconds": "seconden",
+      "bannerAlt": "Kerstaftelbanner met rode achtergrond en groene papierknip winterdenbomen aan beide zijden"
+    },
+    "NewsLetter": {
+      "text1": "Schrijf je in om aan onze kant te staan",
+      "increaseQuantity": "Hoeveelheid verhogen",
+      "decreaseQuantity": "Hoeveelheid verlagen",
+      "text2": "Ontvang het belangrijkste nieuws over het grootste internationale kerstproject"
+    },
+    "Reviews": {
+      "text1": "Ze delen liefde met mooie pyjama's",
+      "text2": "Recensies van onze geliefde community",
+      "fromShop": "van {shop}",
+      "customerReviews": "Klantbeoordelingen",
+      "fromAddress": "Uit {address}"
+    },
+    "Services": {
+      "card1": {
+        "heading": "Gratis levering voor bestellingen boven de €70",
+        "brief": "\"Ontvang gratis verzending bij elke bestelling. Niet tevreden? Stuur het naar ons terug.\""
+      },
+      "card2": {
+        "heading": "100% kerstexclusiviteit",
+        "brief": "Een deel van de winst gaat direct naar een humanitair project. Het avontuur kan gevolgd worden op Instagram of via onze nieuwsbrief!"
+      },
+      "card3": {
+        "heading": "Echte gemeenschap van kerstliefhebbers",
+        "brief": "Onze klanten zijn kerstenthousiastelingen en we delen dezelfde passie voor onze kerst"
+      },
+      "description": "Een heel team staat klaar om dit jaar uw bestellingen te ontvangen en aan al uw behoeften te voldoen. Naast de zorg waarmee we onze pyjama's maken, bieden we een kwaliteitsservice die belangrijk voor ons is om u een prettige winkelervaring te garanderen",
+      "query": "Hoe financiert uw bestelling een humanitair project?",
+      "link": "Klik hier om meer te weten."
+    },
+    "QuickLook": {
+      "heading": "Een snelle blik op onze producten",
+      "description": "We streven ernaar om kwaliteit te behouden in alles wat we doen, hier zijn enkele van onze vers verkrijgbare producten voor deze kerst"
+    },
+    "Discovery": {
+      "heading": "Ontdek onze pyjama's",
+      "description": "Hecten heeft dit jaar weer hard gewerkt om u geweldige kerstpyjama's te brengen. Bestel er een paar voor uzelf en uw dierbaren en steun een humanitair project met uw bestelling",
+      "Item1": {
+        "heading": "Ontdek al onze kerstpyjama's zonder verder te zoeken",
+        "brief": "De ultieme collectie van onze nieuwste pyjama's en kerstkleding voor iedereen. Niet geclassificeerd.",
+        "title": "Kerstpyjama's",
+        "imageAlt": "kerstpyjama's original"
+      },
+      "Item2": {
+        "heading": "Perfect voor gezinnen, groot of klein",
+        "brief": "Vind een beschikbaar pyjamamodel voor het hele gezin. Hier is elk model beschikbaar voor alle leeftijden en maten. Geweldig voor Kerstmis!",
+        "title": "Kerstpyjama's voor het hele gezin",
+        "imageAlt": "gezin kerstpyjama's original"
+      },
+      "Item3": {
+        "heading": "Onze matchende ontwerpen voor jou en je partner om samen te dragen",
+        "brief": "Vind onze modellen van matchende pyjama's voor mannen en vrouwen. Verkrijgbaar in alle maten. Voor jou en je geliefde.",
+        "title": "Matchende en koppels kerstpyjama's",
+        "imageAlt": "koppels original"
+      }
+    },
+    "ProductRail": {
+      "viewAll": "Alles bekijken"
+    }
+  },
+  "Footer": {
+    "Top": {
+      "SwitchText": "Wijzig land of valuta",
+      "Link1": "Contact klantenservice & Veelgestelde vragen",
+      "Link2": "Uw aankoop financiert dit humanitaire project"
+    },
+    "Bottom": {
+      "text1": "HECTEN — WERELDWIJDE KERSTLIEFHEBBERS",
+      "text2": "COMMUNITY"
+    },
+    "Middle": {
+      "text1": "24/7 reactieve klantenservice",
+      "text2": "Snelle verzending met tracking binnen 24 uur",
+      "text3": "Gemakkelijk en snel retourneren binnen 24 uur",
+      "text4": "Betaling in 4 termijnen met PayPal"
+    },
+    "Main": {
+      "Col1": {
+        "text1": "help",
+        "text2": "Hulp nodig?",
+        "text3": "Klantenservice",
+        "text4": "Onze teams staan klaar om binnen 24 uur aan uw behoeften te voldoen"
+      },
+      "Col2": {
+        "text1": "nuttige links",
+        "text2": "Informatie",
+        "link1": "Open mijn verlanglijst",
+        "link2": "Ga naar mijn winkelwagen",
+        "link3": "Ga naar afrekenen en betalen",
+        "link4": "Inloggen of registreren",
+        "link5": "Mijn account"
+      },
+      "Col3": {
+        "text1": "Informatie",
+        "link1": "Mijn bestelling volgen",
+        "link2": "Leveringsvoorwaarden",
+        "link3": "Retourneren en terugbetaling",
+        "link4": "Algemene verkoopvoorwaarden",
+        "link5": "Juridische kennisgeving",
+        "link6": "Privacybeleid"
+      },
+      "Col4": {
+        "text1": "Nieuwsbrief — Uw verrassing wacht",
+        "text2": "Ontvang het belangrijkste nieuws van de grootste kerstgemeenschap, blijf op de hoogte van promoties en vooruitgang van het humanitaire project. Claim uw welkomstgeschenk."
+      }
+    },
+    "NewsLetter": {
+      "txt1": "Ik accepteer de",
+      "txt2": "algemene voorwaarden",
+      "txt3": " gegevensbescherming",
+      "and": "en",
+      "txt4": " Bedankt voor het aanmelden voor de nieuwsbrief! We",
+      "txt5": "houden binnenkort contact.",
+      "successMessage": "Bedankt voor het aanmelden voor de nieuwsbrief! We houden binnenkort contact.",
+      "Placeholder": "Uw e-mail"
+    }
+  },
+  "Metadata": {
+    "NotFound": {
+      "title": "404",
+      "description": "Pagina niet gevonden"
+    },
+    "Home": {
+      "title": "Home - Hecten",
+      "description": "Doe mee aan het project en koop geweldige pyjama's en originele kleding voor Kerstmis en dit winterseizoen bij Hecten"
+    },
+    "Checkout": {
+      "title": "Afrekenen - Hecten",
+      "description": "Controleer je winkelwagen, verzending en betaalgegevens om je bestelling af te ronden."
+    },
+    "SearchResults": {
+      "title": "Zoekresultaten voor {query} - Hecten",
+      "description": "Ontdek producten die passen bij {query}."
+    },
+    "Cart": {
+      "title": "Winkelwagen - Hecten",
+      "description": "Bekijk de producten die momenteel in je winkelwagen zitten."
+    },
+    "Wishlist": {
+      "Shared": {
+        "title": "Gedeelde verlanglijst - Hecten",
+        "description": "Bekijk een verlanglijst die met je is gedeeld."
+      }
+    },
+    "Account": {
+      "Login": {
+        "title": "Inloggen - Hecten",
+        "description": "Log in op je Hecten-account."
+      },
+      "Wishlist": {
+        "title": "Verlanglijst - Hecten",
+        "description": "Producten opgeslagen op je verlanglijst."
+      },
+      "Orders": {
+        "title": "Bestellingen - Hecten",
+        "description": "Overzicht van je eerdere bestellingen."
+      },
+      "Profile": {
+        "title": "Profiel - Hecten",
+        "description": "Bekijk en bewerk je profielgegevens."
+      },
+      "Addresses": {
+        "title": "Adressen - Hecten",
+        "description": "Bekijk en update je opgeslagen adressen."
+      },
+      "Overview": {
+        "title": "Account - Hecten",
+        "description": "Overzicht van je accountactiviteit."
+      },
+      "LoginWishlist": {
+        "title": "Log in om je verlanglijst te bekijken - Hecten",
+        "description": "Log in om toegang te krijgen tot je verlanglijst."
+      }
+    },
+    "OrderConfirmed": {
+      "title": "Bestelling bevestigd - Hecten",
+      "description": "Je aankoop is succesvol voltooid."
+    },
+    "AllPyjamas": {
+      "title": "Kerstpyjama's - Hecten",
+      "description": "Doe mee met het project en koop geweldige pyjama's en originele kleding voor Kerstmis en dit winterseizoen bij Hecten"
+    },
+    "CustomerService": {
+      "title": "Klantenservice - Hecten",
+      "description": "Krijg hulp bij je bestellingen, volg verzendingen of neem contact op met ons ondersteuningsteam voor vragen over Hecten."
+    },
+    "PrivacyPolicy": {
+      "title": "Privacybeleid - Hecten",
+      "description": "Leer hoe we je persoonlijke informatie en privacy beschermen wanneer je bij Hecten winkelt."
+    },
+    "LegalNotice": {
+      "title": "Juridische kennisgeving - Hecten",
+      "description": "Juridische informatie en mededeling over de website en services van Hecten."
+    },
+    "GeneralTermsOfSale": {
+      "title": "Algemene verkoopvoorwaarden - Hecten",
+      "description": "Lees onze algemene voorwaarden voor het kopen van producten van Hecten."
+    },
+    "TermsOfDelivery": {
+      "title": "Leveringsvoorwaarden - Hecten",
+      "description": "Informatie over leveringsopties, verzendtijden en leveringsbeleid van Hecten."
+    },
+    "ReturnAndRefund": {
+      "title": "Retour- en terugbetalingsbeleid - Hecten",
+      "description": "Lees meer over ons proces voor retouren, uitwisselingen en terugbetalingen bij Hecten."
+    },
+    "MeasurementGuide": {
+      "title": "Maattabel - Hecten",
+      "description": "Vind de perfecte maat met onze uitgebreide maattabel voor alle kledingmaten bij Hecten."
+    },
+    "HumanitarianProject": {
+      "title": "Humanitair project - Hecten",
+      "description": "Leer meer over de humanitaire initiatieven en maatschappelijke verantwoordelijkheidsinspanningen van Hecten."
+    }
+  },
+  "Common": {
+    "ReadMore": {
+      "readMore": "Meer lezen",
+      "readLess": "Minder lezen"
+    },
+    "NotFound": {
+      "heading": "Pagina niet gevonden",
+      "description": "De pagina die je probeerde te openen bestaat niet.",
+      "cta": "Ga naar de homepage"
+    },
+    "Price": {
+      "from": "Vanaf",
+      "original": "Origineel:"
+    },
+    "Breadcrumbs": {
+      "home": "Home",
+      "shop": "Winkel"
+    },
+    "thumbnailAlt": "Miniatuur",
+    "GeoSuggestion": {
+      "title": "Je bent mogelijk op de verkeerde plek",
+      "description": "Het lijkt erop dat je in {country} bent. Wil je de {country}-versie van deze pagina bekijken?",
+      "confirm": "Ja, wisselen",
+      "dismiss": "Nee, hier blijven"
+    }
+  },
+  "Account": {
+    "Login": {
+      "heading": "Inloggen",
+      "email": "E-mailadres",
+      "emailTitle": "Voer een geldig e-mailadres in.",
+      "password": "Wachtwoord",
+      "submit": "Inloggen",
+      "registerPrompt": "Nog geen lid?",
+      "registerCta": "Registreren"
+    },
+    "Register": {
+      "heading": "Registreer hier",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mailadres",
+      "password": "Wachtwoord",
+      "consentPrefix": "Ik ga akkoord met het",
+      "privacyPolicy": "Privacybeleid",
+      "and": "en de",
+      "termsOfUse": "Gebruiksvoorwaarden",
+      "submit": "Aanmelden",
+      "signInPrompt": "Al lid?",
+      "signInCta": "Inloggen",
+      "successTitle": "Registratie geslaagd",
+      "successMessage": "Uw account is succesvol aangemaakt. Log in om verder te gaan.",
+      "goToLogin": "Inloggen"
+    },
+    "Nav": {
+      "hello": "Hallo {name}",
+      "account": "Account",
+      "overview": "Overzicht",
+      "profile": "Profiel",
+      "addresses": "Adressen",
+      "wishlist": "Verlanglijst",
+      "orders": "Bestellingen",
+      "logout": "Uitloggen"
+    },
+    "Overview": {
+      "hello": "Hallo {name}",
+      "signedInAs": "Ingelogd als:",
+      "profile": "Profiel",
+      "completed": "Voltooid",
+      "addresses": "Adressen",
+      "saved": "Opgeslagen",
+      "recentOrders": "Recente bestellingen",
+      "datePlaced": "Besteld op",
+      "orderNumber": "Bestelnummer",
+      "totalAmount": "Totaalbedrag",
+      "goToOrder": "Ga naar bestelling #{id}",
+      "noRecentOrders": "Geen recente bestellingen",
+      "subtitle": "Hier is een kort overzicht van je accountactiviteit.",
+      "viewAll": "Alles bekijken",
+      "orders": "Bestellingen",
+      "placed": "Geplaatst",
+      "status": "Status",
+      "completeProfile": "Maak je profiel compleet"
+    },
+    "OrderOverview": {
+      "emptyTitle": "Hier is niets te zien",
+      "emptyDescription": "Je hebt nog geen bestellingen, laten we daar verandering in brengen :)",
+      "continueShopping": "Verder winkelen"
+    },
+    "Pages": {
+      "Wishlist": {
+        "heading": "Verlanglijst",
+        "description": "Bekijk opgeslagen producten, verwijder items of deel je verlanglijst.",
+        "emptyMessage": "Je hebt nog geen producten aan je verlanglijst toegevoegd.",
+        "guestDescription": "Sla producten op tijdens het browsen en bekijk ze op elk moment opnieuw."
+      },
+      "Orders": {
+        "heading": "Bestellingen",
+        "description": "Bekijk je eerdere bestellingen en hun status. Indien nodig kun je ook retouren of omruilingen aanvragen."
+      },
+      "Profile": {
+        "heading": "Profiel",
+        "description": "Bekijk en werk je profielgegevens bij, waaronder je naam, e-mailadres en telefoonnummer. Je kunt ook je factuuradres bijwerken of je wachtwoord wijzigen."
+      },
+      "Addresses": {
+        "heading": "Verzendadressen",
+        "description": "Bekijk en update je verzendadressen. Je kunt er zoveel toevoegen als je wilt. Opgeslagen adressen zijn beschikbaar tijdens het afrekenen."
+      }
+    },
+    "ProfilePassword": {
+      "notImplemented": "Het bijwerken van het wachtwoord is niet geïmplementeerd",
+      "password": "Wachtwoord",
+      "hidden": "Het wachtwoord wordt om veiligheidsredenen niet getoond",
+      "oldPassword": "Oud wachtwoord",
+      "newPassword": "Nieuw wachtwoord",
+      "confirmPassword": "Bevestig wachtwoord"
+    },
+    "AddressForm": {
+      "newAddress": "Nieuw adres",
+      "addAddress": "Adres toevoegen",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "company": "Bedrijf",
+      "address": "Adres",
+      "apartment": "Appartement, suite, enz.",
+      "postalCode": "Postcode",
+      "city": "Stad",
+      "provinceState": "Provincie / staat",
+      "country": "Land",
+      "phone": "Telefoon",
+      "cancel": "Annuleren",
+      "save": "Opslaan",
+      "edit": "Bewerken",
+      "remove": "Verwijderen",
+      "editAddress": "Adres bewerken",
+      "defaultShipping": "Standaard verzendadres",
+      "defaultBilling": "Standaard factuuradres"
+    },
+    "BillingAddress": {
+      "billingAddress": "Factuuradres",
+      "noBillingAddress": "Geen factuuradres",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "company": "Bedrijf",
+      "phone": "Telefoon",
+      "address": "Adres",
+      "apartment": "Appartement, suite, enz.",
+      "postalCode": "Postcode",
+      "city": "Stad",
+      "province": "Provincie"
+    },
+    "ProfileName": {
+      "name": "Naam",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam"
+    },
+    "ProfileEmail": {
+      "email": "E-mail"
+    },
+    "ProfilePhone": {
+      "phone": "Telefoon"
+    },
+    "TransferRequest": {
+      "heading": "Bestellingsoverdrachten",
+      "promptLine1": "Kun je de bestelling die je zoekt niet vinden?",
+      "promptLine2": "Koppel een bestelling aan je account.",
+      "orderIdPlaceholder": "Bestel-ID",
+      "requestTransfer": "Overdracht aanvragen",
+      "successRequested": "Overdracht voor bestelling {id} aangevraagd",
+      "successEmailSent": "E-mail met overdrachtsverzoek verzonden naar {email}"
+    },
+    "AccountInfo": {
+      "defaultError": "Er is een fout opgetreden, probeer het opnieuw",
+      "cancel": "Annuleren",
+      "edit": "Bewerken",
+      "updatedSuccessfully": "{label} succesvol bijgewerkt",
+      "saveChanges": "Wijzigingen opslaan",
+      "notProvided": "Niet opgegeven"
+    },
+    "OrderCard": {
+      "itemCount": "{count, plural, one {# artikel} other {# artikelen}}",
+      "more": "meer",
+      "seeDetails": "Details bekijken"
+    }
+  },
+  "Cart": {
+    "Items": {
+      "heading": "Winkelwagen",
+      "item": "Artikel",
+      "quantity": "Aantal",
+      "price": "Prijs",
+      "total": "Totaal"
+    },
+    "Summary": {
+      "heading": "Overzicht",
+      "checkout": "Ga naar afrekenen"
+    },
+    "Empty": {
+      "heading": "Je winkelmand is momenteel leeg",
+      "description": "Je kunt alle beschikbare producten bekijken en iets kopen in de winkel.",
+      "cta": "Terug naar de winkel"
+    },
+    "Dropdown": {
+      "heading": "Winkelwagen",
+      "quantity": "Aantal",
+      "remove": "Verwijderen",
+      "subtotal": "Subtotaal",
+      "excludingTaxes": "(excl. btw)",
+      "goToCart": "Ga naar winkelwagen",
+      "empty": "Je boodschappentas is leeg.",
+      "goToProductsSrOnly": "Ga naar alle producten",
+      "explore": "Producten bekijken",
+      "shoppingBasket": "Winkelmandje",
+      "note": "Notitie",
+      "coupon": "Coupon",
+      "subtotalExclTax": "Subtotaal (excl. btw)",
+      "taxes": "Belastingen",
+      "totalInclTax": "Totaal (incl. btw)",
+      "checkout": "Afrekenen",
+      "viewBasket": "Mandje bekijken",
+      "notePlaceholder": "Voeg speciale instructies voor je bestelling toe...",
+      "save": "Opslaan",
+      "cancel": "Annuleren",
+      "addCouponCode": "Een couponcode toevoegen",
+      "enterCode": "Voer code in",
+      "discountCode": "Kortingscode",
+      "apply": "Toepassen",
+      "increaseQuantity": "Hoeveelheid verhogen",
+      "decreaseQuantity": "Hoeveelheid verlagen",
+      "couponCodeRequired": "Voer een couponcode in",
+      "couponError": "Deze couponcode is ongeldig of verlopen",
+      "couponApplied": "Coupon succesvol toegepast!",
+      "enterValidCode": "Voer uw promotiecode in en druk op Enter of klik op Toepassen",
+      "close": "Sluiten",
+      "emptyHeading": "Je mandje is momenteel leeg",
+      "emptyDescription": "Je kunt alle beschikbare producten bekijken en er enkele in de winkel kopen.",
+      "returnToShop": "Terug naar de winkel",
+      "shipping": "Verzending",
+      "free": "Gratis",
+      "total": "Totaal",
+      "discount": "Korting",
+      "includesVat": "incl. {vat} BTW",
+      "estimatedFor": "geschat voor",
+      "couponAlreadyApplied": "Er is al een coupon toegepast. Verwijder deze eerst om een nieuwe toe te passen.",
+      "includes": "incl.",
+      "vat": "BTW"
+    },
+    "Totals": {
+      "subtotalExcluding": "Subtotaal (excl. verzending en belastingen)",
+      "shipping": "Verzending",
+      "calculatedAtCheckout": "Wordt berekend bij het afrekenen",
+      "discount": "Korting",
+      "taxes": "Belastingen",
+      "total": "Totaal",
+      "subtotal": "Subtotaal",
+      "free": "Gratis",
+      "includes": "incl.",
+      "vat": "BTW",
+      "estimatedFor": "geschat voor"
+    },
+    "NotFound": {
+      "heading": "Pagina niet gevonden",
+      "description": "De winkelwagen die je probeerde te openen bestaat niet. Wis je cookies en probeer het opnieuw.",
+      "cta": "Ga naar de homepage"
+    },
+    "SignInPrompt": {
+      "heading": "Heb je al een account?",
+      "description": "Log in voor een betere ervaring.",
+      "cta": "Inloggen"
+    },
+    "MismatchBanner": {
+      "message": "Er ging iets mis bij het overdragen van je winkelmandje",
+      "runAgain": "Overdracht opnieuw uitvoeren",
+      "transferring": "Bezig met overdragen.."
+    }
+  },
+  "Search": {
+    "Results": {
+      "heading": "Zoekresultaten voor:",
+      "clear": "Wissen",
+      "noResults": "Geen resultaten."
+    },
+    "Box": {
+      "placeholder": "Zoek producten..."
+    },
+    "ShowAll": {
+      "noResults": "Geen resultaten gevonden.",
+      "showingFirst": "De eerste {count} resultaten worden getoond.",
+      "viewAll": "Alles bekijken"
+    }
+  },
+  "Wishlist": {
+    "SharedPage": {
+      "heading": "Gedeelde verlanglijst",
+      "description": "Bekijk de producten die zijn opgeslagen in deze gedeelde verlanglijst.",
+      "emptyMessage": "Deze verlanglijst bevat geen opgeslagen producten."
+    },
+    "ShareButton": {
+      "successTitle": "Link gekopieerd",
+      "successDescription": "Iedereen met deze link kan je verlanglijst bekijken.",
+      "errorTitle": "Fout",
+      "errorDescription": "Er kan op dit moment geen deellink worden gegenereerd.",
+      "button": "Verlanglijst delen",
+      "label": "Deellink",
+      "copy": "Link kopiëren",
+      "copied": "Gekopieerd"
+    },
+    "ItemsGrid": {
+      "variant": "Variant",
+      "count": "{count, plural, one {# artikel} other {# artikelen}}",
+      "remove": "Verwijderen",
+      "removeItem": "{title} uit verlanglijst verwijderen",
+      "unavailable": "Dit product is niet meer beschikbaar.",
+      "emptyTitle": "Nog niets opgeslagen",
+      "startShopping": "Begin met winkelen"
+    },
+    "Button": {
+      "add": "Toevoegen aan verlanglijst",
+      "remove": "Verwijderen van verlanglijst",
+      "unavailable": "Selecteer een variant om op te slaan"
+    },
+    "Toggle": {
+      "add": "Toevoegen aan verlanglijst",
+      "remove": "Verwijderen uit verlanglijst",
+      "signIn": "Log in om op te slaan"
+    },
+    "Toast": {
+      "savedTitle": "Opgeslagen",
+      "savedDescription": "Artikel toegevoegd aan je verlanglijst.",
+      "removedTitle": "Verwijderd",
+      "removedDescription": "Artikel verwijderd uit je verlanglijst.",
+      "errorTitle": "Fout",
+      "errorDescription": "Er is een fout opgetreden bij het bijwerken van je verlanglijst.",
+      "guestSavedTitle": "Opgeslagen in je browser",
+      "guestSavedDescription": "Dit item wordt op dit apparaat opgeslagen. Maak een account aan om het permanent te bewaren en je verlanglijst te delen.",
+      "guestRemovedTitle": "Verwijderd",
+      "guestRemovedDescription": "Item verwijderd uit je in de browser opgeslagen verlanglijst."
+    },
+    "GuestNotice": {
+      "heading": "Je bent niet ingelogd",
+      "description": "Deze verlanglijst wordt alleen in je browser opgeslagen. Maak een account aan om hem permanent te bewaren en met anderen te delen.",
+      "cta": "Inloggen om op te slaan"
+    },
+    "GuestSignIn": {
+      "heading": "Log in om je verlanglijst te bewaren",
+      "description": "Bekijk de artikelen die in je account zijn opgeslagen. Alles wat je op dit apparaat hebt opgeslagen, wordt bij het inloggen aan je account toegevoegd.",
+      "benefitDevices": "Bekijk je verlanglijst op elk apparaat",
+      "benefitShare": "Deel je lijst met familie en vrienden",
+      "benefitKeep": "Bewaar je artikelen, ook als je je browsergegevens wist"
+    }
+  },
+  "Shipping": {
+    "FreeShippingNudge": {
+      "unlock": "Gratis verzending ontgrendelen",
+      "unlocked": "Gratis verzending ontgrendeld!",
+      "remaining": "Nog maar {amount} te gaan",
+      "viewCart": "Winkelwagen bekijken",
+      "viewProducts": "Producten bekijken"
+    }
+  },
+  "Order": {
+    "Summary": {
+      "heading": "Besteloverzicht",
+      "subtotal": "Subtotaal",
+      "discount": "Korting",
+      "giftCard": "Cadeaubon",
+      "shipping": "Verzending",
+      "taxes": "Belastingen",
+      "total": "Totaal"
+    },
+    "Help": {
+      "heading": "Hulp nodig?",
+      "contact": "Contact",
+      "returns": "Retouren en omruilingen"
+    },
+    "Completed": {
+      "heading": "Bedankt!",
+      "description": "Je bestelling is succesvol geplaatst.",
+      "summary": "Overzicht"
+    },
+    "Details": {
+      "heading": "Bestelgegevens",
+      "back": "Terug naar overzicht",
+      "confirmationDetails": "We hebben de bestelbevestiging gestuurd naar <email>{email}</email>.",
+      "orderDate": "Besteldatum:",
+      "orderNumber": "Bestelnummer:",
+      "orderStatus": "Bestelstatus:",
+      "paymentStatus": "Betaalstatus:",
+      "statuses": {
+        "not_fulfilled": "Niet vervuld",
+        "partially_fulfilled": "Gedeeltelijk vervuld",
+        "fulfilled": "Vervuld",
+        "partially_shipped": "Gedeeltelijk verzonden",
+        "shipped": "Verzonden",
+        "partially_delivered": "Gedeeltelijk geleverd",
+        "delivered": "Geleverd",
+        "canceled": "Geannuleerd",
+        "not_paid": "Niet betaald",
+        "awaiting": "In afwachting",
+        "authorized": "Geautoriseerd",
+        "partially_authorized": "Gedeeltelijk geautoriseerd",
+        "captured": "Geïncasseerd",
+        "partially_captured": "Gedeeltelijk geïncasseerd",
+        "partially_refunded": "Gedeeltelijk terugbetaald",
+        "refunded": "Terugbetaald",
+        "requires_action": "Actie vereist"
+      }
+    },
+    "Shipping": {
+      "heading": "Levering",
+      "address": "Verzendadres",
+      "contact": "Contact",
+      "method": "Methode"
+    },
+    "Payment": {
+      "title": "Betaling",
+      "method": "Betaalmethode",
+      "details": "Betalingsgegevens",
+      "paidAt": "{amount} betaald op {date}"
+    },
+    "TransferPage": {
+      "heading": "Overdrachtsverzoek voor bestelling {id}",
+      "intro": "Je hebt een verzoek ontvangen om het eigendom van je bestelling ({id}) over te dragen. Als je akkoord gaat met dit verzoek, kun je de overdracht goedkeuren door op de onderstaande knop te klikken.",
+      "permissions": "Als je accepteert, neemt de nieuwe eigenaar alle verantwoordelijkheden en rechten over die bij deze bestelling horen.",
+      "noAction": "Als je dit verzoek niet herkent of het eigendom wilt behouden, is er geen verdere actie nodig."
+    },
+    "TransferAccept": {
+      "successHeading": "Bestelling overgedragen!",
+      "successText": "Bestelling {id} is succesvol overgedragen aan de nieuwe eigenaar.",
+      "errorText": "Er is een fout opgetreden bij het accepteren van de overdracht. Probeer het opnieuw.",
+      "errorMessage": "Foutmelding: {error}"
+    },
+    "TransferActions": {
+      "acceptSuccess": "Bestelling succesvol overgedragen!",
+      "declineSuccess": "Overdracht van bestelling succesvol geweigerd!",
+      "accept": "Overdracht accepteren",
+      "decline": "Overdracht weigeren"
+    }
+  },
+  "Store": {
+    "Sort": {
+      "title": "Sorteren op",
+      "created_at": "Nieuwste items",
+      "price_asc": "Prijs: laag naar hoog",
+      "price_desc": "Prijs: hoog naar laag"
+    },
+    "showingResults": "{from}–{to} van {total} resultaten worden weergegeven",
+    "filters": "Filters"
+  },
+  "Product": {
+    "Actions": {
+      "signInToSave": "Log in om op te slaan",
+      "selectVariantToSave": "Selecteer een variant om op te slaan",
+      "removeFromWishlist": "Verwijderen van verlanglijst",
+      "addToWishlist": "Toevoegen aan verlanglijst",
+      "quantity": "Aantal:",
+      "selectVariant": "Selecteer variant",
+      "outOfStock": "Niet op voorraad",
+      "addToCart": "Toevoegen aan winkelwagen",
+      "selectVariantError": "* Selecteer een variant om door te gaan",
+      "inventoryAlert": "Er zijn momenteel slechts {quantity} stuk(s) beschikbaar!",
+      "estimatedDeliveryLabel": "Geschatte levering:",
+      "estimatedDeliveryText": "Je pakket arriveert binnen 3-5 werkdagen op je afhaalpunt of gewoon bij je thuis.",
+      "selectOptions": "Opties selecteren",
+      "optionGender": "Geslacht",
+      "optionSize": "Maat",
+      "optionColor": "Kleur",
+      "optionValueBaby": "Baby",
+      "optionValueKid": "Kind",
+      "optionValueWomen": "Dames",
+      "optionValueMen": "Heren"
+    },
+    "Tabs": {
+      "sizeGuide": "Maattabel",
+      "deliveryInformation": "Leveringsinformatie",
+      "material": "Materiaal",
+      "countryOfOrigin": "Land van herkomst",
+      "type": "Type",
+      "weight": "Gewicht",
+      "dimensions": "Afmetingen",
+      "shippingBullet1": "Verzending van uw bestelling in minder dan 24 uur van maandag tot zaterdag (met uitzondering van feestdagen)",
+      "shippingBullet2": "Gratis 12-dag bijgehouden levering vanaf €70 aankoop (thuis)",
+      "shippingBullet3": "Standaard getraceerde levering 10 dagen voor €5,90 (thuis)",
+      "shippingBullet4": "Volg je pakket eenvoudig per e-mail en op de website",
+      "sizeGuideDescription": "Onze pyjama’s hebben een elastische tailleband en passen goed, ongeacht je taillemaat. Twijfel je? Neem contact met ons op.",
+      "sizesSuffix": " maten:",
+      "hide": "Verbergen",
+      "show": "Tonen",
+      "measurementGuideTitle": "Hoe neem je je maten op?",
+      "measurementGuideDescription": "Klik hier om de gids van Hecten te volgen en thuis eenvoudig je maten op te nemen zonder fouten"
+    },
+    "Reviews": {
+      "NoReviewText": "Dit product heeft nog geen beoordelingen ontvangen. Wees de eerste om een beoordeling achter te laten!",
+      "errorTitle": "Fout",
+      "requiredFields": "Vul de verplichte velden in.",
+      "successTitle": "Gelukt",
+      "successDescription": "Je beoordeling is ingediend en wacht op goedkeuring.",
+      "submitError": "Er is een fout opgetreden bij het verzenden van je beoordeling. Probeer het later opnieuw.",
+      "addReview": "Een beoordeling toevoegen",
+      "title": "Titel",
+      "content": "Inhoud",
+      "rating": "Beoordeling",
+      "submit": "Verzenden",
+      "heading": "Productbeoordelingen",
+      "description": "Ontdek wat onze klanten over dit product zeggen.",
+      "count": "{count} beoordelingen",
+      "loadMore": "Meer beoordelingen laden"
+    },
+    "Related": {
+      "heading": "Gerelateerde producten",
+      "description": "Misschien wil je deze producten ook bekijken."
+    },
+    "Onboarding": {
+      "success": "Je demoproduct is succesvol aangemaakt! 🎉",
+      "description": "Je kunt je winkel nu verder instellen in de admin.",
+      "continue": "Doorgaan met instellen in admin"
+    },
+    "Preview": {
+      "selectOption": "Optie selecteren",
+      "inStock": "Op voorraad",
+      "sliderDescription": "Dit zijn de Merry Grinchmas-pyjama's, een leuk kerstpyjama-idee om je Grinchmas alleen of samen met anderen te vieren. Geschikt voor gezinnen, koppels, kinderen en...",
+      "outOfStock": "Niet op voorraad"
+    }
+  },
+  "Tracking": {
+    "Page": {
+      "heading": "Mijn bestelling volgen",
+      "trackingNumber": "Trackingnummer",
+      "lastUpdate": "Laatste update:",
+      "descriptionLabel": "Beschrijving:",
+      "location": "Locatie:",
+      "route": "Route:",
+      "history": "Geschiedenis",
+      "orderFoundNoTracking": "Bestelling gevonden, maar er zijn nog geen trackinggegevens beschikbaar.",
+      "orderPrompt": "Voer je bestelnummer en e-mailadres in om je bestelling te volgen:",
+      "trackingPrompt": "Voer het trackingnummer in dat je in de verzendbevestiging hebt ontvangen om je bestelling te volgen",
+      "orderId": "Bestel-ID",
+      "orderNumberPlaceholder": "Bestelnummer",
+      "orderEmail": "Bestel-e-mail",
+      "emailPlaceholder": "E-mailadres",
+      "trackingNumberLabel": "Trackingnummer",
+      "trackingNumberPlaceholder": "Trackingnummer van bestelling",
+      "trackOrder": "Bestelling volgen",
+      "tracking": "Bezig met volgen...",
+      "orderLabel": "Bestelling:",
+      "tabs": {
+        "orderDetails": "Bestelgegevens",
+        "trackingNumbers": "Trackingnummers"
+      },
+      "milestones": {
+        "infoReceived": "Informatie ontvangen",
+        "pickedUp": "Opgehaald",
+        "departure": "Vertrek",
+        "arrival": "Aankomst",
+        "availableForPickup": "Beschikbaar om af te halen",
+        "outForDelivery": "Onderweg voor bezorging",
+        "delivered": "Bezorgd"
+      },
+      "statuses": {
+        "Delivered": "Bezorgd",
+        "InTransit": "Onderweg",
+        "PickedUp": "Opgehaald",
+        "Exception": "Uitzondering",
+        "Returning": "Wordt geretourneerd",
+        "Returned": "Geretourneerd",
+        "Unknown": "Onbekend"
+      }
+    }
+  },
+  "Checkout": {
+    "Payment": {
+      "selectMethod": "Selecteer een betaalmethode",
+      "title": "Betaling",
+      "edit": "Bewerken",
+      "method": "Betaalmethode",
+      "giftCard": "Cadeaukaart",
+      "enterCardDetails": "Kaartgegevens invoeren",
+      "continueToReview": "Doorgaan naar controle",
+      "details": "Betalingsgegevens",
+      "anotherStep": "Er verschijnt nog een stap",
+      "placeOrder": "Bestelling plaatsen",
+      "enterPaymentDetails": "Betaalgegevens invoeren",
+      "paymentFailed": "Je betaling kon niet worden voltooid. Probeer het opnieuw of kies een andere betaalmethode.",
+      "paymentFormError": "Het betaalformulier kon niet worden geladen. Vernieuw de pagina en probeer het opnieuw.",
+      "paypalLoading": "PayPal wordt geladen…",
+      "paypalFinalising": "Je bestelling wordt afgerond…",
+      "paypalUnavailable": "PayPal kon niet worden geladen. Kies een andere betaalmethode.",
+      "formUnavailable": {
+        "title": "Betaalformulier moet worden vernieuwd",
+        "body": "Je beveiligde betaalsessie is verlopen, daardoor kon het formulier niet laden. Er is niets afgeschreven en je winkelwagen is bewaard. Laad het formulier opnieuw om verder te gaan.",
+        "reload": "Betaalformulier opnieuw laden"
+      },
+      "sessionRenewed": "Je betaalsessie is vernieuwd. Vul je betaalgegevens opnieuw in. Er is niets afgeschreven."
+    },
+    "Layout": {
+      "backToCart": "Terug naar winkelwagen",
+      "back": "Terug",
+      "store": "Hecten",
+      "secureCheckout": "Veilig afrekenen",
+      "progress": "Voortgang van afrekenen",
+      "showSummary": "Besteloverzicht tonen",
+      "hideSummary": "Besteloverzicht verbergen"
+    },
+    "ShippingAddress": {
+      "savedAddressesPrompt": "Hoi {name}, wil je een van je opgeslagen adressen gebruiken?",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "address": "Adres",
+      "company": "Bedrijf",
+      "postalCode": "Postcode",
+      "city": "Stad",
+      "stateProvince": "Staat / Provincie",
+      "billingSameAsShipping": "Factuuradres gelijk aan verzendadres",
+      "email": "E-mail",
+      "emailTitle": "Voer een geldig e-mailadres in.",
+      "phone": "Telefoon",
+      "chooseAddress": "Kies een adres"
+    },
+    "Addresses": {
+      "shippingAddress": "Verzendadres",
+      "billingAddress": "Factuuradres",
+      "contact": "Contact",
+      "edit": "Bewerken",
+      "continueToDelivery": "Doorgaan naar levering",
+      "billingSameAsDelivery": "Factuur- en afleveradres zijn hetzelfde."
+    },
+    "Shipping": {
+      "delivery": "Levering",
+      "edit": "Bewerken",
+      "shippingMethod": "Verzendmethode",
+      "deliveryPrompt": "Hoe wil je je bestelling laten bezorgen?",
+      "pickupOrder": "Je bestelling ophalen",
+      "store": "Winkel",
+      "storePrompt": "Kies een winkel bij jou in de buurt",
+      "continueToPayment": "Doorgaan naar betaling",
+      "method": "Methode"
+    },
+    "Review": {
+      "heading": "Controleren",
+      "confirmation": "Door op de knop Bestelling plaatsen te klikken, bevestig je dat je onze Gebruiksvoorwaarden, Verkoopvoorwaarden en Retourbeleid hebt gelezen, begrepen en geaccepteerd, en dat je het Privacybeleid van Hecten hebt gelezen.",
+      "confirmationPaypal": "Door te betalen met een van de PayPal-knoppen hieronder, bevestig je dat je onze Gebruiksvoorwaarden, Verkoopvoorwaarden en Retourbeleid hebt gelezen, begrepen en geaccepteerd, en dat je het Privacybeleid van Hecten hebt gelezen."
+    },
+    "DiscountCode": {
+      "addPromotionCodes": "Promotiecode(s) toevoegen",
+      "apply": "Toepassen",
+      "promotionsApplied": "Toegepaste coupons",
+      "removeDiscount": "Coupon verwijderen",
+      "couponRemoved": "Coupon succesvol verwijderd",
+      "couponApplied": "Coupon succesvol toegepast!",
+      "enterCode": "Voer couponcode in",
+      "couponAlreadyApplied": "Er is al een coupon toegepast. Verwijder deze eerst om een nieuwe toe te passen."
+    },
+    "Summary": {
+      "heading": "In je winkelwagen"
+    },
+    "PaymentTest": {
+      "attention": "Let op:",
+      "testingOnly": "Alleen voor testdoeleinden."
+    },
+    "PaymentMethods": {
+      "creditCard": "Creditcard",
+      "ideal": "iDeal",
+      "bancontact": "Bancontact",
+      "paypal": "PayPal",
+      "manualPayment": "Handmatige betaling",
+      "stripe": "Credit-/debitcard en meer",
+      "paypalHint": "Betaal veilig met PayPal. Afhankelijk van je land biedt PayPal ook Achteraf betalen en betalen met een kaart zonder PayPal-account."
+    },
+    "PaymentReturn": {
+      "checkingTitle": "Je betaling wordt bevestigd…",
+      "checkingBody": "We controleren het resultaat bij je bank. Dit duurt maar even.",
+      "secureNote": "Veilig betalen. Houd deze pagina geopend.",
+      "slowNote": "Dit duurt langer dan normaal. Houd deze pagina geopend.",
+      "receivedTitle": "Betaling ontvangen",
+      "receivedBody": "Bedankt! We ronden je bestelling af en sturen je binnenkort de bevestiging per e-mail. Ontvang je die niet binnen enkele minuten, neem dan contact op met de klantenservice.",
+      "pendingTitle": "We wachten op je betaling",
+      "pendingBody": "Je betaling is onderweg. We plaatsen en verzenden je bestelling zodra het bedrag is bevestigd, en we mailen je zodra dat gebeurt.",
+      "statusChecking": "Controleren",
+      "statusPaid": "Betaald",
+      "statusPending": "Wacht op betaling",
+      "statusFailed": "Niet voltooid",
+      "amountLabel": "Bedrag",
+      "statusLabel": "Status",
+      "nextTitle": "Wat gebeurt er nu",
+      "step1Title": "Je bank verwerkt de betaling",
+      "step1Body": "Dit kan tot 5 werkdagen duren.",
+      "step2Title": "Wij bevestigen en plaatsen je bestelling",
+      "step2Body": "Dit gebeurt automatisch. Je hoeft verder niets te doen.",
+      "step3Title": "Je ontvangt een bevestigingsmail",
+      "step3Body": "We verzenden je bestelling zodra de betaling is bevestigd.",
+      "viewInstructions": "Betaalinstructies bekijken",
+      "backToPayment": "Terug naar betaling",
+      "continueShopping": "Verder winkelen",
+      "notCharged": "Er is niets afgeschreven.",
+      "needHelp": "Hulp nodig?",
+      "contactUs": "Neem contact op met de klantenservice"
+    },
+    "PaymentError": {
+      "declined": {
+        "title": "Je betaling is geweigerd",
+        "body": "Je bank of kaartuitgever heeft deze betaling niet goedgekeurd. Probeer een andere kaart of betaalmethode."
+      },
+      "insufficient_funds": {
+        "title": "Onvoldoende saldo",
+        "body": "Op deze kaart is niet genoeg saldo beschikbaar voor deze aankoop. Probeer een andere kaart of betaalmethode."
+      },
+      "expired_card": {
+        "title": "Je kaart is verlopen",
+        "body": "Controleer de vervaldatum of gebruik een andere kaart."
+      },
+      "incorrect_cvc": {
+        "title": "De beveiligingscode is onjuist",
+        "body": "Controleer de beveiligingscode van 3 of 4 cijfers op je kaart en probeer het opnieuw."
+      },
+      "incorrect_number": {
+        "title": "Het kaartnummer is onjuist",
+        "body": "Controleer je kaartnummer en probeer het opnieuw."
+      },
+      "authentication": {
+        "title": "Verificatie mislukt",
+        "body": "We konden deze betaling niet bij je bank verifiëren. Probeer het opnieuw of kies een andere betaalmethode."
+      },
+      "invalid_details": {
+        "title": "Controleer je betaalgegevens",
+        "body": "Sommige betaalgegevens ontbreken of zijn ongeldig. Controleer ze en probeer het opnieuw."
+      },
+      "processing": {
+        "title": "We konden je betaling niet verwerken",
+        "body": "Er ging iets mis bij het verwerken van je betaling. Probeer het over een moment opnieuw."
+      },
+      "network": {
+        "title": "Verbindingsprobleem",
+        "body": "We konden de betaalservice niet bereiken. Controleer je verbinding en probeer het opnieuw."
+      },
+      "session_expired": {
+        "title": "Je betaalsessie is verlopen",
+        "body": "Voor je veiligheid verlopen betaalsessies na een tijdje. Er is niets afgeschreven en je winkelwagen is bewaard. Laad het betaalformulier opnieuw en plaats je bestelling nogmaals."
+      },
+      "order": {
+        "title": "We konden je bestelling niet afronden",
+        "body": "Je betaling is gelukt, maar er ging iets mis bij het afronden van je bestelling. Betaal niet opnieuw. Probeer het nog eens of neem contact op met de klantenservice, dan lossen we het op."
+      },
+      "generic": {
+        "title": "Betaling mislukt",
+        "body": "Er ging iets mis met je betaling. Probeer het opnieuw of kies een andere betaalmethode."
+      },
+      "notCharged": "Er is niets afgeschreven.",
+      "detailsLabel": "Details",
+      "actions": {
+        "tryAgain": "Opnieuw proberen",
+        "editDetails": "Betaalgegevens aanpassen",
+        "changeMethod": "Andere betaalmethode gebruiken",
+        "close": "Sluiten",
+        "contactSupport": "Klantenservice contacteren",
+        "reloadForm": "Betaalformulier opnieuw laden"
+      }
+    }
+  },
+  "StaticPages": {
+    "PrivacyPolicy": {
+      "title": "Privacybeleid",
+      "breadcrumbHome": "Home",
+      "body": "<p>SECTIE 1 - VERZAMELDE PERSOONSGEGEVENS</p><p>Wanneer je een aankoop doet in onze winkel, verzamelen wij als onderdeel van ons koop- en verkoopproces de persoonsgegevens die je verstrekt, zoals je naam, adres en e-mailadres.</p><p>Wanneer je door onze winkel bladert, ontvangen wij ook automatisch het Internet Protocol-adres (IP-adres) van je computer. Hiermee kunnen wij meer details verkrijgen over de browser en het besturingssysteem dat je gebruikt.</p><p>E-mailmarketing (indien van toepassing): Met jouw toestemming kunnen wij je e-mails sturen over onze winkel, nieuwe producten en andere updates.</p><p>SECTIE 2 - TOESTEMMING</p><p>Hoe verkrijgen jullie mijn toestemming?</p><p>Wanneer je ons je persoonsgegevens verstrekt om een transactie af te ronden, je creditcard te verifieren, een bestelling te plaatsen, een levering te plannen of een aankoop te retourneren, gaan wij ervan uit dat je instemt met onze verzameling en ons gebruik van je gegevens uitsluitend voor dat doel.</p><p>Als wij je om persoonsgegevens vragen om een andere reden, zoals marketingdoeleinden, vragen wij rechtstreeks om je uitdrukkelijke toestemming of geven wij je de mogelijkheid om te weigeren.</p><p>Hoe trek ik mijn toestemming in? Je kunt je toestemming op elk moment aanpassen door <a href=\"#\">hier te klikken en je toestemming te bewerken</a>.</p><p>Als je, nadat je ons toestemming hebt gegeven, van gedachten verandert en niet langer instemt met contact door ons, het verzamelen van je gegevens of de openbaarmaking ervan, kun je ons dit laten weten via {companyEmail} of per post aan {companyOperatingEntity}, het bedrijf dat thechristmasfabric.com exploiteert:<br>{companyOperatingEntity}<br>{companyAddress}<br>{companyCity}<br>{companyZip}<br>Frankrijk</p><p>SECTIE 3 - OPENBAARMAKING</p><p>Wij kunnen je persoonsgegevens openbaar maken als wij daartoe wettelijk verplicht zijn of als je onze Algemene Voorwaarden schendt.</p><p>SECTIE 4 - HOSTING</p><p>Onze winkel wordt gehost door Kinsta Inc. Zij bieden ons het online platform waarmee wij onze diensten en producten aan jou kunnen verkopen.</p><p>Je gegevens worden opgeslagen in het gegevensopslagsysteem en de databases van Kinsta Inc. Je gegevens worden bewaard op een beveiligde server die wordt beschermd door een firewall.</p><p>Betaling:</p><p>Bij een online aankoop op noel-shop.com worden geen creditcardgegevens opgeslagen. Je creditcardgegevens worden veilig gebruikt door diensten van derden om je betaling te verwerken. Om veiligheidsredenen worden de gegevens versleuteld volgens de Payment Card Industry Data Security Standard (PCI-DSS). De informatie over je aankooptransactie wordt door diensten van derden zoals PayPal, Stripe of Mollie bewaard zolang als nodig is om je bestelling af te ronden.</p><p>Alle directe betaalgateways voldoen aan de PCI-DSS-standaard, beheerd door de PCI Security Standards Council, een gezamenlijke inspanning van bedrijven zoals Visa, MasterCard, American Express en Discover.</p><p>De eisen van de PCI-DSS-standaard zorgen voor een veilige verwerking van creditcardgegevens door onze winkel en haar dienstverleners.</p><p>SECTIE 5 - DIENSTEN VAN DERDEN</p><p>Over het algemeen zullen de externe dienstverleners die wij gebruiken je gegevens alleen verzamelen, gebruiken en openbaar maken voor zover dat nodig is om de diensten uit te voeren die zij aan ons leveren.</p><p>Sommige externe dienstverleners, zoals betaalgateways en andere betalingsverwerkers, hebben echter hun eigen privacybeleid met betrekking tot de informatie die wij aan hen moeten verstrekken voor je aankooptransacties.</p><p>Voor deze aanbieders raden wij je aan hun privacybeleid zorgvuldig te lezen, zodat je begrijpt hoe zij met je persoonsgegevens omgaan.</p><p>Houd er rekening mee dat sommige leveranciers gevestigd kunnen zijn, of faciliteiten kunnen hebben, in een andere jurisdictie dan jij of wij. Als je doorgaat met een transactie waarvoor de diensten van een externe leverancier nodig zijn, kunnen je gegevens worden beheerst door de wetten van de jurisdictie waar die leverancier is gevestigd of waar zijn faciliteiten zich bevinden.</p><p>Als je bijvoorbeeld in Canada bent gevestigd en je transactie wordt verwerkt via een betaalgateway in de Verenigde Staten, kunnen de gegevens die zijn gebruikt om de transactie af te ronden openbaar worden gemaakt op grond van Amerikaans recht, waaronder de Patriot Act.</p><p>Zodra je onze winkelsite verlaat of wordt doorgestuurd naar een website of applicatie van een derde, val je niet langer onder dit Privacybeleid of de Verkoop- en Gebruiksvoorwaarden van onze website.</p><p>Links</p><p>Je kunt onze website verlaten door op bepaalde links op onze website te klikken. Wij aanvaarden geen verantwoordelijkheid voor de privacypraktijken van deze andere sites en raden je aan hun privacybeleid zorgvuldig te lezen.</p><p>SECTIE 6 - BEVEILIGING</p><p>Om je persoonsgegevens te beschermen, nemen wij redelijke voorzorgsmaatregelen en volgen wij best practices in de sector om ervoor te zorgen dat ze niet op ongepaste wijze verloren gaan, worden misbruikt, geraadpleegd, openbaar gemaakt, gewijzigd of vernietigd.</p><p>SECTIE 7 - LEEFTIJD VOOR TOESTEMMING</p><p>Door deze site te gebruiken, verklaar je dat je ten minste meerderjarig bent in je staat of provincie van verblijf en dat je ons toestemming hebt gegeven om minderjarigen onder jouw zorg deze website te laten gebruiken.</p><p>SECTIE 8 - WIJZIGINGEN IN DIT PRIVACYBELEID</p><p>Wij behouden ons het recht voor om dit Privacybeleid op elk moment te wijzigen, dus bekijk het regelmatig. Wijzigingen en verduidelijkingen worden onmiddellijk van kracht na publicatie op de website. Als wij de inhoud van dit beleid wijzigen, informeren wij je hier dat het is bijgewerkt, zodat je weet welke informatie wij verzamelen, hoe wij die gebruiken en onder welke omstandigheden, indien van toepassing, wij die openbaar maken.</p><p>Als onze winkel wordt overgenomen door of fuseert met een ander bedrijf, kunnen je gegevens worden overgedragen aan de nieuwe eigenaren zodat wij producten aan je kunnen blijven verkopen.</p><p>VRAGEN EN CONTACTINFORMATIE</p><p>Als je persoonsgegevens die wij over je hebben wilt inzien, corrigeren, wijzigen of verwijderen, een klacht wilt indienen of gewoon meer informatie wilt, neem dan contact op met onze privacyfunctionaris via {companyEmail} of per post op het hoofdkantoor van {companyOperatingEntity}, dat thechristmasfabric.com exploiteert:<br>{companyOperatingEntity}<br>{companyAddress}<br>{companyCity}<br>{companyZip}<br>Frankrijk</p>"
+    },
+    "MeasurementGuide": {
+      "intro": {
+        "eyebrow": "Een eenvoudige gids om fouten te voorkomen",
+        "title": "Neem je maten op",
+        "paragraph1": "De kleding van Hecten wordt gemaakt op basis van een internationaal gemiddelde, omdat we willen dat iedereen deze kan dragen. Daarom helpen je maten je om de juiste maat te kiezen. Als je bijvoorbeeld meestal L draagt, kan bij sommige modellen maat M beter passen.",
+        "paragraph2": "Zodra je je maten hebt opgenomen, kun je ze direct vergelijken met de maattabel op de productpagina van je keuze. Onze producten kunnen vergelijkbare of verschillende maattabellen hebben."
+      },
+      "withoutTape": {
+        "eyebrow": "Gebruik een touwtje",
+        "title": "Meten zonder meetlint",
+        "description": "Geen probleem. Als je geen meetlint hebt, kun je een touwtje of de rand van een lange handdoek gebruiken om je borst, taille, heupen en meer te meten. Leg daarna de lengte van het touwtje of de handdoek langs een liniaal om de lengte in cm of inches te bepalen."
+      },
+      "guideTitle": "Bekijk de gids voor",
+      "options": {
+        "men": "Heren",
+        "women": "Dames",
+        "child": "Kind",
+        "baby": "Baby"
+      },
+      "imageAlt": "Illustratie van de meetgids",
+      "measurements": [
+        {
+          "primaryLabel": "A - Borst, borstomtrek:",
+          "primaryText": "Meet rond de borst. Alle maattabellen van Hecten tonen de borstomtrek. Deze maat wordt zeer vaak gebruikt in onze maattabellen.",
+          "secondaryLabel": "Lengte van de top:",
+          "secondaryText": "Meet vanaf de holte onderaan de hals tot aan het bekken. Deze maat wordt zeer vaak gebruikt in onze maattabellen."
+        },
+        {
+          "primaryLabel": "B - Taille, tailleomtrek:",
+          "primaryText": "Meet rond de taille. Deze maat wordt vaak gebruikt in onze maattabellen.",
+          "secondaryLabel": "Lengte van de onderkant:",
+          "secondaryText": "Meet vanaf het bekken tot aan de enkel. Deze maat wordt zeer vaak gebruikt in onze maattabellen."
+        },
+        {
+          "primaryLabel": "C - Heupen, heupomtrek:",
+          "primaryText": "Meet rond de heupen. Deze maat wordt soms gebruikt in onze maattabellen."
+        },
+        {
+          "primaryLabel": "D - Binnenbeenlengte:",
+          "primaryText": "Meet vanaf het kruis tot aan de enkel zonder het been te buigen. Deze maat wordt minder vaak gebruikt in onze maattabellen."
+        },
+        {
+          "primaryLabel": "E - Lengte:",
+          "primaryText": "Meet van de bovenkant van het hoofd tot aan de voeten. Dit wordt zelden gebruikt in onze maattabellen."
+        }
+      ]
+    },
+    "ReturnAndRefund": {
+      "title": "Retourneren en terugbetaling",
+      "breadcrumbHome": "Home",
+      "body": "<p>Ons beleid geldt 14 dagen vanaf de dag van levering. Als er 14 dagen zijn verstreken sinds de dag van je levering, kunnen wij je helaas geen terugbetaling of omruiling aanbieden.</p><p>Om in aanmerking te komen voor een gratis retour, moet je artikel worden teruggestuurd voor omruiling, ongebruikt zijn en in dezelfde staat verkeren als waarin je het hebt ontvangen. Het moet ook in de originele verpakking zitten.</p><p>Om misbruik te voorkomen, wordt alleen een retourvergoeding van 10 USD$ toegepast wanneer de klant om terugbetaling vraagt en de bestelling voldoet aan de verwachtingen van de klant met betrekking tot de artikelen die de aankoop op www.thechristmasfabric.com hebben gemotiveerd.</p><p>De klant moet bij het retourneren van het product controleren of de accessoires, indien aanwezig, compleet zijn en of de verpakking de originele verpakking is. Als de klant dit niet doet, kan er een bedrag op de terugbetaling worden ingehouden om het geleden verlies te dekken:<br>- Beschadigde of ontbrekende originele verpakking: 10 USD$.<br>- Ontbrekende accessoires: 20% van het totale terugbetalingsbedrag, of de prijs van het accessoire als die op de site wordt weergegeven.</p><p>Als het artikel niet in de originele staat wordt teruggestuurd, beschadigd, bevlekt, niet-functionerend of verslechterd is, en daardoor niet opnieuw kan worden verkocht, kan er geen terugbetaling worden gegeven.</p><p>Veel soorten producten kunnen niet worden geretourneerd. Bederfelijke goederen zoals voedsel, bloemen of tijdschriften kunnen niet worden geretourneerd. Wij accepteren ook geen intieme of sanitaire producten, gevaarlijke producten, of brandbare gassen of vloeistoffen.</p><p>Andere artikelen die niet kunnen worden geretourneerd:</p><p>Cadeaubonnen<br>Downloadbare software<br>Bepaalde gezondheids- en persoonlijke verzorgingsproducten<br>Om een retour te doen, moet je ons een ontvangstbewijs of aankoopbewijs tonen.</p><p>Stuur je aankoop niet terug naar de fabrikant.</p><p>Er zijn bepaalde situaties waarin alleen een gedeeltelijke terugbetaling wordt toegekend, indien van toepassing:</p><p>Boeken met duidelijke gebruikssporen.<br>CD, DVD, VHS-band, software, videogame, cassette of vinylplaat die is geopend.<br>Elk artikel dat niet in de originele staat verkeert, beschadigd is of onderdelen mist om redenen die niet te wijten zijn aan een fout van onze kant.<br>Elk artikel dat meer dan 30 dagen na levering wordt geretourneerd.</p><p>Terugbetalingen, indien van toepassing<br>Zodra wij het geretourneerde artikel hebben ontvangen en geïnspecteerd, sturen wij je een e-mail om te bevestigen dat wij het hebben ontvangen. Wij informeren je ook over onze beslissing om je terugbetalingsverzoek goed te keuren of af te wijzen.<br>Als je verzoek wordt goedgekeurd, wordt je terugbetaling verwerkt en wordt er automatisch een tegoed toegepast op je creditcard of oorspronkelijke betaalmethode binnen maximaal 2 tot 3 dagen, exclusief weekenden en feestdagen.</p><p>Late of ontbrekende terugbetalingen, indien van toepassing<br>Als je je terugbetaling nog niet hebt ontvangen, controleer dan de volgende stappen voordat je per e-mail contact opneemt met de site:<br>- Controleer of de terugbetaling niet in behandeling is op je bankrekening of gepland staat voor een weergegeven datum.<br>- Neem contact op met je bank om de termijnen te kennen die gelden voor overschrijvingen tussen bankrekeningen die niet bij dezelfde bank horen.<br><br>Als je na het voltooien van al deze stappen je terugbetaling nog steeds niet hebt ontvangen, of de termijn van je bank of de ontvangstdatum van je terugbetaling niet kent, neem dan contact met ons op via {companyEmail}.</p><p>Sale-artikelen, indien van toepassing<br>Alleen artikelen met een reguliere prijs kunnen worden terugbetaald. Sale-artikelen zijn helaas niet terugbetaalbaar.</p><p>Retour bij defect</p><p>Een artikel dat wordt geretourneerd wegens een defect valt onder ons gratis retouraanbod, en de klant betaalt geen kosten. Als ons team na meerdere tests en controles door de klantenservice geen defect vaststelt, is de retourlevering aan de klant voor rekening van de klant. Dit helpt ons misbruik van retouren te voorkomen en vraagt de klant om te controleren of het product daadwerkelijk een defect heeft en of een retour naar de klantenservice nodig is voordat er een omruiling plaatsvindt.</p><p>Omruilingen</p><p>Wij vervangen een artikel alleen als het defect of beschadigd is bij ontvangst door de klant. De klant heeft 3 dagen vanaf de dag van levering om een probleem te melden. Na deze termijn beschouwen wij het artikel als gebruikt en is het niet langer omruilbaar. Stuur voor elke omruiling een e-mail naar {companyEmail}.</p><p>Het artikel moet nieuw, ongebruikt, ongewassen, in de originele verpakking en met alle labels eraan zijn.</p><p>Je artikel moet worden verzonden naar het adres van het bedrijf dat www.thechristmasfabric.com exploiteert:<br>{companyOperatingEntity}<br>19 Allée de Brienne<br>{companyCity}<br>{companyZip}<br>Frankrijk</p><p>Geschenken<br>Als het geretourneerde artikel op het moment van aankoop als cadeau was aangeduid en rechtstreeks naar jou was verzonden, ontvang je cadeautegoed ter waarde van je retour. Zodra wij het geretourneerde artikel hebben ontvangen, wordt er een cadeaubon naar je opgestuurd. Retourverzendkosten voor geschenken worden niet gedekt.</p><p>Verzending<br>Om een product te retourneren, moet je het sturen naar het hoofdkantoor van {companyOperatingEntity}, het bedrijf dat www.thechristmasfabric.com exploiteert: {companyOperatingEntity}, 19 Allée de Brienne, {companyCity}, {companyZip}, Frankrijk.</p><p>Verwerkingstijden<br>Afhankelijk van waar je woont, kan de tijd die nodig is om je omgeruilde product te ontvangen variëren.</p><p>Na ontvangst van je product op het hoofdkantoor nemen wij 3 tot 5 werkdagen om het te controleren en een beslissing te nemen, die per e-mail wordt meegedeeld aan het adres dat je bij je bestelling hebt opgegeven.</p><p>Als de retourkosten voor herlevering aan de klant worden gedragen door {companyOperatingEntity}, het bedrijf dat www.thechristmasfabric.com exploiteert, kan de levertijd variëren tussen 3 en 5 dagen.</p><p>Als de kosten voor retourzending naar de klant voor rekening van de klant zijn, varieert de levertijd afhankelijk van de voorkeursmethode die de klant kiest.</p><p>Als je een artikel verzendt met een waarde van meer dan 100 USD$ en je verantwoordelijk bent voor de retourverzendkosten, moet je overwegen een verzenddienst te gebruiken waarmee je de zending kunt volgen of een verzendverzekering af te sluiten. Wij garanderen niet dat wij het artikel dat je retourneert zullen ontvangen als er een probleem optreedt.</p>"
+    },
+    "TermsOfDelivery": {
+      "title": "Leveringsvoorwaarden",
+      "breadcrumbHome": "Home",
+      "body": "<p>De PRODUCTEN worden verzonden naar het afleveradres of de afleveradressen die de KLANT tijdens het bestelproces heeft opgegeven.</p><p>Verzendtijd</p><p>De termijnen voor het voorbereiden van een bestelling en het vervolgens uitgeven van de factuur, voordat de PRODUCTEN op voorraad worden verzonden, worden vermeld op de SITE. Deze termijnen omvatten geen weekenden of feestdagen.</p><p>Bij verzending van de PRODUCTEN wordt automatisch een e-mail naar de KLANT gestuurd, op voorwaarde dat het e-mailadres in het registratieformulier correct is.</p><p>Levertijd en kosten</p><p>Tijdens het bestelproces geeft de VERKOPER aan de KLANT de mogelijke levertijden en verzendopties voor de gekochte PRODUCTEN door.</p><p>Verzendkosten worden berekend volgens de leveringsmethode. Het bedrag van deze kosten is door de KLANT verschuldigd naast de prijs van de gekochte PRODUCTEN.</p><p>Details van levertijden en kosten worden op de SITE vermeld.</p><p>Leveringsvoorwaarden</p><p>Het pakket wordt aan de KLANT overhandigd tegen handtekening en op vertoon van een identiteitsdocument.</p><p>Bij afwezigheid wordt er een bericht voor de KLANT achtergelaten, zodat deze het pakket bij het postkantoor kan ophalen.</p><p>De KLANT is verantwoordelijk voor het ophalen van het pakket bij het postkantoor binnen 10 dagen. De VERKOPER kan niet verantwoordelijk worden gehouden voor een pakket dat door postdiensten is vernietigd of niet is teruggestuurd, en deze reden vormt geen grond om een terugbetaling te verkrijgen.</p><p>Leveringsproblemen</p><p>De KLANT wordt geïnformeerd over de leveringsdatum wanneer hij of zij de vervoerder kiest, aan het einde van het online bestelproces, vóór bevestiging van de bestelling.</p><p>Er wordt gespecificeerd dat leveringen binnen maximaal dertig (30) dagen plaatsvinden. Bij gebreke daarvan moet de KLANT de VERKOPER formeel in gebreke stellen om binnen een redelijke termijn te leveren. Bij niet-levering binnen deze termijn kan het contract worden beëindigd.</p><p>De VERKOPER zal de KLANT, zonder onnodige vertraging na ontvangst van de beëindigingsbrief, het totale bedrag terugbetalen dat voor de PRODUCTEN is betaald, inclusief belastingen en leveringskosten, via dezelfde betaalmethode die de KLANT heeft gebruikt om de PRODUCTEN te kopen.</p><p>De VERKOPER is verantwoordelijk tot de levering van het PRODUCT aan de KLANT. De KLANT wordt eraan herinnerd dat hij of zij een termijn van drie (3) dagen heeft om de vervoerder op de hoogte te stellen van eventuele schade of gedeeltelijk verlies die bij levering is vastgesteld.</p>"
+    },
+    "LegalNotice": {
+      "title": "Juridische kennisgeving",
+      "breadcrumbHome": "Home",
+      "body": "<p>Juridische kennisgeving</p><p>Klant: iedere handelingsbekwame natuurlijke persoon of rechtspersoon die de site bezoekt. Gebruiker: iedere internetgebruiker die de site gebruikt. Inhoud: teksten, afbeeldingen, video’s, logo’s en andere elementen van de site.</p><p>Gegevens van de site</p><p>De site wordt uitgegeven door SASU OVOORO, 19 Allée de Brienne, {companyZip} {companyCity}. Verantwoordelijke en DPO: Hecten, {companyEmail}. Hosting: Kinsta Inc, 8605 Santa Monica Blvd #92581, 90069 West Hollywood, CA.</p><p>Gebruiksvoorwaarden</p><p>Gebruik van de site houdt aanvaarding van deze voorwaarden in. De inhoud is beschermd door intellectuele eigendomsrechten en mag niet zonder schriftelijke toestemming worden gereproduceerd, gewijzigd of geëxploiteerd.</p><p>Persoonsgegevens</p><p>Persoonsgegevens kunnen worden gebruikt voor accountbeheer, bestellingen, facturatie, klantrelaties, beveiliging, analyse en communicatie. Persoonsgegevens worden niet verkocht.</p><p>Rechten van gebruikers</p><p>Gebruikers hebben rechten op inzage, rectificatie, verwijdering, bezwaar, beperking, intrekking van toestemming en overdraagbaarheid. Verzoeken: DPO, OVOORO, 19 Allée de Brienne, {companyZip} {companyCity}, met identiteitsbewijs.</p><p>Cookies, beveiliging en bevoegdheid</p><p>De site kan cookies en internettags gebruiken om navigatie te verbeteren en activiteit te meten. Via de browser kunnen cookies worden geaccepteerd of geweigerd. Geschillen vallen onder Frans recht en de bevoegde rechtbanken van {companyCity}.</p>"
+    },
+    "HumanitarianProject": {
+      "title": "Humanitair project",
+      "hero": {
+        "eyebrow": "Met je bestellingen",
+        "heading": "5% gedoneerd",
+        "description": "5% van de winst wordt gedoneerd aan de vereniging AHPA, met als doel ten minste 1 educatieve tuin te bouwen in Kpomassè, Benin. Dankzij je bestelling kun je de voortgang van dit initiatief volgen, dat ook wordt ondersteund door onze Franse website.",
+        "link": "Noel Shop"
+      },
+      "association": {
+        "eyebrow": "De vereniging",
+        "heading": "AHPA",
+        "description": "Association Humanitaire pour l'Afrique (AHPA) is een internationale solidariteitsvereniging die ontwikkelingsprojecten in Benin ondersteunt op het gebied van onderwijs, duurzame landbouw, milieubescherming en eerlijke toerisme. Samen met lokale verenigingspartners ondersteunt AHPA inkomensgenererende microprojecten voor jongeren rond milieueducatie.",
+        "logoAlt": "Logo van vereniging AHPA"
+      },
+      "gallery": {
+        "image1Alt": "Educatief tuinproject in Benin",
+        "image2Alt": "Lokaal gemeenschapsproject ondersteund door AHPA",
+        "image3Alt": "Landbouw- en onderwijsinitiatief in Benin",
+        "image4Alt": "Veldactiviteit van het humanitaire project"
+      }
+    },
+    "CustomerService": {
+      "banner": {
+        "heading": "Klantenservice",
+        "subHeading": "Wat kunnen we vandaag voor je doen?"
+      },
+      "faqSections": [
+        {
+          "eyebrow": "Meer informatie over het volgen en de levering van uw bestelling",
+          "heading": "Levering en volgen",
+          "items": [
+            {
+              "question": "Mijn bestelling volgen",
+              "answer": "Om uw bestelling te volgen, gaat u naar de pagina [Volg mijn bestelling](/track-my-order) en voert u het volgnummer in dat u in de verzendingsmail van uw bestelling hebt ontvangen."
+            },
+            {
+              "question": "Mijn leveringsadres wijzigen",
+              "answer": "U heeft 24 uur na het plaatsen van uw bestelling de tijd om een adreswijziging door te geven per e-mail aan [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com). Na deze tijd kan er geen retourzending of terugbetaling plaatsvinden."
+            },
+            {
+              "question": "Levertijd",
+              "answer": "Er is 24 tot 72 uur nodig om uw bestelling te verwerken en te verzenden. De levertijd varieert van 5 tot 12 dagen, afhankelijk van uw leveringsmethode en het land van levering."
+            },
+            {
+              "question": "Een account aanmaken",
+              "answer": "Om een account aan te maken en te profiteren van aanbiedingen en coupons op uw toekomstige aankopen, evenals een geschiedenis van uw bestellingen en directe toegang tot uw facturen, gaat u naar de pagina [Mijn account](/account)."
+            },
+            {
+              "question": "Land van levering",
+              "answer": "Wij leveren in alle Europese landen en internationaal. Kies uw land in het menu bovenaan de site en kies de leveringswijze van uw voorkeur wanneer u uw bestelling plaatst.\nAlleen voor de Franse klanten, kunt u bestellen op onze Franse winkel op [www.noel-shop.fr](https://www.noel-shop.fr)"
+            },
+            {
+              "question": "Afzonderlijke pakketten",
+              "answer": "Onze producten worden in één pakket verzonden. Zelden kan het voorkomen dat wij om logistieke redenen een levering in twee aparte pakketten moeten doen. In dat geval nemen wij 100% van de extra kosten van dit tweede pakket voor onze rekening en hoeft u niets te betalen."
+            },
+            {
+              "question": "Douanekosten",
+              "answer": "Afhankelijk van uw land van levering kunnen er douanekosten op de koopwaar van toepassing zijn. Wij nodigen u uit om bij de douane van uw land na te gaan of u al dan niet douanekosten moet betalen bij levering van uw pakket."
+            },
+            {
+              "question": "Belasting op de toegevoegde waarde",
+              "answer": "Voor uw gemak worden al onze prijzen weergegeven inclusief BTW, wat betekent dat de belasting over de toegevoegde waarde (BTW) bij de betaling van uw bestelling in onze prijzen is inbegrepen. Als u een bedrijf bent kunt u de BTW laten aftrekken door ons een factuur te vragen per e-mail op [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)"
+            },
+            {
+              "question": "Persoonlijke informatie",
+              "answer": "Hecten slaat geen betalings- of creditcardgegevens op. Onze site gebruikt geverifieerde, erkende en veilige externe betalingsverwerkers zoals Paypal of Stripe, zodat u veilig online voor uw bestellingen kunt betalen."
+            }
+          ]
+        },
+        {
+          "eyebrow": "Een artikel terugsturen, ruilen of terugbetalen",
+          "heading": "Retourneren en ruilen",
+          "items": [
+            {
+              "question": "Retourneren en ruilen",
+              "answer": "De termijn voor retourneren en ruilen is 14 dagen.\nU vindt ons volledige retourbeleid in detail op ons [retour- en restitutiebeleid hier](/return-and-refund)."
+            },
+            {
+              "question": "Fout in mijn bestelling",
+              "answer": "Als u uw bestelling hebt ontvangen en u mist een product of u hebt het verkeerde product ontvangen, nodigen wij u uit contact op te nemen met onze klantenservice op [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)."
+            },
+            {
+              "question": "Mijn bestelling kwam beschadigd aan",
+              "answer": "Als u uw bestelling hebt ontvangen en uw producten zijn beschadigd, moet u alle bewijzen verzamelen waaruit blijkt dat de producten tijdens de levering zijn beschadigd.\nStuur ons zo snel mogelijk na ontvangst van uw pakket foto’s van de beschadigde verpakking en de schade aan de door u bestelde artikelen per e-mail naar [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)."
+            },
+            {
+              "question": "Adres voor retourzendingen en omruilingen",
+              "answer": "Retourneren en ruilen van bestellingen gebeurt op het hoofdkantoor van het bedrijf op het volgende adres:\nSASU OVOORO\n19 ALLÉE DE BRIENNE\n31000\nTOULOUSE\nFRANKRIJK\nContacteer ons per e-mail voor uw terugzending of omruiling op [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)"
+            },
+            {
+              "question": "Krijg een uitwisseling",
+              "answer": "Als u een omruiling wenst, moet u contact opnemen met onze klantendienst op [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com).\nAfhankelijk van de reden van uw ruil, de verzendkosten en het aantal artikelen dat u wilt ruilen, kunnen de verzendkosten worden aangeboden, met u worden gedeeld of geheel voor uw rekening komen (gemiddeld 11€ EUR)."
+            },
+            {
+              "question": "Fout in het adres",
+              "answer": "Als het leveringsadres onjuist is en de meldingsperiode van 24 uur wordt overschreden, kunnen wij de levering van uw pakket en de terugbetaling ervan niet meer garanderen als wij het niet kunnen terughalen.\nU moet echter weten dat wij voor dit soort problemen alles in het werk stellen om een adreswijziging direct bij onze logistieke partner te melden zodat deze het afleveradres van uw pakket tijdens het transport kan wijzigen; deze processen duren vrij lang, dus u moet zo snel mogelijk contact met ons opnemen via [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)."
+            },
+            {
+              "question": "Mijn bestelling wijzigen en/of annuleren",
+              "answer": "U kunt een bestelling direct annuleren of wijzigen binnen maximaal 24 uur na het plaatsen van de bestelling.\nNeem zo snel mogelijk contact met ons op via [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)\nAls deze periode van 24 uur is verstreken en uw bestelling al is verzonden, is een annulering of wijziging van de bestelling niet mogelijk en moet u wachten tot het einde van het leveringsproces om over te gaan tot een retourzending of een nieuwe bestelling te doen als u meer artikelen wilt ontvangen."
+            },
+            {
+              "question": "Een artikel dat niet op voorraad is vooraf bestellen",
+              "answer": "Om een out-of-stock artikel vooraf te bestellen kunt u contact met ons opnemen via [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com) om met voorrang te bestellen op onze volgende voorraad."
+            }
+          ]
+        }
+      ],
+      "form": {
+        "description": "Gebruik dit formulier om de klantenservice per e-mail te contacteren via customer@thechristmasfabric.com",
+        "heading": "Contacteer de klantenservice",
+        "firstNameLabel": "Je voornaam",
+        "firstNamePlaceholder": "Voornaam",
+        "orderNumberLabel": "Je bestelnummer",
+        "orderNumberPlaceholder": "35445",
+        "reasonLabel": "De reden van je verzoek",
+        "reasonOptions": [
+          "Ik wil een product ruilen",
+          "Ik heb een probleem met tracking",
+          "Ik wil mijn pakket retourneren of terugbetaling krijgen",
+          "Ik wil mijn bestelling wijzigen",
+          "Ik neem contact op om een andere reden"
+        ],
+        "submit": "Verzenden",
+        "submitting": "Verzenden...",
+        "success": "Dank u wel! Uw bericht is succesvol verzonden.",
+        "step": "Stap",
+        "of": "van",
+        "next": "Volgende",
+        "back": "Terug",
+        "emailLabel": "Uw e-mailadres",
+        "emailPlaceholder": "uw@email.com",
+        "emailError": "E-mailadres is vereist",
+        "messageLabel": "Uw bericht",
+        "messagePlaceholder": "Vertel ons meer over uw verzoek...",
+        "messageError": "Bericht is vereist",
+        "orderNumberError": "Bestellnummer is vereist"
+      }
+    },
+    "GeneralTermsOfSale": {
+      "title": "Algemene Verkoopvoorwaarden",
+      "breadcrumbHome": "Home",
+      "body": "<p>De website thechristmasfabric.com is een handelsmerk dat wordt beheerd door het bedrijf {companyOperatingEntity},<br>19 Allée de Brienne, {companyZip}, {companyCity}, Frankrijk<br>met een kapitaal van 1000€.<br>ingeschreven bij het Handelsregister van {companyCity},<br>onder het nummer SIREN 890918436<br>De website thechristmasfabric.com wordt volledig vertegenwoordigd en beheerd door {companyOperatingEntity} als rechtspersoon in de hoedanigheid van beheerder, daartoe behoorlijk gevolmachtigd.<br>De website kan via e-mail rechtstreeks worden bereikt op {companyEmail} of door op het contactformulier aan de onderkant van de site te klikken.</p><p>Hierna wordt \"Verkoper\" of \"Bedrijf\" genoemd. Enerzijds, en de natuurlijke of rechtspersoon die tot aankoop van producten of diensten van het bedrijf overgaat, hierna \"Koper\" of \"Klant\" genoemd. Anderzijds, het volgende wordt uiteengezet en overeengekomen:</p><p>PREAMBULE</p><p>De Verkoper is een uitgever van Producten en Diensten voor de onlineverkoopvan goederen en diensten aan consumenten, verhandeld via zijn internetsites. De lijst en beschrijving van goederen en diensten die door het Bedrijf worden aangeboden, kunnen op bovengenoemde sites worden geraadpleegd.</p><p>Artikel 1: Doel</p><p>Deze Algemene Verkoopvoorwaarden bepalen de rechten en verplichtingen van de partijen in het kader van de onlineverkoopvan Producten of Diensten die door de Verkoper worden aangeboden.</p><p>Artikel 2: Algemene bepalingen</p><p>Deze Algemene Verkoopvoorwaarden (AVV) regelen de verkoop van Producten of Diensten via de websites van het Bedrijf en vormen een integrerend onderdeel van het Contract tussen de Koper en de Verkoper. Zij zijn volledig bindend voor de Koper die deze voor plaatsing van een bestelling heeft aanvaard. De Verkoper behoudt zich het recht voor om deze voorwaarden op elk moment te wijzigen door een nieuwe versie op zijn website te publiceren. De toepasselijke AVV zijn degene die op de betaaldatum (of eerste betaling in geval van meerdere betalingen) van de bestelling van kracht zijn. Deze AVV zijn op de website beschikbaar op het volgende adres: https://www.thechristmasfabric.com/conditions-generales-de-vente/<br>De Klant verklaart alle Algemene Verkoopvoorwaarden en, indien van toepassing, de Bijzondere Verkoopvoorwaarden met betrekking tot een product of dienst te hebben gelezen en deze zonder beperking of voorbehoud te aanvaarden.<br>De Klant erkent dat hij/zij het nodige advies en informatie heeft ontvangen om ervoor te zorgen dat het aanbod aan zijn/haar behoeften voldoet.<br>De Klant verklaart dat hij/zij bevoegd is om onder Nederlands recht overeenkomsten aan te gaan of de natuurlijke of rechtspersoon voor wie hij/zij een overeenkomst aangaat op geldige wijze kan vertegenwoordigen.<br>Behoudens tegenbewijs vormen de door het Bedrijf geregistreerde gegevens een bewijs van alle transacties.</p><p>Artikel 3: Prijzen</p><p>De prijzen van de producten die via de websites worden verkocht, worden in Euro zonder belastingen aangegeven en nauwkeurig bepaald op de productbeschrijvingspagina's. Ze worden ook in Euro inclusief alle belastingen (BTW + andere mogelijke belastingen) op de bestelpage van de producten aangegeven, exclusief specifieke verzendkosten. Voor alle producten die buiten de Europese Unie worden verzonden, wordt de prijs automatisch zonder belastingen op de factuur berekend. Douanerechten of andere lokale belastingen of invoerrechten kunnen in bepaalde gevallen verschuldigd zijn. Deze rechten en bedragen vallen niet onder de verantwoordelijkheid van de Verkoper. Zij zullen door de Koper worden gedragen. De Verkoper nodigt de koper uit om zich op deze aspecten te informeren bij de bevoegde lokale autoriteiten. Het Bedrijf behoudt zich het recht voor om zijn prijzen op elk moment in de toekomst te wijzigen. De telecommunicatiekosten die nodig zijn voor toegang tot de websites van het Bedrijf worden door de Klant gedragen. Indien nodig worden ook bezorgkosten berekend.</p><p>Artikel 4: Sluiting van het onlinecontract</p><p>In overeenstemming met de bepalingen van Nederlands recht moet de Klant een reeks stappen volgen om het contract via elektronische middelen af te sluiten: - Informatie over de essentiële kenmerken van het Product; - Keuze van het Product, zo nodig van zijn opties; - Aanduiding van de essentiële contactgegevens van de Klant; - Aanvaarding van deze Algemene Verkoopvoorwaarden; - Verificatie van de elementen van de bestelling en zo nodig correctie van fouten. Voordat de bevestiging plaatsvindt, heeft de Koper de mogelijkheid om de details van zijn bestelling, de prijs te controleren en fouten te corrigeren of de bestelling te annuleren. De bevestiging van de bestelling leidt tot de totstandkoming van dit contract. - Vervolgens worden de betalingsinstructies gevolgd, betaling van de producten en levering van de bestelling. De Klant ontvangt per e-mail een bevestiging van de betaling van de bestelling, evenals een ontvangstbevestiging ervan. Hij/zij ontvangt een PDF-kopie van deze algemene verkoopvoorwaarden.<br>Tijdens het bestelproces heeft de klant de mogelijkheid om fouten in de gegevensinvoer te identificeren en corrigeren. De taal die voor het sluiten van het contract wordt voorgesteld, is Nederlands.<br>De aanbiedingsvoorwaarden en algemene verkoopvoorwaarden worden per e-mail aan de koper teruggestuurd op het moment van bestelling en gearchiveerd op de website van de Verkoper. De archivering van communicatie, bestelgegevens en facturen vindt plaats op een betrouwbaar en duurzaam medium in overeenstemming met de wettelijke bepalingen. Deze informatie kan als bewijs van het contract dienen.<br>Voor geleverde producten vindt de levering plaats op het adres dat door de Klant is aangegeven. Ter bevordering van de juiste orderuitvoering gaat de Klant ermee akkoord om waarheidsgetrouwe identificatiegegevens te verstrekken. De Verkoper behoudt zich het recht voor om de bestelling af te wijzen, bijvoorbeeld voor abnormale verzoeken of om geldige redenen.</p><p>Artikel 5: Producten en diensten</p><p>De essentiële kenmerken van goederen, diensten en hun respectievelijke prijzen worden aan de koper ter beschikking gesteld op de websites van het Bedrijf, evenals, voor zover van toepassing, de gebruiksmethode van het product. In overeenstemming met de Nederlandse consumentenbeschermingswetgeving wordt de consument voor sluiting van de koopovereenkomst geïnformeerd, door markering, labeling, uitstallingor ander passend middel, van de prijzen en bijzondere voorwaarden van verkoop en dienstverlening. In ieder geval wordt het totale bedrag dat door de Koper verschuldigd is, aangegeven op de ordineringspagina. De verkoopprijs van het product is degene die op de dag van de bestelling van kracht is, niet inbegrepen de tegen supplement gefactureerde verzendkosten. Deze mogelijke kosten worden aan de Koper aangegeven tijdens het verkoopproces en in ieder geval op het moment van bestellingsbevestiging. De Verkoper behoudt zich het recht voor om zijn prijzen op elk moment te wijzigen, met inachtneming van de toepassing van de op het moment van bestelling aangegeven prijs. Wanneer producten of diensten niet onmiddellijk worden uitgevoerd, wordt duidelijke informatie gegeven op de productpresentatiepagina met betrekking tot leveringsdatums. De klant beschouwt zich als bekend met leveringskosten evenals betalings-, leverings- en uitvoeringsvoorwaarden van het contract, evenals gedetailleerde informatie over de identiteit van de verkoper, zijn post-, telefoon- en elektronische contactgegevens. De Verkoper verplicht zich om de bestelling van de Klant uit te voeren binnen de grenzen van beschikbare Productvoorraden alleen. Indien dit niet het geval is, zal de Verkoper de Klant informeren; als de bestelling is geplaatst en geen overeenstemming is bereikt met de Klant over een nieuwe leveringsdatum, zal de Verkoper de Klant terugbetalen. De contractuele informatie wordt gedetailleerd gepresenteerd. De partijen gaan ermee akkoord dat afbeeldingen of foto's van ter verkoop aangeboden producten geen contractuele waarde hebben. De geldigheidsduur van het aanbod van Producten en hun prijzen is aangegeven op de websites van het Bedrijf.</p><p>Artikel 6: Conformiteit</p><p>In overeenstemming met de Nederlandse consumentenbeschermingswetgeving voldoen de via deze AVV ter verkoop aangeboden producten en diensten aan de geldende vereisten met betrekking tot veiligheid en gezondheid van personen, eerlijkheid van commerciële transacties en consumentenbescherming. Onafhankelijk van enige commerciële garantie blijft de Verkoper verantwoordelijk voor conformiteitsgebreken en verborgen gebreken van het product.<br>De verkoper levert goederen overeenkomstig het contract en is verantwoordelijk voor conformiteitsgebreken die op het moment van levering bestaan. Hij is ook verantwoordelijk voor conformiteitsgebreken die voortvloeien uit verpakking, montagehandleidingen of installatie wanneer deze door het contract aan zijn rekening zijn komen te staan of onder zijn verantwoordelijkheid zijn uitgevoerd.<br>In overeenstemming met de wettelijke bepalingen aangaande conformiteit en verborgen gebreken zal de Verkoper defecte producten of producten die niet overeenkomen met de bestelling terugbetalen of vervangen. Een terugbetalingsaanvraag kan op de volgende manier worden ingediend: een klacht indienen op {companyEmail}</p><p>Artikel 7: Eigendomsvoorbehoud</p><p>De producten blijven eigendom van het Bedrijf tot volledige betaling van de prijs.</p><p>Artikel 8: Leveringsvoorwaarden</p><p>Producten worden geleverd op het leveringsadres dat op het moment van bestelling is aangegeven binnen de aangegeven termijn. Deze termijnen houden geen rekening met de bereidingstijd van de bestelling. Wanneer de Klant meerdere producten tegelijk bestelt, kunnen deze verschillende leveringstermijnen hebben en volgens de volgende modaliteiten worden geleverd: levering via een of meerdere pakketten. In geval van vertraging bij verzending wordt een klacht ingediend op {companyEmail}. In geval van late levering heeft de Klant de mogelijkheid het contract onder bepaalde voorwaarden op te zeggen. De Verkoper zal dan het product en de verzendkosten terugbetalen. De Verkoper stelt een telefonisch contactpunt ter beschikking dat in de bestellingsbevestigingse-mail wordt aangegeven. De Verkoper herinnert eraan dat wanneer de Klant fysiek in bezit van de producten komt, de risico's van verlies of beschadiging op hem overgaan. Het is de verantwoordelijkheid van de Klant om de vervoerder in kennis te stellen van eventuele voorbehouden over het geleverde product.</p><p>Artikel 9: Beschikbaarheid en presentatie</p><p>In geval van onbeschikbaarheid van een artikel gedurende een periode van meer dan 30 werkdagen, wordt u onmiddellijk gewaarschuwd voor voorzienbare leveringsvertragingen en kan de bestelling van dit artikel op eenvoudig verzoek worden geannuleerd. De Klant kan vervolgens om een gutschrift voor het bedrag van het artikel of volledige terugbetaling en orderannulering vragen.</p><p>Artikel 10: Betaling</p><p>Betaling is onmiddellijk verschuldigd bij plaatsing van de bestelling, ook voor vooraf bestelde producten. De Klant kan betalen per creditcard of bankcheck. Kaarten die door banken buiten Nederland zijn uitgegeven, moeten internationale bankkaarten zijn (Mastercard of Visa). Veilige onlinebetaling per bankkaart wordt uitgevoerd door onze betalingsprovider. Verzonden informatie is gecodeerd volgens best practices en kan niet worden gelezen tijdens verzending over het netwerk. Zodra de betaling door de Klant is gestart, wordt de transactie onmiddellijk na verificatie van de informatie belast. In overeenstemming met de bepalingen van de Nederlandse betalingswetgeving is de verplichting om met kaart te betalen onherroepelijk. Door bankgegevens op het moment van verkoop mede te delen, authoriseert de Klant de Verkoper om zijn kaart te belasten voor het bedrag van de aangegeven prijs. De Klant stelt vast dat hij/zij de legitieme houder van de kaart is die moet worden belast en dat hij/zij wettelijk gerechtigd is deze te gebruiken. In geval van fout of onmogelijkheid om de kaart te belasten, wordt de verkoop onmiddellijk van rechtswege geannuleerd en de bestelling geannuleerd.</p><p>Artikel 11: Herroepingsperiode</p><p>In overeenstemming met de Nederlandse consumentenbeschermingswetgeving heeft de Koper het recht om zich zonder opgave van reden terug te trekken, binnen veertien (14) dagen na ontvangstdatum van de bestelling. Het herroepingsrecht kan worden uitgeoefend door het Bedrijf als volgt te contacteren: een klacht indienen op {companyEmail}. Wij informeren Klanten dat dit herroepingsrecht niet kan worden uitgeoefend voor artikelen waarvoor een vervaardigings- of leveringsproces gaande is. In geval van uitoefening van het herroepingsrecht binnen de genoemde periode worden de prijs van het/de gekochte product(en) en verzendkosten terugbetaald, blijven retourkosten ter verantwoordelijkheid van de Klant. Producten moeten in originele staat en compleet worden geretourneerd (verpakking, accessoires, instructies, enz.); indien mogelijk moet deze vergezeld gaan van een kopie van het aankoopbewijs. In overeenstemming met de wettelijke bepalingen kunt u het standaardherroepingsformulier aanvragen op {companyEmail}. Terugbetalingsprocedure: de terugbetalingsprocedure kan na onderzoek van het/de gekochte product(en) worden uitgevoerd; voor meer details dient u een klacht in op {companyEmail}</p><p>Artikel 12: Garanties</p><p>In overeenstemming met de wet neemt de Verkoper de volgende garanties op zich: van conformiteit en met betrekking tot verborgen gebreken van de producten. De Verkoper zal de koper terugbetalen of duidelijk gebrekkige producten of producten die niet overeenkomen met de plaatsing van de bestelling vervangen. Het terugbetalingsverzoek moet op de volgende manier worden ingediend: een klacht indienen op {companyEmail}<br>De Verkoper herinnert de consument eraan dat: - hij een termijn van 2 jaar vanaf levering van de goederen heeft om tegen de Verkoper op te treden - kan kiezen tussen vervanging of reparatie van goederen onder de hierboven vastgestelde voorwaarden. dat hij niet hoeft te bewijzen dat de goederen gedurende de zes maanden na levering een gebrek hebben. - dat, behalve voor tweedehandsgoederen, deze periode tot 24 maanden vanaf 18 maart 2016 wordt verlengd - dat de consument ook garantie tegen verborgen gebreken van de verkochte zaak kan inroepen en in dit geval kan kiezen tussen ontbinding van de verkoop of verlaging van de verkoopprijs. Aanvullende garanties: _ (beschrijf uw aanvullende garanties)</p><p>Artikel 13: Klachten en bemiddeling</p><p>Indien nodig kan de Koper een klacht indienen door contact op te nemen met het bedrijf en een klacht in te dienen op {companyEmail}. In overeenstemming met de bepalingen van de Nederlandse consumentenbeschermingswetgeving wordt de consument geïnformeerd dat hij/zij een beroep kan doen op een consumentenbemiddelaar onder de voorziene voorwaarden. In geval van mislukking van het klachtverzoek bij de klantenservice van de Verkoper, of in geval van geen antwoord binnen twee maanden, kan de consument het geschil aan een bemiddelaar voorleggen die onafhankelijk zal trachten de partijen dichter bij elkaar te brengen om een minnelijke regeling te bereiken.</p><p>Artikel 14: Ontbinding van het contract</p><p>De bestelling kan door de koper in de volgende gevallen worden geannuleerd: - levering van een product dat niet overeenkomt met de karakteristieken van de bestelling; - levering na de uiterste termijn vastgesteld op het moment van bestelling of, in afwezigheid van een datum, binnen dertig dagen na betaling; - een ongerechtvaardigde prijsverhoging of productwijziging. In deze gevallen kan de koper terugbetaling van de betaalde aanbetaling plus wettelijke rente vanaf de inningsdatum van de aanbetaling verlangen.</p><p>Artikel 15: Intellectuele-eigendomsrechten</p><p>De merken, domeinnamen, producten, software, afbeeldingen, video's, teksten of meer in het algemeen alle informatie die onder intellectuele-eigendomsrechten vallen zijn en blijven exclusief eigendom van de verkoper. Geen overdracht van intellectuele-eigendomsrechten vindt plaats via deze AVV. Elke totale of gedeeltelijke reproductie, wijziging of gebruik van deze goederen om welke reden dan ook is strikt verboden.</p><p>Artikel 16: Overmacht</p><p>De uitvoering van de verplichtingen van de verkoper onder het onderhavige contract is opgeschort in geval van het plaatsvinden van een onvoorzien gebeuren of overmacht dat de uitvoering van het contract zou beletten. De verkoper zal de klant zo spoedig mogelijk in kennis stellen van het plaatsvinden van zo'n gebeurtenis.</p><p>Artikel 17: Ongeldigheid en wijziging van het contract</p><p>Indien één van de bepalingen van het onderhavige contract zou worden nietigverklaard, zou deze nietigheid niet de nietigheid van andere bepalingen met zich meebrengen, die van kracht blijven tussen de partijen. Elke contractwijziging is alleen geldig na schriftelijke en ondertekende overeenkomst van de partijen. Artikel 18: Bescherming van persoonlijke gegevens In overeenstemming met Verordening 2016/679 betreffende de bescherming van personen met betrekking tot de verwerking van persoonlijke gegevens, voert de Verkoper een verwerking van persoonlijke gegevens uit met als doel de verkoop en levering van producten en diensten zoals in dit contract zijn omschreven. De Koper wordt geïnformeerd over de volgende elementen: - de identiteit en contactgegevens van de verwerkingsverantwoordelijke: de Verkoper, zoals hierboven aangegeven; - de contactgegevens van de functionaris gegevensbescherming: …… - de wettelijke grondslag voor de verwerking: uitvoering van het contract - de ontvangers of categorieën van ontvangers van persoonlijke gegevens: de verwerkingsverantwoordelijke, zijn marketingafdelingen, IT-beveiligingsafdelingen, verkoop- en leveringsafdelingen, onderaannemers en bevoegde autoriteiten - geen overdracht buiten de EU is voorzien - de duur van gegevensbewaring: volgens commerciële verjaring - de betrokkene heeft het recht om de verwerkingsverantwoordelijke te verzoeken om toegang tot, rectificatie of verwijdering van persoonlijke gegevens en kan een klacht indienen bij een toezichthoudende autoriteit - de bij bestelling gevraagde informatie is nodig voor facturering en levering van bestelde goederen. Geen geautomatiseerde beslissing of profilering wordt geïmplementeerd via het bestelproces.</p><p>Artikel 18: Toepasselijk recht en clausules</p><p>Alle clausules in deze algemene verkoopvoorwaarden, alsmede alle koop- en verkoopoperaties die ermee samenhangen, vallen onder Nederlands recht. De nietigheid van een contractbepaling brengt niet de nietigheid van deze algemene verkoopvoorwaarden met zich mee.</p><p>Artikel 19: Consumenteninformatie</p><p>Voor consumenteninformatie worden de bepalingen van het Burgerlijk Wetboek en de consumentenbeschermingswetgeving hieronder weergegeven: Burgerlijk Wetboek: De verkoper is gehouden tot garantie voor verborgen gebreken van het verkochte dat dit ongeschikt voor het doel waarvoor het was bestemd maakt, of waarvan het gebruik zozeer is verminderd dat de koper het niet zou hebben gekocht of zou hebben gegeven slechts een lagere prijs, als hij ervan zou hebben geweten. Burgerlijk Wetboek: De vordering voortvloeiend uit gebreken dient door de koper binnen twee jaar na ontdekking van het gebrek te worden ingesteld.<br>Consumentenbeschermingswetgeving: De verkoper levert goederen die conform het contract zijn en is aansprakelijk voor conformiteitsgebreken die op het moment van levering bestaan. Hij is ook aansprakelijk voor conformiteitsgebreken voortvloeiend uit verpakking, montagehandleidingen of installatie wanneer deze door het contract aan zijn rekening zijn komen te staan of onder zijn verantwoordelijkheid zijn uitgevoerd.<br>Consumentenbeschermingswetgeving: De zaak is conform het contract: 1° als deze geschikt is voor het normale gebruik van een soortgelijke zaak en: - overeenkomt met de beschrijving gegeven door de verkoper en de eigenschappen heeft die deze aan de koper als monster of model heeft gepresenteerd; - de eigenschappen heeft die een koper redelijkerwijs mag verwachten gezien de openbare verklaringen van de verkoper, fabrikant of diens vertegenwoordiger, met name in advertenties of etikettering; 2° Of de eigenschappen heeft bepaald door onderlinge overeenkomst tussen de partijen of geschikt is voor een speciaal doel gezocht door de koper<br>Consumentenbeschermingswetgeving: De vordering voortvloeiend uit niet-conformiteit verjaart twee jaar na levering van de goederen.<br>Consumentenbeschermingswetgeving: Wanneer de koper bij de verkoper, gedurende de commerciële garantie die hem bij aankoop of reparatie van een roerend goed is verleend, reparatie verzoekt die onder de garantie valt, wordt elke immobilisatieperiode van ten minste zeven dagen opgeteld bij de resterende garantieperiode. Deze periode loopt vanaf de datum van verzoek van de koper of vanaf het moment waarop het artikel voor reparatie beschikbaar wordt gesteld, welk moment het laatst valt.</p><p>&nbsp;</p>"
+    }
+  },
+  "Maintenance": {
+    "metaTitle": "Gepland onderhoud",
+    "banner": "Gepland onderhoud bezig",
+    "title": "We zijn zo terug",
+    "message": "Onze winkel is tijdelijk gesloten wegens gepland onderhoud. We werken eraan om uw winkelervaring nog beter te maken en zijn binnenkort terug. Bedankt voor uw geduld.",
+    "expectedBack": "Verwacht weer open:",
+    "refreshNote": "Deze pagina wordt automatisch vernieuwd.",
+    "refreshButton": "Vernieuwen",
+    "contactTitle": "Hulp nodig in de tussentijd?",
+    "contactText": "Ons klantenserviceteam helpt u graag. Mail ons op",
+    "followUs": "Volg ons"
+  }
+}

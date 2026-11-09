@@ -1,0 +1,100 @@
+"use client"
+
+import { useWishlist } from "@lib/context/wishlist-context"
+import { useRouter } from "@i18n/navigation"
+import { Heart } from "@medusajs/icons"
+import { Button, clx } from "@medusajs/ui"
+import { useTranslations } from "next-intl"
+
+type WishlistButtonProps = {
+  className?: string
+  disabled?: boolean
+  mode?: "icon" | "full"
+  productId?: string
+  refreshOnToggle?: boolean
+  unavailableLabel?: string
+  variantId?: string
+}
+
+export default function WishlistButton({
+  className,
+  disabled = false,
+  mode = "full",
+  productId,
+  refreshOnToggle = false,
+  unavailableLabel,
+  variantId,
+}: WishlistButtonProps) {
+  const router = useRouter()
+  const { isInWishlist, isPending, toggleWishlist } = useWishlist()
+  const t = useTranslations("Wishlist.Button")
+
+  const isSaved = isInWishlist(variantId)
+  const isLoading = isPending(variantId)
+  const isUnavailable = !variantId
+  const isDisabled = disabled || isLoading
+  const fallbackUnavailableLabel = unavailableLabel || t("unavailable")
+
+  const handleClick = async () => {
+    if (!variantId) {
+      return
+    }
+
+    const changed = await toggleWishlist(variantId, productId)
+
+    if (changed && refreshOnToggle) {
+      router.refresh()
+    }
+  }
+
+  if (mode === "icon") {
+    if (isUnavailable) {
+      return null
+    }
+
+    return (
+      <button
+        type="button"
+        aria-label={isSaved ? t("remove") : t("add")}
+        className={clx(
+          "inline-flex h-10 w-10 items-center justify-center rounded-full border border-ui-border-base bg-white/90 text-ui-fg-base shadow-elevation-card-rest transition-colors hover:text-rose-600 disabled:cursor-not-allowed disabled:opacity-60",
+          {
+            "border-rose-200 bg-rose-50 text-rose-600 hover:text-rose-600":
+              isSaved,
+          },
+          className
+        )}
+        disabled={isDisabled}
+        onClick={handleClick}
+        data-testid="product-card-wishlist-button"
+      >
+        <Heart />
+      </button>
+    )
+  }
+
+  return (
+    <Button
+      type="button"
+      variant="secondary"
+      className={clx("w-full h-10", className, {
+        "border-rose-200 bg-rose-50 text-rose-700 hover:bg-rose-50": isSaved,
+      })}
+      disabled={isDisabled || isUnavailable}
+      isLoading={isLoading}
+      onClick={handleClick}
+      data-testid="product-wishlist-button"
+    >
+      <span className="flex items-center gap-x-2">
+        <Heart />
+        <span>
+          {isSaved
+            ? t("remove")
+            : variantId
+            ? t("add")
+            : fallbackUnavailableLabel}
+        </span>
+      </span>
+    </Button>
+  )
+}

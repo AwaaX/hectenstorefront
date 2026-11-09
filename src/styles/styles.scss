@@ -1,0 +1,377 @@
+
+@use 'icomoon/style.css';
+@use 'custom-swiper.scss';
+@use 'loading.scss';
+@use 'globals.scss';
+@use 'modal.scss';
+@use 'header.scss';
+@use 'footer.scss';
+@use 'product.scss';
+@use 'shop.scss';
+@use 'cart.scss';
+@use 'layout/banner.scss';
+@use 'layout/testimonial.scss';
+@use 'layout/featured-product.scss';
+@use 'layout/components.scss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-jost), "Jost", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+}
+
+[class^="txt-"],
+[class*=" txt-"],
+[class^="h1-"],
+[class*=" h1-"],
+[class^="h2-"],
+[class*=" h2-"],
+[class^="h3-"],
+[class*=" h3-"],
+[class^="h4-"],
+[class*=" h4-"] {
+  font-family: var(--font-jost), "Jost", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  input:focus ~ label,
+  input:not(:placeholder-shown) ~ label {
+    @apply -translate-y-2 text-xsmall-regular;
+  }
+
+  input:focus ~ label {
+    @apply left-0;
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    border: 1px solid #212121;
+    -webkit-text-fill-color: #212121;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+}
+
+
+@layer components {
+  .content-container {
+    @apply max-w-[1620px] w-[93.8%] mx-auto ;
+  }
+  .container {
+    @apply max-w-[1620px] w-[93.8%] mx-auto ;
+  }
+  .small-container{
+    @apply max-w-[1270px] w-[97%] mx-auto  ;
+  }
+
+  .contrast-btn {
+    @apply px-4 py-2 border border-black rounded-full hover:bg-black hover:text-white transition-colors duration-200 ease-in;
+  }
+  .swh-btn {
+    @apply border hover:border-black px-[25px] min-h-[45px] rounded-[5px] flex items-center justify-center  hover:bg-black hover:text-white duration-300 ease-out hover:shadow-[0_0_0_0.2rem_rgba(0,0,0,1)] text-[16px];
+  }
+
+  /* Hide native search input clear button */
+  .search-input-no-clear::-webkit-search-cancel-button {
+    display: none;
+  }
+
+  .search-input-no-clear::-webkit-search-decoration {
+    display: none;
+  }
+
+  .text-xsmall-regular {
+    @apply text-[10px] leading-4 font-normal;
+  }
+
+  .text-small-regular {
+    @apply text-xs leading-5 font-normal;
+  }
+
+  .text-small-semi {
+    @apply text-xs leading-5 font-semibold;
+  }
+
+  .text-base-regular {
+    @apply text-sm leading-6 font-normal;
+  }
+
+  .text-base-semi {
+    @apply text-sm leading-6 font-semibold;
+  }
+
+  .text-large-regular {
+    @apply text-base leading-6 font-normal;
+  }
+
+  .text-large-semi {
+    @apply text-base leading-6 font-semibold;
+  }
+
+  .text-xl-regular {
+    @apply text-2xl leading-[36px] font-normal;
+  }
+
+  .text-xl-semi {
+    @apply text-2xl leading-[36px] font-semibold;
+  }
+
+  .text-2xl-regular {
+    @apply text-[30px] leading-[48px] font-normal;
+  }
+
+  .text-2xl-semi {
+    @apply text-[30px] leading-[48px] font-semibold;
+  }
+
+  .text-3xl-regular {
+    @apply text-[32px] leading-[44px] font-normal;
+  }
+
+  .text-3xl-semi {
+    @apply text-[32px] leading-[44px] font-semibold;
+  }
+
+  /* Digital CountDown____________________________________________________________ */
+  .countdown-clock{
+    @apply flex items-center justify-center  text-white gap-2;
+  }
+  .clock-item{
+    @apply flex flex-col items-center justify-center gap-[7px];
+  }
+  .clock-item-number{
+    @apply text-3xl md:text-[60px] font-light tracking-[1px] leading-none ;
+  }
+  .clock-item-text{
+    @apply text-[12px] font-medium uppercase tracking-[1px] ;
+  }
+  .clock-divider{
+    @apply text-[30px] mb-[28px]  font-medium uppercase ;
+  }
+
+  
+}
+
+.underline-gap {
+  text-decoration: underline;
+  text-underline-offset: 0.3em; /* Adjust the gap size as needed */
+}
+
+.navmenulink::after{
+  content:'';
+  height:2px;
+  width: 0;
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  left: 0;
+  background: #000;
+  transition: all 0.3s linear;
+}
+
+.navmenulink:hover::after {
+  width: 100%;
+}
+.navmenulink.open::after {
+  width: 100%;
+}
+
+@keyframes slidedown {
+  from {transform: translateY(-100%);}
+  to {transform: translateY(0%);}
+}
+
+// .show-header{
+//   box-shadow: 0 8px 20px 0 rgba(0,0,0,0.1);
+//   position: fixed;
+//   animation: slidedown 0.45s ease-in-out;
+// }
+
+.is-stuck{
+   box-shadow: 0 8px 20px 0 rgba(0,0,0,0.1);
+}
+
+.tag-action-swh {
+  white-space: nowrap;
+  position: absolute;
+  top: 100%;
+  left:50%;
+  z-index: 0;
+  opacity: 0;
+  transform: translate(-50%,0%);
+  transition: 0.3s;
+  box-shadow: 0px 5px 13px rgb(80 80 80 / 0.5);
+  pointer-events: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+
+  &::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: var(--black);
+      top: 0%;
+      left: 50%;
+      transform: translate(-50%,-50%) rotate(45deg);   
+      z-index: -1;
+  }
+
+  /* Hover tooltips are unused on touch and the Cart tooltip
+     overhangs the viewport, causing site-wide horizontal scroll. */
+  @media (max-width: 767.98px) {
+    display: none;
+  }
+}
+
+.tag-action-ctrl{
+  &:hover {
+    .tag-action-swh {
+        transform: translate(-50%,50%);
+        opacity: 1;
+        z-index: 1;
+    }
+}
+}
+
+
+.tab-item {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--white);
+  opacity: 0;
+  visibility: hidden;
+  transition: all ease 0.4s;
+  transform: translateY(100%);
+  box-shadow: 0px 5px 18px 5px rgba(64, 72, 87, 0.15);
+
+  &.active {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+  }
+}
+
+.christmas-banner-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0.07) 3%, #000000 90%);
+  opacity: 0.92;
+}
+.christmas-gradient{
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #D6D6D6 0%, #FFFFFF 100%);
+}
+
+.christmas-product-description{
+  color:#666666;
+  h2 {
+    font-size: 20px;
+    font-weight: normal;
+    // text-transform: capitalize;
+    padding-top: 12px; /* Assuming py-3 means padding top and bottom of 12px each */
+    padding-bottom: 12px;
+    color:#000
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: normal;
+    color:#000;
+}
+
+ul {
+    font-size: 16px;
+    font-weight: normal;
+    color: #666666; /* Replace with actual color for text-christmasText */
+    margin-left: 12px; /* Assuming ml-3 means a left margin of 12px */
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 8px; /* Optional spacing between list items */
+}
+
+p{
+  color:#666666;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #666;
+}
+
+
+}
+
+.christmas-gallery .swiper-wrapper {
+  position: relative !important;
+}
+
+#size-guides-container table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 0 auto 1rem;
+}
+
+#size-guides-container th {
+  border: 1px solid black;
+  // padding: 2px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+#size-guides-container td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+  .scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}

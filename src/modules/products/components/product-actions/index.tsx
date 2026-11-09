@@ -1,0 +1,593 @@
+"use client"
+
+import {
+  buildProductAnalyticsItem,
+  getAnalyticsValue,
+  trackEcommerceEvent,
+} from "@lib/analytics"
+import { addToCart } from "@lib/data/cart"
+import { getProductReviews } from "@lib/data/products"
+import { useIntersection } from "@lib/hooks/use-in-view"
+import { useWishlist } from "@lib/context/wishlist-context"
+import { HttpTypes } from "@medusajs/types"
+import { Button, clx } from "@medusajs/ui"
+import Divider from "@modules/common/components/divider"
+import OptionSelect from "@modules/products/components/product-actions/option-select"
+import { isEqual } from "lodash"
+import { useParams } from "next/navigation"
+import { useEffect, useMemo, useRef, useState } from "react"
+import MobileActions from "./mobile-actions"
+import * as Icon from "@phosphor-icons/react/dist/ssr"
+import parse from "html-react-parser"
+import { Star, StarSolid } from "@medusajs/icons"
+import { getDefaultProductVariant } from "@lib/util/product"
+import {
+  formatSizeString,
+  sortGenderValues,
+  sortSizeValues,
+  getTranslatedGenderValue,
+  getTranslatedOptionTitle,
+} from "@lib/util/product-options"
+import { useLocale, useTranslations } from "next-intl"
+import { extractCountryCode } from "@lib/util/locale"
+import { getProductPrice } from "@lib/util/get-product-price"
+import PreviewPrice from "../product-preview/price"
+import ProductPrice from "../product-price"
+
+type ProductActionsProps = {
+  product: HttpTypes.StoreProduct
+  region: HttpTypes.StoreRegion
+  disabled?: boolean
+}
+
+const optionsAsKeymap = (
+  variantOptions: HttpTypes.StoreProductVariant["options"]
+) => {
+  return variantOptions?.reduce((acc: Record<string, string>, varopt: any) => {
+    acc[varopt.option_id] = varopt.value
+    return acc
+  }, {})
+}
+
+export default function ProductActions({
+  product,
+  region,
+  disabled,
+}: ProductActionsProps) {
+  const t = useTranslations("Product.Actions")
+  const intlLocale = useLocale()
+  const [options, setOptions] = useState<Record<string, string>>({})
+  const [isAdding, setIsAdding] = useState(false)
+  const [reviewRating, setReviewRating] = useState(0)
+  const [reviewCount, setReviewCount] = useState(0)
+  const [quantity, setQuantity] = useState(1) // State to manage the quantity
+  const [showAlert, setShowAlert] = useState(false) // State to manage alert visibility
+  // State to track if the user manually changed the gender
+  const [isManualGenderSelection, setManualGenderSelection] = useState(false)
+
+  const { isInWishlist, isPending, toggleWishlist } = useWishlist()
+  const locale = useParams().locale as string
+  const countryCode = extractCountryCode(locale)
+
+  // Estimated delivery window: +6 to +12 days from today, e.g. "28 Oct - 05 Nov, 2026"
+  const estimatedDelivery = useMemo(() => {
+    const addDays = (days: number) => {
+      const date = new Date()
+      date.setDate(date.getDate() + days)
+      return date
+    }
+    const formatDayMonth = (date: Date) => {
+      const parts = new Intl.DateTimeFormat(intlLocale, {
+        day: "2-digit",
+        month: "short",
+      }).formatToParts(date)
+      const day = parts.find((p) => p.type === "day")?.value
+      const month = parts.find((p) => p.type === "month")?.value
+      return `${day} ${month}`
+    }
+    const start = addDays(6)
+    const end = addDays(12)
+    const startLabel =
+      start.getFullYear() === end.getFullYear()
+        ? formatDayMonth(start)
+        : `${formatDayMonth(start)}, ${start.getFullYear()}`
+    return `${startLabel} - ${formatDayMonth(end)}, ${end.getFullYear()}`
+  }, [intlLocale])
+
+  const variants = product.variants ?? []
+  const productOptions = product.options || []
+
+  // Filter out options with only one value and collect values to auto-select
+  const { displayedOptions, autoSelectValues } = useMemo(() => {
+    const optionsToDisplay: typeof productOptions = []
+    const singleValueOptions: Record<string, string> = {}
+
+    for (const option of productOptions) {
+      const uniqueValues = Array.from(
+        new Set(option.values?.map((v) => v.value) ?? [])
+      )
+
+      if (uniqueValues.length === 1) {
+        singleValueOptions[option.id] = uniqueValues[0]
+      } else {
+        // Only display options with multiple values
+        optionsToDisplay.push(option)
+      }
+    }
+
+    return {
+      displayedOptions: optionsToDisplay,
+      autoSelectValues: singleValueOptions,
+    }
+  }, [productOptions])
+
+  useEffect(() => {
+    if (!product?.id) {
+      setReviewRating(0)
+      setReviewCount(0)
+      return
+    }
+
+    getProductReviews({
+      productId: product.id,
+      limit: 1,
+      offset: 0,
+    })
+      .then(({ average_rating, count }) => {
+        setReviewRating(Math.round(average_rating || 0))
+        setReviewCount(count || 0)
+      })
+      .catch(() => {
+        setReviewRating(0)
+        setReviewCount(0)
+      })
+  }, [product?.id])
+
+  // initialize the option state
+  useEffect(() => {
+    const optionObj: Record<string, string> = {}
+
+    for (const option of productOptions) {
+      Object.assign(optionObj, {
+        [option.id]: autoSelectValues[option.id] ?? undefined,
+      })
+    }
+
+    setOptions(optionObj)
+  }, [productOptions, autoSelectValues])
+
+  // memoized record of the product's variants
+  const variantRecord = useMemo(() => {
+    const map: Record<string, Record<string, string>> = {}
+
+    for (const variant of variants) {
+      if (!variant?.options || !variant?.id) continue
+
+      const temp: Record<string, string> = {}
+
+      for (const option of variant?.options) {
+        if (!option.option_id) {
+          continue
+        }
+
+        temp[option.option_id] = option.value
+      }
+      map[variant?.id] = temp
+    }
+    return map
+  }, [variants])
+
+  // memoized function to check if the current options are a valid variant
+  const variant = useMemo(() => {
+    let variantId: string | undefined = undefined
+
+    for (const key of Object.keys(variantRecord)) {
+      if (isEqual(variantRecord[key], options)) {
+        variantId = key
+      }
+    }
+
+    // return variants[0]
+    return variants.find((v) => v.id === variantId)
+  }, [options, variantRecord, variants])
+
+  // if product only has one variant, then select it
+  useEffect(() => {
+    if (variants.length === 1 && variants[0].id) {
+      setOptions(variantRecord[variants[0].id])
+    }
+  }, [variants, variantRecord])
+
+  // update the options when a variant is selected
+  const updateOptions = (update: Record<string, string>) => {
+    // setOptions({ ...options, ...update })
+    setOptions((prevOptions) => {
+      // Check if gender is being updated in the provided options
+      if (selectedGenderId && update[selectedGenderId]) {
+        setManualGenderSelection(true) // Mark as manually selected
+      }
+      return { ...prevOptions, ...update } // Update options
+    })
+  }
+
+  // check if the selected variant is in stock
+  const inStock = useMemo(() => {
+    // If we don't manage inventory, we can always add to cart
+    if (variant && !variant?.manage_inventory) {
+      return true
+    }
+
+    // If we allow back orders on the variant, we can add to cart
+    if (variant && variant?.allow_backorder) {
+      return true
+    }
+
+    // If there is inventory available, we can add to cart
+    if (variant?.inventory_quantity && variant?.inventory_quantity > 0) {
+      return true
+    }
+
+    // Otherwise, we can't add to cart
+    return false
+  }, [variant])
+
+  const actionsRef = useRef<HTMLDivElement>(null)
+
+  const inView = useIntersection(actionsRef, "0px")
+
+  // add the selected variant to the cart
+  const handleAddToCart = async () => {
+    if (!variant?.id || quantity <= 0) return null
+
+    setIsAdding(true)
+
+    try {
+      await addToCart({
+        variantId: variant.id,
+        quantity,
+        countryCode,
+      })
+
+      const gaItem = buildProductAnalyticsItem({
+        product,
+        quantity,
+        variantId: variant.id,
+      })
+
+      trackEcommerceEvent("add_to_cart", {
+        currency: region.currency_code?.toUpperCase(),
+        value: getAnalyticsValue([gaItem]),
+        items: [gaItem],
+      })
+    } finally {
+      setIsAdding(false)
+    }
+  }
+
+  // Memoize the selected gender option ID
+  const selectedGenderId = useMemo(() => {
+    const genderOption = displayedOptions.find(
+      (option) => option.title.toLowerCase() === "gender"
+    )
+    return genderOption ? genderOption.id : null
+  }, [displayedOptions])
+
+  // Memoize the selected gender option ID
+  const selectedSizeId = useMemo(() => {
+    const sizeOption = displayedOptions.find(
+      (option) => option.title.toLowerCase() === "size"
+    )
+    return sizeOption ? sizeOption.id : null
+  }, [displayedOptions])
+
+  // Memoize the selected gender based on the selectedGenderId
+  const selectedGender = useMemo(() => {
+    // Ensure selectedGenderId exists in the options object
+    if (!selectedGenderId) return null
+
+    // Retrieve the gender value(s) from the options state by selectedGenderId
+    const genderValue = options[selectedGenderId]
+
+    // If genderValue is a string (single value), wrap it in an array; otherwise return null
+    return genderValue ? genderValue : null
+  }, [selectedGenderId, options])
+
+  // Memoize the available variants based on the selected gender ID
+  const availableVariants = useMemo(() => {
+    if (!selectedGenderId) {
+      return []
+    }
+
+    return Object.values(variantRecord).filter(
+      (variant) => variant[selectedGenderId] === selectedGender
+    )
+  }, [selectedGenderId, variantRecord, selectedGender])
+
+  // Memoize the unique sizes from the available variants
+  const uniqueSizes = useMemo(() => {
+    if (!selectedSizeId) {
+      return new Set<string>()
+    }
+
+    return new Set(
+      availableVariants
+        .map((variant) => variant[selectedSizeId])
+        .filter((value): value is string => !!value)
+    )
+  }, [availableVariants, selectedSizeId])
+
+  // Memoize the selected size based on the selectedSizeId
+  const selectedSize = useMemo(() => {
+    if (!selectedSizeId) return null
+    return options[selectedSizeId] || null
+  }, [selectedSizeId, options])
+
+  // Update available genders when a size is selected
+  const availableGenders = useMemo(() => {
+    if (!selectedSizeId) {
+      return []
+    }
+
+    return Object.values(variantRecord).filter(
+      (variant) => variant[selectedSizeId] === selectedSize
+    )
+  }, [selectedSizeId, selectedSize, variantRecord])
+
+  // Automatically select gender if only one valid option exists for the size
+  useEffect(() => {
+    if (
+      selectedGenderId &&
+      !isManualGenderSelection &&
+      availableGenders.length === 1
+    ) {
+      const singleGender = availableGenders[0][selectedGenderId]
+      if (singleGender && singleGender !== selectedGender) {
+        updateOptions({ [selectedGenderId]: singleGender })
+      }
+    }
+  }, [availableGenders, selectedGenderId, selectedGender])
+
+  // Function to handle increasing the quantity
+  const handleIncreaseQuantity = () => {
+    if (variant) {
+      // If inventory is managed and quantity is less than available inventory, increment
+      if (variant?.manage_inventory) {
+        if (quantity < (variant?.inventory_quantity ?? 0)) {
+          setQuantity((prevQuantity) => prevQuantity + 1)
+        }
+      } else {
+        // If inventory is not managed, allow unlimited increase
+        setQuantity((prevQuantity) => prevQuantity + 1)
+      }
+    }
+  }
+
+  // Function to handle decreasing the quantity
+  const handleDecreaseQuantity = () => {
+    if (quantity > 1) {
+      setQuantity((prevQuantity) => prevQuantity - 1) // Decrement only if greater than 1
+    }
+  }
+
+  // Watch for quantity changes to show alert if it equals inventory_quantity
+  useEffect(() => {
+    if (variant && quantity === variant?.inventory_quantity) {
+      setShowAlert(true) // Show alert when quantity equals inventory
+    } else {
+      setShowAlert(false) // Hide alert in other cases
+    }
+  }, [quantity, variant])
+
+  const defaultVariant = getDefaultProductVariant(product)
+  const wishlistVariantId = defaultVariant?.id
+
+  const isWishlistSaved = isInWishlist(wishlistVariantId)
+  const isWishlistLoading = isPending(wishlistVariantId)
+  const wishlistLabel = !wishlistVariantId
+    ? t("selectVariantToSave")
+    : isWishlistSaved
+    ? t("removeFromWishlist")
+    : t("addToWishlist")
+
+  const handleWishlistToggle = async () => {
+    if (!wishlistVariantId || isWishlistLoading) {
+      return
+    }
+
+    await toggleWishlist(wishlistVariantId, product.id)
+  }
+
+  const { cheapestPrice, highestPrice } = getProductPrice({
+    product,
+    locale: intlLocale,
+  })
+
+  return (
+    <>
+      <div id="product-info">
+        <div className="flex flex-col gap-y-4">
+          <div className="flex items-center justify-between">
+            <h1
+              className="!text-3xl max-md:!text-2xl leading-[46px] font-normal capitalize"
+              data-testid="product-title"
+            >
+              {product.title}
+            </h1>
+            {/* Add to WishList */}
+            <div className="">
+              <div
+                aria-label={wishlistLabel}
+                aria-pressed={isWishlistSaved}
+                className={clx(
+                  "add-wishlist-btn tag-action-ctrl w-[42px] h-[42px] flex items-center justify-center rounded-full border bg-white hover:bg-black hover:text-white hover:border-black duration-300 relative ease-out hover:shadow-[0_0_0_0.2rem_rgba(0,0,0,1)]",
+                  {
+                    active: isWishlistSaved,
+                    "cursor-progress opacity-70": isWishlistLoading,
+                    "cursor-not-allowed opacity-60": !wishlistVariantId,
+                  }
+                )}
+                data-testid="product-actions-wishlist-toggle"
+                onClick={handleWishlistToggle}
+                onKeyDown={async (event) => {
+                  if (event.key !== "Enter" && event.key !== " ") {
+                    return
+                  }
+
+                  event.preventDefault()
+                  await handleWishlistToggle()
+                }}
+                role="button"
+                tabIndex={0}
+              >
+                <div className="tag-action-swh bg-black text-white caption2 ">
+                  {wishlistLabel}
+                </div>
+                <Icon.StarIcon
+                  className={clx({
+                    "text-white": isWishlistSaved,
+                  })}
+                  size={24}
+                  weight={isWishlistSaved ? "fill" : "regular"}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-between gap-3">
+            <>
+              {variant ? (
+                <ProductPrice product={product} variant={variant} />
+              ) : (
+                <PreviewPrice
+                  price={cheapestPrice}
+                  highestPrice={highestPrice}
+                  fontSize="text-xl md:text-2xl "
+                />
+              )}
+            </>
+            {reviewRating > 0 && (
+              <div className="flex items-center gap-x-2">
+                <div className="flex gap-x-1">
+                  {Array.from({ length: 5 }).map((_, index) => (
+                    <span key={index}>
+                      {index < reviewRating ? (
+                        <StarSolid className="text-ui-tag-orange-icon" />
+                      ) : (
+                        <Star />
+                      )}
+                    </span>
+                  ))}
+                </div>
+                <span className="text-sm text-ui-fg-subtle">
+                  ({reviewCount})
+                </span>
+              </div>
+            )}
+          </div>
+          <p className="text-[16px] font-normal text-christmasText">
+            {product.subtitle && parse(product.subtitle)}
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col gap-y-4" ref={actionsRef}>
+        <div>
+          {variants.length > 1 && (
+            <div className="flex flex-col gap-y-4">
+              {displayedOptions.map((option) => {
+                const sortedValues =
+                  option.title.toLowerCase() === "gender"
+                    ? sortGenderValues(
+                        Array.from(
+                          new Set(option.values?.map((v) => v.value) ?? [])
+                        )
+                      )
+                    : option.title.toLowerCase() === "size"
+                    ? sortSizeValues(
+                        Array.from(
+                          new Set(option.values?.map((v) => v.value) ?? [])
+                        )
+                      )
+                    : Array.from(
+                        new Set(option.values?.map((v) => v.value) ?? [])
+                      )
+
+                return (
+                  <div key={option.id}>
+                    <OptionSelect
+                      option={option}
+                      toShowValues={Array.from(uniqueSizes)}
+                      current={options[option.id]}
+                      updateOption={updateOptions}
+                      title={getTranslatedOptionTitle(option.title, t)}
+                      displayValues={sortedValues}
+                      formatValue={
+                        option.title.toLowerCase() === "size"
+                          ? formatSizeString
+                          : option.title.toLowerCase() === "gender"
+                          ? (value) => getTranslatedGenderValue(value, t)
+                          : undefined
+                      }
+                      data-testid="product-options"
+                      disabled={!!disabled || isAdding}
+                    />
+                  </div>
+                )
+              })}
+            </div>
+          )}
+        </div>
+
+        <div className="text-[16px] font-medium">{t("quantity")}</div>
+        <div className="choose-quantity flex items-center lg:justify-between gap-5 gap-y-3 mb-6">
+          <div className="quantity-block md:p-3 max-md:py-1.5 max-md:px-3 flex items-center justify-between rounded-lg  sm:w-[180px] w-[120px] flex-shrink-0 bg-christmasBgGray">
+            <Icon.MinusIcon
+              size={20}
+              onClick={handleDecreaseQuantity}
+              className={`cursor-pointer`}
+            />
+            <div className="body1 font-semibold">{quantity}</div>
+            <Icon.PlusIcon
+              size={20}
+              onClick={handleIncreaseQuantity}
+              className="cursor-pointer"
+            />
+          </div>
+          <Button
+            onClick={handleAddToCart}
+            disabled={!inStock || !variant || !!disabled || isAdding}
+            variant="primary"
+            className=" w-full text-center bg-black text-white border font-normal border-black swh-btn"
+            isLoading={isAdding}
+            data-testid="add-product-button"
+          >
+            {!variant
+              ? t("selectVariant")
+              : !inStock
+              ? t("outOfStock")
+              : t("addToCart")}
+          </Button>
+        </div>
+        {!variant && <p className="text-red">{t("selectVariantError")}</p>}
+        {showAlert && (
+          <div className="bg-red text-white p-4 rounded-md mb-4">
+            {t("inventoryAlert", {
+              quantity: variant?.inventory_quantity ?? 0,
+            })}
+          </div>
+        )}
+        <Divider />
+
+        <div className="md:mb-3">
+          <label className="text-[18px] font-medium">
+            {t("estimatedDeliveryLabel")}
+          </label>
+          <span
+            className="text-[16px] font-normal text-christmasText ml-3"
+            suppressHydrationWarning
+          >
+            {estimatedDelivery}
+          </span>
+        </div>
+      </div>
+    </>
+  )
+}

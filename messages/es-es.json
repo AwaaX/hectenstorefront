@@ -1,0 +1,1250 @@
+{
+  "NavBar": {
+    "Top": {
+      "alert": "Envío gratis en pedidos superiores a 70€. No te pierdas el descuento."
+    },
+    "Middle": {
+      "Instagram": "Instagram",
+      "Tiktok": "Tiktok",
+      "alert": "Nueva colección de Pijamas de Navidad {year} aquí"
+    },
+    "Main": {
+      "NavMenu": {
+        "all pyjamas": "todos los pijamas",
+        "Matching pyjamas": "Pijamas a juego",
+        "Family pyjamas": "Pijamas familiares",
+        "Customer service": "Servicio al cliente",
+        "baby": "talla de bebé disponible",
+        "kid": "talla de niño disponible",
+        "men": "talla de hombre disponible",
+        "women": "talla de mujer disponible"
+      },
+      "IconMenu": {
+        "Account": "Cuenta",
+        "Search": "Buscar",
+        "Wishlist": "Lista de deseos",
+        "Cart": "Carrito"
+      },
+      "MobileMenu": {
+        "menu": "Menú"
+      }
+    },
+    "LanguageSelect": {
+      "label": "Idioma:",
+      "default": "Predeterminado"
+    }
+  },
+  "HomePage": {
+    "Hero": {
+      "title": "LA TELA NAVIDEÑA ESTÁ LISTA PARA {year}",
+      "heading": "Pijamas y más",
+      "shortdescription": "Entra en el proyecto y compra increíbles pijamas y ropa original para Navidad y esta temporada de invierno de Hecten",
+      "button": "comprar ahora",
+      "imageAlt": "Manoplas y gorro navideños de punto en verde y rojo con caja de regalo y bastones de caramelo"
+    },
+    "Timer": {
+      "heading": "reloj de Navidad",
+      "days": "días",
+      "hours": "horas",
+      "minutes": "minutos",
+      "seconds": "segundos",
+      "bannerAlt": "Pancarta de cuenta regresiva navideña con fondo rojo y árboles de invierno recortados en papel verde a ambos lados"
+    },
+    "NewsLetter": {
+      "text1": "Suscríbete para estar de nuestro lado",
+      "increaseQuantity": "Aumentar cantidad",
+      "decreaseQuantity": "Disminuir cantidad",
+      "text2": "Recibe las noticias más importantes sobre el mayor proyecto navideño internacional"
+    },
+    "Reviews": {
+      "text1": "Ellos comparten amor con hermosos pijamas",
+      "text2": "Opiniones de nuestra querida comunidad",
+      "fromShop": "de {shop}",
+      "customerReviews": "Opiniones de clientes",
+      "fromAddress": "Desde {address}"
+    },
+    "Services": {
+      "card1": {
+        "heading": "Envío gratis para pedidos superiores a 70€",
+        "brief": "\"Obtén envío terrestre gratuito en cada pedido. ¿No te encanta? Devuélvenoslo.\""
+      },
+      "card2": {
+        "heading": "100% exclusividad navideña",
+        "brief": "Parte de las ganancias se destinarán directamente a un proyecto humanitario. ¡La aventura puede seguirse en Instagram o a través de nuestro boletín!"
+      },
+      "card3": {
+        "heading": "Comunidad real de amantes de la Navidad",
+        "brief": "Nuestros clientes son entusiastas de la Navidad y compartimos los mismos detalles para nuestra Navidad"
+      },
+      "description": "Todo un equipo está listo para recibir tus pedidos este año y satisfacer todas tus necesidades. Además de la seriedad con la que hacemos nuestros pijamas, ofrecemos un servicio de calidad que es importante para nosotros para garantizarte una experiencia de compra agradable con nosotros",
+      "query": "¿Cómo financiará tu pedido un proyecto humanitario?",
+      "link": "Haz clic aquí para saber más."
+    },
+    "QuickLook": {
+      "heading": "Vista rápida de nuestros productos",
+      "description": "Nos esforzamos por mantener la calidad en todo lo que hacemos, aquí tienes algunos de nuestros productos recién disponibles para esta Navidad"
+    },
+    "Discovery": {
+      "heading": "Descubre nuestros pijamas",
+      "description": "Hecten ha trabajado duro este año nuevamente para traerte increíbles pijamas navideños. Encarga algunos para ti y tus seres queridos y apoya un proyecto humanitario con tu pedido",
+      "Item1": {
+        "heading": "Descubre todos nuestros pijamas de Navidad sin buscar más",
+        "brief": "La colección definitiva de nuestros últimos pijamas y ropa de Navidad para todos. Sin clasificar.",
+        "title": "Pijamas navideños",
+        "imageAlt": "pijamas navideños original"
+      },
+      "Item2": {
+        "heading": "Perfecto para familias, grandes o pequeñas",
+        "brief": "Encuentra un modelo de pijama disponible para toda tu familia directamente. Aquí cada modelo está disponible en todas las edades y tamaños. ¡Ideal para Navidad!",
+        "title": "Pijamas de Navidad para toda la familia",
+        "imageAlt": "pijamas navideños familiares original"
+      },
+      "Item3": {
+        "heading": "Nuestros diseños a juego para que tú y tu pareja los usen juntos",
+        "brief": "Encuentra nuestros modelos de pijamas a juego disponibles para hombres y mujeres. Disponible en todas las tallas. Para ti y tu ser querido.",
+        "title": "Pijamas de Navidad para parejas y a juego",
+        "imageAlt": "pareja original"
+      }
+    },
+    "ProductRail": {
+      "viewAll": "Ver todo"
+    }
+  },
+  "Footer": {
+    "Top": {
+      "SwitchText": "Cambiar país o moneda",
+      "Link1": "Contacta con el servicio al cliente y preguntas frecuentes",
+      "Link2": "Tu compra financiará este proyecto humanitario"
+    },
+    "Bottom": {
+      "text1": "HECTEN — AMANTES DE LA NAVIDAD EN TODO EL MUNDO",
+      "text2": "COMUNIDAD"
+    },
+    "Middle": {
+      "text1": "Servicio de atención al cliente reactivo 24/7",
+      "text2": "Envío rápido rastreado las 24 horas",
+      "text3": "Devolución fácil y rápida en 24 horas",
+      "text4": "Pago en 4 veces con Paypal"
+    },
+    "Main": {
+      "Col1": {
+        "text1": "ayuda",
+        "text2": "¿Necesitas ayuda?",
+        "text3": "Servicio al cliente",
+        "text4": "Nuestros equipos están conectados para responder a tus necesidades en 24 horas"
+      },
+      "Col2": {
+        "text1": "enlaces útiles",
+        "text2": "Información",
+        "link1": "Abrir mi lista de deseos",
+        "link2": "Ir a mi carrito",
+        "link3": "Ir a pagar",
+        "link4": "Iniciar sesión o registrarse",
+        "link5": "Mi cuenta"
+      },
+      "Col3": {
+        "text1": "Información",
+        "link1": "Rastrear mi pedido",
+        "link2": "Términos de entrega",
+        "link3": "Devolución y reembolso",
+        "link4": "Términos generales de venta",
+        "link5": "Aviso legal",
+        "link6": "Política de privacidad"
+      },
+      "Col4": {
+        "text1": "Boletín informativo — Tu sorpresa te espera",
+        "text2": "Recibe las noticias más importantes de la mayor comunidad navideña, infórmate de promociones y del avance del proyecto humanitario. Reclama tu regalo gratuito de bienvenida."
+      }
+    },
+    "NewsLetter": {
+      "txt1": "Acepto los",
+      "txt2": "términos y condiciones",
+      "txt3": "la protección de datos",
+      "and": "y",
+      "txt4": "¡Gracias por suscribirte al boletín! Nos",
+      "txt5": "pondremos en contacto pronto.",
+      "successMessage": "¡Gracias por suscribirte al boletín! Nos pondremos en contacto pronto.",
+      "Placeholder": "Tu correo electrónico"
+    }
+  },
+  "Metadata": {
+    "NotFound": {
+      "title": "404",
+      "description": "Página no encontrada"
+    },
+    "Home": {
+      "title": "Inicio - Hecten",
+      "description": "Únete al proyecto y compra increíbles pijamas y ropa original para Navidad y esta temporada de invierno en Hecten"
+    },
+    "Checkout": {
+      "title": "Pago - Hecten",
+      "description": "Revisa tu carrito, envío y datos de pago para completar tu pedido."
+    },
+    "SearchResults": {
+      "title": "Resultados de búsqueda de {query} - Hecten",
+      "description": "Explora productos que coinciden con {query}."
+    },
+    "Cart": {
+      "title": "Carrito - Hecten",
+      "description": "Revisa los productos que tienes actualmente en el carrito."
+    },
+    "Wishlist": {
+      "Shared": {
+        "title": "Lista de deseos compartida - Hecten",
+        "description": "Explora una lista de deseos que se ha compartido contigo."
+      }
+    },
+    "Account": {
+      "Login": {
+        "title": "Iniciar sesión - Hecten",
+        "description": "Inicia sesión en tu cuenta de Hecten."
+      },
+      "Wishlist": {
+        "title": "Lista de deseos - Hecten",
+        "description": "Productos guardados en tu lista de deseos."
+      },
+      "Orders": {
+        "title": "Pedidos - Hecten",
+        "description": "Resumen de tus pedidos anteriores."
+      },
+      "Profile": {
+        "title": "Perfil - Hecten",
+        "description": "Ver y editar los datos de tu perfil."
+      },
+      "Addresses": {
+        "title": "Direcciones - Hecten",
+        "description": "Ver y actualizar tus direcciones guardadas."
+      },
+      "Overview": {
+        "title": "Cuenta - Hecten",
+        "description": "Resumen de la actividad de tu cuenta."
+      },
+      "LoginWishlist": {
+        "title": "Inicia sesión para ver tu lista de deseos - Hecten",
+        "description": "Inicia sesión para acceder a tu lista de deseos."
+      }
+    },
+    "OrderConfirmed": {
+      "title": "Pedido confirmado - Hecten",
+      "description": "Tu compra se ha realizado correctamente."
+    },
+    "AllPyjamas": {
+      "title": "Pijamas de Navidad - Hecten",
+      "description": "Únete al proyecto y compra pijamas increíbles y ropa original para la Navidad y esta temporada de invierno en Hecten"
+    },
+    "CustomerService": {
+      "title": "Servicio al cliente - Hecten",
+      "description": "Obtén ayuda con tus pedidos, rastrea envíos o contacta a nuestro equipo de soporte para cualquier pregunta sobre Hecten."
+    },
+    "PrivacyPolicy": {
+      "title": "Política de privacidad - Hecten",
+      "description": "Aprende cómo protegemos tu información personal y privacidad cuando compras con Hecten."
+    },
+    "LegalNotice": {
+      "title": "Aviso legal - Hecten",
+      "description": "Información legal y avisos relativos al sitio web y servicios de Hecten."
+    },
+    "GeneralTermsOfSale": {
+      "title": "Condiciones generales de venta - Hecten",
+      "description": "Lee nuestros términos y condiciones generales para comprar productos de Hecten."
+    },
+    "TermsOfDelivery": {
+      "title": "Condiciones de entrega - Hecten",
+      "description": "Información sobre opciones de entrega, tiempos de envío y políticas de entrega de Hecten."
+    },
+    "ReturnAndRefund": {
+      "title": "Política de devolución y reembolso - Hecten",
+      "description": "Conoce nuestro proceso de devoluciones, cambios y reembolsos en Hecten."
+    },
+    "MeasurementGuide": {
+      "title": "Guía de tallas - Hecten",
+      "description": "Encuentra la talla perfecta con nuestra guía completa de medidas para todas las tallas de ropa en Hecten."
+    },
+    "HumanitarianProject": {
+      "title": "Proyecto humanitario - Hecten",
+      "description": "Conoce las iniciativas humanitarias y esfuerzos de responsabilidad social de Hecten."
+    }
+  },
+  "Common": {
+    "ReadMore": {
+      "readMore": "Leer más",
+      "readLess": "Leer menos"
+    },
+    "NotFound": {
+      "heading": "Página no encontrada",
+      "description": "La página a la que intentaste acceder no existe.",
+      "cta": "Ir a la página principal"
+    },
+    "Price": {
+      "from": "Desde",
+      "original": "Original:"
+    },
+    "Breadcrumbs": {
+      "home": "Inicio",
+      "shop": "Tienda"
+    },
+    "thumbnailAlt": "Miniatura",
+    "GeoSuggestion": {
+      "title": "Puede que estés en el sitio equivocado",
+      "description": "Parece que estás en {country}. ¿Quieres ver la versión de {country} de esta página?",
+      "confirm": "Sí, cambiar",
+      "dismiss": "No, quedarme aquí"
+    }
+  },
+  "Account": {
+    "Login": {
+      "heading": "Iniciar sesión",
+      "email": "Correo electrónico",
+      "emailTitle": "Introduce una dirección de correo válida.",
+      "password": "Contraseña",
+      "submit": "Iniciar sesión",
+      "registerPrompt": "¿No eres miembro?",
+      "registerCta": "Regístrate"
+    },
+    "Register": {
+      "heading": "Regístrate aquí",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "consentPrefix": "Acepto la",
+      "privacyPolicy": "Política de privacidad",
+      "and": "y los",
+      "termsOfUse": "Términos de uso",
+      "submit": "Unirme",
+      "signInPrompt": "¿Ya eres miembro?",
+      "signInCta": "Iniciar sesión",
+      "successTitle": "Registro exitoso",
+      "successMessage": "Su cuenta ha sido creada exitosamente. Por favor inicie sesión para continuar.",
+      "goToLogin": "Iniciar sesión"
+    },
+    "Nav": {
+      "hello": "Hola {name}",
+      "account": "Cuenta",
+      "overview": "Resumen",
+      "profile": "Perfil",
+      "addresses": "Direcciones",
+      "wishlist": "Lista de deseos",
+      "orders": "Pedidos",
+      "logout": "Cerrar sesión"
+    },
+    "Overview": {
+      "hello": "Hola {name}",
+      "signedInAs": "Has iniciado sesión como:",
+      "profile": "Perfil",
+      "completed": "Completado",
+      "addresses": "Direcciones",
+      "saved": "Guardadas",
+      "recentOrders": "Pedidos recientes",
+      "datePlaced": "Fecha del pedido",
+      "orderNumber": "Número de pedido",
+      "totalAmount": "Importe total",
+      "goToOrder": "Ir al pedido #{id}",
+      "noRecentOrders": "No hay pedidos recientes",
+      "subtitle": "Este es un resumen rápido de la actividad de tu cuenta.",
+      "viewAll": "Ver todo",
+      "orders": "Pedidos",
+      "placed": "Realizados",
+      "status": "Estado",
+      "completeProfile": "Completa tu perfil"
+    },
+    "OrderOverview": {
+      "emptyTitle": "No hay nada que mostrar",
+      "emptyDescription": "Aún no tienes ningún pedido, cambiemos eso :)",
+      "continueShopping": "Seguir comprando"
+    },
+    "Pages": {
+      "Wishlist": {
+        "heading": "Lista de deseos",
+        "description": "Revisa los productos guardados, elimina artículos o comparte tu lista de deseos.",
+        "emptyMessage": "Todavía no has añadido productos a tu lista de deseos.",
+        "guestDescription": "Guarda productos mientras navegas y vuelve a ellos cuando quieras."
+      },
+      "Orders": {
+        "heading": "Pedidos",
+        "description": "Consulta tus pedidos anteriores y su estado. También puedes crear devoluciones o cambios si lo necesitas."
+      },
+      "Profile": {
+        "heading": "Perfil",
+        "description": "Consulta y actualiza la información de tu perfil, incluido tu nombre, correo electrónico y teléfono. También puedes actualizar tu dirección de facturación o cambiar tu contraseña."
+      },
+      "Addresses": {
+        "heading": "Direcciones de envío",
+        "description": "Consulta y actualiza tus direcciones de envío. Puedes añadir tantas como quieras. Guardarlas las hará disponibles durante el pago."
+      }
+    },
+    "ProfilePassword": {
+      "notImplemented": "La actualización de contraseña no está implementada",
+      "password": "Contraseña",
+      "hidden": "La contraseña no se muestra por razones de seguridad",
+      "oldPassword": "Contraseña actual",
+      "newPassword": "Nueva contraseña",
+      "confirmPassword": "Confirmar contraseña"
+    },
+    "AddressForm": {
+      "newAddress": "Nueva dirección",
+      "addAddress": "Añadir dirección",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "company": "Empresa",
+      "address": "Dirección",
+      "apartment": "Apartamento, suite, etc.",
+      "postalCode": "Código postal",
+      "city": "Ciudad",
+      "provinceState": "Provincia / Estado",
+      "country": "País",
+      "phone": "Teléfono",
+      "cancel": "Cancelar",
+      "save": "Guardar",
+      "edit": "Editar",
+      "remove": "Eliminar",
+      "editAddress": "Editar dirección",
+      "defaultShipping": "Envío predeterminado",
+      "defaultBilling": "Facturación predeterminada"
+    },
+    "BillingAddress": {
+      "billingAddress": "Dirección de facturación",
+      "noBillingAddress": "Sin dirección de facturación",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "company": "Empresa",
+      "phone": "Teléfono",
+      "address": "Dirección",
+      "apartment": "Apartamento, suite, etc.",
+      "postalCode": "Código postal",
+      "city": "Ciudad",
+      "province": "Provincia"
+    },
+    "ProfileName": {
+      "name": "Nombre",
+      "firstName": "Nombre",
+      "lastName": "Apellidos"
+    },
+    "ProfileEmail": {
+      "email": "Correo electrónico"
+    },
+    "ProfilePhone": {
+      "phone": "Teléfono"
+    },
+    "TransferRequest": {
+      "heading": "Transferencias de pedidos",
+      "promptLine1": "¿No encuentras el pedido que buscas?",
+      "promptLine2": "Vincula un pedido a tu cuenta.",
+      "orderIdPlaceholder": "ID del pedido",
+      "requestTransfer": "Solicitar transferencia",
+      "successRequested": "Transferencia solicitada para el pedido {id}",
+      "successEmailSent": "Correo de solicitud de transferencia enviado a {email}"
+    },
+    "AccountInfo": {
+      "defaultError": "Se ha producido un error. Inténtalo de nuevo",
+      "cancel": "Cancelar",
+      "edit": "Editar",
+      "updatedSuccessfully": "{label} actualizado correctamente",
+      "saveChanges": "Guardar cambios",
+      "notProvided": "No indicado"
+    },
+    "OrderCard": {
+      "itemCount": "{count, plural, one {# artículo} other {# artículos}}",
+      "more": "más",
+      "seeDetails": "Ver detalles"
+    }
+  },
+  "Cart": {
+    "Items": {
+      "heading": "Carrito",
+      "item": "Artículo",
+      "quantity": "Cantidad",
+      "price": "Precio",
+      "total": "Total"
+    },
+    "Summary": {
+      "heading": "Resumen",
+      "checkout": "Ir al pago"
+    },
+    "Empty": {
+      "heading": "Tu cesta está vacía",
+      "description": "Puedes ver todos los productos disponibles y comprar algunos en la tienda.",
+      "cta": "Volver a la tienda"
+    },
+    "Dropdown": {
+      "heading": "Carrito",
+      "quantity": "Cantidad",
+      "remove": "Eliminar",
+      "subtotal": "Subtotal",
+      "excludingTaxes": "(sin impuestos)",
+      "goToCart": "Ir al carrito",
+      "empty": "Tu bolsa de compra está vacía.",
+      "goToProductsSrOnly": "Ir a la página de todos los productos",
+      "explore": "Explorar productos",
+      "shoppingBasket": "Cesta de la compra",
+      "note": "Nota",
+      "coupon": "Cupón",
+      "subtotalExclTax": "Subtotal (sin impuestos)",
+      "taxes": "Impuestos",
+      "totalInclTax": "Total (con impuestos)",
+      "checkout": "Finalizar compra",
+      "viewBasket": "Ver cesta",
+      "notePlaceholder": "Añade instrucciones especiales para tu pedido...",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "addCouponCode": "Añadir un código de cupón",
+      "enterCode": "Introduce el código",
+      "discountCode": "Código de descuento",
+      "apply": "Aplicar",
+      "increaseQuantity": "Aumentar cantidad",
+      "decreaseQuantity": "Disminuir cantidad",
+      "couponCodeRequired": "Por favor ingrese un código de cupón",
+      "couponError": "Este código de cupón es inválido o ha expirado",
+      "couponApplied": "¡Cupón aplicado exitosamente!",
+      "enterValidCode": "Ingrese su código promocional y presione Enter o haga clic en Aplicar",
+      "close": "Cerrar",
+      "emptyHeading": "Tu cesta está vacía actualmente",
+      "emptyDescription": "Puedes consultar todos los productos disponibles y comprar algunos en la tienda.",
+      "returnToShop": "Volver a la tienda",
+      "shipping": "Envío",
+      "free": "Gratis",
+      "total": "Total",
+      "discount": "Descuento",
+      "includesVat": "incluye {vat} IVA",
+      "estimatedFor": "estimado para",
+      "couponAlreadyApplied": "Ya se ha aplicado un cupón. Elimínelo primero para aplicar uno nuevo.",
+      "includes": "incluye",
+      "vat": "IVA"
+    },
+    "Totals": {
+      "subtotalExcluding": "Subtotal (sin envío ni impuestos)",
+      "shipping": "Envío",
+      "calculatedAtCheckout": "Se calcula al finalizar la compra",
+      "discount": "Descuento",
+      "taxes": "Impuestos",
+      "total": "Total",
+      "subtotal": "Subtotal",
+      "free": "Gratis",
+      "includes": "incluye",
+      "vat": "IVA",
+      "estimatedFor": "estimado para"
+    },
+    "NotFound": {
+      "heading": "Página no encontrada",
+      "description": "El carrito al que intentaste acceder no existe. Borra las cookies y vuelve a intentarlo.",
+      "cta": "Ir a la página principal"
+    },
+    "SignInPrompt": {
+      "heading": "¿Ya tienes una cuenta?",
+      "description": "Inicia sesión para disfrutar de una mejor experiencia.",
+      "cta": "Iniciar sesión"
+    },
+    "MismatchBanner": {
+      "message": "Algo salió mal al intentar transferir tu carrito",
+      "runAgain": "Volver a ejecutar la transferencia",
+      "transferring": "Transfiriendo.."
+    }
+  },
+  "Search": {
+    "Results": {
+      "heading": "Resultados de búsqueda para:",
+      "clear": "Limpiar",
+      "noResults": "Sin resultados."
+    },
+    "Box": {
+      "placeholder": "Buscar productos..."
+    },
+    "ShowAll": {
+      "noResults": "No se encontraron resultados.",
+      "showingFirst": "Mostrando los primeros {count} resultados.",
+      "viewAll": "Ver todo"
+    }
+  },
+  "Wishlist": {
+    "SharedPage": {
+      "heading": "Lista de deseos compartida",
+      "description": "Explora los productos guardados en esta lista de deseos compartida.",
+      "emptyMessage": "Esta lista de deseos no tiene productos guardados."
+    },
+    "ShareButton": {
+      "successTitle": "Enlace copiado",
+      "successDescription": "Cualquier persona con este enlace puede ver tu lista de deseos.",
+      "errorTitle": "Error",
+      "errorDescription": "No se puede generar un enlace para compartir en este momento.",
+      "button": "Compartir lista de deseos",
+      "label": "Enlace para compartir",
+      "copy": "Copiar enlace",
+      "copied": "Copiado"
+    },
+    "ItemsGrid": {
+      "variant": "Variante",
+      "count": "{count, plural, one {# artículo} other {# artículos}}",
+      "remove": "Eliminar",
+      "removeItem": "Eliminar {title} de la lista de deseos",
+      "unavailable": "Este producto ya no está disponible.",
+      "emptyTitle": "Aún no hay nada guardado",
+      "startShopping": "Empezar a comprar"
+    },
+    "Button": {
+      "add": "Añadir a la lista de deseos",
+      "remove": "Quitar de la lista de deseos",
+      "unavailable": "Selecciona una variante para guardarla"
+    },
+    "Toggle": {
+      "add": "Añadir a la lista de deseos",
+      "remove": "Quitar de la lista de deseos",
+      "signIn": "Inicia sesión para guardar"
+    },
+    "Toast": {
+      "savedTitle": "Guardado",
+      "savedDescription": "Producto añadido a tu lista de deseos.",
+      "removedTitle": "Eliminado",
+      "removedDescription": "Producto eliminado de tu lista de deseos.",
+      "errorTitle": "Error",
+      "errorDescription": "Se ha producido un error al actualizar tu lista de deseos.",
+      "guestSavedTitle": "Guardado en tu navegador",
+      "guestSavedDescription": "Este artículo se guarda en este dispositivo. Crea una cuenta para conservarlo de forma permanente y compartir tu lista de deseos.",
+      "guestRemovedTitle": "Eliminado",
+      "guestRemovedDescription": "Artículo eliminado de tu lista de deseos guardada en el navegador."
+    },
+    "GuestNotice": {
+      "heading": "No has iniciado sesión",
+      "description": "Esta lista de deseos solo se guarda en tu navegador. Crea una cuenta para conservarla de forma permanente y compartirla con otras personas.",
+      "cta": "Inicia sesión para guardar"
+    },
+    "GuestSignIn": {
+      "heading": "Inicia sesión para conservar tu lista de deseos",
+      "description": "Consulta los artículos guardados en tu cuenta. Todo lo que hayas guardado en este dispositivo se añadirá a ella al iniciar sesión.",
+      "benefitDevices": "Accede a tu lista de deseos desde cualquier dispositivo",
+      "benefitShare": "Comparte tu lista con familiares y amigos",
+      "benefitKeep": "Conserva tus artículos aunque borres los datos del navegador"
+    }
+  },
+  "Shipping": {
+    "FreeShippingNudge": {
+      "unlock": "Desbloquea el envío gratis",
+      "unlocked": "Envío gratis desbloqueado",
+      "remaining": "Solo te faltan {amount}",
+      "viewCart": "Ver carrito",
+      "viewProducts": "Ver productos"
+    }
+  },
+  "Order": {
+    "Summary": {
+      "heading": "Resumen del pedido",
+      "subtotal": "Subtotal",
+      "discount": "Descuento",
+      "giftCard": "Tarjeta regalo",
+      "shipping": "Envío",
+      "taxes": "Impuestos",
+      "total": "Total"
+    },
+    "Help": {
+      "heading": "¿Necesitas ayuda?",
+      "contact": "Contacto",
+      "returns": "Devoluciones y cambios"
+    },
+    "Completed": {
+      "heading": "¡Gracias!",
+      "description": "Tu pedido se realizó correctamente.",
+      "summary": "Resumen"
+    },
+    "Details": {
+      "heading": "Detalles del pedido",
+      "back": "Volver al resumen",
+      "confirmationDetails": "Hemos enviado los detalles de confirmación del pedido a <email>{email}</email>.",
+      "orderDate": "Fecha del pedido:",
+      "orderNumber": "Número de pedido:",
+      "orderStatus": "Estado del pedido:",
+      "paymentStatus": "Estado del pago:",
+      "statuses": {
+        "not_fulfilled": "No completado",
+        "partially_fulfilled": "Parcialmente completado",
+        "fulfilled": "Completado",
+        "partially_shipped": "Parcialmente enviado",
+        "shipped": "Enviado",
+        "partially_delivered": "Parcialmente entregado",
+        "delivered": "Entregado",
+        "canceled": "Cancelado",
+        "not_paid": "No pagado",
+        "awaiting": "Pendiente",
+        "authorized": "Autorizado",
+        "partially_authorized": "Parcialmente autorizado",
+        "captured": "Cobrado",
+        "partially_captured": "Parcialmente cobrado",
+        "partially_refunded": "Parcialmente reembolsado",
+        "refunded": "Reembolsado",
+        "requires_action": "Requiere acción"
+      }
+    },
+    "Shipping": {
+      "heading": "Entrega",
+      "address": "Dirección de envío",
+      "contact": "Contacto",
+      "method": "Método"
+    },
+    "Payment": {
+      "title": "Pago",
+      "method": "Método de pago",
+      "details": "Detalles del pago",
+      "paidAt": "{amount} pagado el {date}"
+    },
+    "TransferPage": {
+      "heading": "Solicitud de transferencia del pedido {id}",
+      "intro": "Has recibido una solicitud para transferir la propiedad de tu pedido ({id}). Si estás de acuerdo con esta solicitud, puedes aprobar la transferencia haciendo clic en el botón de abajo.",
+      "permissions": "Si aceptas, el nuevo propietario asumirá todas las responsabilidades y permisos asociados a este pedido.",
+      "noAction": "Si no reconoces esta solicitud o deseas conservar la propiedad, no es necesario realizar ninguna otra acción."
+    },
+    "TransferAccept": {
+      "successHeading": "¡Pedido transferido!",
+      "successText": "El pedido {id} se ha transferido correctamente al nuevo propietario.",
+      "errorText": "Se produjo un error al aceptar la transferencia. Inténtalo de nuevo.",
+      "errorMessage": "Mensaje de error: {error}"
+    },
+    "TransferActions": {
+      "acceptSuccess": "¡Pedido transferido correctamente!",
+      "declineSuccess": "¡Transferencia de pedido rechazada correctamente!",
+      "accept": "Aceptar transferencia",
+      "decline": "Rechazar transferencia"
+    }
+  },
+  "Store": {
+    "Sort": {
+      "title": "Ordenar por",
+      "created_at": "Últimas llegadas",
+      "price_asc": "Precio: de menor a mayor",
+      "price_desc": "Precio: de mayor a menor"
+    },
+    "showingResults": "Mostrando {from}–{to} de {total} resultados",
+    "filters": "Filtros"
+  },
+  "Product": {
+    "Actions": {
+      "signInToSave": "Inicia sesión para guardar",
+      "selectVariantToSave": "Selecciona una variante para guardar",
+      "removeFromWishlist": "Quitar de la lista de deseos",
+      "addToWishlist": "Añadir a la lista de deseos",
+      "quantity": "Cantidad:",
+      "selectVariant": "Selecciona una variante",
+      "outOfStock": "Agotado",
+      "addToCart": "Añadir al carrito",
+      "selectVariantError": "* Selecciona una variante para continuar",
+      "inventoryAlert": "Actualmente solo hay {quantity} unidad(es) disponibles.",
+      "estimatedDeliveryLabel": "Entrega estimada:",
+      "estimatedDeliveryText": "Tu paquete llegará en 3-5 días laborables a tu punto de recogida o a la comodidad de tu hogar.",
+      "selectOptions": "Seleccionar opciones",
+      "optionGender": "Género",
+      "optionSize": "Tamaño",
+      "optionColor": "Color",
+      "optionValueBaby": "Bebé",
+      "optionValueKid": "Niño",
+      "optionValueWomen": "Mujer",
+      "optionValueMen": "Hombre"
+    },
+    "Tabs": {
+      "sizeGuide": "Guía de tallas",
+      "deliveryInformation": "Información de entrega",
+      "material": "Material",
+      "countryOfOrigin": "País de origen",
+      "type": "Tipo",
+      "weight": "Peso",
+      "dimensions": "Dimensiones",
+      "shippingBullet1": "Envío de tu pedido en menos de 24 horas de lunes a sábado (excepto festivos)",
+      "shippingBullet2": "Entrega gratuita con seguimiento de 12 días en compras a partir de 70€ (en casa)",
+      "shippingBullet3": "Entrega estándar con seguimiento 10 días por 5,90€ (en casa)",
+      "shippingBullet4": "Rastree su paquete fácilmente por correo electrónico y en el sitio web",
+      "sizeGuideDescription": "Nuestros pijamas tienen cintura elástica y te quedarán bien sea cual sea tu talla de cintura. ¿Tienes dudas? Contáctanos.",
+      "sizesSuffix": " tallas:",
+      "hide": "Ocultar",
+      "show": "Mostrar",
+      "measurementGuideTitle": "¿Cómo tomar tus medidas?",
+      "measurementGuideDescription": "Haz clic aquí para seguir la guía de Hecten y tomar tus medidas fácilmente en casa sin errores"
+    },
+    "Reviews": {
+      "NoReviewText": "Este producto aún no ha recibido ninguna reseña. ¡Sé el primero en dejar tu opinión!",
+      "errorTitle": "Error",
+      "requiredFields": "Completa los campos obligatorios.",
+      "successTitle": "Éxito",
+      "successDescription": "Tu reseña se ha enviado y está pendiente de aprobación.",
+      "submitError": "Se produjo un error al enviar tu reseña. Inténtalo de nuevo más tarde.",
+      "addReview": "Añadir una reseña",
+      "title": "Título",
+      "content": "Contenido",
+      "rating": "Valoración",
+      "submit": "Enviar",
+      "heading": "Opiniones del producto",
+      "description": "Descubre lo que dicen nuestros clientes sobre este producto.",
+      "count": "{count} opiniones",
+      "loadMore": "Cargar más opiniones"
+    },
+    "Related": {
+      "heading": "Productos relacionados",
+      "description": "Quizás también quieras echar un vistazo a estos productos."
+    },
+    "Onboarding": {
+      "success": "¡Tu producto de demostración se creó correctamente! 🎉",
+      "description": "Ahora puedes continuar configurando tu tienda en el panel de administración.",
+      "continue": "Continuar la configuración en el panel"
+    },
+    "Preview": {
+      "selectOption": "Seleccionar opción",
+      "inStock": "En stock",
+      "sliderDescription": "Aquí están los pijamas Merry Grinchmas, una divertida idea de pijama navideño para celebrar tu Grinchmas a solas o en compañía. Adecuados para familias, parejas, niños y...",
+      "outOfStock": "Agotado"
+    }
+  },
+  "Tracking": {
+    "Page": {
+      "heading": "Seguir mi pedido",
+      "trackingNumber": "Número de seguimiento",
+      "lastUpdate": "Última actualización:",
+      "descriptionLabel": "Descripción:",
+      "location": "Ubicación:",
+      "route": "Ruta:",
+      "history": "Historial",
+      "orderFoundNoTracking": "Pedido encontrado, pero todavía no hay datos de seguimiento disponibles.",
+      "orderPrompt": "Para seguir tu pedido, introduce tu número de pedido y tu correo electrónico:",
+      "trackingPrompt": "Para seguir tu pedido, introduce el número de seguimiento que recibiste en el correo de confirmación del envío",
+      "orderId": "ID del pedido",
+      "orderNumberPlaceholder": "Número de pedido",
+      "orderEmail": "Correo del pedido",
+      "emailPlaceholder": "Dirección de correo",
+      "trackingNumberLabel": "Número de seguimiento",
+      "trackingNumberPlaceholder": "Número de seguimiento del pedido",
+      "trackOrder": "Seguir pedido",
+      "tracking": "Rastreando...",
+      "orderLabel": "Pedido:",
+      "tabs": {
+        "orderDetails": "Detalles del pedido",
+        "trackingNumbers": "Números de seguimiento"
+      },
+      "milestones": {
+        "infoReceived": "Información recibida",
+        "pickedUp": "Recogido",
+        "departure": "Salida",
+        "arrival": "Llegada",
+        "availableForPickup": "Disponible para recoger",
+        "outForDelivery": "En reparto",
+        "delivered": "Entregado"
+      },
+      "statuses": {
+        "Delivered": "Entregado",
+        "InTransit": "En tránsito",
+        "PickedUp": "Recogido",
+        "Exception": "Incidencia",
+        "Returning": "En devolución",
+        "Returned": "Devuelto",
+        "Unknown": "Desconocido"
+      }
+    }
+  },
+  "Checkout": {
+    "Payment": {
+      "selectMethod": "Selecciona un método de pago",
+      "title": "Pago",
+      "edit": "Editar",
+      "method": "Método de pago",
+      "giftCard": "Tarjeta regalo",
+      "enterCardDetails": "Introducir datos de la tarjeta",
+      "continueToReview": "Continuar a la revisión",
+      "details": "Detalles del pago",
+      "anotherStep": "Aparecerá otro paso",
+      "placeOrder": "Realizar pedido",
+      "enterPaymentDetails": "Introducir datos de pago",
+      "paymentFailed": "No se pudo completar tu pago. Inténtalo de nuevo o elige otro método de pago.",
+      "paymentFormError": "No se pudo cargar el formulario de pago. Actualiza la página e inténtalo de nuevo.",
+      "paypalLoading": "Cargando PayPal…",
+      "paypalFinalising": "Finalizando tu pedido…",
+      "paypalUnavailable": "No se pudo cargar PayPal. Elige otro método de pago.",
+      "formUnavailable": {
+        "title": "El formulario de pago necesita actualizarse",
+        "body": "Tu sesión de pago segura ha caducado, por lo que el formulario no se pudo cargar. No se ha realizado ningún cargo y tu carrito está guardado. Vuelve a cargar el formulario para continuar.",
+        "reload": "Volver a cargar el formulario de pago"
+      },
+      "sessionRenewed": "Tu sesión de pago se ha renovado. Vuelve a introducir tus datos de pago. No se ha realizado ningún cargo."
+    },
+    "Layout": {
+      "backToCart": "Volver al carrito",
+      "back": "Volver",
+      "store": "Hecten",
+      "secureCheckout": "Pago seguro",
+      "progress": "Progreso del pago",
+      "showSummary": "Mostrar resumen del pedido",
+      "hideSummary": "Ocultar resumen del pedido"
+    },
+    "ShippingAddress": {
+      "savedAddressesPrompt": "Hola {name}, ¿quieres usar una de tus direcciones guardadas?",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "address": "Dirección",
+      "company": "Empresa",
+      "postalCode": "Código postal",
+      "city": "Ciudad",
+      "stateProvince": "Estado / Provincia",
+      "billingSameAsShipping": "La dirección de facturación es la misma que la de envío",
+      "email": "Correo electrónico",
+      "emailTitle": "Introduce una dirección de correo electrónico válida.",
+      "phone": "Teléfono",
+      "chooseAddress": "Elige una dirección"
+    },
+    "Addresses": {
+      "shippingAddress": "Dirección de envío",
+      "billingAddress": "Dirección de facturación",
+      "contact": "Contacto",
+      "edit": "Editar",
+      "continueToDelivery": "Continuar a la entrega",
+      "billingSameAsDelivery": "La dirección de facturación y entrega son la misma."
+    },
+    "Shipping": {
+      "delivery": "Entrega",
+      "edit": "Editar",
+      "shippingMethod": "Método de envío",
+      "deliveryPrompt": "¿Cómo quieres recibir tu pedido?",
+      "pickupOrder": "Recoger tu pedido",
+      "store": "Tienda",
+      "storePrompt": "Elige una tienda cercana",
+      "continueToPayment": "Continuar al pago",
+      "method": "Método"
+    },
+    "Review": {
+      "heading": "Revisión",
+      "confirmation": "Al hacer clic en el botón Realizar pedido, confirmas que has leído, entendido y aceptado nuestros Términos de uso, Términos de venta y Política de devoluciones, y reconoces que has leído la Política de privacidad de Hecten.",
+      "confirmationPaypal": "Al pagar con uno de los botones de PayPal de abajo, confirmas que has leído, entendido y aceptado nuestros Términos de uso, Términos de venta y Política de devoluciones, y reconoces que has leído la Política de privacidad de Hecten."
+    },
+    "DiscountCode": {
+      "addPromotionCodes": "Añadir código(s) promocional(es)",
+      "apply": "Aplicar",
+      "promotionsApplied": "Cupones aplicados",
+      "removeDiscount": "Eliminar cupón",
+      "couponRemoved": "Cupón eliminado exitosamente",
+      "couponApplied": "¡Cupón aplicado exitosamente!",
+      "enterCode": "Ingrese código de cupón",
+      "couponAlreadyApplied": "Ya se ha aplicado un cupón. Elimínelo primero para aplicar uno nuevo."
+    },
+    "Summary": {
+      "heading": "En tu carrito"
+    },
+    "PaymentTest": {
+      "attention": "Atención:",
+      "testingOnly": "Solo con fines de prueba."
+    },
+    "PaymentMethods": {
+      "creditCard": "Tarjeta de crédito",
+      "ideal": "iDeal",
+      "bancontact": "Bancontact",
+      "paypal": "PayPal",
+      "manualPayment": "Pago manual",
+      "stripe": "Tarjeta de crédito/débito y más",
+      "paypalHint": "Paga de forma segura con PayPal. Según tu país, PayPal también puede ofrecer Pagar más tarde y pagar con tarjeta sin cuenta de PayPal."
+    },
+    "PaymentReturn": {
+      "checkingTitle": "Confirmando tu pago…",
+      "checkingBody": "Estamos comprobando el resultado con tu banco. Solo tardará un momento.",
+      "secureNote": "Pago seguro. Por favor, mantén esta página abierta.",
+      "slowNote": "Está tardando más de lo habitual. Por favor, mantén esta página abierta.",
+      "receivedTitle": "Pago recibido",
+      "receivedBody": "¡Gracias! Estamos finalizando tu pedido y te enviaremos la confirmación por correo electrónico en breve. Si no la recibes en unos minutos, ponte en contacto con atención al cliente.",
+      "pendingTitle": "Esperando tu pago",
+      "pendingBody": "Tu pago está en camino. Realizamos y enviamos tu pedido en cuanto se confirmen los fondos, y te avisaremos por correo electrónico.",
+      "statusChecking": "Comprobando",
+      "statusPaid": "Pagado",
+      "statusPending": "Pago pendiente",
+      "statusFailed": "No completado",
+      "amountLabel": "Importe",
+      "statusLabel": "Estado",
+      "nextTitle": "Qué ocurre ahora",
+      "step1Title": "Tu banco procesa el pago",
+      "step1Body": "Puede tardar hasta 5 días hábiles.",
+      "step2Title": "Lo confirmamos y realizamos tu pedido",
+      "step2Body": "Ocurre automáticamente. No tienes que hacer nada más.",
+      "step3Title": "Recibes un correo de confirmación",
+      "step3Body": "Enviamos tu pedido en cuanto se confirma el pago.",
+      "viewInstructions": "Ver instrucciones de pago",
+      "backToPayment": "Volver al pago",
+      "continueShopping": "Seguir comprando",
+      "notCharged": "No se te ha cobrado.",
+      "needHelp": "¿Necesitas ayuda?",
+      "contactUs": "Contactar con atención al cliente"
+    },
+    "PaymentError": {
+      "declined": {
+        "title": "Tu pago fue rechazado",
+        "body": "Tu banco o el emisor de tu tarjeta no aprobó este pago. Prueba con otra tarjeta u otro método de pago."
+      },
+      "insufficient_funds": {
+        "title": "Fondos insuficientes",
+        "body": "Esta tarjeta no tiene fondos suficientes para esta compra. Prueba con otra tarjeta u otro método de pago."
+      },
+      "expired_card": {
+        "title": "Tu tarjeta ha caducado",
+        "body": "Comprueba la fecha de caducidad o utiliza otra tarjeta."
+      },
+      "incorrect_cvc": {
+        "title": "El código de seguridad es incorrecto",
+        "body": "Comprueba el código de seguridad de 3 o 4 dígitos de tu tarjeta e inténtalo de nuevo."
+      },
+      "incorrect_number": {
+        "title": "El número de tarjeta es incorrecto",
+        "body": "Comprueba el número de tu tarjeta e inténtalo de nuevo."
+      },
+      "authentication": {
+        "title": "Error de autenticación",
+        "body": "No pudimos verificar este pago con tu banco. Inténtalo de nuevo o utiliza otro método de pago."
+      },
+      "invalid_details": {
+        "title": "Revisa los datos de pago",
+        "body": "Faltan algunos datos de pago o no son válidos. Revísalos e inténtalo de nuevo."
+      },
+      "processing": {
+        "title": "No pudimos procesar tu pago",
+        "body": "Algo salió mal al procesar tu pago. Inténtalo de nuevo en un momento."
+      },
+      "network": {
+        "title": "Problema de conexión",
+        "body": "No pudimos conectar con el servicio de pago. Comprueba tu conexión e inténtalo de nuevo."
+      },
+      "session_expired": {
+        "title": "Tu sesión de pago ha caducado",
+        "body": "Por tu seguridad, las sesiones de pago caducan pasado un tiempo. No se ha realizado ningún cargo y tu carrito está guardado. Vuelve a cargar el formulario de pago y realiza el pedido de nuevo."
+      },
+      "order": {
+        "title": "No pudimos finalizar tu pedido",
+        "body": "Tu pago se realizó, pero hubo un problema al finalizar tu pedido. No vuelvas a pagar. Inténtalo otra vez o contacta con atención al cliente y lo solucionaremos."
+      },
+      "generic": {
+        "title": "Error en el pago",
+        "body": "Algo salió mal con tu pago. Inténtalo de nuevo o utiliza otro método de pago."
+      },
+      "notCharged": "No se te ha cobrado.",
+      "detailsLabel": "Detalles",
+      "actions": {
+        "tryAgain": "Intentar de nuevo",
+        "editDetails": "Editar datos de pago",
+        "changeMethod": "Usar otro método de pago",
+        "close": "Cerrar",
+        "contactSupport": "Contactar con atención al cliente",
+        "reloadForm": "Volver a cargar el formulario de pago"
+      }
+    }
+  },
+  "StaticPages": {
+    "PrivacyPolicy": {
+      "title": "Política de privacidad",
+      "breadcrumbHome": "Inicio",
+      "body": "<p>SECCION 1 - INFORMACION PERSONAL RECOPILADA</p><p>Cuando realizas una compra en nuestra tienda, como parte de nuestro proceso de compra y venta, recopilamos la informacion personal que nos proporcionas, como tu nombre, direccion y direccion de correo electronico.</p><p>Cuando navegas por nuestra tienda, tambien recibimos automaticamente la direccion de Protocolo de Internet (IP) de tu ordenador, lo que nos permite obtener mas detalles sobre el navegador y el sistema operativo que utilizas.</p><p>Marketing por correo electronico (si corresponde): Con tu permiso, podemos enviarte correos electronicos sobre nuestra tienda, nuevos productos y otras actualizaciones.</p><p>SECCION 2 - CONSENTIMIENTO</p><p>Como obtienen mi consentimiento?</p><p>Cuando nos proporcionas tu informacion personal para completar una transaccion, verificar tu tarjeta de credito, realizar un pedido, programar una entrega o devolver una compra, asumimos que aceptas que recopilemos y usemos tu informacion solo para ese fin.</p><p>Si te pedimos tu informacion personal por cualquier otro motivo, como fines de marketing, te pediremos directamente tu consentimiento expreso o te daremos la oportunidad de rechazarlo.</p><p>Como retiro mi consentimiento? Puedes editar tu consentimiento en cualquier momento haciendo <a href=\"#\">clic aqui y editando tu consentimiento</a>.</p><p>Si, despues de darnos tu consentimiento, cambias de opinion y ya no aceptas que nos pongamos en contacto contigo, recopilemos tu informacion o la divulguemos, puedes notificarnos escribiendo a {companyEmail} o por correo postal a {companyOperatingEntity}, la empresa que opera thechristmasfabric.com:<br>{companyOperatingEntity}<br>{companyAddress}<br>{companyCity}<br>{companyZip}<br>Francia</p><p>SECCION 3 - DIVULGACION</p><p>Podemos divulgar tu informacion personal si la ley nos exige hacerlo o si incumples nuestros Terminos y Condiciones.</p><p>SECCION 4 - ALOJAMIENTO</p><p>Nuestra tienda esta alojada por Kinsta Inc. Nos proporciona la plataforma en linea que nos permite venderte nuestros servicios y productos.</p><p>Tus datos se almacenan en el sistema de almacenamiento de datos y en las bases de datos de Kinsta Inc. Tus datos se conservan en un servidor seguro protegido por un cortafuegos.</p><p>Pago:</p><p>Al realizar una compra en linea en noel-shop.com, no se almacena ninguna informacion de tarjeta de credito. Tu informacion de tarjeta de credito es utilizada de forma segura por servicios de terceros para procesar tu pago. Por motivos de seguridad, los datos se cifran conforme al Payment Card Industry Data Security Standard (PCI-DSS). La informacion de tu transaccion de compra se conserva durante el tiempo necesario para completar tu pedido mediante servicios de terceros como PayPal, Stripe o Mollie.</p><p>Todas las pasarelas de pago directo cumplen la norma PCI-DSS, gestionada por el PCI Security Standards Council, una iniciativa conjunta de empresas como Visa, MasterCard, American Express y Discover.</p><p>Los requisitos de la norma PCI-DSS garantizan el procesamiento seguro de los datos de tarjetas de credito por parte de nuestra tienda y sus proveedores de servicios.</p><p>SECCION 5 - SERVICIOS PROPORCIONADOS POR TERCEROS</p><p>En general, los proveedores externos que utilizamos solo recopilaran, usaran y divulgararan tu informacion en la medida necesaria para prestar los servicios que nos proporcionan.</p><p>Sin embargo, algunos proveedores de servicios externos, como pasarelas de pago y otros procesadores de transacciones de pago, tienen sus propias politicas de privacidad respecto a la informacion que debemos proporcionarles para tus transacciones de compra.</p><p>Con respecto a estos proveedores, te recomendamos leer atentamente sus politicas de privacidad para comprender como trataran tu informacion personal.</p><p>Ten en cuenta que algunos proveedores pueden estar ubicados, o tener instalaciones ubicadas, en una jurisdiccion diferente a la tuya o a la nuestra. Si decides continuar con una transaccion que requiere los servicios de un proveedor externo, tu informacion puede regirse por las leyes de la jurisdiccion en la que se encuentre ese proveedor o sus instalaciones.</p><p>Por ejemplo, si te encuentras en Canada y tu transaccion se procesa a traves de una pasarela de pago ubicada en Estados Unidos, la informacion utilizada para completar la transaccion puede divulgarse conforme a la legislacion de Estados Unidos, incluido el Patriot Act.</p><p>Una vez que abandonas el sitio de nuestra tienda o eres redirigido a un sitio web o aplicacion de terceros, dejas de estar regido por esta Politica de privacidad o por los Terminos y Condiciones de venta y uso de nuestro sitio web.</p><p>Enlaces</p><p>Puedes abandonar nuestro sitio web haciendo clic en determinados enlaces de nuestro sitio. No asumimos responsabilidad por las practicas de privacidad de estos otros sitios y te recomendamos leer atentamente sus politicas de privacidad.</p><p>SECCION 6 - SEGURIDAD</p><p>Para proteger tu informacion personal, tomamos precauciones razonables y seguimos las mejores practicas del sector para garantizar que no se pierda, se use indebidamente, se acceda a ella, se divulgue, se altere o se destruya de forma inapropiada.</p><p>SECCION 7 - EDAD DE CONSENTIMIENTO</p><p>Al utilizar este sitio, declaras que tienes al menos la mayoria de edad en tu estado o provincia de residencia y que nos has dado tu consentimiento para permitir que cualquier menor a tu cargo use este sitio web.</p><p>SECCION 8 - CAMBIOS EN ESTA POLITICA DE PRIVACIDAD</p><p>Nos reservamos el derecho de modificar esta Politica de privacidad en cualquier momento, por lo que te recomendamos revisarla con frecuencia. Los cambios y aclaraciones entraran en vigor inmediatamente despues de su publicacion en el sitio web. Si realizamos cambios en el contenido de esta politica, te notificaremos aqui que ha sido actualizada, para que sepas que informacion recopilamos, como la usamos y bajo que circunstancias, si las hubiera, la divulgamos.</p><p>Si nuestra tienda es adquirida por otra empresa o se fusiona con ella, tu informacion puede transferirse a los nuevos propietarios para que podamos seguir vendiendote productos.</p><p>PREGUNTAS E INFORMACION DE CONTACTO</p><p>Si deseas acceder, corregir, modificar o eliminar cualquier informacion personal que tengamos sobre ti, presentar una reclamacion o simplemente obtener mas informacion, contacta con nuestro responsable de privacidad en {companyEmail} o por correo postal en la sede de {companyOperatingEntity}, que opera thechristmasfabric.com:<br>{companyOperatingEntity}<br>{companyAddress}<br>{companyCity}<br>{companyZip}<br>Francia</p>"
+    },
+    "MeasurementGuide": {
+      "intro": {
+        "eyebrow": "Una guía sencilla para evitar errores",
+        "title": "Toma tus medidas",
+        "paragraph1": "La ropa de Hecten se confecciona siguiendo una media internacional porque queremos que pueda llevarla todo el mundo. Por eso, conocer tus medidas te ayudará a elegir la talla correcta. Por ejemplo, si normalmente usas una L, en algunos modelos puede quedarte mejor una talla M.",
+        "paragraph2": "Una vez tomadas tus medidas, puedes compararlas directamente con la guía de tallas disponible en la página del producto que elijas. Nuestros productos pueden tener guías de tallas similares o diferentes."
+      },
+      "withoutTape": {
+        "eyebrow": "Usa una cuerda",
+        "title": "Medir sin cinta métrica",
+        "description": "No hay problema. Si no tienes cinta métrica, puedes usar una cuerda o el borde de una toalla larga para medir el busto, la cintura, las caderas y más. Después, pasa la longitud de la cuerda o la toalla a una regla para obtener la medida en cm o pulgadas."
+      },
+      "guideTitle": "Ver la guía para",
+      "options": {
+        "men": "Hombre",
+        "women": "Mujer",
+        "child": "Niño",
+        "baby": "Bebé"
+      },
+      "imageAlt": "Ilustración de la guía de medidas",
+      "measurements": [
+        {
+          "primaryLabel": "A - Busto, contorno de busto:",
+          "primaryText": "Mide alrededor del busto. Todas las guías de tallas de Hecten indican la medida del contorno de busto. Se utiliza con mucha frecuencia en nuestras guías de tallas.",
+          "secondaryLabel": "Largo de la parte superior:",
+          "secondaryText": "Mide desde el hueco de la base del cuello hasta la pelvis. Se utiliza con mucha frecuencia en nuestras guías de tallas."
+        },
+        {
+          "primaryLabel": "B - Cintura, contorno de cintura:",
+          "primaryText": "Mide alrededor de la cintura. Se utiliza a menudo en nuestras guías de tallas.",
+          "secondaryLabel": "Largo de la parte inferior:",
+          "secondaryText": "Mide desde la pelvis hasta el tobillo. Se utiliza con mucha frecuencia en nuestras guías de tallas."
+        },
+        {
+          "primaryLabel": "C - Caderas, contorno de caderas:",
+          "primaryText": "Mide alrededor de las caderas. Se utiliza a veces en nuestras guías de tallas."
+        },
+        {
+          "primaryLabel": "D - Largo de entrepierna:",
+          "primaryText": "Mide desde la entrepierna hasta el tobillo sin doblar la pierna. Se utiliza con menos frecuencia en nuestras guías de tallas."
+        },
+        {
+          "primaryLabel": "E - Altura, estatura:",
+          "primaryText": "Mide desde la parte superior de la cabeza hasta los pies. Se utiliza rara vez en nuestras guías de tallas."
+        }
+      ]
+    },
+    "ReturnAndRefund": {
+      "title": "Devolución y reembolso",
+      "breadcrumbHome": "Inicio",
+      "body": "<p>Nuestra política dura 14 días desde el día de la entrega. Si han pasado 14 días desde el día de tu entrega, lamentablemente no podemos ofrecerte un reembolso ni un cambio.</p><p>Para poder optar a una devolución gratuita, tu artículo debe devolverse para cambio, sin usar y en las mismas condiciones en que lo recibiste. También debe estar en su embalaje original.</p><p>Para evitar abusos, se aplica una tarifa de devolución de 10 USD$ solo cuando el cliente solicita un reembolso y el pedido cumple con las expectativas del cliente respecto a los artículos que motivaron su compra en www.thechristmasfabric.com.</p><p>El cliente debe verificar al devolver el producto que los accesorios, si los hubiera, estén completos y que el embalaje sea el original. Si el cliente no lo hace, se puede aplicar un cargo al reembolso para cubrir la pérdida ocasionada:<br>- Embalaje original dañado o faltante: 10 USD$.<br>- Accesorios faltantes: 20 % del importe total del reembolso, o el precio del accesorio si aparece en el sitio.</p><p>Si el artículo no se devuelve en su estado original, está dañado, manchado, no funciona o está deteriorado, y esto impide que pueda venderse de nuevo, no se podrá conceder ningún reembolso.</p><p>Muchos tipos de productos no pueden devolverse. Los bienes perecederos como alimentos, flores o revistas no pueden devolverse. Tampoco aceptamos productos íntimos o sanitarios, productos peligrosos, ni gases o líquidos inflamables.</p><p>Otros artículos que no pueden devolverse:</p><p>Tarjetas regalo<br>Software descargable<br>Ciertos productos de salud y cuidado personal<br>Para realizar una devolución, debes presentarnos un recibo o prueba de compra.</p><p>No devuelvas tu compra al fabricante.</p><p>Hay determinadas situaciones en las que solo se concede un reembolso parcial, si corresponde:</p><p>Libros con signos evidentes de uso.<br>CD, DVD, cinta VHS, software, videojuego, casete o disco de vinilo que haya sido abierto.<br>Cualquier artículo que no esté en su estado original, esté dañado o tenga piezas faltantes por razones que no se deban a un error nuestro.<br>Cualquier artículo devuelto más de 30 días después de la entrega.</p><p>Reembolsos, si corresponde<br>Una vez que hayamos recibido e inspeccionado el artículo devuelto, te enviaremos un correo electrónico para confirmar que lo hemos recibido. También te informaremos de nuestra decisión de aprobar o rechazar tu solicitud de reembolso.<br>Si tu solicitud es aprobada, se procesará tu reembolso y se aplicará automáticamente un crédito a tu tarjeta de crédito o método de pago original en un plazo máximo de 2 a 3 días, excluidos fines de semana y festivos.</p><p>Reembolsos tardíos o faltantes, si corresponde<br>Si aún no has recibido tu reembolso, revisa los siguientes pasos antes de contactar con el sitio por correo electrónico:<br>- Verifica que el reembolso no esté en curso en tu cuenta bancaria o programado para llegar en una fecha publicada.<br>- Contacta con tu banco para conocer los plazos aplicados a las transferencias entre cuentas bancarias que no pertenecen al mismo banco.<br><br>Si después de completar todos estos pasos aún no has recibido tu reembolso, o no conoces el plazo de tu banco o la fecha de recepción del reembolso, contacta con nosotros en {companyEmail}.</p><p>Artículos en oferta, si corresponde<br>Solo se pueden reembolsar los artículos con precio regular. Lamentablemente, los artículos en oferta no son reembolsables.</p><p>Devolución por mal funcionamiento</p><p>Un artículo devuelto por mal funcionamiento entra en nuestra oferta de devolución gratuita, y el cliente no paga ningún cargo. Si nuestro equipo no detecta ningún mal funcionamiento después de varias pruebas y verificaciones del servicio posventa, la entrega de vuelta al cliente correrá a cargo del cliente. Esto nos permite evitar devoluciones abusivas y pide al cliente que verifique que su producto tiene un mal funcionamiento real y que es necesario devolverlo al servicio posventa antes de cualquier cambio.</p><p>Cambios</p><p>Solo reemplazaremos un artículo si está defectuoso o dañado al recibirlo el cliente. El cliente tiene 3 días desde el día de entrega para declarar un problema. Después de este plazo, consideramos que el artículo ha sido usado y ya no es cambiable. Para cualquier cambio, envíanos un correo electrónico a {companyEmail}.</p><p>El artículo debe estar nuevo, sin usar, sin lavar, en su embalaje original y con todas las etiquetas colocadas.</p><p>Tu artículo debe enviarse a la dirección de la empresa que opera www.thechristmasfabric.com:<br>{companyOperatingEntity}<br>19 Allée de Brienne<br>{companyCity}<br>{companyZip}<br>Francia</p><p>Regalos<br>Si el artículo devuelto fue identificado como regalo en el momento de la compra y se te envió directamente, recibirás un crédito regalo igual al valor de tu devolución. Una vez que recibamos el artículo devuelto, se te enviará un certificado regalo por correo. Los gastos de devolución de regalos no están cubiertos.</p><p>Envío<br>Para devolver un producto, debes enviarlo a la sede de {companyOperatingEntity}, la empresa que opera www.thechristmasfabric.com: {companyOperatingEntity}, 19 Allée de Brienne, {companyCity}, {companyZip}, Francia.</p><p>Plazos de procesamiento<br>Dependiendo de dónde vivas, el tiempo necesario para recibir tu producto cambiado puede variar.</p><p>Tras recibir tu producto en la sede, tardamos de 3 a 5 días laborables en verificarlo y tomar una decisión, que se te comunicará por correo electrónico a la dirección que proporcionaste al realizar el pedido.</p><p>Si los costes de devolución para reenviar el producto al cliente son asumidos por {companyOperatingEntity}, la empresa que opera www.thechristmasfabric.com, el plazo de entrega puede variar entre 3 y 5 días.</p><p>Si el coste del envío de devolución al cliente corre a cargo del cliente, el plazo de entrega variará según el método preferido elegido por el cliente.</p><p>Si envías un artículo valorado en más de 100 USD$ y eres responsable de los costes de devolución, deberías considerar usar un servicio de envío que permita rastrear el paquete o contratar un seguro de envío. No garantizamos que recibamos el artículo que devuelves si ocurre un problema.</p>"
+    },
+    "TermsOfDelivery": {
+      "title": "Condiciones de entrega",
+      "breadcrumbHome": "Inicio",
+      "body": "<p>Los PRODUCTOS se envían a la dirección o direcciones de entrega indicadas por el CLIENTE durante el proceso de pedido.</p><p>Plazo de envío</p><p>Los plazos para preparar un pedido y emitir la factura antes del envío de los PRODUCTOS en stock se mencionan en el SITIO. Estos plazos no incluyen fines de semana ni días festivos.</p><p>Se enviará automáticamente un correo electrónico al CLIENTE cuando se envíen los PRODUCTOS, siempre que la dirección de correo electrónico indicada en el formulario de registro sea correcta.</p><p>Plazos y costes de entrega</p><p>Durante el proceso de pedido, el VENDEDOR indica al CLIENTE los posibles plazos de entrega y las opciones de envío para los PRODUCTOS comprados.</p><p>Los gastos de envío se calculan según el método de entrega. El importe de estos costes será debido por el CLIENTE además del precio de los PRODUCTOS comprados.</p><p>Los detalles de los plazos y costes de entrega se indican en el SITIO.</p><p>Condiciones de entrega</p><p>El paquete se entregará al CLIENTE contra firma y previa presentación de un documento de identidad.</p><p>En caso de ausencia, se dejará un aviso de paso al CLIENTE para que pueda recoger su paquete en su oficina de correos.</p><p>El CLIENTE es responsable de recoger el paquete en la oficina de correos en un plazo de 10 días. El VENDEDOR no podrá ser considerado responsable de un paquete destruido o no devuelto por los servicios postales, y este motivo no constituye base para obtener ningún reembolso.</p><p>Problemas de entrega</p><p>El CLIENTE es informado de la fecha de entrega cuando elige el transportista, al final del proceso de pedido en línea, antes de confirmar el pedido.</p><p>Se especifica que las entregas se realizarán en un plazo máximo de treinta (30) días. En caso contrario, el CLIENTE deberá requerir formalmente al VENDEDOR que entregue en un plazo razonable. Si no se entrega dentro de este plazo, el contrato podrá resolverse.</p><p>El VENDEDOR reembolsará al CLIENTE, sin demora indebida tras recibir la carta de resolución, el importe total pagado por los PRODUCTOS, incluidos impuestos y gastos de entrega, mediante el mismo método de pago utilizado por el CLIENTE para comprar los PRODUCTOS.</p><p>El VENDEDOR es responsable hasta la entrega del PRODUCTO al CLIENTE. Se recuerda al CLIENTE que dispone de un plazo de tres (3) días para notificar al transportista cualquier daño o pérdida parcial observada en el momento de la entrega.</p>"
+    },
+    "LegalNotice": {
+      "title": "Aviso legal",
+      "breadcrumbHome": "Inicio",
+      "body": "<p>Aviso legal</p><p>Cliente: cualquier persona física capaz o persona jurídica que visita el sitio. Usuario: cualquier internauta que usa el sitio. Contenido: textos, imágenes, vídeos, logotipos y demás elementos del sitio.</p><p>Datos del sitio</p><p>El sitio está editado por SASU OVOORO, 19 Allée de Brienne, {companyZip} {companyCity}. Responsable y DPO: Hecten, {companyEmail}. Alojamiento: Kinsta Inc, 8605 Santa Monica Blvd #92581, 90069 West Hollywood, CA.</p><p>Condiciones de uso</p><p>El uso del sitio implica la aceptación de estas condiciones. Los contenidos están protegidos por derechos de propiedad intelectual y no pueden reproducirse, modificarse o explotarse sin autorización escrita.</p><p>Datos personales</p><p>Los datos personales pueden utilizarse para gestionar cuentas, pedidos, facturación, relación cliente, seguridad, análisis y comunicaciones. No se venden datos personales.</p><p>Derechos de los usuarios</p><p>Los usuarios tienen derechos de acceso, rectificación, supresión, oposición, limitación, retirada del consentimiento y portabilidad. Solicitudes: DPO, OVOORO, 19 Allée de Brienne, {companyZip} {companyCity}, con prueba de identidad.</p><p>Cookies, seguridad y jurisdicción</p><p>El sitio puede usar cookies y balizas para mejorar la navegación y medir la actividad. El navegador permite aceptar o rechazar cookies. Los litigios se someten al derecho francés y a los tribunales competentes de {companyCity}.</p>"
+    },
+    "HumanitarianProject": {
+      "title": "Proyecto humanitario",
+      "hero": {
+        "eyebrow": "Con tus pedidos",
+        "heading": "5 % donado",
+        "description": "El 5 % de los beneficios se donará a la asociación AHPA, con el objetivo de construir al menos 1 jardín educativo en Kpomassè, Benín. Gracias a tu pedido, podrás seguir el progreso de esta iniciativa, que también cuenta con el apoyo de nuestro sitio web francés.",
+        "link": "Noel Shop"
+      },
+      "association": {
+        "eyebrow": "La asociación",
+        "heading": "AHPA",
+        "description": "Association Humanitaire pour l'Afrique (AHPA) es una asociación de solidaridad internacional que apoya proyectos de desarrollo en Benín en los ámbitos de la educación, la agricultura sostenible, la protección del medio ambiente y el turismo justo. Trabajando con socios asociativos locales, AHPA apoya microproyectos generadores de ingresos para jóvenes en educación ambiental.",
+        "logoAlt": "Logotipo de la asociación AHPA"
+      },
+      "gallery": {
+        "image1Alt": "Proyecto de jardín educativo en Benín",
+        "image2Alt": "Proyecto comunitario local apoyado por AHPA",
+        "image3Alt": "Iniciativa agrícola y educativa en Benín",
+        "image4Alt": "Actividad de campo del proyecto humanitario"
+      }
+    },
+    "CustomerService": {
+      "banner": {
+        "heading": "Atención al cliente",
+        "subHeading": "¿Qué podemos hacer por ti hoy?"
+      },
+      "faqSections": [
+        {
+          "eyebrow": "Más información sobre el seguimiento y la entrega de su pedido",
+          "heading": "Entrega y seguimiento",
+          "items": [
+            {
+              "question": "Seguir mi pedido",
+              "answer": "Para realizar el seguimiento de su pedido, vaya a la página de [seguimiento de mi pedido](/track-my-order) e introduzca el número de seguimiento que recibió en el correo electrónico de envío del pedido."
+            },
+            {
+              "question": "Cambiar mi dirección de entrega",
+              "answer": "Dispone de 24 horas después de realizar su pedido para notificarnos un cambio de dirección por correo electrónico a [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com). Transcurrido este plazo, no se podrá realizar ninguna devolución ni reembolso."
+            },
+            {
+              "question": "Plazo de entrega",
+              "answer": "Se necesitan de 24 a 72 horas para procesar y enviar su pedido. El plazo de entrega varía de 5 a 12 días según el método de entrega y el país de entrega."
+            },
+            {
+              "question": "Crear una cuenta",
+              "answer": "Para crear una cuenta y beneficiarse de ofertas y cupones en sus futuras compras, así como un historial de sus pedidos y acceso directo a sus facturas, vaya a la página de [mi cuenta](/account)."
+            },
+            {
+              "question": "País de entrega",
+              "answer": "Realizamos envíos a todos los países europeos y a nivel internacional. Elija su país habitual en el menú de la parte superior del sitio y elija el método de entrega que prefiera al realizar su pedido.\nSólo para los clientes franceses, puede hacer su pedido en nuestra tienda francesa en [www.noel-shop.fr](https://www.noel-shop.fr)"
+            },
+            {
+              "question": "Paquetes separados",
+              "answer": "Nuestros productos se envían en un solo paquete. Más raramente, por razones logísticas, podemos tener que hacer una entrega en dos paquetes separados. Si este es el caso, asumimos el 100% del coste adicional de este segundo paquete y usted no tiene que pagar nada."
+            },
+            {
+              "question": "Tasas aduaneras",
+              "answer": "Dependiendo del país de entrega, pueden aplicarse tasas de aduana sobre la mercancía. Le invitamos a consultar el sitio web de aduanas de su país para saber si tendrá que pagar tasas de aduana a la entrega de su paquete o no."
+            },
+            {
+              "question": "Impuesto sobre el valor añadido",
+              "answer": "Para su comodidad, todos nuestros precios se muestran con el IVA incluido, lo que significa que el Impuesto sobre el Valor Añadido (IVA) está incluido en nuestros precios en el momento del pago de su pedido. Si es usted una empresa, puede hacer que le deduzcan el IVA pidiéndonos una factura por correo electrónico a [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)"
+            },
+            {
+              "question": "Información personal",
+              "answer": "Hecten no almacena ninguna información de pago o de tarjeta de crédito. Nuestro sitio utiliza procesadores de pago externos verificados, autorizados y seguros, como Paypal o Stripe, para que pueda pagar sus pedidos en línea de forma segura."
+            }
+          ]
+        },
+        {
+          "eyebrow": "Devolver un artículo, hacer un cambio o un reembolso",
+          "heading": "Devolución y cambio",
+          "items": [
+            {
+              "question": "Condiciones de devolución",
+              "answer": "El plazo para las devoluciones y los cambios es de 14 días.\nPuedes encontrar nuestra política de devoluciones completa en detalle en nuestra [política de devoluciones y reembolsos aquí](/return-and-refund)."
+            },
+            {
+              "question": "Error en mi pedido",
+              "answer": "Si ha recibido su pedido y le falta algún producto o ha recibido un producto equivocado, le invitamos a ponerse en contacto con nuestro servicio de atención al cliente en [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)"
+            },
+            {
+              "question": "Mi pedido llegó dañado",
+              "answer": "Si has recibido tu pedido y los productos están dañados, tienes que reunir todas las pruebas que demuestren que los productos han sido dañados durante la entrega.\nEnvíanos lo antes posible después de recibir tu paquete fotos del embalaje dañado y de los daños en los artículos que pediste por correo electrónico a [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)"
+            },
+            {
+              "question": "Dirección para devoluciones y cambios",
+              "answer": "Las devoluciones y cambios de pedidos se realizan en la sede de la empresa en la siguiente dirección\nSASU OVOORO\n19 ALLÉE DE BRIENNE\n31000\nTOULOUSE\nFRANCIA\nPóngase en contacto con nosotros por correo electrónico antes de su devolución o cambio en [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)"
+            },
+            {
+              "question": "Conseguir un intercambio",
+              "answer": "Si desea obtener un cambio, debe ponerse en contacto con nuestro servicio de atención al cliente en [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com).\nDependiendo del motivo de su cambio, del coste del envío y del número de artículos que desee intercambiar, los gastos de envío pueden ser ofrecidos, compartidos con usted o totalmente a su cargo (una media de 11€ EUR)."
+            },
+            {
+              "question": "Error en la dirección",
+              "answer": "Si la dirección de entrega es incorrecta y se supera el plazo de notificación de 24 horas, ya no podemos garantizar la entrega de su paquete ni su reembolso si no podemos recuperarlo.\nSin embargo, debe saber que hacemos todo lo posible para que este tipo de problemas reporten un cambio de dirección directamente con nuestro socio logístico para que pueda cambiar la dirección de entrega de su paquete durante el transporte; estos procesos son bastante largos, por lo que debe ponerse en contacto con nosotros lo antes posible en [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)"
+            },
+            {
+              "question": "Modificar y/o cancelar mi pedido",
+              "answer": "Puede cancelar o modificar un pedido directamente en un plazo máximo de 24 horas después de realizarlo.\nPóngase en contacto con nosotros lo antes posible en [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com)\nSi ha pasado este plazo de 24 horas y su pedido ya ha sido enviado, no será posible una anulación o modificación del mismo y tendrá que esperar a que finalice el proceso de entrega para proceder a una devolución o realizar un nuevo pedido si desea recibir más artículos."
+            },
+            {
+              "question": "Pedir por adelantado un artículo agotado",
+              "answer": "Para hacer un pedido anticipado de un artículo agotado, puede ponerse en contacto con nosotros en [customer@thechristmasfabric.com](mailto:customer@thechristmasfabric.com) para hacer un pedido prioritario en nuestro próximo stock."
+            }
+          ]
+        }
+      ],
+      "form": {
+        "description": "Utiliza este formulario para contactar con atención al cliente por correo electrónico en customer@thechristmasfabric.com",
+        "heading": "Contactar con atención al cliente",
+        "firstNameLabel": "Tu nombre",
+        "firstNamePlaceholder": "Nombre",
+        "orderNumberLabel": "Tu número de pedido",
+        "orderNumberPlaceholder": "35445",
+        "reasonLabel": "El motivo de tu solicitud",
+        "reasonOptions": [
+          "Quiero cambiar un producto",
+          "Tengo un problema con el seguimiento",
+          "Quiero devolver mi paquete u obtener un reembolso",
+          "Quiero modificar mi pedido",
+          "Contacto por otro motivo"
+        ],
+        "submit": "Enviar",
+        "submitting": "Enviando...",
+        "success": "¡Gracias! Tu mensaje ha sido enviado exitosamente.",
+        "step": "Paso",
+        "of": "de",
+        "next": "Siguiente",
+        "back": "Atrás",
+        "emailLabel": "Tu correo electrónico",
+        "emailPlaceholder": "tu@email.com",
+        "emailError": "El correo electrónico es requerido",
+        "messageLabel": "Tu mensaje",
+        "messagePlaceholder": "Cuéntanos más sobre tu solicitud...",
+        "messageError": "El mensaje es requerido",
+        "orderNumberError": "El número de pedido es requerido"
+      }
+    },
+    "GeneralTermsOfSale": {
+      "title": "Términos Generales de Venta",
+      "breadcrumbHome": "Inicio",
+      "body": "<p>El sitio web thechristmasfabric.com es una marca registrada operada por la empresa {companyOperatingEntity},<br>19 Allée de Brienne, {companyZip}, {companyCity}, Francia<br>con capital social de 1000€.<br>inscrita en el Registro Mercantil de {companyCity},<br>bajo el número SIREN 890918436<br>El sitio web thechristmasfabric.com está representado y gestionado en su totalidad por {companyOperatingEntity} como persona jurídica en capacidad de gestor, debidamente autorizado para estos propósitos.<br>El sitio web puede contactarse por correo electrónico directamente a {companyEmail} o haciendo clic en el formulario de contacto accesible en la parte inferior del sitio.</p><p>En lo sucesivo, el \"Vendedor\" o la \"Empresa\". Por una parte, y la persona física o jurídica que procede a la compra de productos o servicios de la empresa, en lo sucesivo, \"el Comprador\" o \"el Cliente\". Por la otra parte, se expone y se conviene lo siguiente:</p><p>PREÁMBULO</p><p>El Vendedor es un editor de Productos y Servicios para la venta en línea de bienes y servicios a consumidores, comercializados a través de sus sitios de Internet. La lista y descripción de bienes y servicios ofrecidos por la Empresa pueden consultarse en los sitios mencionados anteriormente.</p><p>Artículo 1: Propósito</p><p>Los presentes Términos Generales de Venta determinan los derechos y obligaciones de las partes en el contexto de la venta en línea de Productos o Servicios ofrecidos por el Vendedor.</p><p>Artículo 2: Disposiciones generales</p><p>Los presentes Términos y Condiciones Generales de Venta (TCGV) rigen la venta de Productos o Servicios, realizadas a través de los sitios web de la Empresa, e integran parte del Contrato entre el Comprador y el Vendedor. Son completamente vinculantes para el Comprador que los ha aceptado antes de realizar un pedido. El Vendedor se reserva el derecho de modificar estos términos en cualquier momento publicando una nueva versión en su sitio web. Los TCGV aplicables son los vigentes en la fecha de pago (o primer pago en caso de múltiples pagos) del pedido. Estos TCGV están disponibles en el sitio web en la siguiente dirección: https://www.thechristmasfabric.com/conditions-generales-de-vente/<br>El Cliente declara que ha leído todos estos Términos Generales de Venta y, en su caso, los Términos Particulares de Venta relacionados con un producto o servicio, y los acepta sin restricción ni reserva.<br>El Cliente reconoce que ha recibido la asesoría e información necesaria para asegurar que la oferta cumple con sus necesidades.<br>El Cliente declara que está legalmente capacitado para celebrar contratos bajo la ley española o que puede representar válidamente a la persona física o jurídica para la cual celebra el contrato.<br>A menos que se demuestre lo contrario, la información registrada por la Empresa constituye prueba de todas las transacciones.</p><p>Artículo 3: Precios</p><p>Los precios de los productos vendidos a través de los sitios web se indican en Euros sin impuestos y se determinan con precisión en las páginas de descripción de los Productos. También se indican en Euros incluyendo todos los impuestos (IVA + otros impuestos posibles) en la página de pedido de los productos, y sin costos de envío específicos. Para todos los productos enviados fuera de la Unión Europea, el precio se calcula automáticamente sin impuestos en la factura. Los derechos aduanales u otros impuestos locales, impuestos de importación u otros impuestos estatales pueden ser pagaderos en ciertos casos. Estos derechos y montos no son responsabilidad del Vendedor. Serán soportados por el Comprador. El Vendedor invita al comprador a informarse sobre estos aspectos con las autoridades locales correspondientes. La Empresa se reserva el derecho de modificar sus precios en cualquier momento en el futuro. Los costos de telecomunicación necesarios para acceder a los sitios web de la Empresa serán soportados por el Cliente. Si es necesario, los costos de entrega también se cobran.</p><p>Artículo 4: Conclusión del contrato en línea</p><p>De conformidad con las disposiciones de la ley española, el Cliente debe seguir una serie de pasos para celebrar el contrato por medios electrónicos: - Información sobre las características esenciales del Producto; - Elección del Producto, si es necesario, de sus opciones; - Indicación de los datos de contacto esenciales del Cliente; - Aceptación de estos Términos Generales de Venta; - Verificación de los elementos del pedido y, si es necesario, corrección de errores. Antes de proceder a su confirmación, el Comprador tiene la posibilidad de revisar los detalles de su pedido, su precio, y corregir cualquier error o cancelar su pedido. La confirmación del pedido implicará la formación de este contrato. - Luego se siguen las instrucciones de pago, pago de los productos y luego entrega del pedido. El Cliente recibirá confirmación por correo electrónico del pago del pedido, así como un acuse de recibo del pedido confirmándolo. Recibirá una copia en PDF de estos términos generales de venta.<br>Durante el proceso de pedido, el cliente tendrá la posibilidad de identificar y corregir errores cometidos en la entrada de datos. El idioma propuesto para la conclusión del contrato es el español.<br>Los términos y condiciones de la oferta y los términos generales de venta se devuelven al comprador por correo electrónico en el momento del pedido y se archivan en el sitio web del Vendedor. El archivado de comunicaciones, detalles de pedidos e facturas se realiza en un medio confiable y duradero de conformidad con las disposiciones legales. Esta información puede presentarse como prueba del contrato.<br>Para los productos entregados, la entrega se realizará a la dirección indicada por el Cliente. Para efectos del cumplimiento adecuado del pedido, el Cliente acepta proporcionar información de identificación veraz. El Vendedor se reserva el derecho de rechazar el pedido, por ejemplo para cualquier solicitud anormal, realizada de mala fe o por cualquier razón legítima.</p><p>Artículo 5: Productos y servicios</p><p>Las características esenciales de los bienes, servicios y sus respectivos precios se ponen a disposición del comprador en los sitios web de la Empresa, así como, cuando sea apropiado, el método de uso del producto. De conformidad con la ley de protección del consumidor española, el consumidor es informado, por marcado, etiquetado, exhibición u otro medio apropiado, de los precios y condiciones particulares de la venta y prestación de servicios antes de cualquier conclusión del contrato de venta. En cualquier caso, el monto total adeudado por el Comprador se indica en la página de confirmación del pedido. El precio de venta del producto es el vigente indicado en el día del pedido, sin incluir los costos de envío que se facturan adicionalmente. Estos posibles gastos se indican al Comprador durante el proceso de venta y en cualquier caso en el momento de la confirmación del pedido. El Vendedor se reserva el derecho de modificar sus precios en cualquier momento, garantizando la aplicación del precio indicado en el momento del pedido. Cuando los productos o servicios no se ejecutan inmediatamente, se proporciona información clara en la página de presentación del producto respecto a los plazos de entrega. El cliente certifica que ha recibido detalles de los costos de entrega así como los términos de pago, entrega y ejecución del contrato, así como información detallada sobre la identidad del vendedor, sus datos de contacto postales, telefónicos y electrónicos. El Vendedor se compromete a cumplir el pedido del Cliente dentro de los límites de los inventarios de Productos disponibles únicamente. En caso de incumplimiento, el Vendedor informará al Cliente; si el pedido ha sido realizado y no se ha llegado a un acuerdo con el Cliente sobre una nueva fecha de entrega, el Vendedor reembolsará al Cliente. La información contractual se presenta en detalle. Las partes acuerdan que las ilustraciones o fotos de los productos ofrecidos para la venta no tienen valor contractual. La duración de la validez de la oferta de Productos así como sus precios se especifica en los sitios web de la Empresa.</p><p>Artículo 6: Conformidad</p><p>De conformidad con la ley de protección del consumidor española, los productos y servicios ofrecidos para la venta a través de estos TCGV cumplen los requisitos en vigor relativos a la seguridad y salud de las personas, la lealtad de las transacciones comerciales y la protección del consumidor. Independientemente de cualquier garantía comercial, el Vendedor sigue siendo responsable de los defectos de conformidad y los defectos ocultos del producto.<br>El vendedor entrega bienes en conformidad con el contrato y es responsable de los defectos de conformidad existentes en el momento de la entrega. También es responsable de los defectos de conformidad derivados del embalaje, las instrucciones de montaje o la instalación cuando estos han sido puestos a su cargo por el contrato o han sido realizados bajo su responsabilidad.<br>De conformidad con las disposiciones legales sobre conformidad y defectos ocultos, el Vendedor reembolsará o intercambiará productos defectuosos o aquellos que no correspondan al pedido. El reembolso puede solicitarse de la siguiente manera: presentando una reclamación a {companyEmail}</p><p>Artículo 7: Cláusula de reserva de propiedad</p><p>Los productos siguen siendo propiedad de la Empresa hasta el pago completo del precio.</p><p>Artículo 8: Condiciones de entrega</p><p>Los productos se entregan a la dirección de entrega indicada en el momento del pedido dentro del tiempo indicado. Estos plazos no incluyen el tiempo de preparación del pedido. Cuando el Cliente pide varios productos simultáneamente, pueden tener diferentes plazos de entrega, entregados según las siguientes modalidades: entrega a través de uno o varios paquetes. En caso de retraso en el envío, se presentará una reclamación a {companyEmail}. En caso de entrega tardía, el Cliente tiene la posibilidad de resolver el contrato bajo las condiciones y procedimientos de la ley de protección del consumidor. El Vendedor entonces procederá a reembolsar el producto y los costos de envío. El Vendedor proporciona un punto de contacto telefónico indicado en el correo de confirmación del pedido para hacer seguimiento del pedido. El Vendedor recuerda que cuando el Cliente toma posesión física de los productos, los riesgos de pérdida o daño se transfieren a él. Es responsabilidad del Cliente notificar al transportista de cualquier reserva sobre el producto entregado.</p><p>Artículo 9: Disponibilidad y presentación</p><p>En caso de no disponibilidad de un artículo durante un período que exceda 30 días laborables, se le advertirá inmediatamente sobre los retrasos de entrega previsibles y el pedido de este artículo podría cancelarse a solicitud simple. El Cliente entonces podrá solicitar un abono o reembolso completo y la cancelación del pedido.</p><p>Artículo 10: Pago</p><p>El pago vence inmediatamente al realizar el pedido, incluso para productos pre-pedidos. El Cliente puede realizar el pago con tarjeta de crédito o cheque bancario. Las tarjetas emitidas por bancos domiciliados fuera de España deben ser tarjetas bancarias internacionales (Mastercard o Visa). El pago seguro en línea con tarjeta bancaria es realizado por nuestro proveedor de pagos. La información transmitida está encriptada de acuerdo con prácticas estándar y no puede leerse durante la transmisión en red. Una vez que el pago es iniciado por el Cliente, la transacción se debita inmediatamente después de la verificación de la información. De conformidad con las disposiciones de la ley de pagos, el compromiso de pagar con tarjeta es irrevocable. Al comunicar su información bancaria en el momento de la venta, el Cliente autoriza al Vendedor a debitar su tarjeta por el monto del precio indicado. El Cliente confirma que es el titular legal de la tarjeta a debitar y que está legalmente autorizado a usarla. En caso de error o imposibilidad de debitar la tarjeta, la Venta se cancela inmediatamente por derecho y el pedido se anula.</p><p>Artículo 11: Período de retracción</p><p>De conformidad con la ley de protección del consumidor española, el Comprador tiene derecho a retractarse sin dar ninguna razón, dentro de catorce (14) días desde la fecha de recepción de su pedido. El derecho de retracción puede ejercerse contactando la Empresa de la siguiente manera: presentando una reclamación a {companyEmail}. Informamos a los Clientes que de conformidad con la ley, este derecho de retracción no puede ejercerse para ningún artículo para el cual esté en proceso un proceso de fabricación o entrega. En caso de ejercer el derecho de retracción dentro del período mencionado, el precio del/de los producto(s) comprado(s) y los gastos de envío serán reembolsados, permaneciendo los costos de retorno bajo responsabilidad del Cliente. Los productos deben devolverse en su condición original y completos (embalaje, accesorios, instrucciones, etc.); si es posible, deben estar acompañados por una copia de la prueba de compra. De conformidad con las disposiciones legales, puede solicitar el formulario estándar de retracción en {companyEmail}. Procedimiento de reembolso: el procedimiento de reembolso puede realizarse después de una investigación del/de los producto(s) comprado(s); más detalles presentando una reclamación a {companyEmail}</p><p>Artículo 12: Garantías</p><p>De conformidad con la ley, el Vendedor asume las siguientes garantías: de conformidad y relativas a los defectos ocultos de los productos. El Vendedor reembolsará al comprador o intercambiará los productos aparentemente defectuosos o aquellos que no correspondan al pedido realizado. La solicitud de reembolso debe realizarse de la siguiente manera: presentando una reclamación a {companyEmail}<br>El Vendedor recuerda al consumidor que: - tiene un período de 2 años desde la entrega de los bienes para actuar con el Vendedor - puede optar entre el reemplazo o reparación de los bienes sujeto a las condiciones establecidas anteriormente. que está exento de probar la existencia de falta de conformidad de los bienes durante los seis meses posteriores a la entrega de los bienes. - que, excepto para bienes usados, este período se extenderá a 24 meses a partir del 18 de marzo de 2016 - que el consumidor también puede hacer valer la garantía contra defectos ocultos de la cosa vendida y en este caso puede optar entre la resolución de la venta o una reducción en el precio de venta. Garantías adicionales: _ (describa sus garantías adicionales)</p><p>Artículo 13: Reclamaciones y mediación</p><p>Si es necesario, el Comprador puede presentar cualquier reclamación contactando a la empresa presentando una reclamación a {companyEmail}. De conformidad con las disposiciones de la ley de protección del consumidor española, el consumidor es informado de que puede recurrir a un mediador de consumo bajo las condiciones previstas. En caso de fracaso de la solicitud de reclamación al servicio al cliente del Vendedor, o en ausencia de respuesta dentro de dos meses, el consumidor puede someter la disputa a un mediador que intentará de manera independiente acercar a las partes para obtener una solución amistosa.</p><p>Artículo 14: Resolución del contrato</p><p>El pedido puede ser cancelado por el comprador en los siguientes casos: - entrega de un producto que no se ajusta a las características del pedido; - entrega más allá de la fecha límite fijada en el momento del pedido o, en ausencia de una fecha, dentro de treinta días del pago; - un aumento de precio injustificado o modificación del producto. En estos casos, el comprador puede exigir el reembolso del depósito pagado más intereses calculados a tasa legal desde la fecha de cobro del depósito.</p><p>Artículo 15: Derechos de propiedad intelectual</p><p>Las marcas, nombres de dominio, productos, software, imágenes, videos, textos o más generalmente cualquier información sujeta a derechos de propiedad intelectual son y permanecen como propiedad exclusiva del vendedor. No se transfieren derechos de propiedad intelectual a través de estos TCGV. Cualquier reproducción, modificación o uso total o parcial de estos bienes por cualquier razón está estrictamente prohibido.</p><p>Artículo 16: Fuerza mayor</p><p>La ejecución de las obligaciones del vendedor bajo el presente contrato se suspende en caso de la ocurrencia de un evento fortuito o fuerza mayor que impediría la ejecución del contrato. El vendedor notificará al cliente de la ocurrencia de tal evento lo antes posible.</p><p>Artículo 17: Invalidez y modificación del contrato</p><p>Si cualquier estipulación del presente contrato fuera a ser cancelada, esta nulidad no implicaría la nulidad de otras estipulaciones que permanecerán en vigor entre las partes. Cualquier modificación contractual es válida solo después de un acuerdo escrito y firmado de las partes. Artículo 18: Protección de datos personales De conformidad con el Reglamento 2016/679 relativo a la protección de individuos con respecto al procesamiento de datos personales, el Vendedor implementa un procesamiento de datos personales que tiene como propósito la venta y entrega de productos y servicios definidos en este contrato. El Comprador es informado de los siguientes elementos: - la identidad y datos de contacto del responsable del tratamiento: el Vendedor, como se indica arriba; - los datos de contacto del encargado de protección de datos: …… - la base jurídica del procesamiento: ejecución del contrato - los destinatarios o categorías de destinatarios de los datos personales: el responsable del tratamiento, sus departamentos de marketing, departamentos de seguridad de TI, departamentos de ventas y entrega, subcontratistas e autoridades autorizadas - no se prevé transferencia fuera de la UE - la duración de la retención de datos: según prescripción comercial - el interesado tiene derecho a solicitar al responsable el acceso, rectificación o supresión de datos personales y puede presentar una reclamación ante una autoridad supervisora - la información solicitada en el momento del pedido es necesaria para la facturación y entrega de bienes ordenados. No se implementa toma de decisiones automatizada o perfiles a través del proceso de pedido.</p><p>Artículo 18: Ley aplicable y cláusulas</p><p>Todas las cláusulas contenidas en estos términos generales de venta, así como todas las operaciones de compra y venta referidas en los mismos, estarán sujetas a la ley española. La nulidad de una cláusula contractual no implica la nulidad de estos términos generales de venta.</p><p>Artículo 19: Información del consumidor</p><p>Para propósitos de información del consumidor, las disposiciones del código civil y ley de protección del consumidor se reproducen a continuación: Código Civil: El vendedor está obligado por la garantía de defectos ocultos de la cosa vendida que la hacen impropia para el fin al que estaba destinada, o que disminuye tanto su uso que el comprador no la habría adquirido o habría dado un precio menor si los hubiera conocido. Código Civil: La acción resultante de defectos debe ser interpuesta por el comprador dentro de dos años del descubrimiento del defecto.<br>Ley de protección del consumidor: El vendedor entrega bienes que se ajustan al contrato y es responsable de cualquier defecto de conformidad que exista en el momento de la entrega. También es responsable de defectos de conformidad derivados del embalaje, instrucciones de montaje o instalación cuando estos fueron puestos a su cargo por el contrato o fueron realizados bajo su responsabilidad.<br>Ley de protección del consumidor: El bien se ajusta al contrato: 1° Si es apto para el uso generalmente esperado de un bien similar: - si corresponde a la descripción dada por el vendedor y tiene las cualidades que este presentó al comprador como muestra o modelo; - si tiene las cualidades que un comprador puede legítimamente esperar dadas las declaraciones públicas del vendedor, productor o su representante, particularmente en publicidad o etiquetado; 2° O si tiene las características definidas por acuerdo mutuo entre las partes o es apto para algún propósito especial buscado por el comprador<br>Ley de protección del consumidor: La acción resultante de falta de conformidad se prescribe por dos años desde la entrega de los bienes.<br>Ley de protección del consumidor: Cuando el comprador solicita al vendedor durante el curso de la garantía comercial otorgada en el momento de la adquisición o reparación de un bien mueble, una reparación cubierta por la garantía, cualquier período de inmovilización de al menos siete días se agrega a la duración de la garantía que quedaba. Este período corre desde la fecha de la solicitud del comprador o desde el momento en que el artículo está disponible para reparación, lo que sea posterior.</p><p>&nbsp;</p>"
+    }
+  },
+  "Maintenance": {
+    "metaTitle": "Mantenimiento programado",
+    "banner": "Mantenimiento programado en curso",
+    "title": "Volveremos muy pronto",
+    "message": "Nuestra tienda está cerrada temporalmente por mantenimiento programado. Estamos trabajando para mejorar aún más tu experiencia de compra y volveremos enseguida. Gracias por tu paciencia.",
+    "expectedBack": "Vuelta prevista:",
+    "refreshNote": "Esta página se actualiza automáticamente.",
+    "refreshButton": "Actualizar",
+    "contactTitle": "¿Necesitas ayuda mientras tanto?",
+    "contactText": "Nuestro equipo de atención al cliente estará encantado de ayudarte. Escríbenos a",
+    "followUs": "Síguenos"
+  }
+}

@@ -35,9 +35,15 @@ type CountryOption = {
 type CountrySelectProps = {
   toggleState: StateType
   regions: HttpTypes.StoreRegion[]
+  /** "native" renders a plain <select> using the browser's own dropdown */
+  variant?: "listbox" | "native"
 }
 
-const CountrySelect = ({ toggleState, regions }: CountrySelectProps) => {
+const CountrySelect = ({
+  toggleState,
+  regions,
+  variant = "listbox",
+}: CountrySelectProps) => {
   const [current, setCurrent] = useState<CountryOption | undefined>(undefined)
   const containerRef = useRef<HTMLDivElement>(null)
 
@@ -164,6 +170,35 @@ const CountrySelect = ({ toggleState, regions }: CountrySelectProps) => {
     }
 
     await updateRegion(option.region, href, targetLocale)
+  }
+
+  if (variant === "native") {
+    return (
+      <div className="relative">
+        <select
+          aria-label="Country"
+          value={current?.country ?? countryCode ?? ""}
+          onChange={(e) => {
+            const option = options?.find((o) => o?.country === e.target.value)
+            if (option) {
+              setCurrent(option)
+              handleChange(option)
+            }
+          }}
+          className="appearance-none h-[26px] max-w-full pl-[9px] pr-[40px] bg-white border border-[#d2d6dc] rounded-[5px] shadow-[0_1px_2px_0_rgba(0,0,0,0.05)] font-[system-ui] text-[13px] text-black cursor-pointer focus:outline-none"
+        >
+          {options?.map((o) => (
+            <option key={o?.country} value={o?.country}>
+              {o?.label}
+            </option>
+          ))}
+        </select>
+        <span
+          aria-hidden
+          className="pointer-events-none absolute right-[9px] top-1/2 -translate-y-1/2 border-x-[4px] border-x-transparent border-t-[5px] border-t-[#888]"
+        />
+      </div>
+    )
   }
 
   return (

@@ -2,7 +2,7 @@
 
 import { useWishlist } from "@lib/context/wishlist-context"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
-import { FaRegStar } from "react-icons/fa"
+import { WishlistIcon } from "@modules/common/icons/header-icons"
 
 type WishlistNavLinkProps = {
   label: string
@@ -13,16 +13,19 @@ const WishlistNavLink = ({ label }: WishlistNavLinkProps) => {
 
   return (
     <LocalizedClientLink
-      className="hover:text-hoverGray text-black font-medium duration-300 ease-in-out text-[24px] relative tag-action-ctrl max-md:hidden"
+      className="max-md:hidden flex flex-col items-center justify-center text-black hover:text-hoverGray duration-300 lg:h-[56px] lg:px-[17px] lg:border-l lg:border-[#eee]"
       href="/account/wishlist"
       data-testid="nav-cart-link"
+      aria-label={label}
     >
-      <FaRegStar />
-      <div className="tag-action-swh bg-black text-white caption2 ">
+      <span className="relative">
+        <WishlistIcon />
+        <span className="w-[18px] h-[18px] rounded-full bg-[#444] text-white text-[10px] leading-none flex items-center justify-center absolute -top-1.5 -right-2.5">
+          {wishlistCount}
+        </span>
+      </span>
+      <span className="max-lg:hidden mt-1 text-[14px] leading-[21px] whitespace-nowrap">
         {label}
-      </div>
-      <span className="w-5 h-5 rounded-full bg-christmas text-white font-bold text-xs flex items-center justify-center absolute -top-3 -right-3">
-        {wishlistCount}
       </span>
     </LocalizedClientLink>
   )

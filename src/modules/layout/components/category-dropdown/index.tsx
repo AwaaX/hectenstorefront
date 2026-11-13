@@ -44,59 +44,74 @@ const CategoryDropdown = ({
 
   const toggleState = useToggleState()
 
+  // The panel is positioned against the full-width category bar (the nearest
+  // positioned ancestor), so this wrapper must not be `relative`.
   return (
     <div
       onMouseEnter={toggleState.open}
       onMouseLeave={toggleState.close}
-      className="relative  z-50 flex items-center justify-center h-full"
+      className="flex items-center h-full"
     >
-      <Popover className=" text-[16px]">
-        <Popover.Button
-          className={`capitalize relative navmenulink ${
-            toggleState.state && "open"
-          } h-full`}
-        >
+      <Popover className="h-full text-[16px]">
+        <Popover.Button className="h-full outline-none">
           <LocalizedClientLink
-            className="flex items-center justify-center gap-2 whitespace-nowrap"
+            className="flex items-center h-full gap-x-[6px] whitespace-nowrap capitalize"
             onClick={toggleState.close}
             // @ts-expect-error
             href={mainMenu?.handle ? `/${mainMenu.handle}` : "/shop"}
             data-testid="nav-cart-link"
           >
-            {main("all pyjamas")}
-            <MdKeyboardArrowDown />
+            <span className="nav-underline">{main("all pyjamas")}</span>
+            <MdKeyboardArrowDown
+              className={`text-[14px] transition-transform duration-300 ${
+                toggleState.state ? "rotate-180" : ""
+              }`}
+            />
           </LocalizedClientLink>
         </Popover.Button>
         <Transition
           show={toggleState.state}
           as={Fragment}
-          enter="transition ease-in duration-150"
-          enterFrom="opacity-0 translate-y-10"
-          enterTo="opacity-100 translate-y-0"
-          leave="transition ease-in duration-150"
-          leaveFrom="opacity-100 translate-y-0"
-          leaveTo="opacity-0 translate-y-10"
+          enter="transition-opacity duration-200"
+          enterFrom="opacity-0"
+          enterTo="opacity-100"
+          leave="transition-opacity duration-150"
+          leaveFrom="opacity-100"
+          leaveTo="opacity-0"
         >
           <Popover.Panel
-            onMouseLeave={toggleState.close}
             static
-            className="absolute top-[100%] -left-8 z-10 bg-white w-[240px] shadow-[0_0_30px_0_rgba(0,0,0,0.06)]"
+            className="absolute top-full left-0 right-0 z-10 bg-white border-t border-[#eee]"
           >
-            <div className="px-4 py-5 flex flex-col items-center justify-center">
-              {subMenuLinks.map((c, index) => (
-                <LocalizedClientLink
-                  key={"category" + index}
-                  onClick={toggleState.close}
-                  href={{
-                    pathname: "/[...category]",
-                    params: { category: c.segments },
-                  }}
-                  className="w-full py-2 px-3 hover:bg-[#eee] text-[#aaa] hover:text-black text-[16px] duration-200 ease-linear capitalize "
-                >
-                  {main(c.name)}
-                </LocalizedClientLink>
-              ))}
-            </div>
+            {/* Dims the page below the panel; ignores the pointer so moving
+                onto it still closes the menu */}
+            <div
+              aria-hidden
+              className="absolute top-full left-0 right-0 h-screen bg-black/70 pointer-events-none"
+            />
+            <ul className="flex justify-center py-10">
+              <li className="w-[294px] px-[25px] py-[4.8px] border-x border-[#eee]">
+                <span className="block mb-1 py-[2.4px] text-[16px] leading-[24px] font-semibold text-[#111]">
+                  {main("whoFor")}
+                </span>
+                <ul>
+                  {subMenuLinks.map((c, index) => (
+                    <li key={"category" + index} className="mb-1">
+                      <LocalizedClientLink
+                        onClick={toggleState.close}
+                        href={{
+                          pathname: "/[...category]",
+                          params: { category: c.segments },
+                        }}
+                        className="inline-block py-[2.4px] text-[16px] leading-[24px] text-black capitalize hover:underline"
+                      >
+                        {main(c.name)}
+                      </LocalizedClientLink>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            </ul>
           </Popover.Panel>
         </Transition>
       </Popover>

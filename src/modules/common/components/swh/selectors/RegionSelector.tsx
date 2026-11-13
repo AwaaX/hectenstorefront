@@ -8,13 +8,15 @@ import { HttpTypes } from "@medusajs/types"
 interface RegionSelectorProps {
   /** Available regions for selection */
   regions: HttpTypes.StoreRegion[]
+  /** "native" renders a plain <select> (header top bar) */
+  variant?: "listbox" | "native"
 }
 
 /**
  * Region/country selector dropdown wrapper
  * Displays available regions for user selection
  */
-const RegionSelector = ({ regions }: RegionSelectorProps) => {
+const RegionSelector = ({ regions, variant }: RegionSelectorProps) => {
   const toggleState = useToggleState()
 
   return (
@@ -23,6 +25,7 @@ const RegionSelector = ({ regions }: RegionSelectorProps) => {
         <CountrySelect
           toggleState={toggleState}
           regions={regions}
+          variant={variant}
         />
       )}
     </div>

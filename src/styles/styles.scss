@@ -204,6 +204,36 @@ textarea {
   width: 100%;
 }
 
+/* Header category bar (matches hecten.com): hovering one item fades the
+   others and draws an orange underline under the hovered label */
+.nav-menu > li {
+  transition: opacity 0.2s;
+}
+.nav-menu:hover > li {
+  opacity: 0.25;
+}
+.nav-menu > li:hover {
+  opacity: 1;
+}
+.nav-underline {
+  position: relative;
+}
+.nav-underline::before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #ff9a3c;
+  transform: scale(0, 1);
+  transform-origin: right center;
+  transition: transform 0.3s;
+}
+.nav-menu > li:hover .nav-underline::before {
+  transform: scale(1, 1);
+  transform-origin: left center;
+}
+
 @keyframes slidedown {
   from {transform: translateY(-100%);}
   to {transform: translateY(0%);}

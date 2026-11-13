@@ -54,18 +54,18 @@ const NavMenu = ({
 
   return (
     <div className=" h-full">
-      <ul className="w-full flex items-center justify-between text-[16px] text-black  h-full">
-        <li className="relative h-full">
+      <ul className="nav-menu w-full flex items-center justify-start gap-x-[18px] text-[16px] text-black h-full">
+        <li className="h-full">
           <CategoryDropdown categories={categories} />
         </li>
 
         {navlinks.map((item, index) => (
-          <li key={item.name + index} className="navmenulink relative">
+          <li key={item.name + index} className="h-full">
             <LocalizedClientLink
               href={item.handle}
-              className=" whitespace-nowrap  px-4"
+              className="flex items-center h-full whitespace-nowrap"
             >
-              {main(item.name)}
+              <span className="nav-underline">{main(item.name)}</span>
             </LocalizedClientLink>
           </li>
         ))}

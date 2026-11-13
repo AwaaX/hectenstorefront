@@ -11,6 +11,7 @@
     "Main": {
       "NavMenu": {
         "all pyjamas": "alle pyjama's",
+        "whoFor": "Voor wie is het?",
         "Matching pyjamas": "Matchende pyjama's",
         "Family pyjamas": "Familiepyjama's",
         "Customer service": "Klantenservice",
@@ -23,7 +24,9 @@
         "Account": "Account",
         "Search": "Zoeken",
         "Wishlist": "Verlanglijst",
-        "Cart": "Winkelwagen"
+        "Cart": "Winkelwagen",
+        "Help": "Hulp",
+        "Order": "Bestellen"
       },
       "MobileMenu": {
         "menu": "Menu"
@@ -553,6 +556,9 @@
       "noResults": "Geen resultaten gevonden.",
       "showingFirst": "De eerste {count} resultaten worden getoond.",
       "viewAll": "Alles bekijken"
+    },
+    "Dropdown": {
+      "viewAll": "Bekijk alles"
     }
   },
   "Wishlist": {

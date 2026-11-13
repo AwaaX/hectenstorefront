@@ -11,6 +11,7 @@
     "Main": {
       "NavMenu": {
         "all pyjamas": "alle Pyjamas",
+        "whoFor": "Für wen ist es?",
         "Matching pyjamas": "Passende Pyjamas",
         "Family pyjamas": "Familienpyjamas",
         "Customer service": "Kundendienst",
@@ -23,7 +24,9 @@
         "Account": "Konto",
         "Search": "Suche",
         "Wishlist": "Wunschliste",
-        "Cart": "Warenkorb"
+        "Cart": "Warenkorb",
+        "Help": "Hilfe",
+        "Order": "Bestellen"
       },
       "MobileMenu": {
         "menu": "Menü"
@@ -553,6 +556,9 @@
       "noResults": "Keine Ergebnisse gefunden.",
       "showingFirst": "Es werden die ersten {count} Ergebnisse angezeigt.",
       "viewAll": "Alle anzeigen"
+    },
+    "Dropdown": {
+      "viewAll": "Alle ansehen"
     }
   },
   "Wishlist": {

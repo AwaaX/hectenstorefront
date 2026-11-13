@@ -122,9 +122,12 @@ const MobileMenu = ({
         <Popover.Button
           onClick={openMenu}
           aria-label="Open menu"
-          className="p-2 hover:text-hoverGray text-black duration-300 ease-in-out text-[20px] md:text-[32px] cursor-pointer relative tag-action-ctrl lg:hidden"
+          className="flex items-center gap-x-2 py-2 hover:text-hoverGray text-black duration-300 ease-in-out cursor-pointer lg:hidden"
         >
-          <HiBars3 />
+          <HiBars3 className="text-[26px]" />
+          <span className="text-[10px] font-semibold uppercase tracking-[0.3px]">
+            {mobileMenu("menu")}
+          </span>
         </Popover.Button>
 
         <Transition

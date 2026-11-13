@@ -8,20 +8,25 @@ import { StoreRegion } from "@medusajs/types"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import CartButton from "@modules/layout/components/cart-button"
 import SideMenu from "@modules/layout/components/side-menu"
-import WishlistNavLink from "@modules/layout/components/wishlist-nav-link"
+// import WishlistNavLink from "@modules/layout/components/wishlist-nav-link"
 
 import { getTranslations } from "next-intl/server"
 import Link from "next/link"
-import { FaInstagram, FaRegUser, FaTiktok } from "react-icons/fa"
+import {
+  AccountIcon,
+  HelpIcon,
+  OrderIcon,
+} from "@modules/common/icons/header-icons"
 import Image from "next/image"
 
 import NavMenu from "@modules/layout/components/nav-menu"
 import MobileMenu from "./MobileMenu"
+import StickyCategoryBar from "./StickyCategoryBar"
 import CountrySelect from "@modules/layout/components/country-select"
 import { ArrowRightMini } from "@medusajs/icons"
 import { RegionSelector } from "@modules/common/components/swh/selectors"
-import SearchButton from "@modules/search/components/search-button"
 import SearchModalPopup from "@modules/search/templates/search-modal-popup"
+import HeaderSearch from "@modules/search/templates/header-search"
 import { getSiteBrandInformation } from "@lib/data/information"
 
 export default async function Nav() {
@@ -40,114 +45,122 @@ export default async function Nav() {
 
   return (
     <>
-      {/* Top Banner */}
-      <div className="relative h-[40px] mx-auto  duration-200 bg-christmas">
-        <p
-          role="banner"
-          aria-label={top("alert")}
-          className="content-container text-[12px] md:text-[15px] flex items-center justify-center h-full text-white font-medium"
-        >
-          {top("alert")}
-        </p>
-      </div>
-      {/* Middle Header */}
-      <div className="max-md:hidden relative h-[40px] mx-auto  duration-200 bg-white border-b border-b-gray-200 text-[15px]">
-        <div className="content-container flex items-center justify-between h-full">
-          <div className="flex-1 h-full flex items-center">
-            <div className="flex items-center justify-start gap-6">
-              <Link
-                href={"https://www.instagram.com/thechristmasfabric/"}
-                target="_blank"
-                className=" font-normal flex items-center justify-center gap-[10px] group  hover:text-hoverGray cursor-pointer duration-300"
-              >
-                <FaInstagram className="text-base" />
-                <p> {middle("Instagram")}</p>
-              </Link>
-              <Link
-                href={"https://www.tiktok.com/@thechristmasfabric"}
-                target="_blank"
-                className=" font-normal flex items-center justify-center gap-[10px] group  hover:text-hoverGray cursor-pointer duration-300"
-              >
-                <FaTiktok className="text-base" />
-                <p> {middle("Tiktok")}</p>
-              </Link>
-            </div>
-          </div>
-
-          <div className="flex items-center">
-            <LocalizedClientLink
-              href="/shop"
-              className="hover:text-hoverGray cursor-pointer duration-300 underline-gap whitespace-nowrap"
-            >
-              {middle("alert", { year: currentYear })}
-            </LocalizedClientLink>
-          </div>
+      {/* Top Bar */}
+      <div className="max-md:hidden bg-[#f8f8f8] text-black font-[system-ui] text-[14px] leading-[21px]">
+        <div className="content-container flex items-center justify-between h-[33px] gap-x-6">
+          <p role="banner" aria-label={top("alert")} className="truncate text-[14px] leading-[21px]">
+            {top("alert")}
+          </p>
           {/* Region Selection */}
-          <div className="relative flex items-center gap-x-6 h-full flex-1 basis-0 justify-end">
-            <RegionSelector regions={regions} />
+          <div className="shrink-0">
+            <RegionSelector regions={regions} variant="native" />
           </div>
         </div>
       </div>
-      {/* Main Navigation */}
+      {/* Main Header */}
       <header
         id="header"
-        className="top-0 inset-x-0 z-50 group duration-500 sticky"
+        className="sticky lg:static top-0 inset-x-0 z-50 bg-white font-[system-ui] max-lg:shadow-[0_1px_15px_0_rgba(0,0,0,0.08)]"
         suppressHydrationWarning
       >
-        <div className="h-[70px] mx-auto  duration-200 bg-white ">
-          <nav className="content-container flex items-center justify-between h-full px-2">
-            {/* Logo */}
-            <div className="flex-1 flex items-center justify-start gap-x-2">
-              {/* Mobile Menu Icon */}
-              <MobileMenu categories={categories} />
-              <div>
-                <LocalizedClientLink
-                  href="/"
-                  className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
-                  data-testid="nav-store-link"
-                >
-                  <Image
-                    src={siteBrandInfo?.logo as string}
-                    alt={siteBrandInfo?.name as string}
-                    priority={true}
-                    width={156}
-                    height={100}
-                  />
-                </LocalizedClientLink>
-              </div>
-            </div>
+        <nav className="content-container flex items-center h-[40px] lg:h-[77px] gap-x-4">
+          {/* Mobile Menu */}
+          <div className="flex-1 basis-0 flex items-center lg:hidden">
+            <MobileMenu categories={categories} />
+          </div>
 
-            {/* Custom NavLinks */}
-            <div className="max-lg:hidden flex-1 h-full">
-              <NavMenu categories={categories} />
-            </div>
+          {/* Logo */}
+          <LocalizedClientLink
+            href="/"
+            className="shrink-0"
+            data-testid="nav-store-link"
+          >
+            <Image
+              src={siteBrandInfo?.logo as string}
+              alt={siteBrandInfo?.name as string}
+              priority={true}
+              width={156}
+              height={100}
+              className="w-[104.52px] h-auto"
+            />
+          </LocalizedClientLink>
 
-            {/* Icons */}
-            <div className="flex items-center gap-x-4 md:gap-x-6 h-full flex-1 basis-0 justify-end">
-              {/* Account */}
-              <LocalizedClientLink
-                className="hover:text-hoverGray text-black font-medium duration-300 ease-in-out text-[24px] relative tag-action-ctrl max-md:hidden"
-                href="/account"
-                data-testid="nav-account-link"
-              >
-                <FaRegUser />
-                <div className="tag-action-swh bg-black text-white caption2 ">
-                  {main("Account")}
-                </div>
-              </LocalizedClientLink>
+          {/* Search Bar */}
+          <div className="max-lg:hidden flex-1 ml-[31px] mr-2">
+            <HeaderSearch />
+          </div>
 
-              {/* Search */}
-              <SearchButton />
+          {/* Icons */}
+          <div className="flex-1 basis-0 lg:flex-none lg:basis-auto flex items-center justify-end h-full gap-x-3 lg:gap-x-0">
+            {/* Account */}
+            <LocalizedClientLink
+              className="flex flex-col items-center justify-center text-black hover:text-hoverGray duration-300 lg:h-[56px] lg:px-[17px]"
+              href="/account"
+              data-testid="nav-account-link"
+              aria-label={main("Account")}
+            >
+              <AccountIcon className="max-lg:w-[24px] max-lg:h-[24px]" />
+              <span className="max-lg:hidden mt-1 text-[14px] leading-[21px] whitespace-nowrap">
+                {main("Account")}
+              </span>
+            </LocalizedClientLink>
 
-              {/* WishList */}
-              <WishlistNavLink label={main("Wishlist")} />
+            {/* WishList (hidden for now) */}
+            {/* <WishlistNavLink label={main("Wishlist")} /> */}
 
-              {/* Cart */}
+            {/* Get help */}
+            <LocalizedClientLink
+              className="max-lg:hidden flex flex-col items-center justify-center text-black hover:text-hoverGray duration-300 h-[56px] px-[17px] border-l border-[#eee]"
+              href="/customer-service"
+              aria-label={main("Help")}
+            >
+              <HelpIcon />
+              <span className="mt-1 text-[14px] leading-[21px] whitespace-nowrap">
+                {main("Help")}
+              </span>
+            </LocalizedClientLink>
+
+            {/* Order */}
+            <LocalizedClientLink
+              className="max-lg:hidden flex flex-col items-center justify-center text-black hover:text-hoverGray duration-300 h-[56px] px-[17px] border-l border-[#eee]"
+              href="/checkout"
+              aria-label={main("Order")}
+            >
+              <OrderIcon />
+              <span className="mt-1 text-[14px] leading-[21px] whitespace-nowrap">
+                {main("Order")}
+              </span>
+            </LocalizedClientLink>
+
+            {/* Cart */}
+            <div className="flex items-center h-full lg:ml-5">
               <CartButton />
             </div>
-          </nav>
+          </div>
+        </nav>
+        {/* Mobile search: second row of the sticky header, so the header
+            shadow sits below it */}
+        <div className="lg:hidden content-container pb-[10px]">
+          <HeaderSearch compact />
         </div>
       </header>
+      {/* Category Navigation */}
+      <StickyCategoryBar
+        alt={siteBrandInfo?.name as string}
+      >
+        <NavMenu categories={categories} />
+      </StickyCategoryBar>
+      {/* Promo Bar */}
+      <div className="bg-[#f8f8f8] text-black font-[system-ui] text-[14px] leading-[21px]">
+        <div className="content-container min-h-[45px] py-3 flex items-center justify-center text-center">
+          <LocalizedClientLink
+            href="/shop"
+            className="hover:text-hoverGray duration-300"
+          >
+            {middle("alert", { year: currentYear })}
+          </LocalizedClientLink>
+        </div>
+      </div>
       <SearchModalPopup />
     </>
   )

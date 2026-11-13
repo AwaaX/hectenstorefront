@@ -11,6 +11,7 @@
     "Main": {
       "NavMenu": {
         "all pyjamas": "alla pyjamas",
+        "whoFor": "Vem är den för?",
         "Matching pyjamas": "Matchande pyjamas",
         "Family pyjamas": "Familjepyjamas",
         "Customer service": "Kundtjänst",
@@ -23,7 +24,9 @@
         "Account": "Konto",
         "Search": "Sök",
         "Wishlist": "Önskelista",
-        "Cart": "Varukorg"
+        "Cart": "Varukorg",
+        "Help": "Hjälp",
+        "Order": "Beställ"
       },
       "MobileMenu": {
         "menu": "Meny"
@@ -553,6 +556,9 @@
       "noResults": "Inga resultat hittades.",
       "showingFirst": "Visar de första {count} resultaten.",
       "viewAll": "Visa alla"
+    },
+    "Dropdown": {
+      "viewAll": "Se alla"
     }
   },
   "Wishlist": {

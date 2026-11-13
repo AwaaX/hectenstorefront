@@ -21,7 +21,7 @@ import Image from "next/image"
 import emptycart from "@lib/img/cart/empty-cart.png"
 import * as Icon from "@phosphor-icons/react/dist/ssr"
 import { getCheckoutStep } from "@modules/cart/templates/summary"
-import { BiShoppingBag } from "react-icons/bi"
+import { CartIcon } from "@modules/common/icons/header-icons"
 import { RxCross2 } from "react-icons/rx"
 
 const CartDropdown = ({
@@ -227,16 +227,23 @@ const CartDropdown = ({
         <PopoverButton
           onClick={() => setCartDropdownOpen(true)}
           aria-label={`${main("Cart")}, ${totalItems} items`}
-          className="h-full outline-none"
+          className="h-full flex items-center outline-none"
         >
-          <div className="hover:text-hoverGray text-black font-medium duration-300 ease-in-out relative text-[20px] md:text-[24px] tag-action-ctrl">
-            <BiShoppingBag />
-            <span className="w-5 h-5 rounded-full bg-christmas text-white font-bold text-xs flex items-center justify-center absolute -top-3 -right-3">
-              {totalItems}
+          <div className="flex items-center gap-x-2 text-black hover:text-hoverGray duration-300 ease-in-out lg:h-[55px] lg:px-[15px] lg:border lg:border-[#eee] lg:rounded-[2px] lg:text-[#ff6f3c] lg:hover:text-[#ff6f3c] lg:hover:border-[#ddd]">
+            <span className="max-lg:hidden text-[14px] whitespace-nowrap">
+              {convertToLocale({
+                locale,
+                amount: subtotal,
+                currency_code: cartState?.currency_code ?? "eur",
+              })}
             </span>
-            <div className="tag-action-swh bg-black text-white caption2">
-              {main("Cart")}
-            </div>
+            {/* Badge sits in the flow, tucked under the icon's right edge */}
+            <span className="relative top-1 flex items-start">
+              <CartIcon className="shrink-0" />
+              <span className="shrink-0 -ml-px -mr-[5px] mt-2 w-[20px] h-[20px] rounded-full bg-[#444] lg:bg-[#eee] border border-[#444] text-[#ff6f3c] lg:text-[#111] text-[8px] leading-[18px] font-[system-ui] text-center">
+                {totalItems}
+              </span>
+            </span>
           </div>
         </PopoverButton>
         <Transition

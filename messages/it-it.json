@@ -11,6 +11,7 @@
     "Main": {
       "NavMenu": {
         "all pyjamas": "tutti i pigiami",
+        "whoFor": "Per chi è?",
         "Matching pyjamas": "Pigiami coordinati",
         "Family pyjamas": "Pigiami per la famiglia",
         "Customer service": "Servizio clienti",
@@ -23,7 +24,9 @@
         "Account": "Account",
         "Search": "Cerca",
         "Wishlist": "Lista dei desideri",
-        "Cart": "Carrello"
+        "Cart": "Carrello",
+        "Help": "Aiuto",
+        "Order": "Ordina"
       },
       "MobileMenu": {
         "menu": "Menu"
@@ -553,6 +556,9 @@
       "noResults": "Nessun risultato trovato.",
       "showingFirst": "Mostriamo i primi {count} risultati.",
       "viewAll": "Vedi tutto"
+    },
+    "Dropdown": {
+      "viewAll": "Vedi tutti"
     }
   },
   "Wishlist": {

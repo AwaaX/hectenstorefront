@@ -1,23 +1,23 @@
 "use client"
 
 import { useSearchModal } from "@modules/search/context/search-modal-context"
-import { IoSearch } from "react-icons/io5"
+import { SearchIcon } from "@modules/common/icons/header-icons"
 import { useTranslations } from "next-intl"
 
 export default function SearchButton() {
   const { open } = useSearchModal()
   const t = useTranslations("NavBar.Main.IconMenu")
 
+  // Icon only on mobile; on desktop it renders as a search field that opens
+  // the search modal.
   return (
     <button
       onClick={open}
-      className="hover:text-hoverGray text-black font-medium duration-300 ease-in-out text-[20px] md:text-[24px] relative tag-action-ctrl transition-colors"
+      className="flex items-center text-black hover:text-hoverGray duration-300 lg:w-full lg:h-[55px] lg:gap-x-3 lg:px-4 lg:bg-[#f8f8f8] lg:border lg:border-[#f8f8f8] lg:rounded-[5px] lg:text-[#999] lg:hover:text-black"
       aria-label={t("Search")}
     >
-      <IoSearch />
-      <div className="tag-action-swh bg-black text-white caption2">
-        {t("Search")}
-      </div>
+      <SearchIcon className="shrink-0 max-lg:w-[24px] max-lg:h-[24px] lg:text-[#ccc]" />
+      <span className="max-lg:hidden text-[13px] truncate">{t("Search")}</span>
     </button>
   )
 }

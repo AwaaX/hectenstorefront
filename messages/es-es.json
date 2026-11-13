@@ -167,7 +167,41 @@
       "txt4": "¡Gracias por suscribirte al boletín! Nos",
       "txt5": "pondremos en contacto pronto.",
       "successMessage": "¡Gracias por suscribirte al boletín! Nos pondremos en contacto pronto.",
-      "Placeholder": "Tu correo electrónico"
+      "Placeholder": "Tu correo electrónico",
+      "title": "Suscríbete a nuestra newsletter",
+      "text": "Consigue un 10 % extra en tu primer pedido",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "Tu correo electrónico",
+      "signUp": "Suscribirme"
+    },
+    "Reassurance": {
+      "service": "Atención al cliente humana y receptiva 24/7",
+      "shipping": "Envío rápido en 48 horas con seguimiento detallado",
+      "returns": "Devoluciones gratuitas, simples y rápidas en 24 horas",
+      "instalments": "Pago a plazos disponible"
+    },
+    "Columns": {
+      "usefulLinks": "Enlaces útiles",
+      "viewBasket": "Ver mi cesta",
+      "seeWishlist": "Ver mi lista de deseos",
+      "finalizeOrder": "Finalizar mi pedido",
+      "help": "Ayuda",
+      "customerService": "Atención al cliente",
+      "trackOrder": "Seguir mi pedido",
+      "delivery": "Envíos y devoluciones",
+      "termsDelivery": "Condiciones de envío",
+      "returns": "Devoluciones y reembolsos"
+    },
+    "Legal": {
+      "customerService": "Atención al cliente",
+      "contactUs": "Contáctanos",
+      "changeCountry": "Cambia tu país",
+      "tagline": "Mejoramos la rutina de miles de hombres y mujeres",
+      "termsOfUse": "Condiciones de uso",
+      "privacy": "Política de privacidad",
+      "termsSale": "Condiciones generales de venta",
+      "rights": "Hecten. Todos los derechos reservados.",
+      "secure": "Tus pagos son seguros"
     }
   },
   "Metadata": {

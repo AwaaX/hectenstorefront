@@ -167,7 +167,41 @@
       "txt4": " Bedankt voor het aanmelden voor de nieuwsbrief! We",
       "txt5": "houden binnenkort contact.",
       "successMessage": "Bedankt voor het aanmelden voor de nieuwsbrief! We houden binnenkort contact.",
-      "Placeholder": "Uw e-mail"
+      "Placeholder": "Uw e-mail",
+      "title": "Schrijf je in voor onze nieuwsbrief",
+      "text": "Krijg 10% extra op je eerste bestelling",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "Je e-mail",
+      "signUp": "Inschrijven"
+    },
+    "Reassurance": {
+      "service": "Reactieve, menselijke klantenservice 24/7",
+      "shipping": "Snelle verzending binnen 48 uur met gedetailleerde tracking",
+      "returns": "Gratis, eenvoudig en snel retourneren binnen 24 uur",
+      "instalments": "Betalen in termijnen mogelijk"
+    },
+    "Columns": {
+      "usefulLinks": "Handige links",
+      "viewBasket": "Bekijk mijn winkelmand",
+      "seeWishlist": "Bekijk mijn verlanglijst",
+      "finalizeOrder": "Mijn bestelling afronden",
+      "help": "Hulp",
+      "customerService": "Klantenservice",
+      "trackOrder": "Mijn bestelling volgen",
+      "delivery": "Levering en retouren",
+      "termsDelivery": "Leveringsvoorwaarden",
+      "returns": "Retouren en terugbetalingen"
+    },
+    "Legal": {
+      "customerService": "Klantenservice",
+      "contactUs": "Contact",
+      "changeCountry": "Wijzig je land",
+      "tagline": "Wij verbeteren de routine van duizenden mannen en vrouwen",
+      "termsOfUse": "Gebruiksvoorwaarden",
+      "privacy": "Privacybeleid",
+      "termsSale": "Algemene verkoopvoorwaarden",
+      "rights": "Hecten. Alle rechten voorbehouden.",
+      "secure": "Je betalingen zijn veilig"
     }
   },
   "Metadata": {

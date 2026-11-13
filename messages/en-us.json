@@ -165,7 +165,41 @@
       "txt4": "Thanks for signing up for the newsletter! We",
       "txt5": "ll be in touch soon.",
       "successMessage": "Thanks for signing up for the newsletter! We'll be in touch soon.",
-      "Placeholder": "Your Email"
+      "Placeholder": "Your Email",
+      "title": "Join our newsletter",
+      "text": "Get 10% extra on your first order",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "Your e-mail",
+      "signUp": "Sign up"
+    },
+    "Reassurance": {
+      "service": "Responsive, human customer service 24/7",
+      "shipping": "Fast 48-hour shipping with detailed tracking",
+      "returns": "Free, simple and fast returns within 24 hours",
+      "instalments": "Payment in instalments available"
+    },
+    "Columns": {
+      "usefulLinks": "Useful links",
+      "viewBasket": "View my basket",
+      "seeWishlist": "See my wishlist",
+      "finalizeOrder": "Finalize my order",
+      "help": "Help",
+      "customerService": "Customer service",
+      "trackOrder": "Track my order",
+      "delivery": "Delivery and returns",
+      "termsDelivery": "Terms of delivery",
+      "returns": "Returns and refunds"
+    },
+    "Legal": {
+      "customerService": "Customer service",
+      "contactUs": "Contact us",
+      "changeCountry": "Change your country",
+      "tagline": "We improve the routines of thousands of men and women",
+      "termsOfUse": "Terms of use",
+      "privacy": "Privacy policy",
+      "termsSale": "Terms and conditions of sale",
+      "rights": "Hecten. All rights reserved.",
+      "secure": "Your payments are secure"
     }
   },
   "Metadata": {

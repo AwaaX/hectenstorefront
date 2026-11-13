@@ -167,7 +167,41 @@
       "txt4": "Danke, dass Sie sich für den Newsletter angemeldet haben! Wir",
       "txt5": "werden uns bald bei Ihnen melden.",
       "successMessage": "Danke, dass Sie sich für den Newsletter angemeldet haben! Wir werden uns bald bei Ihnen melden.",
-      "Placeholder": "Ihre E-Mail"
+      "Placeholder": "Ihre E-Mail",
+      "title": "Abonniere unseren Newsletter",
+      "text": "Erhalte 10 % extra auf deine erste Bestellung",
+      "emailLabel": "E-Mail",
+      "emailPlaceholder": "Deine E-Mail",
+      "signUp": "Anmelden"
+    },
+    "Reassurance": {
+      "service": "Reaktiver, menschlicher Kundenservice 24/7",
+      "shipping": "Schneller Versand in 48 Stunden mit detaillierter Sendungsverfolgung",
+      "returns": "Kostenlose, einfache und schnelle Rücksendung innerhalb von 24 Stunden",
+      "instalments": "Ratenzahlung möglich"
+    },
+    "Columns": {
+      "usefulLinks": "Nützliche Links",
+      "viewBasket": "Meinen Warenkorb ansehen",
+      "seeWishlist": "Meine Wunschliste ansehen",
+      "finalizeOrder": "Meine Bestellung abschließen",
+      "help": "Hilfe",
+      "customerService": "Kundenservice",
+      "trackOrder": "Meine Bestellung verfolgen",
+      "delivery": "Lieferung und Rücksendung",
+      "termsDelivery": "Lieferbedingungen",
+      "returns": "Rücksendungen und Erstattungen"
+    },
+    "Legal": {
+      "customerService": "Kundenservice",
+      "contactUs": "Kontakt",
+      "changeCountry": "Land ändern",
+      "tagline": "Wir verbessern die Routine von Tausenden Männern und Frauen",
+      "termsOfUse": "Nutzungsbedingungen",
+      "privacy": "Datenschutzerklärung",
+      "termsSale": "Allgemeine Verkaufsbedingungen",
+      "rights": "Hecten. Alle Rechte vorbehalten.",
+      "secure": "Deine Zahlungen sind sicher"
     }
   },
   "Metadata": {

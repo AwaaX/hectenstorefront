@@ -78,6 +78,74 @@ const NewsLetterEmail = ({
     }
   }
 
+  // Footer: labelled field with a full-width "Sign up" button below it
+  if (isFooter) {
+    return (
+      <div className="w-full max-w-[354px]">
+        {submitted ? (
+          <p className="text-[16px] leading-[24px] text-black">
+            {t("successMessage")}
+          </p>
+        ) : (
+          <form onSubmit={handleSubscribe}>
+            <label
+              htmlFor="footer-newsletter-email"
+              className="block mb-0 text-[16px] leading-[24px] text-black"
+            >
+              {t("emailLabel")} *
+            </label>
+            <input
+              id="footer-newsletter-email"
+              required
+              type="email"
+              autoComplete="email"
+              className="w-full h-[44px] px-[13px] bg-[#fafafa] border border-[#d2d2d2] rounded-[6px] text-[15px] text-black placeholder:text-[#999] outline-none focus:border-[#999]"
+              placeholder={placeholder || t("emailPlaceholder")}
+              value={email}
+              onChange={(e) => {
+                setEmail(e.target.value)
+                captureEmail(e.target.value)
+              }}
+              onBlur={() => captureEmail.flush()}
+              onFocus={() => setShowRecaptcha(true)}
+            />
+            {showRecaptcha && (
+              <div className="mt-3">
+                <ReCAPTCHA
+                  ref={recaptchaRef}
+                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
+                  onChange={(token) => setRecaptchaToken(token || "")}
+                  onExpired={() => setRecaptchaToken("")}
+                />
+              </div>
+            )}
+            {error && (
+              <div className="text-christmas text-[13px] mt-2">{error}</div>
+            )}
+            <button
+              type="submit"
+              disabled={sending}
+              className="flex items-center justify-center w-full h-[47px] mt-[20px] bg-black rounded-[7px] font-[system-ui] text-[18px] font-bold text-white hover:bg-[#333] duration-300 disabled:opacity-70"
+            >
+              {sending ? (
+                <TailSpin
+                  visible={true}
+                  height="22"
+                  width="22"
+                  color="#fff"
+                  ariaLabel="tail-spin-loading"
+                  radius="1"
+                />
+              ) : (
+                t("signUp")
+              )}
+            </button>
+          </form>
+        )}
+      </div>
+    )
+  }
+
   return (
     <div className=" md:max-w-[500px] w-full md:mx-auto">
       {!submitted && (

@@ -167,7 +167,41 @@
       "txt4": "Merci pour votre inscription à la newsletter ! Nous",
       "txt5": "vous contacterons bientôt.",
       "successMessage": "Merci pour votre inscription à la newsletter ! Nous vous contacterons bientôt.",
-      "Placeholder": "Votre e-mail"
+      "Placeholder": "Votre e-mail",
+      "title": "Inscrivez-vous à notre newsletter",
+      "text": "Obtenez 10 % supplémentaires sur votre première commande",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "Votre e-mail",
+      "signUp": "S'inscrire"
+    },
+    "Reassurance": {
+      "service": "Service client humain et réactif 24h/24 et 7j/7",
+      "shipping": "Livraison rapide en 48 h avec suivi détaillé",
+      "returns": "Retours gratuits, simples et rapides sous 24 h",
+      "instalments": "Paiement en plusieurs fois disponible"
+    },
+    "Columns": {
+      "usefulLinks": "Liens utiles",
+      "viewBasket": "Voir mon panier",
+      "seeWishlist": "Voir ma liste d'envies",
+      "finalizeOrder": "Finaliser ma commande",
+      "help": "Aide",
+      "customerService": "Service client",
+      "trackOrder": "Suivre ma commande",
+      "delivery": "Livraison et retours",
+      "termsDelivery": "Conditions de livraison",
+      "returns": "Retours et remboursements"
+    },
+    "Legal": {
+      "customerService": "Service client",
+      "contactUs": "Nous contacter",
+      "changeCountry": "Changer de pays",
+      "tagline": "Nous améliorons le quotidien de milliers d'hommes et de femmes",
+      "termsOfUse": "Conditions d'utilisation",
+      "privacy": "Politique de confidentialité",
+      "termsSale": "Conditions générales de vente",
+      "rights": "Hecten. Tous droits réservés.",
+      "secure": "Vos paiements sont sécurisés"
     }
   },
   "Metadata": {

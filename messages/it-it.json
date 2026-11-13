@@ -167,7 +167,41 @@
       "txt4": "Grazie per esserti iscritto alla newsletter! Ti",
       "txt5": "contatteremo presto.",
       "successMessage": "Grazie per esserti iscritto alla newsletter! Ti contatteremo presto.",
-      "Placeholder": "La tua email"
+      "Placeholder": "La tua email",
+      "title": "Iscriviti alla nostra newsletter",
+      "text": "Ottieni un 10% extra sul tuo primo ordine",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "La tua e-mail",
+      "signUp": "Iscriviti"
+    },
+    "Reassurance": {
+      "service": "Servizio clienti umano e reattivo 24/7",
+      "shipping": "Spedizione rapida in 48 ore con tracciamento dettagliato",
+      "returns": "Resi gratuiti, semplici e veloci entro 24 ore",
+      "instalments": "Pagamento a rate disponibile"
+    },
+    "Columns": {
+      "usefulLinks": "Link utili",
+      "viewBasket": "Vedi il mio carrello",
+      "seeWishlist": "Vedi la mia lista dei desideri",
+      "finalizeOrder": "Completa il mio ordine",
+      "help": "Aiuto",
+      "customerService": "Servizio clienti",
+      "trackOrder": "Traccia il mio ordine",
+      "delivery": "Consegna e resi",
+      "termsDelivery": "Condizioni di consegna",
+      "returns": "Resi e rimborsi"
+    },
+    "Legal": {
+      "customerService": "Servizio clienti",
+      "contactUs": "Contattaci",
+      "changeCountry": "Cambia paese",
+      "tagline": "Miglioriamo la routine di migliaia di uomini e donne",
+      "termsOfUse": "Condizioni d'uso",
+      "privacy": "Informativa sulla privacy",
+      "termsSale": "Condizioni generali di vendita",
+      "rights": "Hecten. Tutti i diritti riservati.",
+      "secure": "I tuoi pagamenti sono sicuri"
     }
   },
   "Metadata": {

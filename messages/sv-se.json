@@ -167,7 +167,41 @@
       "txt4": " Tack för att du anmält dig till nyhetsbrevet! Vi",
       "txt5": "hör av oss snart.",
       "successMessage": "Tack för att du anmält dig till nyhetsbrevet! Vi hör av oss snart.",
-      "Placeholder": "Din e-post"
+      "Placeholder": "Din e-post",
+      "title": "Prenumerera på vårt nyhetsbrev",
+      "text": "Få 10 % extra på din första beställning",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "Din e-post",
+      "signUp": "Registrera dig"
+    },
+    "Reassurance": {
+      "service": "Lyhörd, mänsklig kundtjänst dygnet runt",
+      "shipping": "Snabb leverans inom 48 timmar med detaljerad spårning",
+      "returns": "Gratis, enkla och snabba returer inom 24 timmar",
+      "instalments": "Delbetalning tillgänglig"
+    },
+    "Columns": {
+      "usefulLinks": "Användbara länkar",
+      "viewBasket": "Visa min varukorg",
+      "seeWishlist": "Visa min önskelista",
+      "finalizeOrder": "Slutför min beställning",
+      "help": "Hjälp",
+      "customerService": "Kundtjänst",
+      "trackOrder": "Spåra min beställning",
+      "delivery": "Leverans och returer",
+      "termsDelivery": "Leveransvillkor",
+      "returns": "Returer och återbetalningar"
+    },
+    "Legal": {
+      "customerService": "Kundtjänst",
+      "contactUs": "Kontakta oss",
+      "changeCountry": "Byt land",
+      "tagline": "Vi förbättrar rutinerna för tusentals män och kvinnor",
+      "termsOfUse": "Användarvillkor",
+      "privacy": "Integritetspolicy",
+      "termsSale": "Allmänna försäljningsvillkor",
+      "rights": "Hecten. Alla rättigheter förbehållna.",
+      "secure": "Dina betalningar är säkra"
     }
   },
   "Metadata": {

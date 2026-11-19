@@ -1338,5 +1338,12 @@
     "contactTitle": "Hulp nodig in de tussentijd?",
     "contactText": "Ons klantenserviceteam helpt u graag. Mail ons op",
     "followUs": "Volg ons"
+  },
+  "StoreUnavailable": {
+    "metaTitle": "Winkel tijdelijk niet beschikbaar",
+    "title": "Onze winkel gaat binnenkort open",
+    "message": "We maken achter de schermen alles klaar. Kom over een poosje terug.",
+    "retry": "Opnieuw proberen",
+    "contact": "Hulp nodig? Schrijf ons op"
   }
 }

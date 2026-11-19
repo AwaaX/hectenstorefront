@@ -31,6 +31,10 @@ const nextConfig = {
       },
       {
         protocol: "https",
+        hostname:"tcf-staging.s3.fr-par.scw.cloud"
+      },
+      {
+        protocol: "https",
         hostname:"cdn.thechristmasfabric.com"
       },
       {

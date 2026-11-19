@@ -1338,5 +1338,12 @@
     "contactTitle": "¿Necesitas ayuda mientras tanto?",
     "contactText": "Nuestro equipo de atención al cliente estará encantado de ayudarte. Escríbenos a",
     "followUs": "Síguenos"
+  },
+  "StoreUnavailable": {
+    "metaTitle": "Tienda no disponible temporalmente",
+    "title": "Nuestra tienda abrirá pronto",
+    "message": "Estamos preparándolo todo. Vuelve dentro de un rato.",
+    "retry": "Reintentar",
+    "contact": "¿Necesitas ayuda? Escríbenos a"
   }
 }

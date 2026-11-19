@@ -41,6 +41,7 @@ import {
 } from "@lib/util/legacy-redirects"
 import { GEO_SUGGESTION_COOKIE, GeoSuggestion } from "@lib/util/geo-suggestion"
 import { handleMaintenance } from "@lib/util/maintenance-gate"
+import { storeUnavailableResponse } from "@lib/util/store-unavailable"
 
 // ============================================================================
 // CONFIGURATION & CONSTANTS
@@ -624,10 +625,11 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
 
     // ─ Validate that a region was successfully detected
     if (!countryCode) {
-      return applyRobotsHeader(new NextResponse(
-        "No valid regions configured. Please set up regions with countries in your Medusa Admin.",
-        { status: 500 }
-      ))
+      // Visitors get a friendly page; the setup hint is for the logs only
+      console.error(
+        "No valid regions configured. Please set up regions with countries in your Medusa Admin."
+      )
+      return applyRobotsHeader(storeUnavailableResponse(request))
     }
 
     // ─ Resolve locale and check if redirect is needed

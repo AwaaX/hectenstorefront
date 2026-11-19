@@ -1338,5 +1338,12 @@
     "contactTitle": "Behöver du hjälp under tiden?",
     "contactText": "Vår kundservice hjälper dig gärna. Skriv till oss på",
     "followUs": "Följ oss"
+  },
+  "StoreUnavailable": {
+    "metaTitle": "Butiken är tillfälligt otillgänglig",
+    "title": "Vår butik öppnar snart",
+    "message": "Vi förbereder allt bakom kulisserna. Titta gärna in igen om en stund.",
+    "retry": "Försök igen",
+    "contact": "Behöver du hjälp? Skriv till oss på"
   }
 }

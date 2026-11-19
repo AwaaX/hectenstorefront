@@ -22,6 +22,9 @@ const STAPE_LOADER_SCRIPT = "5tboqsjpct.js"
 const STAPE_LOADER_PARAMS =
   "3lbn=HQdNLSc8QjYiVzMnPkhJFElRXltVFQFfAAsVCRsDBhEADhEZFRANEB0AXgkcHA%3D%3D"
 
+// hecten.com's GoAdopt cookie-consent website code
+const GOADOPT_HECTEN_WEBSITE_CODE = "5e2df0f7-2201-4e38-8441-6ae2164c02ed"
+
 export const metadata: Metadata = {
   metadataBase: new URL(getBaseURL())
 }
@@ -31,6 +34,14 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
   const locale = await getLocale()
   const formattedLocale = normalizeLocaleToApi(locale)
   const gtmEnabled = process.env.NODE_ENV !== "development" && !!gtmId
+  // GoAdopt only serves its consent banner on the domain registered for the
+  // website code; anywhere else (e.g. localhost) its script throws
+  // "Disclaimer not found". So the banner is skipped in development, and an
+  // empty NEXT_PUBLIC_GOADOPT_WEBSITE_CODE turns it off entirely.
+  const goAdoptCode =
+    process.env.NEXT_PUBLIC_GOADOPT_WEBSITE_CODE ?? GOADOPT_HECTEN_WEBSITE_CODE
+  const goAdoptEnabled =
+    process.env.NODE_ENV !== "development" && !!goAdoptCode
 
   return (
     <html lang={formattedLocale} data-mode="light">
@@ -43,12 +54,13 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
             </Script>
           </>
         )}
-        <link rel="preconnect" href="https://tag.goadopt.io" />
-        <link rel="preconnect" href="https://disclaimer-api.goadopt.io" />
-        <meta
-          name="adopt-website-id"
-          content="6d183e5e-44e9-4089-8a91-c0a4ff2d853a"
-        />
+        {goAdoptEnabled && (
+          <>
+            <link rel="preconnect" href="https://tag.goadopt.io" />
+            <link rel="preconnect" href="https://disclaimer-api.goadopt.io" />
+            <meta name="adopt-website-id" content={goAdoptCode} />
+          </>
+        )}
       </head>
       <body className={jost.variable}>
         {gtmEnabled && (
@@ -61,11 +73,13 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
             />
           </noscript>
         )}
-        <Script
-          src="https://tag.goadopt.io/injector.js?website_code=6d183e5e-44e9-4089-8a91-c0a4ff2d853a"
-          strategy="beforeInteractive"
-          className="adopt-injector"
-        />
+        {goAdoptEnabled && (
+          <Script
+            src={`https://tag.goadopt.io/injector.js?website_code=${goAdoptCode}`}
+            strategy="beforeInteractive"
+            className="adopt-injector"
+          />
+        )}
         <main className="relative overflow-x-clip">
           {" "}
           <NextIntlClientProvider>

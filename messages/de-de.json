@@ -1338,5 +1338,12 @@
     "contactTitle": "Brauchen Sie in der Zwischenzeit Hilfe?",
     "contactText": "Unser Kundenservice hilft Ihnen gerne weiter. Schreiben Sie uns an",
     "followUs": "Folgen Sie uns"
+  },
+  "StoreUnavailable": {
+    "metaTitle": "Shop vorübergehend nicht verfügbar",
+    "title": "Unser Shop öffnet bald",
+    "message": "Wir bereiten hinter den Kulissen alles vor. Bitte schauen Sie in Kürze wieder vorbei.",
+    "retry": "Erneut versuchen",
+    "contact": "Brauchen Sie Hilfe? Schreiben Sie uns an"
   }
 }

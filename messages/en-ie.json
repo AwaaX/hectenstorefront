@@ -1336,5 +1336,12 @@
     "contactTitle": "Need help in the meantime?",
     "contactText": "Our customer service team is happy to help. Write to us at",
     "followUs": "Follow us"
+  },
+  "StoreUnavailable": {
+    "metaTitle": "Store temporarily unavailable",
+    "title": "Our store will be open soon",
+    "message": "We're getting everything ready behind the scenes. Please check back in a little while.",
+    "retry": "Try again",
+    "contact": "Need help? Write to us at"
   }
 }

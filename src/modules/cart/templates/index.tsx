@@ -18,7 +18,7 @@ const CartTemplate = ({
   const cartAnalyticsPayload = cart ? buildCartEcommercePayload(cart) : null
 
   return (
-    <div className="w-full bg-surface">
+    <div className="plain-theme w-full bg-white">
       <div
         className="mx-auto w-full max-w-[1200px] px-4 py-6 small:py-10"
         data-testid="cart-container"

@@ -36,11 +36,11 @@ const labelClass = 'mb-1.5 block text-sm font-medium text-black'
 const withMailLink = (text: string) =>
     text.split(/(\S+@\S+\.\w+)/).map((part, i) =>
         i % 2 === 1
-            ? <a key={i} href={`mailto:${part}`} className="font-medium text-black underline underline-offset-2 hover:text-christmas">{part}</a>
+            ? <a key={i} href={`mailto:${part}`} className="font-medium text-black underline underline-offset-2 hover:text-[#ef7a4c]">{part}</a>
             : part
     )
 
-const answerLinkClass = 'font-medium text-black underline underline-offset-2 hover:text-christmas'
+const answerLinkClass = 'font-medium text-black underline underline-offset-2 hover:text-[#ef7a4c]'
 
 // FAQ answers carry [text](href) links: store paths go through the localized router, the rest are plain anchors
 const renderAnswer = (text: string) =>
@@ -153,7 +153,7 @@ const ContactUs = () => {
     }
 
     return (
-        <>
+        <div className="plain-theme">
             <Banner heading={t("banner.heading")} subHeading={t("banner.subHeading")} />
 
             <div className='contact-us w-full bg-surface'>
@@ -392,7 +392,7 @@ const ContactUs = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

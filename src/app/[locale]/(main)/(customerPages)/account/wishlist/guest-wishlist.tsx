@@ -30,7 +30,7 @@ export default async function WishlistLogin({
 
   return (
     <div
-      className="px-3 py-6 small:px-0 small:py-0"
+      className="plain-theme px-3 py-6 small:px-0 small:py-0"
       data-testid="guest-wishlist-page"
     >
       <AccountPageHeader

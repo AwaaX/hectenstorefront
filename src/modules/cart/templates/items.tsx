@@ -20,18 +20,18 @@ const ItemsTemplate = async ({ cart }: ItemsTemplateProps) => {
   )
 
   return (
-    <section className="rounded-2xl border border-ui-border-base bg-white shadow-sm">
-      <header className="flex items-center gap-x-3 border-b border-ui-border-base px-5 py-4 small:px-7 small:py-5">
-        <h1 className="text-lg font-semibold text-ui-fg-base small:text-xl">
+    <section className="font-[system-ui]">
+      <header className="flex items-center gap-x-3 pb-4 border-b border-[#e5e5e5]">
+        <h1 className="text-[22px] leading-[30px] font-semibold text-black">
           {t("heading")}
         </h1>
-        <span className="rounded-full bg-ui-bg-subtle px-2.5 py-0.5 text-small-semi text-ui-fg-subtle">
+        <span className="rounded-full bg-[#f0f0f0] px-2.5 py-0.5 text-[13px] font-semibold text-[#494949]">
           {itemCount}
         </span>
       </header>
 
       {items ? (
-        <ul className="flex flex-col divide-y divide-ui-border-base px-5 small:px-7">
+        <ul className="flex flex-col divide-y divide-[#e5e5e5] border-b border-[#e5e5e5]">
           {[...items]
             .sort((a, b) =>
               (a.created_at ?? "") > (b.created_at ?? "") ? -1 : 1

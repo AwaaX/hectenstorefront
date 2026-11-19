@@ -43,7 +43,9 @@
       "heading": "Pyjamas & mehr",
       "shortdescription": "Tauchen Sie in das Projekt ein und kaufen Sie fantastische Pyjamas und originelle Kleidung für Weihnachten und die Wintersaison von Hecten",
       "button": "Jetzt einkaufen",
-      "imageAlt": "Grün-rote gestrickte Weihnachtsfäustlinge und Mütze mit Geschenkbox und Zuckerstangen"
+      "imageAlt": "Grün-rote gestrickte Weihnachtsfäustlinge und Mütze mit Geschenkbox und Zuckerstangen",
+      "marketingText": "Routinen-Schöpfer",
+      "discover": "Produkte entdecken"
     },
     "Timer": {
       "heading": "Weihnachtsuhr",
@@ -111,6 +113,51 @@
     },
     "ProductRail": {
       "viewAll": "Alle anzeigen"
+    },
+    "Audience": {
+      "menTitle": "Herren",
+      "menText": "Für Sie studieren wir das männliche Denken und seine Vorlieben, um Ihnen Produkte zu bieten, die auf mehr Einfachheit und Komfort im Alltag setzen",
+      "menCta": "Herrenprodukte kaufen",
+      "womenTitle": "Damen",
+      "womenText": "Für Sie haben wir die Entscheidungen und Gewohnheiten von Frauen im Alltag beobachtet, um Ihnen Produkte anzubieten, die Sie lange und in jedem Moment begleiten",
+      "womenCta": "Damenprodukte kaufen",
+      "kidTitle": "Kinder",
+      "kidText": "Für sie entwickeln wir vielseitige, verspielte und robuste Produkte, die sie auf dem Weg zu ihren Träumen begleiten und ihre Entwicklung und Kreativität fördern",
+      "kidCta": "Kinderprodukte kaufen",
+      "boyCta": "Nur Produkte für Jungen kaufen",
+      "girlCta": "Nur Produkte für Mädchen kaufen"
+    },
+    "BestSellers": {
+      "title": "Diese Woche sehr gefragt"
+    },
+    "FeaturedCategories": {
+      "title": "Ausgewählte Kategorien",
+      "shop": "Kaufen",
+      "previous": "Vorherige Kategorien",
+      "next": "Nächste Kategorien"
+    },
+    "StayFocus": {
+      "storyTitleLine1": "Geschichte schaut man nicht an,",
+      "storyTitleLine2": "man schreibt sie",
+      "storyText": "Produkte, die Sie im Alltag begleiten. Ein junges Team, das Produkte entwickelt, die Ihre Werte respektieren.",
+      "brand": "Stay Focus®",
+      "brandTagline": "Ihr Moment, Ihre Routine",
+      "uniqueTitle": "Einzigartig",
+      "uniqueText": "Genießen Sie eine angenehme Routine mit Produkten, die Sie bei Ihren täglichen Herausforderungen begleiten",
+      "uniqueTag": "Ihre Routine",
+      "simpleTitle": "Einfach",
+      "simpleText": "Genießen Sie die Einfachheit und den Komfort unserer Produkte und starten Sie entspannt in den Tag",
+      "simpleTag": "Ihr Moment",
+      "modernTitle": "Modern",
+      "modernText": "Ihr Wohlbefinden mit verspielten, modernen Designprodukten",
+      "modernTag": "Ihr Stil"
+    },
+    "ProductCarousel": {
+      "previous": "Vorherige Produkte",
+      "next": "Nächste Produkte"
+    },
+    "NewArrivals": {
+      "title": "Die Neuheiten"
     }
   },
   "Footer": {
@@ -826,6 +873,11 @@
       "inStock": "Auf Lager",
       "sliderDescription": "Hier sind die Merry Grinchmas-Pyjamas, eine lustige Weihnachts-Pyjama-Idee, um Grinchmas allein oder mit anderen zu feiern. Geeignet für Familien, Paare, Kinder und...",
       "outOfStock": "Nicht auf Lager"
+    },
+    "Card": {
+      "rating": "Mit {rating} von 5 bewertet",
+      "reviews": "{count, plural, one {# Bewertung} other {# Bewertungen}}",
+      "colors": "Verfügbare Farben"
     }
   },
   "Tracking": {

@@ -14,7 +14,7 @@ const AccountLayout: React.FC<AccountLayoutProps> = ({
 }) => {
   if (!customer) {
     return (
-      <div className="flex-1 small:py-12" data-testid="account-page">
+      <div className="plain-theme flex-1 small:py-12" data-testid="account-page">
         <div className="small-container flex h-full flex-1 flex-col bg-white">
           <div className="flex-1">{children}</div>
         </div>
@@ -24,7 +24,7 @@ const AccountLayout: React.FC<AccountLayoutProps> = ({
 
   return (
     <div
-      className="flex-1 bg-surface py-6 small:py-12"
+      className="plain-theme flex-1 bg-surface py-6 small:py-12"
       data-testid="account-page"
     >
       <div className="small-container">
@@ -32,7 +32,7 @@ const AccountLayout: React.FC<AccountLayoutProps> = ({
           <aside className="small:sticky small:top-8">
             <AccountNav customer={customer} />
           </aside>
-          <div className="min-w-0 rounded-2xl border border-line bg-white p-5 shadow-[0_1px_3px_rgba(0,0,0,0.04)] small:p-10">
+          <div className="min-w-0 border border-[#e1e1e1] bg-white p-5 small:p-10">
             {children}
           </div>
         </div>

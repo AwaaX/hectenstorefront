@@ -15,14 +15,12 @@ import {
 
 import JsonLd from "@modules/common/components/json-ld"
 import Hero from "@modules/home/components/hero"
-import CountDownSection from "@modules/home/components/countdown-section"
-import DiscoverySection from "@modules/home/components/discovery-section"
-import DiscoverySectionSkeleton from "@modules/home/components/discovery-section/skeleton"
-import ServicesSection from "@modules/home/components/services-section"
-import ReviewSection from "@modules/home/components/review-section"
-import NewsLetterSection from "@modules/home/components/news-letter-section"
-import QuickLookSection from "@modules/home/components/quick-look-section"
-import QuickLookSectionSkeleton from "@modules/home/components/quick-look-section/skeleton"
+import AudienceSection from "@modules/home/components/audience-section"
+import BestSellersSection from "@modules/home/components/best-sellers-section"
+import ProductCarouselSkeleton from "@modules/home/components/product-carousel/skeleton"
+import FeaturedCategoriesSection from "@modules/home/components/featured-categories-section"
+import StayFocusSection from "@modules/home/components/stay-focus-section"
+import NewArrivalsSection from "@modules/home/components/new-arrivals-section"
 
 async function generatePageJsonLd(locale: string, description: string) {
   const baseUrl = getSiteUrl()
@@ -105,16 +103,17 @@ export default async function Home(props: {
     <>
       <JsonLd id="homepage-jsonld" data={jsonLd} />
       <Hero />
-      <CountDownSection />
-      <Suspense fallback={<DiscoverySectionSkeleton />}>
-        <DiscoverySection />
+      <AudienceSection />
+      <Suspense fallback={<ProductCarouselSkeleton />}>
+        <BestSellersSection countryCode={countryCode} />
       </Suspense>
-      <Suspense fallback={<QuickLookSectionSkeleton />}>
-        <QuickLookSection countryCode={countryCode} />
+      <Suspense fallback={null}>
+        <FeaturedCategoriesSection />
       </Suspense>
-      <ServicesSection />
-      <ReviewSection />
-      <NewsLetterSection />
+      <StayFocusSection />
+      <Suspense fallback={<ProductCarouselSkeleton />}>
+        <NewArrivalsSection countryCode={countryCode} />
+      </Suspense>
     </>
   )
 }

@@ -29,7 +29,7 @@ export default function GuestWishlistNotice({
       </div>
       <a
         href={actionHref}
-        className="inline-flex h-11 shrink-0 items-center justify-center rounded-lg bg-black px-6 text-sm font-semibold text-white transition-colors hover:bg-green hover:text-black"
+        className="inline-flex h-11 shrink-0 items-center justify-center bg-[#ef7a4c] px-6 text-sm font-semibold text-white transition-colors hover:bg-[#e2683a]"
       >
         {actionLabel}
       </a>

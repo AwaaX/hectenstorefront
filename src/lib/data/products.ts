@@ -275,3 +275,89 @@ export const addProductReview = async (input: {
     cache: "no-store",
   })
 }
+
+export type BestSellerPeriod = "week" | "month"
+
+export type ProductRating = { average: number; count: number }
+
+/**
+ * Most bought products of the last week, falling back to the last month.
+ *
+ * Expects a store route `GET /store/products/best-sellers?period=week|month`
+ * returning `{ products }` ordered by units sold. Until the backend provides
+ * it (or when both periods are empty) the newest products are shown instead,
+ * so the homepage carousel is never empty.
+ */
+export const listBestSellingProducts = async ({
+  countryCode,
+  limit = 8,
+}: {
+  countryCode: string
+  limit?: number
+}): Promise<HttpTypes.StoreProduct[]> => {
+  const region = await getRegion(countryCode)
+  if (!region) return []
+
+  const headers = { ...(await getAuthHeaders()) }
+  const locale = await getLocale()
+  const fields = `*variants.calculated_price,*variants.options,*variants.images,*options.values,${
+    locale ? `*custom_translation.${locale}` : "*custom_translation"
+  }`
+
+  for (const period of ["week", "month"] as BestSellerPeriod[]) {
+    const products = await sdk.client
+      .fetch<{ products: HttpTypes.StoreProduct[] }>(
+        `/store/products/best-sellers`,
+        {
+          method: "GET",
+          query: { period, limit, region_id: region.id, fields },
+          headers,
+          next: { revalidate: 3600 },
+        }
+      )
+      .then(({ products }) => products)
+      .catch(() => [])
+
+    if (products?.length) return products
+  }
+
+  return listNewestProducts({ countryCode, limit })
+}
+
+/** Most recently added products, with prices and options for product cards */
+export const listNewestProducts = async ({
+  countryCode,
+  limit = 10,
+}: {
+  countryCode: string
+  limit?: number
+}): Promise<HttpTypes.StoreProduct[]> => {
+  const locale = await getLocale()
+  const fields = `*variants.calculated_price,*variants.options,*variants.images,*options.values,${
+    locale ? `*custom_translation.${locale}` : "*custom_translation"
+  }`
+
+  const {
+    response: { products },
+  } = await listProducts({
+    countryCode,
+    queryParams: { limit, order: "-created_at", fields } as any,
+  })
+  return products
+}
+
+/** Average rating and review count per product; products without reviews are omitted */
+export const getProductRatings = async (
+  productIds: string[]
+): Promise<Record<string, ProductRating>> => {
+  const entries = await Promise.all(
+    productIds.map((id) =>
+      getProductReviews({ productId: id, limit: 1 })
+        .then(({ average_rating, count }) =>
+          count > 0 ? ([id, { average: average_rating, count }] as const) : null
+        )
+        .catch(() => null)
+    )
+  )
+  return Object.fromEntries(entries.filter((e) => e !== null))
+}

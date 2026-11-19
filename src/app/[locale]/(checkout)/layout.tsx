@@ -13,7 +13,7 @@ export default async function CheckoutLayout({
   const t = await getTranslations("Checkout.Layout")
 
   return (
-    <div className="min-h-screen w-full bg-surface">
+    <div className="plain-theme min-h-screen w-full bg-surface">
       <header className="border-b border-ui-border-base bg-white">
         <div className="mx-auto flex h-[72px] w-full max-w-[1200px] items-center justify-between gap-x-4 px-4">
           <LocalizedClientLink href="/">

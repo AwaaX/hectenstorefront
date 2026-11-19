@@ -10,6 +10,7 @@ import { convertToLocale } from "@lib/util/money"
 import { updateLineItem, setShippingMethod, applyPromotions } from "@lib/data/cart"
 import { HttpTypes } from "@medusajs/types"
 import DeleteButton from "@modules/common/components/delete-button"
+import EmptyCartIcon from "@modules/common/icons/empty-cart"
 import LineItemOptions from "@modules/common/components/line-item-options"
 import LineItemPrice from "@modules/common/components/line-item-price"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
@@ -18,7 +19,6 @@ import { useRouter } from "next/navigation"
 import { usePathname } from "@i18n/routing"
 import { Fragment, useEffect, useRef, useState, useTransition } from "react"
 import Image from "next/image"
-import emptycart from "@lib/img/cart/empty-cart.png"
 import * as Icon from "@phosphor-icons/react/dist/ssr"
 import { getCheckoutStep } from "@modules/cart/templates/summary"
 import { CartIcon } from "@modules/common/icons/header-icons"
@@ -266,13 +266,13 @@ const CartDropdown = ({
                 <div className="w-8 h-8 border-2 border-black border-t-transparent rounded-full animate-spin" />
               </div>
             )}
-            <div className="heading px-4 md:p-6 py-4 flex items-center justify-between relative">
-              <h3 className="text-2xl font-medium text-gray-900">
+            <div className="heading px-6 py-5 flex items-center justify-between relative border-b border-[#eee] font-[system-ui]">
+              <h3 className="text-[20px] leading-[28px] font-semibold text-black">
                 {t("shoppingBasket")}
               </h3>
               <button
                 onClick={() => setCartDropdownOpen(false)}
-                className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors duration-200"
+                className="flex items-center gap-2 text-black hover:text-[#666] transition-colors duration-200"
                 aria-label="Close cart"
               >
                 <RxCross2 className="text-2xl" />
@@ -280,7 +280,7 @@ const CartDropdown = ({
             </div>
             {cartState && cartState.items?.length ? (
               <>
-                <div className="overflow-y-scroll px-4 flex flex-col gap-y-8 no-scrollbar p-[20px]  flex-1">
+                <div className="overflow-y-scroll px-6 flex flex-col divide-y divide-[#eee] no-scrollbar flex-1 font-[system-ui]">
                   {cartState.items
                     .sort((a, b) => {
                       return (a.created_at ?? "") > (b.created_at ?? "")
@@ -347,71 +347,60 @@ const CartDropdown = ({
                       // </div>
 
                       <div
-                        className="flex  gap-x-4"
+                        className="flex items-start gap-x-4 py-5"
                         key={item.id}
                         data-testid="cart-item"
                       >
-                        <LocalizedClientLink
-                          href={{
-                            pathname: "/products/[handle]",
-                            params: { handle: item.product_handle ?? "" },
-                          }}
-                          className="w-28 shrink-0 min-w-24"
-                        >
-                          <div className="product-thumb bg-white border shadow-[0_0_30px_0_rgba(0,0,0,.05)] relative overflow-hidden rounded-lg w-full max-w-28  ">
-                            <div className="product-img w-full aspect-[3/4] overflow-hidden flex items-center justify-center">
-                              {item.thumbnail && (
-                                <Image
-                                  src={item.thumbnail}
-                                  width={500}
-                                  height={500}
-                                  priority={true}
-                                  alt={item.product_handle ?? "product image"}
-                                  className="w-full  duration-700 "
-                                />
-                              )}
-                            </div>
-                          </div>
-                        </LocalizedClientLink>
-                        <div className="flex flex-col items-start justify-start flex-3">
-                          <div className="flex flex-col items-start justify-start mr-4 max-w-[300px]">
-                            <h3 className=" overflow-hidden text-ellipsis font-medium text-base">
-                              <LocalizedClientLink
-                                href={{
-                                  pathname: "/products/[handle]",
-                                  params: { handle: item.product_handle ?? "" },
-                                }}
-                                data-testid="product-link"
+                        <DeleteButton
+                          id={item.id}
+                          className="shrink-0 mt-[2px]"
+                          data-testid="cart-item-remove-button"
+                        />
+                        <div className="flex flex-col items-start justify-start flex-1 min-w-0">
+                          {/* Title and variant on one line, e.g. "Bag - Black" */}
+                          <h3 className="text-[15px] leading-[22px] font-normal text-black">
+                            <LocalizedClientLink
+                              href={{
+                                pathname: "/products/[handle]",
+                                params: { handle: item.product_handle ?? "" },
+                              }}
+                              data-testid="product-link"
+                              className="hover:underline"
+                            >
+                              {item.product_title}
+                            </LocalizedClientLink>
+                            {item.variant?.title && (
+                              <span
+                                data-testid="cart-item-variant"
+                                className="text-black"
                               >
-                                {item.product_title}
-                              </LocalizedClientLink>
-                            </h3>
-                            <LineItemOptions
-                              variant={item.variant}
-                              data-testid="cart-item-variant"
-                              data-value={item.variant}
-                            />
+                                {" - "}
+                                {item.variant.title}
+                              </span>
+                            )}
+                          </h3>
+                          <div className="mt-[6px] [&_*]:!text-black [&_span]:!text-[15px] [&_span]:!font-semibold">
                             <LineItemPrice
                               currencyCode={cartState.currency_code}
                               item={item}
                               style="tight"
                             />
                           </div>
-                          <div className="flex items-center gap-3 mt-2">
-                            <div className="flex items-center gap-2  border border-line px-2 py-1">
+                          <div className="flex items-center gap-3 mt-3">
+                            <div className="flex items-center h-[34px] border border-[#ddd] rounded-[6px] bg-white">
                               <button
                                 type="button"
-                                className="flex h-5 w-5 items-center justify-center disabled:cursor-not-allowed disabled:opacity-40"
+                                className="flex h-full w-9 items-center justify-center disabled:cursor-not-allowed disabled:opacity-40"
                                 onClick={() =>
                                   changeQuantity(item.id, item.quantity - 1)
                                 }
                                 disabled={isUpdatingCart || item.quantity <= 1}
                                 aria-label={t("decreaseQuantity")}
                               >
-                                <Icon.MinusIcon size={20} />
+                                <Icon.MinusIcon size={16} />
                               </button>
                               <span
-                                className="min-w-6 text-center text-[16px] font-medium"
+                                className="min-w-6 text-center text-[15px]"
                                 data-testid="cart-item-quantity"
                                 data-value={item.quantity}
                               >
@@ -419,29 +408,42 @@ const CartDropdown = ({
                               </span>
                               <button
                                 type="button"
-                                className="flex h-5 w-5 items-center justify-center disabled:cursor-not-allowed disabled:opacity-40"
+                                className="flex h-full w-9 items-center justify-center disabled:cursor-not-allowed disabled:opacity-40"
                                 onClick={() =>
                                   changeQuantity(item.id, item.quantity + 1)
                                 }
                                 disabled={isUpdatingCart}
                                 aria-label={t("increaseQuantity")}
                               >
-                                <Icon.PlusIcon size={20} />
+                                <Icon.PlusIcon size={16} />
                               </button>
                             </div>
-                            <DeleteButton
-                              id={item.id}
-                              className="mt-1"
-                              data-testid="cart-item-remove-button"
-                            />
                           </div>
                         </div>
+                        {/* Square thumbnail on a light grey tile */}
+                        <LocalizedClientLink
+                          href={{
+                            pathname: "/products/[handle]",
+                            params: { handle: item.product_handle ?? "" },
+                          }}
+                          className="relative shrink-0 w-[72px] h-[72px] bg-[#f0f0f0]"
+                        >
+                          {item.thumbnail && (
+                            <Image
+                              src={item.thumbnail}
+                              fill
+                              sizes="72px"
+                              alt={item.product_title ?? "product image"}
+                              className="object-contain"
+                            />
+                          )}
+                        </LocalizedClientLink>
                       </div>
                     ))}
                 </div>
 
                 {/* Footer */}
-                <div className="footer-modal bg-christmasBg  bottom-0 left-0 w-full ">
+                <div className="footer-modal bg-white border-t border-[#eee] bottom-0 left-0 w-full font-[system-ui]">
                   <div className="flex items-center justify-around lg:gap-14 gap-8 px-6 py-4 border-b border-line">
                     <div
                       className="item flex flex-col justify-center items-center gap-1 cursor-pointer group hover:text-hoverGray duration-300 ease-in-out"
@@ -460,11 +462,11 @@ const CartDropdown = ({
                     </div>
                   </div>
                   {/* Subtotal */}
-                  <div className="flex items-center justify-between pt-6 px-6">
-                    <div className="text-[16px] font-normal text-christmasText">
+                  <div className="flex items-center justify-between pt-5 px-6">
+                    <div className="text-[17px] font-semibold text-black">
                       {t("subtotal")}
                     </div>
-                    <div className="text-title ">
+                    <div className="text-[17px] font-semibold text-black">
                       {convertToLocale({
                         locale,
                         amount: cartState.original_item_total ?? original_item_total,
@@ -582,25 +584,22 @@ const CartDropdown = ({
                       )}
                     </div>
                   </div>
-                  <div className="block-button text-center p-6">
-                    <div>
-                      <LocalizedClientLink
-                        href={{ pathname: "/checkout", query: { step } }}
-                        className="swh-btn bg-black text-white text-[16px] font-normal"
-                        onClick={() => setCartDropdownOpen(false)}
-                      >
-                        {t("checkout")}
-                      </LocalizedClientLink>
-                    </div>
-                    <div className="mt-[10px]">
-                      <LocalizedClientLink
-                        href={"/cart"}
-                        className="has-line-before text-[16px] font-normal"
-                        onClick={() => setCartDropdownOpen(false)}
-                      >
-                        {t("viewBasket")}
-                      </LocalizedClientLink>
-                    </div>
+                  <div className="flex flex-col gap-y-3 p-6">
+                    <LocalizedClientLink
+                      href={"/cart"}
+                      className="flex items-center justify-center h-[50px] border border-[#ccc] rounded-[6px] text-[16px] text-black hover:border-black duration-200"
+                      onClick={() => setCartDropdownOpen(false)}
+                    >
+                      {t("viewBasket")}
+                    </LocalizedClientLink>
+                    <LocalizedClientLink
+                      href={{ pathname: "/checkout", query: { step } }}
+                      className="flex items-center justify-center gap-x-2 h-[50px] rounded-[6px] bg-[#ef7a4c] hover:bg-[#e2683a] text-[17px] font-semibold text-white duration-200"
+                      onClick={() => setCartDropdownOpen(false)}
+                    >
+                      <Icon.LockSimpleIcon size={18} weight="fill" />
+                      {t("checkout")}
+                    </LocalizedClientLink>
                   </div>
 
                   <div
@@ -740,13 +739,13 @@ const CartDropdown = ({
               </>
             ) : (
               <div>
-                <div className="flex py-16 flex-col gap-y-2 items-center justify-center">
-                  <div className="w-[250px]">
-                    <Image src={emptycart} alt={"Hecten"} />
-                  </div>
+                <div className="flex py-16 px-6 flex-col gap-y-3 items-center justify-center text-center font-[system-ui]">
+                  <EmptyCartIcon className="w-[160px] mb-4" />
 
-                  <div className="body1 font-medium">{t("emptyHeading")}</div>
-                  <div className="text-[16px] font-normal text-christmasText text-center px-5">
+                  <div className="text-[24px] leading-[32px] font-semibold text-black">
+                    {t("emptyHeading")}
+                  </div>
+                  <div className="text-[15px] leading-[22px] text-[#666]">
                     {t("emptyDescription")}
                   </div>
 
@@ -754,7 +753,7 @@ const CartDropdown = ({
                   <div>
                     <LocalizedClientLink
                       href={"/shop"}
-                      className="swh-btn bg-black text-white text-[16px] font-normal mt-4"
+                      className="inline-flex items-center justify-center h-[50px] px-10 mt-4 rounded-[6px] bg-[#ef7a4c] hover:bg-[#e2683a] text-[16px] font-semibold text-white duration-200"
                       onClick={() => setCartDropdownOpen(false)}
                     >
                       {t("returnToShop")}

@@ -43,7 +43,9 @@
       "heading": "Pyjamas & mer",
       "shortdescription": "Gå med i projektet och köp fantastiska pyjamas och originalkläder för julen och den här vintersäsongen från Hecten",
       "button": "handla nu",
-      "imageAlt": "Grön- och rödstickade julvantar och mössa med presentask och polkagrisar"
+      "imageAlt": "Grön- och rödstickade julvantar och mössa med presentask och polkagrisar",
+      "marketingText": "Rutinskapare",
+      "discover": "Upptäck produkterna"
     },
     "Timer": {
       "heading": "julklok",
@@ -111,6 +113,51 @@
     },
     "ProductRail": {
       "viewAll": "Visa alla"
+    },
+    "Audience": {
+      "menTitle": "Herr",
+      "menText": "För dig studerar vi det manliga tänkandet och dess smak för att erbjuda dig produkter som satsar på mer enkelhet och komfort i vardagen",
+      "menCta": "Köp herrprodukter",
+      "womenTitle": "Dam",
+      "womenText": "För dig har vi studerat kvinnors val och vanor i vardagen för att erbjuda dig produkter som följer med dig länge och i varje ögonblick",
+      "womenCta": "Köp damprodukter",
+      "kidTitle": "Barn",
+      "kidText": "För dem skapar vi mångsidiga, lekfulla och tåliga produkter som följer dem mot deras drömmar och stöttar deras utveckling och kreativitet",
+      "kidCta": "Köp barnprodukter",
+      "boyCta": "Köp endast pojkprodukter",
+      "girlCta": "Köp endast flickprodukter"
+    },
+    "BestSellers": {
+      "title": "Populära den här veckan"
+    },
+    "FeaturedCategories": {
+      "title": "Utvalda kategorier",
+      "shop": "Köp",
+      "previous": "Föregående kategorier",
+      "next": "Nästa kategorier"
+    },
+    "StayFocus": {
+      "storyTitleLine1": "Historia betraktar man inte,",
+      "storyTitleLine2": "den skapas",
+      "storyText": "Produkter gjorda för att följa dig i vardagen. Ett ungt team som skapar produkter som respekterar dina värderingar.",
+      "brand": "Stay Focus®",
+      "brandTagline": "Ditt ögonblick, din rutin",
+      "uniqueTitle": "Unik",
+      "uniqueText": "Njut av en behaglig rutin med produkter som stöttar dig i vardagens utmaningar",
+      "uniqueTag": "Din rutin",
+      "simpleTitle": "Enkel",
+      "simpleText": "Uppskatta enkelheten och bekvämligheten i våra produkter och börja dagen avslappnat",
+      "simpleTag": "Ditt ögonblick",
+      "modernTitle": "Modern",
+      "modernText": "Ditt välbefinnande med lekfulla, moderna designprodukter",
+      "modernTag": "Din stil"
+    },
+    "ProductCarousel": {
+      "previous": "Föregående produkter",
+      "next": "Nästa produkter"
+    },
+    "NewArrivals": {
+      "title": "Nyheterna"
     }
   },
   "Footer": {
@@ -826,6 +873,11 @@
       "inStock": "I lager",
       "sliderDescription": "Här är Merry Grinchmas-pyjamasarna, en rolig julpyjamasidé för att fira din Grinchmas ensam eller tillsammans med andra. Passar familjer, par, barn och...",
       "outOfStock": "Slut i lager"
+    },
+    "Card": {
+      "rating": "Betyg {rating} av 5",
+      "reviews": "{count, plural, one {# recension} other {# recensioner}}",
+      "colors": "Tillgängliga färger"
     }
   },
   "Tracking": {

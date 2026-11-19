@@ -10,11 +10,10 @@ import { updateLineItem } from "@lib/data/cart"
 import { HttpTypes } from "@medusajs/types"
 import ErrorMessage from "@modules/checkout/components/error-message"
 import DeleteButton from "@modules/common/components/delete-button"
-import LineItemOptions from "@modules/common/components/line-item-options"
 import LineItemPrice from "@modules/common/components/line-item-price"
 import LineItemUnitPrice from "@modules/common/components/line-item-unit-price"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
-import Thumbnail from "@modules/products/components/thumbnail"
+import Image from "next/image"
 import * as Icon from "@phosphor-icons/react/dist/ssr"
 import { useTranslations } from "next-intl"
 import { useRouter } from "next/navigation"
@@ -87,47 +86,111 @@ const Item = ({ item, type = "full", currencyCode }: ItemProps) => {
   }
 
   return (
-    <li className="flex gap-x-4 py-5" data-testid="product-row">
+    <li
+      className="flex items-center gap-x-4 py-4 font-[system-ui]"
+      data-testid="product-row"
+    >
+      {type === "full" && (
+        <DeleteButton
+          id={item.id}
+          item={item}
+          currencyCode={currencyCode}
+          className="shrink-0"
+          data-testid="product-delete-button"
+        />
+      )}
+
+      {/* Square thumbnail on a light grey tile */}
       <LocalizedClientLink
         href={href}
-        className={clx("block shrink-0", {
-          "w-16": type === "preview",
-          "w-20 small:w-24": type === "full",
+        className={clx("relative block shrink-0 bg-[#f0f0f0]", {
+          "w-14 h-14": type === "preview",
+          "w-[60px] h-[60px] small:w-[72px] small:h-[72px]": type === "full",
         })}
       >
-        <Thumbnail
-          thumbnail={item.thumbnail}
-          images={item.variant?.product?.images}
-          size="square"
-          className="rounded-lg p-0"
-        />
+        {item.thumbnail && (
+          <Image
+            src={item.thumbnail}
+            alt={item.product_title ?? ""}
+            fill
+            sizes="72px"
+            className="object-contain"
+          />
+        )}
       </LocalizedClientLink>
 
-      <div className="flex min-w-0 flex-1 flex-col gap-y-3">
-        <div className="flex items-start justify-between gap-x-4">
-          <div className="min-w-0">
-            <LocalizedClientLink href={href}>
-              <Text
-                className="txt-medium-plus line-clamp-2 text-ui-fg-base"
-                data-testid="product-title"
-              >
-                {item.product_title}
-              </Text>
-            </LocalizedClientLink>
-            <LineItemOptions
-              variant={item.variant}
+      <div className="flex min-w-0 flex-1 flex-col gap-y-3 small:flex-row small:items-center small:gap-x-6">
+        {/* Title and variant on one line, e.g. "Bag - Black" */}
+        <div className="min-w-0 flex-1">
+          <LocalizedClientLink href={href} className="hover:underline">
+            <Text
+              as="span"
+              className="text-[15px] leading-[22px] text-black"
+              data-testid="product-title"
+            >
+              {item.product_title}
+            </Text>
+          </LocalizedClientLink>
+          {item.variant?.title && (
+            <span
+              className="text-[15px] leading-[22px] text-black"
               data-testid="product-variant"
-            />
-          </div>
+            >
+              {" - "}
+              {item.variant.title}
+            </span>
+          )}
+          {type === "full" && (
+            <ErrorMessage error={error} data-testid="product-error-message" />
+          )}
+        </div>
 
-          <div className="flex shrink-0 flex-col items-end text-right">
+        {/* Phones: quantity and price share a row; desktop: own columns */}
+        <div className="flex items-center justify-between gap-x-3 small:contents">
+          {type === "full" && (
+            <div className="flex items-center gap-x-2">
+              <div
+                className="flex h-[34px] items-center rounded-[6px] border border-[#ddd] bg-white"
+                data-testid="product-select-button"
+              >
+                <button
+                  type="button"
+                  className="flex h-full w-9 items-center justify-center disabled:cursor-not-allowed disabled:opacity-40"
+                  onClick={() => changeQuantity(item.quantity - 1)}
+                  disabled={isUpdatingQuantity || item.quantity <= 1}
+                  aria-label={t("decreaseQuantity")}
+                >
+                  <Icon.MinusIcon size={16} />
+                </button>
+                <span
+                  className="min-w-6 text-center text-[15px]"
+                  data-testid="cart-item-quantity"
+                  data-value={item.quantity}
+                >
+                  {item.quantity}
+                </span>
+                <button
+                  type="button"
+                  className="flex h-full w-9 items-center justify-center disabled:cursor-not-allowed disabled:opacity-40"
+                  onClick={() => changeQuantity(item.quantity + 1)}
+                  disabled={isUpdatingQuantity}
+                  aria-label={t("increaseQuantity")}
+                >
+                  <Icon.PlusIcon size={16} />
+                </button>
+              </div>
+              {isUpdatingQuantity && <Spinner className="animate-spin" />}
+            </div>
+          )}
+
+          <div className="flex flex-col items-end text-right small:w-[120px] [&_*]:!text-[15px] [&_.text-ui-fg-subtle]:!text-[#494949]">
             <LineItemPrice
               item={item}
               style="tight"
               currencyCode={currencyCode}
             />
             {(type === "preview" || item.quantity > 1) && (
-              <span className="flex items-center gap-x-1 text-small-regular text-ui-fg-muted">
+              <span className="flex items-center gap-x-1 !text-[13px] text-[#999]">
                 {item.quantity} ×{" "}
                 <LineItemUnitPrice
                   item={item}
@@ -138,54 +201,6 @@ const Item = ({ item, type = "full", currencyCode }: ItemProps) => {
             )}
           </div>
         </div>
-
-        {type === "full" && (
-          <div>
-            <div className="flex items-center justify-between gap-x-3">
-              <div className="flex items-center gap-x-3">
-                <div
-                  className="flex h-10 items-center rounded-xl border border-ui-border-strong"
-                  data-testid="product-select-button"
-                >
-                  <button
-                    type="button"
-                    className="flex h-10 w-10 items-center justify-center rounded-l-xl transition-colors hover:bg-ui-bg-subtle disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent"
-                    onClick={() => changeQuantity(item.quantity - 1)}
-                    disabled={isUpdatingQuantity || item.quantity <= 1}
-                    aria-label={t("decreaseQuantity")}
-                  >
-                    <Icon.MinusIcon size={16} />
-                  </button>
-                  <span
-                    className="min-w-8 text-center text-[15px] font-medium"
-                    data-testid="cart-item-quantity"
-                    data-value={item.quantity}
-                  >
-                    {item.quantity}
-                  </span>
-                  <button
-                    type="button"
-                    className="flex h-10 w-10 items-center justify-center rounded-r-xl transition-colors hover:bg-ui-bg-subtle disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent"
-                    onClick={() => changeQuantity(item.quantity + 1)}
-                    disabled={isUpdatingQuantity}
-                    aria-label={t("increaseQuantity")}
-                  >
-                    <Icon.PlusIcon size={16} />
-                  </button>
-                </div>
-                {isUpdatingQuantity && <Spinner className="animate-spin" />}
-              </div>
-
-              <DeleteButton
-                id={item.id}
-                item={item}
-                currencyCode={currencyCode}
-                data-testid="product-delete-button"
-              />
-            </div>
-            <ErrorMessage error={error} data-testid="product-error-message" />
-          </div>
-        )}
       </div>
     </li>
   )

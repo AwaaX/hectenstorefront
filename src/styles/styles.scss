@@ -405,3 +405,56 @@ a:hover{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;     /* Firefox */
 }
+
+/* Hecten plain theme (checkout, cart, wishlist, customer service): system font
+   everywhere, square corners (true circles keep `rounded-full`), no card
+   shadows, and orange primary buttons in place of the old rounded,
+   Christmas-era look. */
+.plain-theme {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+
+  * {
+    font-family: inherit !important;
+  }
+
+  /* Attribute selectors, not `.rounded-full`: Tailwind rewrites utility
+     class names used in custom selectors */
+  *:not([class~="rounded-full"]) {
+    border-radius: 0 !important;
+  }
+
+  /* Buttons (and links or labels styled as buttons) keep a slight radius */
+  :is(button, [role="button"], a[class*="justify-center"], span[class*="bg-[#ef7a4c]"], [class*="rounded-[6px]"]):not([class~="rounded-full"]) {
+    border-radius: 6px !important;
+  }
+
+  :is([class~="shadow-sm"], [class~="shadow"], [class~="shadow-md"], [class~="shadow-lg"], [class~="shadow-xl"], [class~="shadow-2xl"], [class*="shadow-["]) {
+    box-shadow: none !important;
+  }
+
+  /* Medusa UI primary buttons */
+  .bg-ui-button-inverted {
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+
+  .bg-ui-button-inverted:not(:disabled),
+  .bg-ui-button-inverted:disabled {
+    background: #ef7a4c !important;
+    box-shadow: none !important;
+    min-height: 48px;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+
+    &::after {
+      display: none !important;
+    }
+
+    &:hover {
+      background: #e2683a !important;
+    }
+  }
+}

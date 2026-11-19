@@ -43,7 +43,9 @@
       "heading": "Pyjama's & meer",
       "shortdescription": "Doe mee aan het project en koop geweldige pyjama's en originele kleding voor Kerstmis en dit winterseizoen bij Hecten",
       "button": "winkel nu",
-      "imageAlt": "Groen-rode gebreide kerstwanten en muts met cadeaudoos en zuurstokken"
+      "imageAlt": "Groen-rode gebreide kerstwanten en muts met cadeaudoos en zuurstokken",
+      "marketingText": "Routinemaker",
+      "discover": "Ontdek de producten"
     },
     "Timer": {
       "heading": "kerstklok",
@@ -111,6 +113,51 @@
     },
     "ProductRail": {
       "viewAll": "Alles bekijken"
+    },
+    "Audience": {
+      "menTitle": "Heren",
+      "menText": "Voor jou bestuderen we het mannelijke denken en de mannelijke smaak om je producten te bieden die kiezen voor meer eenvoud en comfort in je dagelijks leven",
+      "menCta": "Herenproducten kopen",
+      "womenTitle": "Dames",
+      "womenText": "Voor jou hebben we de keuzes en dagelijkse gewoonten van vrouwen bestudeerd om je producten te bieden die je lang en op elk moment zullen vergezellen",
+      "womenCta": "Damesproducten kopen",
+      "kidTitle": "Kinderen",
+      "kidText": "Voor hen maken we veelzijdige, speelse en stevige producten om hen te begeleiden naar hun dromen en hen te steunen in hun ontwikkeling en creativiteit",
+      "kidCta": "Kinderproducten kopen",
+      "boyCta": "Alleen jongensproducten kopen",
+      "girlCta": "Alleen meisjesproducten kopen"
+    },
+    "BestSellers": {
+      "title": "Veel gevraagd deze week"
+    },
+    "FeaturedCategories": {
+      "title": "Uitgelichte categorieën",
+      "shop": "Kopen",
+      "previous": "Vorige categorieën",
+      "next": "Volgende categorieën"
+    },
+    "StayFocus": {
+      "storyTitleLine1": "Geschiedenis bekijk je niet,",
+      "storyTitleLine2": "die maak je",
+      "storyText": "Producten gemaakt om je in je dagelijks leven te begeleiden. Een jong team dat producten maakt die jouw waarden respecteren.",
+      "brand": "Stay Focus®",
+      "brandTagline": "Jouw moment, jouw routine",
+      "uniqueTitle": "Uniek",
+      "uniqueText": "Geniet van een fijne routine met producten die je bij je dagelijkse uitdagingen begeleiden",
+      "uniqueTag": "Jouw routine",
+      "simpleTitle": "Eenvoudig",
+      "simpleText": "Geniet van de eenvoud en het gebruiksgemak van onze producten en begin ontspannen aan je dag",
+      "simpleTag": "Jouw moment",
+      "modernTitle": "Modern",
+      "modernText": "Jouw welzijn met speelse, moderne designproducten",
+      "modernTag": "Jouw stijl"
+    },
+    "ProductCarousel": {
+      "previous": "Vorige producten",
+      "next": "Volgende producten"
+    },
+    "NewArrivals": {
+      "title": "De nieuwkomers"
     }
   },
   "Footer": {
@@ -826,6 +873,11 @@
       "inStock": "Op voorraad",
       "sliderDescription": "Dit zijn de Merry Grinchmas-pyjama's, een leuk kerstpyjama-idee om je Grinchmas alleen of samen met anderen te vieren. Geschikt voor gezinnen, koppels, kinderen en...",
       "outOfStock": "Niet op voorraad"
+    },
+    "Card": {
+      "rating": "Beoordeeld met {rating} van 5",
+      "reviews": "{count, plural, one {# review} other {# reviews}}",
+      "colors": "Beschikbare kleuren"
     }
   },
   "Tracking": {

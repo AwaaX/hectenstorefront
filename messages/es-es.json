@@ -43,7 +43,9 @@
       "heading": "Pijamas y más",
       "shortdescription": "Entra en el proyecto y compra increíbles pijamas y ropa original para Navidad y esta temporada de invierno de Hecten",
       "button": "comprar ahora",
-      "imageAlt": "Manoplas y gorro navideños de punto en verde y rojo con caja de regalo y bastones de caramelo"
+      "imageAlt": "Manoplas y gorro navideños de punto en verde y rojo con caja de regalo y bastones de caramelo",
+      "marketingText": "Creador de rutinas",
+      "discover": "Descubrir los productos"
     },
     "Timer": {
       "heading": "reloj de Navidad",
@@ -111,6 +113,51 @@
     },
     "ProductRail": {
       "viewAll": "Ver todo"
+    },
+    "Audience": {
+      "menTitle": "Hombre",
+      "menText": "Para ti estudiamos la mentalidad masculina y sus gustos para ofrecerte productos que apuestan por más sencillez y comodidad en tu día a día",
+      "menCta": "Comprar productos para hombre",
+      "womenTitle": "Mujer",
+      "womenText": "Para ti hemos observado las elecciones y los hábitos femeninos en el día a día para ofrecerte productos que te acompañarán durante mucho tiempo y en cada uno de tus momentos",
+      "womenCta": "Comprar productos para mujer",
+      "kidTitle": "Niños",
+      "kidText": "Para ellos creamos productos versátiles, divertidos y resistentes para acompañarlos hacia sus sueños y apoyarlos en su desarrollo y su creatividad",
+      "kidCta": "Comprar productos para niños",
+      "boyCta": "Comprar solo productos para niño",
+      "girlCta": "Comprar solo productos para niña"
+    },
+    "BestSellers": {
+      "title": "Muy solicitados esta semana"
+    },
+    "FeaturedCategories": {
+      "title": "Categorías destacadas",
+      "shop": "Comprar",
+      "previous": "Categorías anteriores",
+      "next": "Categorías siguientes"
+    },
+    "StayFocus": {
+      "storyTitleLine1": "La Historia no se contempla,",
+      "storyTitleLine2": "se crea",
+      "storyText": "Productos fabricados para acompañarte en tu día a día. Un equipo joven que se esfuerza por crear productos que respeten tus valores.",
+      "brand": "Stay Focus®",
+      "brandTagline": "Tu momento, tu rutina",
+      "uniqueTitle": "Única",
+      "uniqueText": "Disfruta de una rutina agradable con productos que te acompañarán en tus retos diarios",
+      "uniqueTag": "Tu rutina",
+      "simpleTitle": "Sencilla",
+      "simpleText": "Aprecia la sencillez y la comodidad de uso de nuestros productos y empieza el día con tranquilidad",
+      "simpleTag": "Tu momento",
+      "modernTitle": "Moderna",
+      "modernText": "Tu bienestar con productos de diseño, divertidos y modernos",
+      "modernTag": "Tu estilo"
+    },
+    "ProductCarousel": {
+      "previous": "Productos anteriores",
+      "next": "Productos siguientes"
+    },
+    "NewArrivals": {
+      "title": "Las novedades"
     }
   },
   "Footer": {
@@ -826,6 +873,11 @@
       "inStock": "En stock",
       "sliderDescription": "Aquí están los pijamas Merry Grinchmas, una divertida idea de pijama navideño para celebrar tu Grinchmas a solas o en compañía. Adecuados para familias, parejas, niños y...",
       "outOfStock": "Agotado"
+    },
+    "Card": {
+      "rating": "Valorado con {rating} de 5",
+      "reviews": "{count, plural, one {# opinión} other {# opiniones}}",
+      "colors": "Colores disponibles"
     }
   },
   "Tracking": {

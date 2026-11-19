@@ -43,7 +43,9 @@
       "heading": "Pyjamas & more",
       "shortdescription": "Get into the project and buy awesome pyjamas and original wear for Christmas and this winter season from Hecten",
       "button": "shop now",
-      "imageAlt": "Green and red knit Christmas mittens and beanie with gift box and candy canes"
+      "imageAlt": "Green and red knit Christmas mittens and beanie with gift box and candy canes",
+      "marketingText": "Routine creator",
+      "discover": "Discover the products"
     },
     "Timer": {
       "heading": "xmas clock",
@@ -109,6 +111,51 @@
     },
     "ProductRail": {
       "viewAll": "View all"
+    },
+    "Audience": {
+      "menTitle": "Men",
+      "menText": "For you, we study the masculine mindset and its tastes to offer you products built for simplicity and comfort in your everyday life",
+      "menCta": "Shop men's products",
+      "womenTitle": "Women",
+      "womenText": "For you, we have observed women's choices and daily habits to offer you products that will stay with you for a long time and in every moment of your life",
+      "womenCta": "Shop women's products",
+      "kidTitle": "Kids",
+      "kidText": "For them, we create versatile, playful and durable products to accompany them towards their dreams and support their development and creativity",
+      "kidCta": "Shop kids' products",
+      "boyCta": "Shop boys' products only",
+      "girlCta": "Shop girls' products only"
+    },
+    "BestSellers": {
+      "title": "In high demand this week"
+    },
+    "FeaturedCategories": {
+      "title": "Featured categories",
+      "shop": "Shop",
+      "previous": "Previous categories",
+      "next": "Next categories"
+    },
+    "StayFocus": {
+      "storyTitleLine1": "History isn’t something you look at,",
+      "storyTitleLine2": "it is created",
+      "storyText": "Products made to accompany you in your daily life. A young team dedicated to creating products that respect your values.",
+      "brand": "Stay Focus®",
+      "brandTagline": "Your moment, your routine",
+      "uniqueTitle": "Unique",
+      "uniqueText": "Enjoy a pleasant routine with products that will support you in your daily challenges",
+      "uniqueTag": "Your routine",
+      "simpleTitle": "Simple",
+      "simpleText": "Enjoy the simplicity and ease of use of our products, and approach your day in a relaxed way.",
+      "simpleTag": "Your moment",
+      "modernTitle": "Modern",
+      "modernText": "Your well-being with fun, modern design products",
+      "modernTag": "Your style"
+    },
+    "ProductCarousel": {
+      "previous": "Previous products",
+      "next": "Next products"
+    },
+    "NewArrivals": {
+      "title": "New arrivals"
     }
   },
   "Footer": {
@@ -824,6 +871,11 @@
       "inStock": "In Stock",
       "sliderDescription": "Here are the Merry Grinchmas pajamas, a fun Christmas pajama idea to celebrate your Grinchmas alone or with others. Suitable for families, couples, children, and...",
       "outOfStock": "Out of stock"
+    },
+    "Card": {
+      "rating": "Rated {rating} out of 5",
+      "reviews": "{count, plural, one {# review} other {# reviews}}",
+      "colors": "Available colors"
     }
   },
   "Tracking": {

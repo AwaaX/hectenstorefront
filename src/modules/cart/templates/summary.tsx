@@ -1,7 +1,6 @@
 "use client"
 
 import { LockClosedSolid } from "@medusajs/icons"
-import { Button } from "@medusajs/ui"
 
 import CartTotals from "@modules/common/components/cart-totals"
 import DiscountCode, {
@@ -48,32 +47,33 @@ const Summary = ({ cart, shippingOptions = [] }: SummaryProps) => {
   const tl = useTranslations("Checkout.Layout")
 
   return (
-    <div className="overflow-hidden rounded-2xl border border-ui-border-base bg-white shadow-sm">
+    <div className="overflow-hidden border border-[#e1e1e1] bg-[#fafafa] font-[system-ui]">
       <div className="px-5 py-4 small:px-7 small:py-5">
-        <h2 className="text-lg font-semibold text-ui-fg-base small:text-xl">
+        <h2 className="text-[18px] leading-[26px] font-semibold text-black">
           {t("heading")}
         </h2>
       </div>
 
       <div
-        className={`border-t border-ui-border-base px-5 py-4 small:px-7 ${discountCodeCardClass}`}
+        className={`border-t border-[#e1e1e1] px-5 py-4 small:px-7 ${discountCodeCardClass}`}
       >
         <DiscountCode cart={cart} />
       </div>
 
       {/* hide CartTotals' own closing rule, the card provides the edge */}
-      <div className="border-t border-ui-border-base bg-ui-bg-subtle px-5 py-5 small:px-7 small:py-6 [&>div>div:last-child]:hidden">
+      <div className="border-t border-[#e1e1e1] bg-white px-5 py-5 small:px-7 small:py-6 [&>div>div:last-child]:hidden">
         <CartTotals totals={cart} shippingOptions={shippingOptions} />
       </div>
 
-      <div className="flex flex-col gap-y-4 border-t border-ui-border-base px-5 py-5 small:px-7 small:py-6">
+      <div className="flex flex-col gap-y-4 border-t border-[#e1e1e1] bg-white px-5 py-5 small:px-7 small:py-6">
         <LocalizedClientLink
           href={{ pathname: "/checkout", query: { step } }}
           data-testid="checkout-button"
         >
-          <Button size="large" className="h-12 w-full">
+          <span className="flex items-center justify-center gap-x-2 h-[52px] w-full rounded-[6px] bg-[#ef7a4c] hover:bg-[#e2683a] text-[17px] font-semibold text-white duration-200">
+            <LockClosedSolid />
             {t("checkout")}
-          </Button>
+          </span>
         </LocalizedClientLink>
 
         <div className="flex flex-col items-center gap-y-3">

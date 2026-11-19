@@ -26,6 +26,12 @@ export const PRODUCT_CARD_FIELDS = [
   "variants.calculated_price.original_amount",
   "variants.calculated_price.currency_code",
   "variants.calculated_price.calculated_price.price_list_type",
+  // Colour swatches on product cards
+  "options.title",
+  "options.values.value",
+  "variants.options.value",
+  "variants.thumbnail",
+  "variants.images.url",
 ].join(",")
 
 /** Everything the product detail page renders (gallery, actions, tabs, JSON-LD) in one request. */

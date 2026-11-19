@@ -7,7 +7,8 @@ import {
 } from "@lib/analytics"
 import { deleteLineItem } from "@lib/data/cart"
 import { HttpTypes } from "@medusajs/types"
-import { Spinner, Trash } from "@medusajs/icons"
+import { Spinner } from "@medusajs/icons"
+import * as Icon from "@phosphor-icons/react/dist/ssr"
 import { clx } from "@medusajs/ui"
 import { useState } from "react"
 
@@ -56,13 +57,17 @@ const DeleteButton = ({
       )}
     >
       <button
-        className="flex gap-x-1 text-ui-fg-subtle text-sm hover:text-ui-fg-base hover:underline cursor-pointer items-center"
+        type="button"
+        aria-label="Remove"
+        title="Remove"
+        className="flex items-center justify-center text-[#666] hover:text-black duration-200 cursor-pointer"
         onClick={() => handleDelete(id)}
       >
-        {isDeleting ? <Spinner className="animate-spin" /> : "Remove"
-        // <Trash />
-        }
-        {/* <span>{children}</span> */}
+        {isDeleting ? (
+          <Spinner className="animate-spin" />
+        ) : (
+          <Icon.TrashIcon size={18} />
+        )}
       </button>
     </div>
   )

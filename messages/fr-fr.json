@@ -43,7 +43,9 @@
       "heading": "Pyjamas et plus encore",
       "shortdescription": "Participez au projet et achetez de superbes pyjamas et des vêtements originaux pour Noël et cette saison d'hiver chez Hecten",
       "button": "acheter maintenant",
-      "imageAlt": "Moufles et bonnet de Noël en tricot vert et rouge avec boîte cadeau et cannes de bonbon"
+      "imageAlt": "Moufles et bonnet de Noël en tricot vert et rouge avec boîte cadeau et cannes de bonbon",
+      "marketingText": "Créateur de routines",
+      "discover": "Découvrir les produits"
     },
     "Timer": {
       "heading": "compte à rebours de Noël",
@@ -111,6 +113,51 @@
     },
     "ProductRail": {
       "viewAll": "Tout voir"
+    },
+    "Audience": {
+      "menTitle": "Homme",
+      "menText": "Pour vous nous étudions la pensée masculine et ses goûts afin de vous offrir des produits qui optent pour plus de simplicité et de confort dans votre quotidien",
+      "menCta": "Acheter les produits hommes",
+      "womenTitle": "Femme",
+      "womenText": "Pour vous nous avons observé les choix et les habitudes féminines dans leur quotidien pour vous proposer des produits qui vous accompagneront longtemps et dans chacun de vos instants",
+      "womenCta": "Acheter les produits femmes",
+      "kidTitle": "Enfant",
+      "kidText": "Pour eux nous créons des produits polyvalents, ludiques et résistants afin de les accompagner vers leurs rêves et les soutenir dans leur développement et leur créativité",
+      "kidCta": "Acheter les produits enfants",
+      "boyCta": "Acheter uniquement les produits Garçon",
+      "girlCta": "Acheter uniquement les produits Fille"
+    },
+    "BestSellers": {
+      "title": "Très demandés cette semaine"
+    },
+    "FeaturedCategories": {
+      "title": "Catégories vedettes",
+      "shop": "Acheter",
+      "previous": "Catégories précédentes",
+      "next": "Catégories suivantes"
+    },
+    "StayFocus": {
+      "storyTitleLine1": "L’Histoire ne se regarde pas,",
+      "storyTitleLine2": "elle se crée",
+      "storyText": "Des produits fabriqués pour vous accompagner dans votre quotidien. Une jeune équipe qui s’efforce de créer des produits qui respecteront vos valeurs",
+      "brand": "Stay Focus®",
+      "brandTagline": "Votre moment, votre routine",
+      "uniqueTitle": "Unique",
+      "uniqueText": "Profitez d’une routine agréable avec des produits qui vous accompagneront dans vos challenges au quotidien",
+      "uniqueTag": "Votre routine",
+      "simpleTitle": "Simple",
+      "simpleText": "Appréciez la simplicité et le confort d’utilisation de nos produits, abordez votre journée avec détente",
+      "simpleTag": "Votre moment",
+      "modernTitle": "Moderne",
+      "modernText": "Votre bien-être avec des produits design, ludiques et modernes",
+      "modernTag": "Votre style"
+    },
+    "ProductCarousel": {
+      "previous": "Produits précédents",
+      "next": "Produits suivants"
+    },
+    "NewArrivals": {
+      "title": "Les petits nouveaux"
     }
   },
   "Footer": {
@@ -826,6 +873,11 @@
       "inStock": "En stock",
       "sliderDescription": "Voici les pyjamas Merry Grinchmas, une idée amusante de pyjama de Noël pour célébrer votre Grinchmas seul ou à plusieurs. Adaptés aux familles, couples, enfants et...",
       "outOfStock": "Rupture de stock"
+    },
+    "Card": {
+      "rating": "Noté {rating} sur 5",
+      "reviews": "{count, plural, one {# avis} other {# avis}}",
+      "colors": "Couleurs disponibles"
     }
   },
   "Tracking": {

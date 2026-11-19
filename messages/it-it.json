@@ -43,7 +43,9 @@
       "heading": "Pigiami & altro",
       "shortdescription": "Entra nel progetto e acquista fantastici pigiami e abbigliamento originale per il Natale e questa stagione invernale da Hecten",
       "button": "acquista ora",
-      "imageAlt": "Muffole e berretto natalizi in maglia verde e rossa con scatola regalo e bastoncini di zucchero"
+      "imageAlt": "Muffole e berretto natalizi in maglia verde e rossa con scatola regalo e bastoncini di zucchero",
+      "marketingText": "Creatore di routine",
+      "discover": "Scopri i prodotti"
     },
     "Timer": {
       "heading": "orologio natalizio",
@@ -111,6 +113,51 @@
     },
     "ProductRail": {
       "viewAll": "Vedi tutto"
+    },
+    "Audience": {
+      "menTitle": "Uomo",
+      "menText": "Per te studiamo il pensiero maschile e i suoi gusti per offrirti prodotti che puntano a più semplicità e comfort nella vita di tutti i giorni",
+      "menCta": "Acquista i prodotti uomo",
+      "womenTitle": "Donna",
+      "womenText": "Per te abbiamo osservato le scelte e le abitudini femminili nella vita quotidiana per proporti prodotti che ti accompagneranno a lungo e in ogni tuo momento",
+      "womenCta": "Acquista i prodotti donna",
+      "kidTitle": "Bambini",
+      "kidText": "Per loro creiamo prodotti versatili, divertenti e resistenti per accompagnarli verso i loro sogni e sostenerli nel loro sviluppo e nella loro creatività",
+      "kidCta": "Acquista i prodotti bambini",
+      "boyCta": "Acquista solo i prodotti bambino",
+      "girlCta": "Acquista solo i prodotti bambina"
+    },
+    "BestSellers": {
+      "title": "Molto richiesti questa settimana"
+    },
+    "FeaturedCategories": {
+      "title": "Categorie in evidenza",
+      "shop": "Acquista",
+      "previous": "Categorie precedenti",
+      "next": "Categorie successive"
+    },
+    "StayFocus": {
+      "storyTitleLine1": "La Storia non si guarda,",
+      "storyTitleLine2": "si crea",
+      "storyText": "Prodotti realizzati per accompagnarti nella vita di tutti i giorni. Un team giovane che si impegna a creare prodotti che rispettino i tuoi valori.",
+      "brand": "Stay Focus®",
+      "brandTagline": "Il tuo momento, la tua routine",
+      "uniqueTitle": "Unica",
+      "uniqueText": "Goditi una routine piacevole con prodotti che ti accompagneranno nelle sfide di ogni giorno",
+      "uniqueTag": "La tua routine",
+      "simpleTitle": "Semplice",
+      "simpleText": "Apprezza la semplicità e la comodità d’uso dei nostri prodotti e affronta la giornata con serenità",
+      "simpleTag": "Il tuo momento",
+      "modernTitle": "Moderna",
+      "modernText": "Il tuo benessere con prodotti di design, divertenti e moderni",
+      "modernTag": "Il tuo stile"
+    },
+    "ProductCarousel": {
+      "previous": "Prodotti precedenti",
+      "next": "Prodotti successivi"
+    },
+    "NewArrivals": {
+      "title": "Le novità"
     }
   },
   "Footer": {
@@ -826,6 +873,11 @@
       "inStock": "Disponibile",
       "sliderDescription": "Ecco i pigiami Merry Grinchmas, una divertente idea di pigiama natalizio per celebrare il tuo Grinchmas da solo o in compagnia. Adatti a famiglie, coppie, bambini e...",
       "outOfStock": "Esaurito"
+    },
+    "Card": {
+      "rating": "Valutato {rating} su 5",
+      "reviews": "{count, plural, one {# recensione} other {# recensioni}}",
+      "colors": "Colori disponibili"
     }
   },
   "Tracking": {

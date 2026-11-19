@@ -85,7 +85,7 @@ export default function WishlistItemsGrid({
         </div>
         <LocalizedClientLink
           href="/"
-          className="inline-flex h-11 items-center rounded-lg bg-black px-6 text-sm font-semibold text-white transition-colors hover:bg-green hover:text-black"
+          className="inline-flex h-11 items-center bg-[#ef7a4c] px-6 text-sm font-semibold text-white transition-colors hover:bg-[#e2683a]"
         >
           {t("startShopping")}
         </LocalizedClientLink>

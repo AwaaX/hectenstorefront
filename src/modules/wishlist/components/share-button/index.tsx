@@ -127,7 +127,7 @@ export const WishlistShareLink = ({ url }: { url: string }) => {
             "inline-flex h-12 shrink-0 items-center justify-center gap-x-2 rounded-r-lg px-4 text-sm font-semibold transition-colors small:px-6",
             {
               "bg-emerald-600 text-white": copied,
-              "bg-black text-white hover:bg-green hover:text-black": !copied,
+              "bg-[#ef7a4c] text-white hover:bg-[#e2683a]": !copied,
             }
           )}
           data-testid="wishlist-share-copy-button"

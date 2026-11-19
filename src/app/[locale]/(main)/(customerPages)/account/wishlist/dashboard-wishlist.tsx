@@ -32,7 +32,7 @@ export default async function AccountWishlistPage({
   })
 
   return (
-    <div className="flex flex-col" data-testid="account-wishlist-page">
+    <div className="plain-theme flex flex-col" data-testid="account-wishlist-page">
       <WishlistShareHeader
         title={t("heading")}
         description={t("description")}

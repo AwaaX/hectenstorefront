@@ -40,7 +40,7 @@ const Register = ({ redirectTo, setCurrentView }: Props) => {
         <p className="text-[15px] text-gray-600 text-center mb-6">{t("successMessage")}</p>
         <button
           onClick={() => setCurrentView(LOGIN_VIEW.SIGN_IN)}
-          className="w-full border hover:border-black px-[25px] min-h-[45px] rounded-[5px] flex items-center justify-center hover:bg-black hover:text-white duration-300 ease-out hover:shadow-[0_0_0_0.2rem_rgba(0,0,0,1)] bg-black text-white"
+          className="w-full min-h-[48px] flex items-center justify-center bg-[#ef7a4c] hover:bg-[#e2683a] text-[16px] font-semibold text-white duration-200"
         >
           {t("goToLogin")}
         </button>
@@ -124,7 +124,7 @@ const Register = ({ redirectTo, setCurrentView }: Props) => {
           .
         </span>
         </div>
-        <SubmitButton className="w-full mt-6 border hover:border-black px-[25px] min-h-[45px] rounded-[5px] flex items-center justify-center  hover:bg-black hover:text-white duration-300 ease-out hover:shadow-[0_0_0_0.2rem_rgba(0,0,0,1)] bg-black text-white" data-testid="register-button">
+        <SubmitButton className="w-full mt-6" data-testid="register-button">
           {t("submit")}
         </SubmitButton>
       </form>
